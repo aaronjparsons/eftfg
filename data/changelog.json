@@ -1,0 +1,71 @@
+[
+  {
+    "date": "12/30/2019",
+    "summary": [
+      "Update ammo values & spreadsheet"
+    ],
+    "changes": [
+      "Updated all ammo values",
+      "Update spreadsheet component"
+    ]
+  },
+  {
+    "date": "11/08/2019",
+    "summary": [
+      "Added all known spawns for Reserve keys",
+      "Updated some prices on the item values table"
+    ],
+    "changes": [
+      "All known key spawns for the Reserve keys are now marked, with screenshots and video.",
+      "The prices for the following items were updated/added: Bitcoin, Broken GPhone, Electric Drill, Fuel Conditioner, Gunpowder (Kite, Hawk & Eagle), Morphone, Elite Pliers, Long Flat Screwdriver, PSU, Wires, Silencerco Hybrid 46 Suppressor, Holosun HS401G5 Reflex Sight, Powercord, Broken LCD, Pile of Meds, Silicone Tube, Analog Thermometer, Capacitors, NIXXOR Lens, Lightbulb, Disposable Syringe, Water Filter, Akali, IFAK, Radiator Helix."
+    ]
+  },
+  {
+    "date": "10/27/2019",
+    "summary": ["Lots of updates for patch 0.12"],
+    "changes": [
+      "Updated ammo",
+      "Added Reserve extractions with images",
+      "Added RB-AM Military Base Key",
+      "Updated Interchange extract names",
+      "Improved compression of key spawn images and moved them to a CDN"
+    ]
+  },
+  {
+    "date": "09/15/2019",
+    "summary": ["Added Map Extractions page."],
+    "changes": [
+      "Added the map extractions page with all extracts for each map.",
+      "Works the same as the Key Spawn maps. Search by extract name or by map."
+    ]
+  },
+  {
+    "date": "09/01/2019",
+    "summary": [
+      "Added screenshots & videos for Health Resort Utility Room Key and Labs Blue Keycard location #2.",
+      "Updated screenshots & videos for Office 112 Key, East Wing 328 & 226 Key, and West Wing 203 Key.",
+      "Fix Dorm Room 214 Key description."
+    ],
+    "changes": [
+      "Added screenshot and video for Health Resort Utility Room Key. This was missed in the initial update.",
+      "Added screenshot and video for Labs Blue Keycard location #2.",
+      "Updated screenshot and video for Office 112 Key.",
+      "Updated screenshot and video for East Wing 328 & 226 Key",
+      "Updated screenshot and video for West Wing 203 Key.",
+      "Fix Dorm Room 214 Key description."
+    ]
+  },
+  {
+    "date": "08/04/2019",
+    "summary": [
+      "Added screenshots and video guides for almost all key spawn locations",
+      "Added 'Item Values' page. A searchable table featuring values & value per slot of barter items"
+    ],
+    "changes": [
+      "Added screenshots and video guides for almost all key spawn locations. Some screenshots & videos missing due to not having the required keys to access spawn locations",
+      "Will be continually updating these screenshots & videos to try and get key spawns in each one",
+      "Added 'Item Values' page. A searchable table featuring values & value per slot of barter items",
+      "Modified the 'Updates' dashboard card, and added this changelog list"
+    ]
+  }
+]

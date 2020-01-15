@@ -30,12 +30,12 @@
           <v-card-text>
             <p class="font-weight-bold">Updated: Jan 1 2020</p>
             <ul>
-              <li v-for="n in 2" :key="n">
-                Here is a summary item
+              <li v-for="(item, index) in $page.changelogs.edges[0].node.summary" :key="index">
+                {{ item }}
               </li>
             </ul>
             <v-divider />
-            <v-dialog v-model="changelogDialog" width="500">
+            <v-dialog v-model="changelogDialog" width="750" scrollable>
               <template v-slot:activator="{ on }">
                 <v-btn color="red lighten-2" v-on="on">
                   Click Me
@@ -46,7 +46,16 @@
                   EFTFG Full Changelog
                 </v-card-title>
                 <v-card-text>
-                  ...
+                  <div v-for="(update, index) in $page.changelogs.edges" :key="index">
+                    <h4>
+                      {{ formatDate(update.node.date) }}
+                    </h4>
+                    <ul>
+                      <li v-for="(change,index) in update.node.changes" :key="`${update.node.date}-${index}`">
+                        {{ change }}
+                      </li>
+                    </ul>
+                  </div>
                 </v-card-text>
                 <v-divider />
                 <v-card-actions>
@@ -86,6 +95,8 @@
     </v-row>
     <v-row>
       <v-col cols="12">
+
+        <!-- Reddit Card -->
         <v-card>
           <v-card-title class="headline font-weight-bold grey darken-4">
             Reddit Posts From r/EscapeFromTarkov
@@ -115,8 +126,23 @@
   </Layout>
 </template>
 
+<page-query>
+query {
+  changelogs: allChangelog {
+    edges {
+      node {
+        date,
+        summary,
+        changes
+      }
+    }
+  }
+}
+</page-query>
+
 <script>
 import axios from 'axios'
+import { format } from 'date-fns'
 
 export default {
   data() {
@@ -147,6 +173,9 @@ export default {
   },
 
   methods: {
+    formatDate(date) {
+      return format(new Date(date), 'LLLL do, y')
+    },
     openRedditThread(url) {
       window.open(`https://www.reddit.com${url}`, "_blank");
     }
