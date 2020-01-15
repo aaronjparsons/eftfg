@@ -20,16 +20,14 @@
     <v-app-bar
       app
       clipped-left
+      class="grey darken-4"
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <v-toolbar-title>EFT Field Guide</v-toolbar-title>
     </v-app-bar>
 
     <v-content>
-      <v-container
-        class="fill-height"
-        fluid
-      >
+      <v-container>
         <slot />
       </v-container>
     </v-content>
