@@ -5,21 +5,13 @@
       app
       clipped
     >
-      <v-list dense>
-        <v-list-item link>
+      <v-list nav>
+        <v-list-item v-for="item in navItems" link :to="item.route">
           <v-list-item-action>
-            <v-icon>mdi-view-dashboard</v-icon>
+            <v-icon>{{ item.icon }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
-            <v-list-item-title>Dashboard</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-        <v-list-item link>
-          <v-list-item-action>
-            <v-icon>mdi-settings</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title>Settings</v-list-item-title>
+            <v-list-item-title>{{ item.label }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -30,7 +22,7 @@
       clipped-left
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-      <v-toolbar-title>Application</v-toolbar-title>
+      <v-toolbar-title>EFT Field Guide</v-toolbar-title>
     </v-app-bar>
 
     <v-content>
@@ -41,10 +33,6 @@
         <slot />
       </v-container>
     </v-content>
-
-    <v-footer app>
-      <span>&copy; 2019</span>
-    </v-footer>
   </v-app>
 </template>
 
@@ -64,6 +52,43 @@ query {
 
     data: () => ({
       drawer: null,
+      navItems: [
+        {
+          route: '/',
+          icon: 'mdi-view-dashboard',
+          label: 'Home'
+        },
+        {
+          route: '/keyspawns',
+          icon: 'mdi-key',
+          label: 'Key Spawns'
+        },
+        {
+          route: '/extractions',
+          icon: 'mdi-map',
+          label: 'Extractions'
+        },
+        {
+          route: '/ammo',
+          icon: 'mdi-poll-box',
+          label: 'Ammo Chart'
+        },
+        {
+          route: '/checklists',
+          icon: 'mdi-checkbox-marked',
+          label: 'Checklists'
+        },
+        {
+          route: '/contentcreators',
+          icon: 'mdi-youtube-subscription',
+          label: 'Content Creators'
+        },
+        {
+          route: '/resources',
+          icon: 'mdi-folder',
+          label: 'More Resources'
+        }
+      ]
     }),
 
     created () {
