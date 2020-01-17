@@ -61,5 +61,7 @@ export default {
 </script>
 
 <style>
-
+.v-list-item__action {
+  min-width: 60px;
+}
 </style>

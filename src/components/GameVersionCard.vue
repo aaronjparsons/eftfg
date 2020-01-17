@@ -3,10 +3,10 @@
     <v-card-title class="headline font-weight-bold grey darken-4">
       Current Game Version
     </v-card-title>
-    <v-card-text>
+    <v-card-text class="pt-4">
       <h2>{{ $static.gameVersion.edges[0].node.version }}</h2>
       <p>Updated: {{ $static.gameVersion.edges[0].node.updated }}</p>
-      <v-divider />
+      <v-divider class="mb-4" />
       <a
         href="https://escapefromtarkov.gamepedia.com/Changelog"
         target="_blank"

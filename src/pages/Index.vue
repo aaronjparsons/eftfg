@@ -37,4 +37,7 @@ export default {
 .flex-column .v-card:first-of-type {
   margin-bottom: 12px;
 }
+.v-application a {
+  color: white !important;
+}
 </style>
