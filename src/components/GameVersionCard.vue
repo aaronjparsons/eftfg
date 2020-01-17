@@ -4,8 +4,8 @@
       Current Game Version
     </v-card-title>
     <v-card-text>
-      <h2>01.01.1000</h2>
-      <p>Updated: Jan 01 2020</p>
+      <h2>{{ $static.gameVersion.edges[0].node.version }}</h2>
+      <p>Updated: {{ $static.gameVersion.edges[0].node.updated }}</p>
       <v-divider />
       <a
         href="https://escapefromtarkov.gamepedia.com/Changelog"
@@ -17,6 +17,19 @@
     </v-card-text>
   </v-card>
 </template>
+
+<static-query>
+query {
+  gameVersion: allGameVersion {
+    edges {
+      node {
+        version,
+        updated
+      }
+    }
+  }
+}
+</static-query>
 
 <script>
 export default {
