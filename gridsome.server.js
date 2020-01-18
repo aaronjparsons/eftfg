@@ -7,6 +7,7 @@
 
 const changelogData = require('./data/changelog.json')
 const wikiData = require('./data/wiki-data.json')
+const ammoData = require('./data/ammo.json')
 const nodeExternals = require('webpack-node-externals')
 
 module.exports = function (api) {
@@ -22,6 +23,7 @@ module.exports = function (api) {
 
   api.loadSource(actions => {
     // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
+
     // Add Game Version data
     const gameVersion = actions.addCollection({
       typeName: 'GameVersion'
@@ -41,6 +43,23 @@ module.exports = function (api) {
         date: item.date,
         summary: item.summary,
         changes: item.changes
+      })
+    }
+
+    // Add ammo data
+    const ammo = actions.addCollection({
+      typeName: 'Ammo'
+    })
+
+    for (const item of ammoData) {
+      ammo.addNode({
+        name: item.name,
+        damage: item.damage,
+        penetration: item.penetration,
+        armorDamage: item.armorDamage,
+        accuracy: item.accuracy,
+        recoil: item.recoil,
+        fragmentation: item.fragmentation
       })
     }
   })
