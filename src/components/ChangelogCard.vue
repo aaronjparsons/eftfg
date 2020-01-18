@@ -24,7 +24,7 @@
           <v-card-text class="mt-4">
             <div v-for="(update, index) in $static.changelogs.edges" :key="index">
               <h4>
-                {{ formatDate(update.node.date) }}
+                {{ format(update.node.date) }}
               </h4>
               <ul>
                 <li v-for="(change,index) in update.node.changes" :key="`${update.node.date}-${index}`">
@@ -66,7 +66,7 @@ query {
 </static-query>
 
 <script>
-import { format } from 'date-fns'
+import { formatDate } from '../../helpers/dateHelpers'
 
 export default {
   data() {
@@ -76,8 +76,8 @@ export default {
   },
 
   methods: {
-    formatDate(date) {
-      return format(new Date(date), 'LLLL do, y')
+    format(date) {
+      return formatDate(date)
     }
   }
 }

@@ -24,13 +24,14 @@ module.exports = function (api) {
   api.loadSource(actions => {
     // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
 
-    // Add Game Version data
-    const gameVersion = actions.addCollection({
-      typeName: 'GameVersion'
+    // Add Wiki data
+    const wiki = actions.addCollection({
+      typeName: 'Wiki'
     })
-    gameVersion.addNode({
-      version: wikiData.gameVersion.version,
-      updated: wikiData.gameVersion.updated
+    wiki.addNode({
+      gameVersion: wikiData.gameVersion.version,
+      gameVersionUpdated: wikiData.gameVersion.updated,
+      ammoUpdated: wikiData.ammoDataUpdated
     })
 
     // Add Changelog data

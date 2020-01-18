@@ -17,7 +17,6 @@ export default {
 
   data() {
     return {
-      itemBeingHighlighted: false,
       scatterChart: null,
       colors: [
         '#0165fcfa',

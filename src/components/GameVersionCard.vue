@@ -4,8 +4,8 @@
       Current Game Version
     </v-card-title>
     <v-card-text class="pt-4">
-      <h2>{{ $static.gameVersion.edges[0].node.version }}</h2>
-      <p>Updated: {{ $static.gameVersion.edges[0].node.updated }}</p>
+      <h2>{{ $static.wikiData.edges[0].node.gameVersion }}</h2>
+      <p>Updated: {{ $static.wikiData.edges[0].node.gameVersionUpdated }}</p>
       <v-divider class="mb-4" />
       <a
         href="https://escapefromtarkov.gamepedia.com/Changelog"
@@ -20,11 +20,11 @@
 
 <static-query>
 query {
-  gameVersion: allGameVersion {
+  wikiData: allWiki {
     edges {
       node {
-        version,
-        updated
+        gameVersion,
+        gameVersionUpdated
       }
     }
   }
@@ -32,9 +32,7 @@ query {
 </static-query>
 
 <script>
-export default {
-
-}
+export default {}
 </script>
 
 <style>

@@ -1,7 +1,10 @@
 <template>
   <Layout>
     <v-row justify="center">
-      <p class="caption grey--text">Ammo data updated on {{ 'date' }}</p>
+      <p class="caption grey--text">
+        Ammo data updated on
+        {{ format($page.wikiData.edges[0].node.ammoUpdated) }}
+      </p>
     </v-row>
     <v-row>
       <v-col cols="6">
@@ -40,6 +43,13 @@
 
 <page-query>
 query {
+  wikiData: allWiki {
+    edges {
+      node {
+        ammoUpdated
+      }
+    }
+  },
   ammo: allAmmo {
     edges {
       node {
@@ -57,6 +67,7 @@ query {
 </page-query>
 
 <script>
+import { formatDate } from '../../helpers/dateHelpers'
 import AmmoSpreadsheet from '../components/AmmoSpreadsheet'
 import AmmoScatterPlot from '../components/AmmoScatterPlot'
 
@@ -75,6 +86,12 @@ export default {
   computed: {
     ammo() {
       return this.$page.ammo.edges.map(item => item.node)
+    }
+  },
+
+  methods: {
+    format(date) {
+      return formatDate(date)
     }
   }
 }
