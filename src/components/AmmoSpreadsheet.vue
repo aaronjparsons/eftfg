@@ -13,7 +13,7 @@
     </v-card-title>
     <v-data-table
       :headers="headers"
-      :items="ammo"
+      :items="data"
       :search="searchValue"
       height="75vh"
       disable-pagination
@@ -23,26 +23,15 @@
   </v-card>
 </template>
 
-<static-query>
-query {
-  ammo: allAmmo {
-    edges {
-      node {
-        name,
-        damage,
-        penetration,
-        armorDamage,
-        accuracy,
-        recoil,
-        fragmentation
-      }
-    }
-  }
-}
-</static-query>
-
 <script>
 export default {
+  props: {
+    data: {
+      type: Array,
+      required: true
+    }
+  },
+
   data() {
     return {
       searchValue: '',
@@ -90,18 +79,6 @@ export default {
         }
       ]
     }
-  },
-
-  computed: {
-    ammo() {
-      return this.$static.ammo.edges.map(item => item.node)
-    }
   }
 }
 </script>
-
-<style>
-.ammo-table {
-
-}
-</style>

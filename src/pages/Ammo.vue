@@ -31,23 +31,50 @@
     </v-row>
     <v-row>
       <v-col cols="12">
-        <AmmoSpreadsheet v-if="activeView === 'sheet'" />
+        <AmmoSpreadsheet v-if="activeView === 'sheet'" :data="ammo" />
+        <AmmoScatterPlot v-if="activeView === 'chart'" :data="ammo" />
       </v-col>
     </v-row>
   </Layout>
 </template>
 
+<page-query>
+query {
+  ammo: allAmmo {
+    edges {
+      node {
+        name,
+        damage,
+        penetration,
+        armorDamage,
+        accuracy,
+        recoil,
+        fragmentation
+      }
+    }
+  }
+}
+</page-query>
+
 <script>
 import AmmoSpreadsheet from '../components/AmmoSpreadsheet'
+import AmmoScatterPlot from '../components/AmmoScatterPlot'
 
 export default {
   components: {
-    AmmoSpreadsheet
+    AmmoSpreadsheet,
+    AmmoScatterPlot
   },
 
   data() {
     return {
       activeView: 'sheet'
+    }
+  },
+
+  computed: {
+    ammo() {
+      return this.$page.ammo.edges.map(item => item.node)
     }
   }
 }

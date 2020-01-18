@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "axios": "^0.19.1",
+    "chart.js": "^2.9.3",
     "date-fns": "^2.9.0",
     "gridsome": "^0.7.0",
     "vuetify": "^2.2.3"
