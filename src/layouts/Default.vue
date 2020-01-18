@@ -77,11 +77,6 @@ query {
           label: 'Checklists'
         },
         {
-          route: '/contentcreators',
-          icon: 'mdi-youtube-subscription',
-          label: 'Content Creators'
-        },
-        {
           route: '/resources',
           icon: 'mdi-folder',
           label: 'More Resources'
