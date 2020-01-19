@@ -141,9 +141,9 @@ export default {
 .bmc-button:hover,
 .bmc-button:active,
 .bmc-button:focus {
-  -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+  -webkit-box-shadow: 0px 1px 2px 2px rgba(56, 56, 56, 0.75) !important;
   text-decoration: none !important;
-  box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+  box-shadow: 0px 1px 2px 2px rgba(56, 56, 56, 0.75) !important;
   opacity: 0.85 !important;
   color: #ffffff !important;
 }
