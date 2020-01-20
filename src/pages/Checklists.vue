@@ -11,7 +11,7 @@
           <v-spacer />
           <v-dialog
             v-model="dialog"
-            width="750"
+            width="500"
           >
             <template v-slot:activator="{ on }">
               <v-btn
@@ -19,7 +19,7 @@
                 dark
                 v-on="on"
               >
-                Add New List
+                List Settings
               </v-btn>
             </template>
             <v-card>
@@ -27,10 +27,25 @@
                 class="headline font-weight-bold grey darken-4"
                 primary-title
               >
-                Privacy Policy
+                List Settings
               </v-card-title>
               <v-card-text class="mt-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <v-text-field
+                  v-model="customListName"
+                  label="Custom List Name"
+                />
+                <v-switch
+                  v-model="checklists[2].show"
+                  label="Show Custom Checklist"
+                />
+                <v-switch
+                  v-model="checklists[0].show"
+                  label="Show Hideout Items Checklist"
+                />
+                <v-switch
+                  v-model="checklists[1].show"
+                  label="Show Task Items Checklist"
+                />
               </v-card-text>
               <v-divider></v-divider>
               <v-card-actions>
@@ -40,7 +55,7 @@
                   text
                   @click="dialog = false"
                 >
-                  I accept
+                  Save
                 </v-btn>
               </v-card-actions>
             </v-card>
@@ -51,21 +66,26 @@
     <v-row justify="center">
       <v-col cols="12" sm="8">
         <v-expansion-panels v-model="panels" multiple focusable>
-          <v-expansion-panel
-            v-for="(list, index) in filteredLists"
-            :key="index"
-          >
-            <v-expansion-panel-header>{{ list.title }}</v-expansion-panel-header>
-            <v-expansion-panel-content>
-              <v-list>
-                <v-list-item v-for="(item, itemIndex) in list.items" :key="itemIndex">
-                  <v-list-item-content>
-                    <v-list-item-title>{{ item.name }}</v-list-item-title>
-                  </v-list-item-content>
-                </v-list-item>
-              </v-list>
-            </v-expansion-panel-content>
-          </v-expansion-panel>
+          <template v-for="(list, index) in filteredLists">
+            <v-expansion-panel
+              v-if="list.show"
+              :key="index"
+            >
+              <v-expansion-panel-header>{{ list.title }}</v-expansion-panel-header>
+              <v-expansion-panel-content>
+                <v-list>
+                  <template v-for="(item, itemIndex) in list.items">
+                    <v-list-item :key="itemIndex">
+                      <v-list-item-content>
+                        <v-list-item-title>{{ item.name }}</v-list-item-title>
+                      </v-list-item-content>
+                    </v-list-item>
+                    <v-divider />
+                  </template>
+                </v-list>
+              </v-expansion-panel-content>
+            </v-expansion-panel>
+          </template>
         </v-expansion-panels>
       </v-col>
     </v-row>
@@ -83,6 +103,7 @@ export default {
       checklists: [
         {
           title: 'Hideout items',
+          show: true,
           items: [
             {
               name: 'Duct Tape',
@@ -100,6 +121,7 @@ export default {
         },
         {
           title: 'Task items',
+          show: true,
           items: [
             {
               name: 'Morphine',
@@ -112,7 +134,8 @@ export default {
           ]
         },
         {
-          title: 'Other things',
+          title: 'My Custom List',
+          show: true,
           items: [
             {
               name: 'M4a1',
@@ -149,11 +172,20 @@ export default {
   },
 
   computed: {
+    customListName: {
+      get: function() {
+        return this.checklists[2].title
+      },
+      set: function(value) {
+        this.checklists[2].title = value
+      }
+    },
     filteredLists() {
       const array = []
       for (const list of this.checklists) {
         array.push({
           title: list.title,
+          show: list.show,
           items: this.filter(list.items)
         })
       }
@@ -162,6 +194,11 @@ export default {
   },
 
   methods: {
+    saveListSettings() {
+      // TODO Save lists data to local storage data
+      // ?? Save amount data as 1 array of integers to reduce size ??
+      this.dialog = false
+    },
     filter(list) {
       return list.filter(item => item.name.toLowerCase().includes(this.searchQuery.toLowerCase()))
     }
