@@ -1,0 +1,478 @@
+{
+  "tasks": [
+    {
+      "name": "MP-133 Shotgun",
+      "need": 4
+    },
+    {
+      "name": "6L31 60 Round AK-74 Magazine",
+      "need": 6
+    },
+    {
+      "name": "Lower Half Mask (Find in Raid)",
+      "need": 10
+    },
+    {
+      "name": "Bars A-2607 Knife",
+      "need": 10
+    },
+    {
+      "name": "AK-74N Rifle",
+      "need": 3
+    },
+    {
+      "name": "M4A1 Rifle",
+      "need": 5
+    },
+    {
+      "name": "PM Pistol",
+      "need": 5
+    },
+    {
+      "name": "USEC Dogtag",
+      "need": 10
+    },
+    {
+      "name": "BEAR Dogtag",
+      "need": 10
+    },
+    {
+      "name": "M67 Grenade",
+      "need": 10
+    },
+    {
+      "name": "Military Tank Battery (Find in Raid)",
+      "need": 1
+    },
+    {
+      "name": "OFZ 30x160mm Shell (Find in Raid)",
+      "need": 10
+    },
+    {
+      "name": "Salewa First Aid Kit",
+      "need": 5
+    },
+    {
+      "name": "Gas Analyzer (Find in Raid)",
+      "need": 1
+    },
+    {
+      "name": "Gas Analyzer",
+      "need": 3
+    },
+    {
+      "name": "Morphine (Find in Raid)",
+      "need": 9
+    },
+    {
+      "name": "Tushonka (Find in Raid)",
+      "need": 15
+    },
+    {
+      "name": "Car Battery (Find in Raid)",
+      "need": 4
+    },
+    {
+      "name": "Spark Plug (Find in Raid)",
+      "need": 8
+    },
+    {
+      "name": "Gunpowder 'Kite'",
+      "need": 3
+    },
+    {
+      "name": "Ophthalmoscopes",
+      "need": 3
+    },
+    {
+      "name": "LEDX Skin Transilluminators",
+      "need": 3
+    },
+    {
+      "name": "Module 3M Body Armor",
+      "need": 4
+    },
+    {
+      "name": "TOZ-106 Shotgun",
+      "need": 4
+    },
+    {
+      "name": "Secure Flash Drive",
+      "need": 2
+    },
+    {
+      "name": "Secure Flash Drive (Find in Raid)",
+      "need": 3
+    },
+    {
+      "name": "Flyye MBSS Backpack",
+      "need": 2
+    },
+    {
+      "name": "Crye Precision AVS Rig",
+      "need": 1
+    },
+    {
+      "name": "Gold Chain",
+      "need": 9
+    },
+    {
+      "name": "Respirator (Find in Raid)",
+      "need": 5
+    },
+    {
+      "name": "Medical Bloodset",
+      "need": 5
+    },
+    {
+      "name": "SV-98 Sniper Rifle",
+      "need": 1
+    },
+    {
+      "name": "Roler Gold Watch",
+      "need": 2
+    },
+    {
+      "name": "MRE Lunch Box",
+      "need": 5
+    },
+    {
+      "name": "WD-40 100ml (Find in Raid)",
+      "need": 1
+    },
+    {
+      "name": "Clin Wiper (Find in Raid)",
+      "need": 2
+    },
+    {
+      "name": "Corrugated Hose (Find in Raid)",
+      "need": 4
+    },
+    {
+      "name": "Ox Bleach (Find in Raid)",
+      "need": 2
+    },
+    {
+      "name": "Akali (Find in Raid)",
+      "need": 2
+    },
+    {
+      "name": "Propane Tank (Find in Raid)",
+      "need": 2
+    },
+    {
+      "name": "COFDM Signal Transmitters",
+      "need": 2
+    },
+    {
+      "name": "Virtex Processor",
+      "need": 3
+    },
+    {
+      "name": "Set of Tools",
+      "need": 2
+    },
+    {
+      "name": "Powercord",
+      "need": 5
+    },
+    {
+      "name": "T Shaped Plug",
+      "need": 5
+    },
+    {
+      "name": "Printed Circuit Board",
+      "need": 3
+    },
+    {
+      "name": "Printed Circuit Board (Find in Raid)",
+      "need": 3
+    },
+    {
+      "name": "Graphics Card",
+      "need": 7
+    },
+    {
+      "name": "CPU Fan",
+      "need": 7
+    },
+    {
+      "name": "PC CPU (Find in Raid)",
+      "need": 3
+    },
+    {
+      "name": "Rechargeable Battery (Find in Raid)",
+      "need": 3
+    },
+    {
+      "name": "Broken GPhone (Find in Raid)",
+      "need": 3
+    },
+    {
+      "name": "Malboro Cigarettes (Find in Raid)",
+      "need": 7
+    },
+    {
+      "name": "Strike Cigarettes (Find in Raid)",
+      "need": 7
+    },
+    {
+      "name": "Wilston Cigarettes (Find in Raid)",
+      "need": 7
+    },
+    {
+      "name": "UHF RFID Reader",
+      "need": 2
+    },
+    {
+      "name": "VPX Flash Storage Module",
+      "need": 2
+    },
+    {
+      "name": "Wires (Find in Raid)",
+      "need": 5
+    },
+    {
+      "name": "Capacitors (Find in Raid)",
+      "need": 5
+    },
+    {
+      "name": "AKS-74u Rifle",
+      "need": 1
+    },
+    {
+      "name": "MP5 Submachinegun",
+      "need": 1
+    },
+    {
+      "name": "DVL-10 Sniper Rifle",
+      "need": 1
+    },
+    {
+      "name": "R11 RSASS Rifle",
+      "need": 1
+    },
+    {
+      "name": "Remington Model 870 Shotgun",
+      "need": 1
+    },
+    {
+      "name": "AKM Rifle",
+      "need": 1
+    },
+    {
+      "name": "AKS-74N Rifle",
+      "need": 1
+    },
+    {
+      "name": "AS VAL Rifle",
+      "need": 1
+    },
+    {
+      "name": "AK-102 Rifle",
+      "need": 1
+    },
+    {
+      "name": "SIG MPX Submachinegun",
+      "need": 1
+    },
+    {
+      "name": "AKMN Rifle",
+      "need": 1
+    },
+    {
+      "name": "M1A Rifle",
+      "need": 1
+    },
+    {
+      "name": "Ushanka Ear Flap Cap",
+      "need": 7
+    },
+    {
+      "name": "Kinda Cowboy Hat",
+      "need": 7
+    },
+    {
+      "name": "Ghost Balaclava",
+      "need": 1
+    },
+    {
+      "name": "Shemagh",
+      "need": 1
+    },
+    {
+      "name": "Raybench Sunglasses",
+      "need": 1
+    },
+    {
+      "name": "Round Frame Sunglasse",
+      "need": 1
+    },
+    {
+      "name": "Peltor ComTac Headset",
+      "need": 2
+    },
+    {
+      "name": "6B47 Ratnik-BSh Helmet",
+      "need": 2
+    },
+    {
+      "name": "BNTI Gzhel-K Body Armor (Any Durability)",
+      "need": 2
+    },
+    {
+      "name": "BNTI Gzhel-K Body Armor (0-50% Durability)",
+      "need": 1
+    },
+    {
+      "name": "BNTI Gzhel-K Body Armor (50-100% Durability)",
+      "need": 1
+    },
+    {
+      "name": "Shmaska",
+      "need": 2
+    },
+    {
+      "name": "Pilgrim Backpack",
+      "need": 2
+    },
+    {
+      "name": "6B43 Fort Body Armor (0-50% Durability)",
+      "need": 1
+    },
+    {
+      "name": "6B43 Fort Body Armor (50-100% Durability)",
+      "need": 1
+    },
+    {
+      "name": "Wartech WT Rig (Find in Raid)",
+      "need": 2
+    },
+    {
+      "name": "Blackrock Chest Rig (Find in Raid)",
+      "need": 2
+    },
+    {
+      "name": "Fuel Conditioner (Find in Raid)",
+      "need": 4
+    },
+    {
+      "name": "Bronze Lion Statue",
+      "need": 3
+    },
+    {
+      "name": "Horse Figurine",
+      "need": 3
+    },
+    {
+      "name": "Cat Figurine",
+      "need": 2
+    },
+    {
+      "name": "Antique Teapot (Find in Raid)",
+      "need": 3
+    },
+    {
+      "name": "Antique Vase (Find in Raid)",
+      "need": 2
+    },
+    {
+      "name": "Iskra Lunch Box",
+      "need": 2
+    },
+    {
+      "name": "Emelya Rye Croutons",
+      "need": 6
+    },
+    {
+      "name": "Tushonka Beef Stew",
+      "need": 3
+    },
+    {
+      "name": "Bottle of Water",
+      "need": 2
+    },
+    {
+      "name": "Golden TT Pistol (Find in Raid)",
+      "need": 1
+    },
+    {
+      "name": "Killa Maska 1Sch Helmet (Find in Raid)",
+      "need": 1
+    },
+    {
+      "name": "Shturman KSH Key (Find in Raid)",
+      "need": 1
+    },
+    {
+      "name": "CMS Surgery Kit",
+      "need": 3
+    },
+    {
+      "name": "Portable Defibrillator",
+      "need": 2
+    },
+    {
+      "name": "TerraGroup Labs Access Keycard (Find in Raid)",
+      "need": 3
+    },
+    {
+      "name": "Remington Model 700 Sniper Rifle",
+      "need": 3
+    },
+    {
+      "name": "Old Firesteel (Find in Raid)",
+      "need": 1
+    },
+    {
+      "name": "Antique Axe (Find in Raid)",
+      "need": 1
+    },
+    {
+      "name": "Battered Antique Book (Find in Raid)",
+      "need": 1
+    },
+    {
+      "name": "FireKlean Gun Lube (Find in Raid)",
+      "need": 1
+    },
+    {
+      "name": "Golden Rooster (Find in Raid)",
+      "need": 1
+    },
+    {
+      "name": "Silver Badge (Find in Raid)",
+      "need": 1
+    },
+    {
+      "name": "DeadlySlobs Beard Oil (Find in Raid)",
+      "need": 1
+    },
+    {
+      "name": "Golden 1GPhone (Find in Raid)",
+      "need": 1
+    },
+    {
+      "name": "Jar of Devildog Mayo (Find in Raid)",
+      "need": 1
+    },
+    {
+      "name": "Can of Sprats (Find in Raid)",
+      "need": 1
+    },
+    {
+      "name": "Fake Mustache (Find in Raid)",
+      "need": 1
+    },
+    {
+      "name": "Kotton Beanie (Find in Raid)",
+      "need": 1
+    }
+  ],
+  "hideout": [
+    {
+      "name": "",
+      "need": 0
+    }
+  ]
+}
