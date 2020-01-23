@@ -73,12 +73,16 @@
             >
               <v-expansion-panel-header>{{ list.title }}</v-expansion-panel-header>
               <v-expansion-panel-content>
-                <v-list>
+                <v-list dense>
                   <template v-for="(item, itemIndex) in list.items">
                     <v-list-item :key="itemIndex">
                       <v-list-item-content>
-                        <v-list-item-title>{{ item.name }}</v-list-item-title>
+                        <v-list-item-title>{{ item.node.name }}</v-list-item-title>
+                        <v-list-item-subtitle>Need: {{ item.node.need }}</v-list-item-subtitle>
                       </v-list-item-content>
+                      <v-list-item-action>
+                        Have: 0
+                      </v-list-item-action>
                     </v-list-item>
                     <v-divider />
                   </template>
@@ -92,63 +96,38 @@
   </Layout>
 </template>
 
+<page-query>
+query {
+  taskItems: allTaskItems(order: ASC) {
+    edges {
+      node {
+        name,
+        need
+      }
+    }
+  }
+}
+</page-query>
+
 <script>
+import debounce from 'lodash.debounce'
+
 export default {
   data() {
     return {
       searchQuery: '',
+      debouncedSearchQuery: '',
       dialog: false,
       panels: [],
-      panelsState: [],
-      checklists: [
-        {
-          title: 'Hideout items',
-          show: true,
-          items: [
-            {
-              name: 'Duct Tape',
-              amount: 2
-            },
-            {
-              name: 'Lightbulb',
-              amount: 2
-            },
-            {
-              name: 'Nails',
-              amount: 2
-            }
-          ]
-        },
-        {
-          title: 'Task items',
-          show: true,
-          items: [
-            {
-              name: 'Morphine',
-              amount: 2
-            },
-            {
-              name: 'Tushonka',
-              amount: 2
-            }
-          ]
-        },
-        {
-          title: 'My Custom List',
-          show: true,
-          items: [
-            {
-              name: 'M4a1',
-              amount: 1
-            }
-          ]
-        }
-      ]
+      panelsState: []
     }
   },
 
   watch: {
     searchQuery: function(newValue, oldValue) {
+      this.debouncer()
+    },
+    debouncedSearchQuery: function(newValue, oldValue) {
       // Store the state of the panels before the query was entered
       if (oldValue === '') {
         this.panelsState = [...this.panels]
@@ -180,6 +159,25 @@ export default {
         this.checklists[2].title = value
       }
     },
+    checklists() {
+      return [
+        {
+          title: 'Hideout items',
+          show: true,
+          items: []
+        },
+        {
+          title: 'Task items',
+          show: true,
+          items: this.$page.taskItems.edges
+        },
+        {
+          title: 'My Custom List',
+          show: true,
+          items: []
+        }
+      ]
+    },
     filteredLists() {
       const array = []
       for (const list of this.checklists) {
@@ -194,13 +192,18 @@ export default {
   },
 
   methods: {
+    debouncer: debounce(function(){
+      this.debouncedSearchQuery = this.searchQuery
+    },500),
     saveListSettings() {
       // TODO Save lists data to local storage data
       // ?? Save amount data as 1 array of integers to reduce size ??
       this.dialog = false
     },
     filter(list) {
-      return list.filter(item => item.name.toLowerCase().includes(this.searchQuery.toLowerCase()))
+      return list.filter(item => {
+        return item.node.name.toLowerCase().includes(this.debouncedSearchQuery.toLowerCase())
+      })
     }
   }
 }

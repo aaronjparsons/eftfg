@@ -8,6 +8,7 @@
 const changelogData = require('./data/changelog.json')
 const wikiData = require('./data/wiki-data.json')
 const ammoData = require('./data/ammo.json')
+const checklistData = require('./data/checklists.json')
 const nodeExternals = require('webpack-node-externals')
 
 module.exports = function (api) {
@@ -61,6 +62,18 @@ module.exports = function (api) {
         accuracy: item.accuracy,
         recoil: item.recoil,
         fragmentation: item.fragmentation
+      })
+    }
+
+    // Add task item data
+    const task = actions.addCollection({
+      typeName: 'TaskItems'
+    })
+
+    for (const item of checklistData.tasks) {
+      task.addNode({
+        name: item.name,
+        need: item.need
       })
     }
   })

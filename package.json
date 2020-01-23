@@ -11,6 +11,7 @@
     "chart.js": "^2.9.3",
     "date-fns": "^2.9.0",
     "gridsome": "^0.7.0",
+    "lodash.debounce": "^4.0.8",
     "vuetify": "^2.2.3"
   },
   "devDependencies": {
