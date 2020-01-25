@@ -76,6 +76,18 @@ module.exports = function (api) {
         need: item.need
       })
     }
+
+    // Add hideout item data
+    const hideout = actions.addCollection({
+      typeName: 'HideoutItems'
+    })
+
+    for (const item of checklistData.hideout) {
+      hideout.addNode({
+        name: item.name,
+        need: item.need
+      })
+    }
   })
 
   api.createPages(({ createPage }) => {

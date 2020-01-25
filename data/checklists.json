@@ -471,8 +471,216 @@
   ],
   "hideout": [
     {
-      "name": "",
-      "need": 0
+      "name": "Analog Thermometer",
+      "need": 2
+    },
+    {
+      "name": "Pack of Nails",
+      "need": 4
+    },
+    {
+      "name": "Bolts",
+      "need": 18
+    },
+    {
+      "name": "Corrugated Hose",
+      "need": 26
+    },
+    {
+      "name": "Duct Tape",
+      "need": 6
+    },
+    {
+      "name": "Electric Drill",
+      "need": 6
+    },
+    {
+      "name": "Electric Motor",
+      "need": 9
+    },
+    {
+      "name": "Alkali",
+      "need": 2
+    },
+    {
+      "name": "Leatherman Multitool",
+      "need": 1
+    },
+    {
+      "name": "Lightbulb",
+      "need": 14
+    },
+    {
+      "name": "Pressure Gauge",
+      "need": 6
+    },
+    {
+      "name": "Radiator Helix",
+      "need": 8
+    },
+    {
+      "name": "Screw Nut",
+      "need": 12
+    },
+    {
+      "name": "Pack of Screws",
+      "need": 20
+    },
+    {
+      "name": "Set of Tools",
+      "need": 6
+    },
+    {
+      "name": "Silicon Tube",
+      "need": 14
+    },
+    {
+      "name": "Wrench",
+      "need": 4
+    },
+    {
+      "name": "Pliers Elite",
+      "need": 4
+    },
+    {
+      "name": "FireKlean Gun Lube",
+      "need": 1
+    },
+    {
+      "name": "Sparkplug",
+      "need": 5
+    },
+    {
+      "name": "Xenomorph Sealing Foam",
+      "need": 3
+    },
+    {
+      "name": "Handdrill",
+      "need": 1
+    },
+    {
+      "name": "WD-40 100ml",
+      "need": 4
+    },
+    {
+      "name": "Shustrilo Sealing Foam",
+      "need": 5
+    },
+    {
+      "name": "CPU Fan",
+      "need": 50
+    },
+    {
+      "name": "Capacitors",
+      "need": 12
+    },
+    {
+      "name": "Car Battery",
+      "need": 4
+    },
+    {
+      "name": "Harddrive",
+      "need": 4
+    },
+    {
+      "name": "Phase Relay",
+      "need": 16
+    },
+    {
+      "name": "Power Supply",
+      "need": 15
+    },
+    {
+      "name": "Powercord",
+      "need": 13
+    },
+    {
+      "name": "Printed Circuit Board",
+      "need": 8
+    },
+    {
+      "name": "SSD",
+      "need": 1
+    },
+    {
+      "name": "Flash Drive",
+      "need": 3
+    },
+    {
+      "name": "Wires",
+      "need": 47
+    },
+    {
+      "name": "Working LCD",
+      "need": 2
+    },
+    {
+      "name": "NIXXOR Lens",
+      "need": 8
+    },
+    {
+      "name": "COFDM Signal Transmitters",
+      "need": 2
+    },
+    {
+      "name": "Virtex Processor",
+      "need": 2
+    },
+    {
+      "name": "Gas Analyzer",
+      "need": 3
+    },
+    {
+      "name": "Military Cable",
+      "need": 8
+    },
+    {
+      "name": "Phased Array Element",
+      "need": 2
+    },
+    {
+      "name": "Military Power Filter",
+      "need": 4
+    },
+    {
+      "name": "Medical Bloodset",
+      "need": 1
+    },
+    {
+      "name": "Coffee",
+      "need": 3
+    },
+    {
+      "name": "Saline Solution",
+      "need": 8
+    },
+    {
+      "name": "Sodium Bicarbonate",
+      "need": 3
+    },
+    {
+      "name": "LEDX Skin Transilluminator",
+      "need": 1
+    },
+    {
+      "name": "Bronze Lion Statue",
+      "need": 2
+    },
+    {
+      "name": "Gold Chain",
+      "need": 6
+    },
+    {
+      "name": "Folder with Intelligence",
+      "need": 4
+    },
+    {
+      "name": "Roler Gold Watch",
+      "need": 3
+    },
+    {
+      "name": "Gold Skull Ring",
+      "need": 2
     }
   ]
 }

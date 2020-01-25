@@ -86,9 +86,9 @@ export default {
         label: 'Ammo Chart'
       },
       {
-        route: '/checklists',
+        route: '/required-items',
         icon: 'mdi-checkbox-marked',
-        label: 'Checklists'
+        label: 'Required Items'
       },
       {
         route: '/resources',
