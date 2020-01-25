@@ -7,6 +7,7 @@
 
 const changelogData = require('./data/changelog.json')
 const wikiData = require('./data/wiki-data.json')
+const extractData = require('./data/extracts.json')
 const ammoData = require('./data/ammo.json')
 const checklistData = require('./data/checklists.json')
 const nodeExternals = require('webpack-node-externals')
@@ -45,6 +46,24 @@ module.exports = function (api) {
         date: item.date,
         summary: item.summary,
         changes: item.changes
+      })
+    }
+
+    // Add extract data
+    const extracts = actions.addCollection({
+      typeName: 'Extracts'
+    })
+
+    for (const item of extractData) {
+      extracts.addNode({
+        type: item.type,
+        label: item.label,
+        map: item.map,
+        marker: item.marker,
+        description: item.description,
+        image: item.image,
+        extractType: item.extractType,
+        extractNotes: item.extractNotes
       })
     }
 

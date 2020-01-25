@@ -1,0 +1,792 @@
+[
+  {
+    "type": "map",
+    "label": "Customs (All Extractions)",
+    "map": "Customs",
+    "marker": [],
+    "description": "",
+    "image": "",
+    "extractType": "",
+    "extractNotes": ""
+  },
+  {
+    "type": "map",
+    "label": "Shoreline (All Extractions)",
+    "map": "Shoreline",
+    "marker": [],
+    "description": "",
+    "image": "",
+    "extractType": "",
+    "extractNotes": ""
+  },
+  {
+    "type": "map",
+    "label": "Factory (All Extractions)",
+    "map": "Factory",
+    "marker": [],
+    "description": "",
+    "image": "",
+    "extractType": "",
+    "extractNotes": ""
+  },
+  {
+    "type": "map",
+    "label": "Woods (All Extractions)",
+    "map": "Woods",
+    "marker": [],
+    "description": "",
+    "image": "",
+    "extractType": "",
+    "extractNotes": ""
+  },
+  {
+    "type": "map",
+    "label": "Interchange (All Extractions)",
+    "map": "Interchange",
+    "marker": [],
+    "description": "",
+    "image": "",
+    "extractType": "",
+    "extractNotes": ""
+  },
+  {
+    "type": "map",
+    "label": "Labs (All Extractions)",
+    "map": "Labs",
+    "marker": [],
+    "description": "",
+    "image": "",
+    "extractType": "",
+    "extractNotes": ""
+  },
+  {
+    "type": "map",
+    "label": "Reserve (All Extractions)",
+    "map": "Reserve",
+    "marker": [],
+    "description": "",
+    "image": "",
+    "extractType": "",
+    "extractNotes": ""
+  },
+  {
+    "type": "extract",
+    "label": "Crossroads",
+    "map": "Customs",
+    "marker": [-218.59365962984384, 22.8511962890625],
+    "description": "",
+    "image": "",
+    "extractType": "PMC, Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Trailer Park",
+    "map": "Customs",
+    "marker": [-230.6945172426258, 23.172607421875],
+    "description": "",
+    "image": "",
+    "extractType": "PMC",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Trailer Park Workers' Shack",
+    "map": "Customs",
+    "marker": [-231.22545998409484, 28.547607421875],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Railroad To Tarkov",
+    "map": "Customs",
+    "marker": [-230.62112312030075, 36.38037109375],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "RUAF Roadblock",
+    "map": "Customs",
+    "marker": [-227.6067587839792, 47.7952880859375],
+    "description": "",
+    "image": "",
+    "extractType": "PMC, Scav",
+    "extractNotes": "Occasionally Open"
+  },
+  {
+    "type": "extract",
+    "label": "Warehouse 17",
+    "map": "Customs",
+    "marker": [-219.56840568970503, 52.084228515625],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Factory Shacks",
+    "map": "Customs",
+    "marker": [-212.0796432186235, 64.2835693359375],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Warehouse 4",
+    "map": "Customs",
+    "marker": [-215.0117752313476, 75.3955078125],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Old Gas Station",
+    "map": "Customs",
+    "marker": [-227.43187897628687, 73.3125],
+    "description": "",
+    "image": "",
+    "extractType": "PMC, Scav",
+    "extractNotes": "Occasionally Open"
+  },
+  {
+    "type": "extract",
+    "label": "ZB-1012",
+    "map": "Customs",
+    "marker": [-222.36237980769232, 86.1072998046875],
+    "description": "",
+    "image": "",
+    "extractType": "PMC",
+    "extractNotes": "Occasionally Open"
+  },
+  {
+    "type": "extract",
+    "label": "ZB-1011",
+    "map": "Customs",
+    "marker": [-223.65301474840948, 98.73291015625],
+    "description": "",
+    "image": "",
+    "extractType": "PMC",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Factory Far Corner",
+    "map": "Customs",
+    "marker": [-225.18430089647194, 99.59375],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Administration Gate",
+    "map": "Customs",
+    "marker": [-217.05584423799885, 101.067138671875],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Scavs Checkpoint",
+    "map": "Customs",
+    "marker": [-214.93981347599768, 99.8631591796875],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Military Base CP",
+    "map": "Customs",
+    "marker": [-202.8258024869867, 99.77978515625],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Passage Between Rocks",
+    "map": "Customs",
+    "marker": [-199.3663244650087, 92.1875],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Railroad To Military Base",
+    "map": "Customs",
+    "marker": [-199.37467466743783, 84.00439453125],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Dorms V-Ex",
+    "map": "Customs",
+    "marker": [-195.9313277183343, 62.845703125],
+    "description": "",
+    "image": "",
+    "extractType": "PMC",
+    "extractNotes": "Occasionally Open, One Use, Costs 3000 Roubles"
+  },
+  {
+    "type": "extract",
+    "label": "Old Road Gate",
+    "map": "Customs",
+    "marker": [-195.78732739300173, 62.687255859375],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open, Same location as Dorms V-Ex"
+  },
+  {
+    "type": "extract",
+    "label": "Sniper Roadblock",
+    "map": "Customs",
+    "marker": [-202.9129373915558, 49.4927978515625],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Smugglers Boat",
+    "map": "Customs",
+    "marker": [-202.69431390977442, 45.0865478515625],
+    "description": "",
+    "image": "",
+    "extractType": "PMC",
+    "extractNotes": "Occasionally Open"
+  },
+  {
+    "type": "extract",
+    "label": "Railroad To Port",
+    "map": "Customs",
+    "marker": [-209.16980100491614, 36.9375],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Camera Bunker Door",
+    "map": "Factory",
+    "marker": [-195.7682186234818, 61.7890625],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open, Underground"
+  },
+  {
+    "type": "extract",
+    "label": "Cellars",
+    "map": "Factory",
+    "marker": [-100.38396471949105, 144.5126953125],
+    "description": "",
+    "image": "",
+    "extractType": "PMC",
+    "extractNotes": "Always Open, Underground, Factory Key Required"
+  },
+  {
+    "type": "extract",
+    "label": "Gate 0",
+    "map": "Factory",
+    "marker": [-244.0596081550029, 43.7861328125],
+    "description": "",
+    "image": "",
+    "extractType": "PMC, Scav",
+    "extractNotes": "Always Open, Factory Key Required"
+  },
+  {
+    "type": "extract",
+    "label": "Gate 3",
+    "map": "Factory",
+    "marker": [-106.26286871023714, 36.4169921875],
+    "description": "",
+    "image": "",
+    "extractType": "PMC, Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Office Window",
+    "map": "Factory",
+    "marker": [-206.07768218623482, 156.068359375],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Railway Exfil",
+    "map": "Interchange",
+    "marker": [-230.25795257374205, 115.62109375],
+    "description": "",
+    "image": "",
+    "extractType": "PMC, Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Emercom Checkpoint",
+    "map": "Interchange",
+    "marker": [-137.25513302486988, 10.7841796875],
+    "description": "",
+    "image": "",
+    "extractType": "PMC, Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Power Station",
+    "map": "Interchange",
+    "marker": [-223.63898930017348, 18.550781255],
+    "description": "",
+    "image": "",
+    "extractType": "PMC",
+    "extractNotes": "Occasionally Open, Single Use, Costs 3000 Roubles"
+  },
+  {
+    "type": "extract",
+    "label": "Dead Man's Place",
+    "map": "Woods",
+    "marker": [-158.15767784846733, 129.314208984375],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "East Gate",
+    "map": "Woods",
+    "marker": [-209.48639929149797, 177.5224609375],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Gate To Factory",
+    "map": "Woods",
+    "marker": [-142.15836466165413, 39.971435546875],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Mountain Stash",
+    "map": "Woods",
+    "marker": [-234.3345232070561, 64.98681640625],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Old Station",
+    "map": "Woods",
+    "marker": [-175.49455067958357, 15.11376953125],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Outskirts",
+    "map": "Woods",
+    "marker": [-145.43468948814342, 153.999755859375],
+    "description": "",
+    "image": "",
+    "extractType": "PMC, Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Outskirts Water",
+    "map": "Woods",
+    "marker": [-149.30744830827066, 132.812255859375],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "RUAF Roadblock",
+    "map": "Woods",
+    "marker": [-133.44187391555812, 76.097412109375],
+    "description": "",
+    "image": "",
+    "extractType": "PMC, Scav",
+    "extractNotes": "Occasionally Open"
+  },
+  {
+    "type": "extract",
+    "label": "Scav House",
+    "map": "Woods",
+    "marker": [-161.7193735540775, 164.448974609375],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "South V-Ex",
+    "map": "Woods",
+    "marker": [-235.4872532894737, 90.9591064453125],
+    "description": "",
+    "image": "",
+    "extractType": "PMC",
+    "extractNotes": "Occasionally Open, One Use, Costs 3000 Roubles"
+  },
+  {
+    "type": "extract",
+    "label": "The Boat",
+    "map": "Woods",
+    "marker": [-165.61965008675534, 126.6875],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "UN Roadblock",
+    "map": "Woods",
+    "marker": [-153.79411419172934, 13.8131103515625],
+    "description": "",
+    "image": "",
+    "extractType": "PMC, Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "West Border",
+    "map": "Woods",
+    "marker": [-207.35815500289183, 19.5400390625],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "ZB-014",
+    "map": "Woods",
+    "marker": [-188.94019303065355, 168.185546875],
+    "description": "",
+    "image": "",
+    "extractType": "PMC, Scav",
+    "extractNotes": "Occasionally Open, Requires ZB-014 Key"
+  },
+  {
+    "type": "extract",
+    "label": "ZB-016",
+    "map": "Woods",
+    "marker": [-196.64964394158474, 34.426025390625],
+    "description": "",
+    "image": "",
+    "extractType": "PMC",
+    "extractNotes": "Occasionally Open"
+  },
+  {
+    "type": "extract",
+    "label": "Admin Basement",
+    "map": "Shoreline",
+    "marker": [-178.1627159846732, 78.6053466796875],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "CCP Temporary",
+    "map": "Shoreline",
+    "marker": [-234.97419932041643, 132.043212890625],
+    "description": "",
+    "image": "",
+    "extractType": "PMC",
+    "extractNotes": "Occasionally Open"
+  },
+  {
+    "type": "extract",
+    "label": "Lighthouse",
+    "map": "Shoreline",
+    "marker": [-243.53833502024293, 97.272216796875],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Pier Boat",
+    "map": "Shoreline",
+    "marker": [-243.97558198380568, 86.459716796875],
+    "description": "",
+    "image": "",
+    "extractType": "PMC",
+    "extractNotes": "Occasionally Open"
+  },
+  {
+    "type": "extract",
+    "label": "Road To Customs",
+    "map": "Shoreline",
+    "marker": [-193.0031719924812, 133.14208984375],
+    "description": "",
+    "image": "",
+    "extractType": "PMC, Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Rock Passage",
+    "map": "Shoreline",
+    "marker": [-161.66437427703875, 73.615966796875],
+    "description": "",
+    "image": "",
+    "extractType": "PMC",
+    "extractNotes": "Occasionally Open"
+  },
+  {
+    "type": "extract",
+    "label": "Ruined House Fence",
+    "map": "Shoreline",
+    "marker": [-186.58940319548873, 13.255859375],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Ruined Road",
+    "map": "Shoreline",
+    "marker": [-221.91002747252747, 24.15234375],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "RWing Gym Entrance",
+    "map": "Shoreline",
+    "marker": [-182.96039979757086, 82.708740234375],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "South Fence Passage",
+    "map": "Shoreline",
+    "marker": [-159.43616252168883, 104.308837890625],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Svetliy Dead End",
+    "map": "Shoreline",
+    "marker": [-203.0999313186813, 14.7109375],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Tunnel",
+    "map": "Shoreline",
+    "marker": [-220.1125469924812, 22.208984375],
+    "description": "",
+    "image": "",
+    "extractType": "PMC",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "01 Cargo Elevator",
+    "map": "Labs",
+    "marker": [-48.695859239444765, 21.451171875],
+    "description": "",
+    "image": "",
+    "extractType": "PMC",
+    "extractNotes": "Must restore power to the elevator first (Room G1)"
+  },
+  {
+    "type": "extract",
+    "label": "02 Main Elevator",
+    "map": "Labs",
+    "marker": [-157.81270785135916, 234.0283203125],
+    "description": "",
+    "image": "",
+    "extractType": "PMC",
+    "extractNotes": "Must restore power to the elevator first (Across from R1)"
+  },
+  {
+    "type": "extract",
+    "label": "03 Ventilation Shaft",
+    "map": "Labs",
+    "marker": [-173.66516953441294, 179.618408203125],
+    "description": "",
+    "image": "",
+    "extractType": "PMC",
+    "extractNotes": "Can not have a backpack larger than a MBSS"
+  },
+  {
+    "type": "extract",
+    "label": "04 Elevator of the Medical Block",
+    "map": "Labs",
+    "marker": [-189.84870228455753, 185.190673828125],
+    "description": "",
+    "image": "",
+    "extractType": "PMC",
+    "extractNotes": "Must restore power to the elevator first (Room G6)"
+  },
+  {
+    "type": "extract",
+    "label": "05 Sewage Conduit",
+    "map": "Labs",
+    "marker": [-197.91678716020817, 215.76025390625],
+    "description": "",
+    "image": "",
+    "extractType": "PMC",
+    "extractNotes": "Must drain the water level (Panel on right side of room)"
+  },
+  {
+    "type": "extract",
+    "label": "06 Parking Gate",
+    "map": "Labs",
+    "marker": [-20.826679077501442, 46.926025390625],
+    "description": "",
+    "image": "",
+    "extractType": "PMC",
+    "extractNotes": "Must open gate first (Button in Room Y21)"
+  },
+  {
+    "type": "extract",
+    "label": "07 Hangar Gate",
+    "map": "Labs",
+    "marker": [-70.08952971370735, 83.5625],
+    "description": "",
+    "image": "",
+    "extractType": "PMC",
+    "extractNotes": "Must open gate first (Button in Room B24)"
+  },
+  {
+    "type": "extract",
+    "label": "Hole In The Wall",
+    "map": "Reserve",
+    "marker": [-153.48969780219778, 25.8369140625],
+    "description": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1572219983/hole_in_the_wall.jpg",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Cliff Descent",
+    "map": "Reserve",
+    "marker": [-81.25177125506073, 93.60546875],
+    "description": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1572219981/cliff_descent.jpg",
+    "extractType": "PMC",
+    "extractNotes": "Always Open, Requires 1 Paracord & 1 Rappelling Rig"
+  },
+  {
+    "type": "extract",
+    "label": "Scav Lands",
+    "map": "Reserve",
+    "marker": [-193.2362998843262, 94.1279296875],
+    "description": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1572219981/scav_lands.jpg",
+    "extractType": "PMC, Scav",
+    "extractNotes": "Always Open, Requires a PMC and Scav to work together"
+  },
+  {
+    "type": "extract",
+    "label": "Heating Pipe",
+    "map": "Reserve",
+    "marker": [-198.52241179872757, 138.7587890625],
+    "description": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1572219981/heating_pipe.jpg",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Bunker Hermetic Door",
+    "map": "Reserve",
+    "marker": [-189.54091960670908, 168.8876953125],
+    "description": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1572219981/bunker_hermetic_door.jpg",
+    "extractType": "PMC, Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Sewer Manhole",
+    "map": "Reserve",
+    "marker": [-119.88927848467323, 131.7021484375],
+    "description": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1572219981/sewer_manhole.jpg",
+    "extractType": "PMC",
+    "extractNotes": "Always Open, Can not be wearing a backpack to use"
+  },
+  {
+    "type": "extract",
+    "label": "Armored Train",
+    "map": "Reserve",
+    "marker": [-173.02121891266628, 193.486328125],
+    "description": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1572219981/armored_train.jpg",
+    "extractType": "PMC",
+    "extractNotes": "Always Open, Must wait for the train"
+  },
+  {
+    "type": "extract",
+    "label": "CP Fence",
+    "map": "Reserve",
+    "marker": [-94.4053462984384, 167.36181640625],
+    "description": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1572310264/cp_fence.jpg",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  }
+]
