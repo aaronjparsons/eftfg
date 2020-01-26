@@ -107,6 +107,10 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css?family=Cookie&display=swap');
 
+.v-navigation-drawer {
+  z-index: 170 !important;
+}
+
 .bmc-button img {
   width: 35px !important;
   margin-bottom: 1px !important;

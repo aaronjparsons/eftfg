@@ -241,5 +241,51 @@ export default {
 </script>
 
 <style>
+.v-autocomplete {
+  z-index: 160;
+}
 
+.leaflet-container {
+  background-color: #424242;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  position: relative;
+  border-radius: 4px;
+}
+
+/* Leaflet z-index overrides */
+.leaflet-pane {
+  z-index: 110 !important;
+} /* 400 */
+.leaflet-tile-pane {
+  z-index: 105 !important;
+} /* 200 */
+.leaflet-overlay-pane {
+  z-index: 110 !important;
+} /* 400 */
+.leaflet-shadow-pane {
+  z-index: 115 !important;
+} /* 500 */
+.leaflet-marker-pane {
+  z-index: 120 !important;
+} /* 600 */
+.leaflet-tooltip-pane {
+  z-index: 125 !important;
+} /* 650 */
+.leaflet-popup-pane {
+  z-index: 130 !important;
+} /* 700 */
+.leaflet-map-pane canvas {
+  z-index: 100 !important;
+} /* 100 */
+.leaflet-map-pane svg {
+  z-index: 105 !important;
+} /* 200 */
+.leaflet-control {
+  z-index: 135 !important; /* 800 */
+}
+.leaflet-top,
+.leaflet-bottom {
+  z-index: 150 !important; /* 1000 */
+}
 </style>
