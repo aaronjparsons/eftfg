@@ -17,7 +17,7 @@
         >
           <l-popup>
             <h3>{{ activeItem.name[index] }}</h3>
-            <p>Type: {{ activeItem.type[index] }}</p>
+            <p v-if="activeItem.type">Type: {{ activeItem.type[index] }}</p>
             <p>Notes: {{ activeItem.notes[index] }}</p>
             <v-btn
               :class="{
@@ -92,20 +92,20 @@ export default {
 
   computed: {
     mapSource() {
-      return `mapimages/${this.activeMap}/{z}/{x}/{y}.png`;
+      return `mapimages/${this.activeMap}/{z}/{x}/{y}.png`
     },
     center() {
       if (this.activeItem.coords.length > 0) {
-        const markersLength = this.activeItem.coords.length;
-        let lats = 0;
-        let lngs = 0;
+        const markersLength = this.activeItem.coords.length
+        let lats = 0
+        let lngs = 0
         this.activeItem.coords.map(marker => {
-          lats += marker[0];
-          lngs += marker[1];
-        });
-        return [lats / markersLength, lngs / markersLength];
+          lats += parseInt(marker[0])
+          lngs += parseInt(marker[1])
+        })
+        return [lats / markersLength, lngs / markersLength]
       } else {
-        return [0, 0];
+        return [0, 0]
       }
     }
   },
@@ -118,8 +118,8 @@ export default {
       return value[index].length > 0
     },
     iframeHeight() {
-      const windowHeight = window.innerHeight;
-      return windowHeight * 0.8;
+      const windowHeight = window.innerHeight
+      return windowHeight * 0.8
     },
     openDialog(type, source) {
       if (type === 'image') {

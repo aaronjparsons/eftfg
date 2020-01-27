@@ -5,10 +5,10 @@
         <v-autocomplete
           v-model="input"
           item-text="node.label"
-          :items="$page.extracts.edges"
+          :items="$page.keySpawns.edges"
           return-object
           solo
-          placeholder="Search by extract or by map..."
+          placeholder="Search by key or by map..."
         />
       </v-col>
     </v-row>
@@ -22,7 +22,7 @@
 
 <page-query>
 query {
-  extracts: allExtracts {
+  keySpawns: allKeySpawns {
     edges {
       node {
         type,
@@ -30,13 +30,12 @@ query {
         map,
         marker,
         description,
-        image,
-        extractType,
-        extractNotes
+        images,
+        videos
       }
     }
   },
-  allCustoms: allExtracts(filter: {map: {eq: "Customs"}, type: {eq: "extract"}}) {
+  allCustoms: allKeySpawns(filter: {map: {eq: "Customs"}, type: {eq: "key"}}) {
     edges {
       node {
         type,
@@ -44,13 +43,12 @@ query {
         map,
         marker,
         description,
-        image,
-        extractType,
-        extractNotes
+        images,
+        videos
       }
     }
   },
-  allInterchange: allExtracts(filter: {map: {eq: "Interchange"}, type: {eq: "extract"}}) {
+  allInterchange: allKeySpawns(filter: {map: {eq: "Interchange"}, type: {eq: "key"}}) {
     edges {
       node {
         type,
@@ -58,13 +56,12 @@ query {
         map,
         marker,
         description,
-        image,
-        extractType,
-        extractNotes
+        images,
+        videos
       }
     }
   },
-  allShoreline: allExtracts(filter: {map: {eq: "Shoreline"}, type: {eq: "extract"}}) {
+  allShoreline: allKeySpawns(filter: {map: {eq: "Shoreline"}, type: {eq: "key"}}) {
     edges {
       node {
         type,
@@ -72,13 +69,12 @@ query {
         map,
         marker,
         description,
-        image,
-        extractType,
-        extractNotes
+        images,
+        videos
       }
     }
   },
-  allWoods: allExtracts(filter: {map: {eq: "Woods"}, type: {eq: "extract"}}) {
+  allWoods: allKeySpawns(filter: {map: {eq: "Woods"}, type: {eq: "key"}}) {
     edges {
       node {
         type,
@@ -86,13 +82,12 @@ query {
         map,
         marker,
         description,
-        image,
-        extractType,
-        extractNotes
+        images,
+        videos
       }
     }
   },
-  allFactory: allExtracts(filter: {map: {eq: "Factory"}, type: {eq: "extract"}}) {
+  allFactory: allKeySpawns(filter: {map: {eq: "Factory"}, type: {eq: "key"}}) {
     edges {
       node {
         type,
@@ -100,13 +95,12 @@ query {
         map,
         marker,
         description,
-        image,
-        extractType,
-        extractNotes
+        images,
+        videos
       }
     }
   },
-  allReserve: allExtracts(filter: {map: {eq: "Reserve"}, type: {eq: "extract"}}) {
+  allReserve: allKeySpawns(filter: {map: {eq: "Reserve"}, type: {eq: "key"}}) {
     edges {
       node {
         type,
@@ -114,13 +108,12 @@ query {
         map,
         marker,
         description,
-        image,
-        extractType,
-        extractNotes
+        images,
+        videos
       }
     }
   },
-  allLabs: allExtracts(filter: {map: {eq: "Labs"}, type: {eq: "extract"}}) {
+  allLabs: allKeySpawns(filter: {map: {eq: "Labs"}, type: {eq: "key"}}) {
     edges {
       node {
         type,
@@ -128,9 +121,8 @@ query {
         map,
         marker,
         description,
-        image,
-        extractType,
-        extractNotes
+        images,
+        videos
       }
     }
   }
@@ -139,6 +131,7 @@ query {
 
 <script>
 import Map from '../components/Map'
+
 export default {
   components: {
     Map
@@ -154,31 +147,31 @@ export default {
     activeItem() {
       const object = {
         coords: [],
-        type: [],
         notes: [],
         name: [],
-        images: []
+        images: [],
+        videos: []
       }
 
       if (!this.input.node) {
         return object
       }
 
-      if (this.input.node.type === 'extract') {
+      if (this.input.node.type === 'key') {
         return {
-          coords: [this.input.node.marker],
-          type: [this.input.node.extractType],
-          notes: [this.input.node.extractNotes],
-          name: [this.input.node.label],
-          images: [this.input.node.image]
+          coords: this.input.node.marker.map(item => item.split(',')),
+          notes: this.input.node.description,
+          name: this.input.node.marker.map(() => this.input.node.label),
+          images: this.input.node.images,
+          videos: this.input.node.videos
         }
       } else {
         return this.$page[`all${this.input.node.map}`].edges.reduce((obj,item) => {
-          obj.coords = [item.node.marker, ...obj.coords]
-          obj.type = [item.node.extractType, ...obj.type],
-          obj.notes = [item.node.extractNotes, ...obj.notes]
-          obj.name = [item.node.label, ...obj.name]
-          obj.images = [item.node.image, ...obj.images]
+          obj.coords = [...item.node.marker.map(item => item.split(',')), ...obj.coords]
+          obj.notes = [...item.node.description, ...obj.notes]
+          obj.name = [...item.node.marker.map(() => item.node.label), ...obj.name],
+          obj.images = [...item.node.images, ...obj.images],
+          obj.videos = [...item.node.videos, ...obj.videos]
           return obj
         }, object)
       }

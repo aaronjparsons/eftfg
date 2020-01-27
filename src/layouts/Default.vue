@@ -71,7 +71,7 @@ export default {
         label: 'Home'
       },
       {
-        route: '/keyspawns',
+        route: '/key-spawns',
         icon: 'mdi-key',
         label: 'Key Spawns'
       },

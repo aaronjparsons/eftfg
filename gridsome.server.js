@@ -7,6 +7,7 @@
 
 const changelogData = require('./data/changelog.json')
 const wikiData = require('./data/wiki-data.json')
+const keyData = require('./data/keys.json')
 const extractData = require('./data/extracts.json')
 const ammoData = require('./data/ammo.json')
 const checklistData = require('./data/checklists.json')
@@ -46,6 +47,23 @@ module.exports = function (api) {
         date: item.date,
         summary: item.summary,
         changes: item.changes
+      })
+    }
+
+    // Add key data
+    const keys = actions.addCollection({
+      typeName: 'KeySpawns'
+    })
+
+    for (const item of keyData) {
+      keys.addNode({
+        type: item.type,
+        label: item.label,
+        map: item.map,
+        marker: item.markers,
+        description: item.spawns,
+        images: item.images,
+        videos: item.videos
       })
     }
 
