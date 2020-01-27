@@ -14,7 +14,11 @@
     </v-row>
     <v-row justify="center">
       <v-col cols="12" sm="10">
-        <Map :active-map="activeMap" :active-item="activeItem" />
+        <v-row v-show="activeMap === 'all'" justify="center">
+          <h2>{{ allMapsLabel }} has no set spawn location</h2>
+          <p v-for="(desc, i) in allMapsDesc" :key="i">{{ desc }}</p>
+        </v-row>
+        <Map v-show="activeMap !== 'all'" :active-map="activeMap" :active-item="activeItem" />
       </v-col>
     </v-row>
   </Layout>
@@ -181,6 +185,20 @@ export default {
         return this.input.node.map
       } else {
         return ''
+      }
+    },
+    allMapsLabel() {
+      if (this.input.node && this.input.node.label) {
+        return this.input.node.label
+      } else {
+        return ''
+      }
+    },
+    allMapsDesc() {
+      if (this.input.node && this.input.node.description) {
+        return this.input.node.description
+      } else {
+        return []
       }
     }
   }
