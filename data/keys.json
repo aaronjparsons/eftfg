@@ -2026,20 +2026,6 @@
   },
   {
     "type": "key",
-    "label": "RB-AM Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
-    ],
-    "images": [],
-    "videos": [],
-    "unlocks": [
-      ""
-    ]
-  },
-  {
-    "type": "key",
     "label": "RB-OP Key",
     "map": "Interchange",
     "markers": [
