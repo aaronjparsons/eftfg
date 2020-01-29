@@ -44,12 +44,18 @@
         </l-marker>
       </l-feature-group>
     </l-map>
-    <v-dialog v-model="popupDialog" width="750">
+    <v-dialog v-model="popupDialog" width="80vw" @click:outside="closeDialog">
       <div class="image-dialog-container">
         <div class="icon-container">
           <v-icon @click="closeDialog">mdi-close</v-icon>
         </div>
-        <v-img v-if="imageSource" :src="imageSource" contain />
+        <v-img v-if="imageSource" :src="imageSource" contain>
+          <template v-slot:placeholder>
+            <v-row justify="center" align="center" :style="{ height: '100%' }">
+              <v-progress-circular indeterminate />
+            </v-row>
+          </template>
+        </v-img>
         <iframe
           v-if="videoSource"
           :height="iframeHeight()"

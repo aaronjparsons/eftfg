@@ -25,6 +25,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.v-card__text {
+  height: 550px;
+}
 </style>
