@@ -44,7 +44,7 @@
       </v-dialog>
       <v-divider class="my-3" />
       <p>If you notice any errors on the site or have a feature request, tweet at me!</p>
-      <a class="link" href="https://twitter.com/ChewyDinosaur">
+      <a href="https://twitter.com/ChewyDinosaur">
         @ChewyDinosaur
       </a>
     </v-card-text>

@@ -194,6 +194,28 @@ export default {
   border-radius: 4px;
 }
 
+.leaflet-popup-content-wrapper {
+  background: #dbdbdb;
+}
+.leaflet-popup-tip {
+  background: #dbdbdb;
+}
+.leaflet-bar a {
+  background: #212121;
+  border-bottom: 1px solid #4b4b4b;
+}
+.leaflet-bar a:hover:not(.leaflet-disabled) {
+  background: #4b4b4b;
+  border-bottom: 1px solid #4b4b4b;
+}
+.leaflet-bar a.leaflet-disabled {
+  background: #353535;
+}
+.leaflet-container .leaflet-control-attribution {
+  background: #434343d8;
+  border-top-left-radius: 5px;
+}
+
 /* Leaflet z-index overrides */
 .leaflet-pane {
   z-index: 110 !important;

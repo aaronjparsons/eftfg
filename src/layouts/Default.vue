@@ -111,6 +111,10 @@ export default {
   z-index: 170 !important;
 }
 
+.v-application a {
+  color: white !important;
+}
+
 .bmc-button img {
   width: 35px !important;
   margin-bottom: 1px !important;
