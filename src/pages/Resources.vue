@@ -63,6 +63,20 @@ export default {
             "A variety of maps of Tarkov, both in game version and community created."
           ],
           link: "http://www.gamemaps.co.uk/game/tarkov/"
+        },
+        {
+          title: "EFT Loot",
+          features: [
+            "Up to date flea market prices for items."
+          ],
+          link: "https://eft-loot.com/"
+        },
+        {
+          title: "EFT Developer Tracker",
+          features: [
+            "See all recent posts from the EFT developers across the forums, Reddit, and Twitter."
+          ],
+          link: "https://developertracker.com/escape-from-tarkov/"
         }
       ]
     }
