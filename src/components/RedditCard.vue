@@ -1,6 +1,6 @@
 <template>
   <v-card>
-    <v-card-title class="headline font-weight-bold grey darken-4">
+    <v-card-title class="headline font-weight-bold secondary">
       Reddit Posts From r/EscapeFromTarkov
     </v-card-title>
     <v-card-text>

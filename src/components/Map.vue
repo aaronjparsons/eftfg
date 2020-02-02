@@ -1,6 +1,7 @@
 <template>
-  <div :style="{ height: '65vh' }">
+  <div :class="{ 'map-dark': isDarkMode }" :style="{ height: '65vh' }">
     <l-map
+      ref="map"
       :zoom="mapOptions.zoom"
       :minZoom="mapOptions.zoom"
       :maxZoom="mapOptions.maxZoom"
@@ -23,7 +24,6 @@
               :class="{
                 strikethrough: !hasMediaContent(activeItem.images, index)
               }"
-              color="grey darken-4"
               @click.stop="openDialog('image', activeItem.images[index])"
               :disabled="!hasMediaContent(activeItem.images, index)"
             >
@@ -34,7 +34,6 @@
               :class="{
                 strikethrough: !hasMediaContent(activeItem.videos, index)
               }"
-              color="grey darken-4"
               @click.stop="openDialog('video', activeItem.videos[index])"
               :disabled="!hasMediaContent(activeItem.videos, index)"
             >
@@ -47,7 +46,7 @@
     <v-dialog v-model="popupDialog" width="80vw" @click:outside="closeDialog">
       <div class="image-dialog-container">
         <div class="icon-container">
-          <v-icon @click="closeDialog">mdi-close</v-icon>
+          <v-icon color="white" @click="closeDialog">mdi-close</v-icon>
         </div>
         <v-img v-if="imageSource" :src="imageSource" contain>
           <template v-slot:placeholder>
@@ -97,6 +96,9 @@ export default {
   },
 
   computed: {
+    isDarkMode() {
+      return this.$store.state.darkMode
+    },
     mapSource() {
       return `mapimages/${this.activeMap}/{z}/{x}/{y}.png`
     },
@@ -149,10 +151,13 @@ export default {
   position: absolute;
   right: 0;
   padding: 5px 20px;
-  background: #434343d8;
+  background: #ffffffd8;
   border-bottom-left-radius: 5px;
   font-size: 16px;
   z-index: 150;
+}
+.map-dark .map-name {
+  background: #434343d8;
 }
 .image-dialog-container {
   position: relative;
@@ -165,7 +170,6 @@ export default {
   top: 10px;
   right: 10px;
   cursor: pointer;
-  color: white;
   z-index: 250;
   transition: all 300ms;
   background: #424242d0;
@@ -187,31 +191,34 @@ export default {
 }
 
 .leaflet-container {
-  background-color: #424242;
+  background-color: #ffffff;
   box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
     0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
   position: relative;
   border-radius: 4px;
 }
+.map-dark .leaflet-container {
+  background-color: #424242;
+}
 
-.leaflet-popup-content-wrapper {
+.map-dark .leaflet-popup-content-wrapper {
   background: #dbdbdb;
 }
-.leaflet-popup-tip {
+.map-dark .leaflet-popup-tip {
   background: #dbdbdb;
 }
-.leaflet-bar a {
+.map-dark .leaflet-bar a {
   background: #212121;
   border-bottom: 1px solid #4b4b4b;
 }
-.leaflet-bar a:hover:not(.leaflet-disabled) {
+.map-dark .leaflet-bar a:hover:not(.leaflet-disabled) {
   background: #4b4b4b;
   border-bottom: 1px solid #4b4b4b;
 }
-.leaflet-bar a.leaflet-disabled {
+.map-dark .leaflet-bar a.leaflet-disabled {
   background: #353535;
 }
-.leaflet-container .leaflet-control-attribution {
+.map-dark .leaflet-container .leaflet-control-attribution {
   background: #434343d8;
   border-top-left-radius: 5px;
 }

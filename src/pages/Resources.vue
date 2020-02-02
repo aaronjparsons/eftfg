@@ -3,7 +3,7 @@
     <v-row>
       <v-col v-for="(resource, index) in resourceList" :key="index" cols="12" sm="6">
         <v-card >
-          <v-card-title class="headline font-weight-bold grey darken-4">
+          <v-card-title class="headline font-weight-bold secondary">
             <a :href="resource.link" class="card-header-links" target="_blank">
               {{ resource.title }}
             </a>

@@ -15,7 +15,8 @@
     "leaflet": "^1.6.0",
     "lodash.debounce": "^4.0.8",
     "vue2-leaflet": "^2.4.2",
-    "vuetify": "^2.2.3"
+    "vuetify": "^2.2.3",
+    "vuex": "^3.1.2"
   },
   "devDependencies": {
     "webpack-node-externals": "^1.7.2"

@@ -1,5 +1,5 @@
 <template>
-  <v-app id="inspire">
+  <v-app>
     <v-navigation-drawer v-model="drawer" app clipped>
       <v-list nav>
         <v-list-item
@@ -20,6 +20,7 @@
         <v-row class="pb-4" justify="center">
           <a
             class="bmc-button"
+            :class="{ 'bmc-dark': isDarkMode }"
             target="_blank"
             href="https://www.buymeacoffee.com/ChewyDinosaur"
           >
@@ -35,9 +36,15 @@
       </template>
     </v-navigation-drawer>
 
-    <v-app-bar app clipped-left class="grey darken-4">
+    <v-app-bar app clipped-left color="secondary">
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <v-toolbar-title>EFT Field Guide</v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-btn icon class="mr-1" @click="toggleDarkMode">
+        <v-icon v-if="isDarkMode">mdi-weather-night</v-icon>
+        <v-icon v-else>mdi-weather-sunny</v-icon>
+      </v-btn>
+      </div>
     </v-app-bar>
 
     <v-content>
@@ -99,7 +106,20 @@ export default {
   }),
 
   created() {
-    this.$vuetify.theme.dark = true
+    this.$vuetify.theme.dark = this.isDarkMode
+  },
+
+  computed: {
+    isDarkMode() {
+      return this.$store.state.darkMode
+    }
+  },
+
+  methods: {
+    toggleDarkMode() {
+      this.$store.dispatch('toggleDarkmode')
+      this.$vuetify.theme.dark = this.isDarkMode
+    }
   }
 }
 </script>
@@ -109,10 +129,6 @@ export default {
 
 .v-navigation-drawer {
   z-index: 170 !important;
-}
-
-.v-application a {
-  color: white !important;
 }
 
 .bmc-button img {
@@ -129,8 +145,7 @@ export default {
   min-width: 217px !important;
   text-decoration: none !important;
   display: inline-flex !important;
-  color: #ffffff !important;
-  background-color: #212121 !important;
+  background-color: #e4e4e4;
   border-radius: 5px !important;
   border: 1px solid transparent !important;
   padding: 7px 10px 7px 10px !important;
@@ -146,6 +161,9 @@ export default {
   -ms-transition: 0.3s all linear !important;
   transition: 0.3s all linear !important;
 }
+.bmc-dark {
+  background-color: #212121;
+}
 .bmc-button:hover,
 .bmc-button:active,
 .bmc-button:focus {
@@ -153,6 +171,5 @@ export default {
   text-decoration: none !important;
   box-shadow: 0px 1px 2px 2px rgba(56, 56, 56, 0.75) !important;
   opacity: 0.85 !important;
-  color: #ffffff !important;
 }
 </style>

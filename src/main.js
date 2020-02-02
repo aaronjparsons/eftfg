@@ -1,5 +1,4 @@
-// This is the main.js file. Import global CSS and scripts here.
-// The Client API can be used here. Learn more: gridsome.org/docs/client-api
+import Vuex from 'vuex'
 import Vuetify from 'vuetify'
 import DefaultLayout from '~/layouts/Default.vue'
 import 'vuetify/dist/vuetify.min.css'
@@ -8,6 +7,25 @@ import { Icon } from "leaflet";
 import "leaflet/dist/leaflet.css";
 
 export default function (Vue, { head, appOptions }) {
+  // Vuex
+  Vue.use(Vuex)
+
+  appOptions.store = new Vuex.Store({
+    state: {
+      darkMode: true
+    },
+    mutations: {
+      TOGGLE_DARKMODE (state) {
+        state.darkMode = !state.darkMode
+      }
+    },
+    actions: {
+      toggleDarkmode({ commit }) {
+        commit('TOGGLE_DARKMODE')
+      }
+    }
+  })
+
   // Material icons
   head.link.push({
     rel: 'stylesheet',
@@ -15,7 +33,21 @@ export default function (Vue, { head, appOptions }) {
   })
 
   // Vuetify
-  const opts = {} //opts includes, vuetify themes, icons, etc
+  const opts = {
+    theme: {
+      dark: true,
+      themes: {
+        dark: {
+          secondary: '#212121',
+          anchor: '#ffffffb3'
+        },
+        light: {
+          secondary: '#e4e4e4',
+          anchor: '#00000099'
+        }
+      }
+    }
+  } //opts includes, vuetify themes, icons, etc
   Vue.use(Vuetify)
   appOptions.vuetify = new Vuetify(opts)
 
