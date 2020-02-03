@@ -29,9 +29,11 @@
 <script>
 export default {
   created() {
-    let twitterFeed = document.createElement("script")
-    twitterFeed.setAttribute("src", "https://platform.twitter.com/widgets.js")
-    document.head.appendChild(twitterFeed)
+    if (process.isClient) {
+      let twitterFeed = document.createElement("script")
+      twitterFeed.setAttribute("src", "https://platform.twitter.com/widgets.js")
+      document.head.appendChild(twitterFeed)
+    }
   },
 
   computed: {

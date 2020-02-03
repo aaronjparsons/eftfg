@@ -1,5 +1,21 @@
 [
   {
+    "date": "02/02/2020",
+    "summary": [
+      "Full app rewrite, lots of changes"
+    ],
+    "changes": [
+      "Added dark mode/light mode toggle",
+      "Update ammo spreadsheet, header is now fixed",
+      "Update ammo scatter plot chart. Can now hover to preview calibre values",
+      "Removed Content Creators page",
+      "Removed Checklist page",
+      "Added Required Items page",
+      "Added more items to the More Resources page",
+      "Lots of improvements across the app"
+    ]
+  },
+  {
     "date": "12/30/2019",
     "summary": [
       "Update ammo values & spreadsheet"

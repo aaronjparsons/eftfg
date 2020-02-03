@@ -1,48 +1,50 @@
 <template>
   <div :class="{ 'map-dark': isDarkMode }" :style="{ height: '65vh' }">
-    <l-map
-      ref="map"
-      :zoom="mapOptions.zoom"
-      :minZoom="mapOptions.zoom"
-      :maxZoom="mapOptions.maxZoom"
-      :center="center"
-      :crs="mapOptions.crs"
-    >
-      <div class="map-name">{{ activeMap }}</div>
-      <l-tile-layer :url="mapSource"></l-tile-layer>
-      <l-feature-group ref="markerGroup">
-        <l-marker
-          v-for="(coord, index) in activeItem.coords"
-          :key="index"
-          :lat-lng="coord"
-        >
-          <l-popup>
-            <h3>{{ activeItem.name[index] }}</h3>
-            <p v-if="activeItem.type">Type: {{ activeItem.type[index] }}</p>
-            <p>Notes: {{ activeItem.notes[index] }}</p>
-            <v-btn
-              :class="{
-                strikethrough: !hasMediaContent(activeItem.images, index)
-              }"
-              @click.stop="openDialog('image', activeItem.images[index])"
-              :disabled="!hasMediaContent(activeItem.images, index)"
-            >
-              Screenshot
-            </v-btn>
-            <v-btn
-              class="ml-2"
-              :class="{
-                strikethrough: !hasMediaContent(activeItem.videos, index)
-              }"
-              @click.stop="openDialog('video', activeItem.videos[index])"
-              :disabled="!hasMediaContent(activeItem.videos, index)"
-            >
-              Video Guide
-            </v-btn>
-          </l-popup>
-        </l-marker>
-      </l-feature-group>
-    </l-map>
+    <ClientOnly>
+      <l-map
+        ref="map"
+        :zoom="mapOptions.zoom"
+        :minZoom="mapOptions.zoom"
+        :maxZoom="mapOptions.maxZoom"
+        :center="center"
+        :crs="crsSimple"
+      >
+        <div class="map-name">{{ activeMap }}</div>
+        <l-tile-layer :url="mapSource"></l-tile-layer>
+        <l-feature-group ref="markerGroup">
+          <l-marker
+            v-for="(coord, index) in activeItem.coords"
+            :key="index"
+            :lat-lng="coord"
+          >
+            <l-popup>
+              <h3>{{ activeItem.name[index] }}</h3>
+              <p v-if="activeItem.type">Type: {{ activeItem.type[index] }}</p>
+              <p>Notes: {{ activeItem.notes[index] }}</p>
+              <v-btn
+                :class="{
+                  strikethrough: !hasMediaContent(activeItem.images, index)
+                }"
+                @click.stop="openDialog('image', activeItem.images[index])"
+                :disabled="!hasMediaContent(activeItem.images, index)"
+              >
+                Screenshot
+              </v-btn>
+              <v-btn
+                class="ml-2"
+                :class="{
+                  strikethrough: !hasMediaContent(activeItem.videos, index)
+                }"
+                @click.stop="openDialog('video', activeItem.videos[index])"
+                :disabled="!hasMediaContent(activeItem.videos, index)"
+              >
+                Video Guide
+              </v-btn>
+            </l-popup>
+          </l-marker>
+        </l-feature-group>
+      </l-map>
+    </ClientOnly>
     <v-dialog v-model="popupDialog" width="80vw" @click:outside="closeDialog">
       <div class="image-dialog-container">
         <div class="icon-container">
@@ -70,7 +72,30 @@
 </template>
 
 <script>
+let L = {}
+let Vue2Leaflet = {}
+
+if (process.isClient) {
+  Vue2Leaflet = require('vue2-leaflet')
+  L = require('leaflet')
+  const Icon = L.Icon
+  delete Icon.Default.prototype._getIconUrl;
+  Icon.Default.mergeOptions({
+    iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
+    iconUrl: require('leaflet/dist/images/marker-icon.png'),
+    shadowUrl: require('leaflet/dist/images/marker-shadow.png')
+  })
+}
+
 export default {
+  components: {
+    'l-map': Vue2Leaflet.LMap,
+    'l-tile-layer': Vue2Leaflet.LTileLayer,
+    'l-marker': Vue2Leaflet.LMarker,
+    'l-popup': Vue2Leaflet.LPopup,
+    'l-feature-group': Vue2Leaflet.LFeatureGroup
+  },
+
   props: {
     activeMap: {
       type: String,
@@ -89,8 +114,7 @@ export default {
       videoSource: null,
       mapOptions: {
         zoom: 2,
-        maxZoom: 5,
-        crs: L.CRS.Simple
+        maxZoom: 5
       }
     }
   },
@@ -98,6 +122,12 @@ export default {
   computed: {
     isDarkMode() {
       return this.$store.state.darkMode
+    },
+    crsSimple() {
+      if (process.isClient) {
+        return L.CRS.Simple
+      }
+      return {}
     },
     mapSource() {
       return `mapimages/${this.activeMap}/{z}/{x}/{y}.png`
@@ -126,8 +156,10 @@ export default {
       return value[index].length > 0
     },
     iframeHeight() {
-      const windowHeight = window.innerHeight
-      return windowHeight * 0.8
+      if (process.isClient) {
+        const windowHeight = window.innerHeight
+        return windowHeight * 0.8
+      }
     },
     openDialog(type, source) {
       if (type === 'image') {

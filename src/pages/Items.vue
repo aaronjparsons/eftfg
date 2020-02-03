@@ -72,7 +72,7 @@ import debounce from 'lodash.debounce'
 export default {
   metaInfo: {
     title: "Required Items",
-    link: [{ rel: "canonical", href: "https://eftfg.com/required-items" }],
+    link: [{ rel: "canonical", href: "https://eftfg.com/items" }],
     meta: [
       {
         name: "description",
@@ -84,7 +84,7 @@ export default {
       { property: "og:type", content: "website" },
       {
         property: "og:url",
-        content: "https://eftfg.com/required-items"
+        content: "https://eftfg.com/items"
       },
       // {
       //   property: "og:image",
@@ -98,7 +98,7 @@ export default {
       { name: "twitter:card", content: "summary" },
       {
         name: "twitter:site",
-        content: "https://eftfg.com/required-items"
+        content: "https://eftfg.com/items"
       },
       { name: "twitter:title", content: "Required Items | EFTFG" },
       {
