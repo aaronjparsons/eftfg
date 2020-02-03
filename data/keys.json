@@ -658,7 +658,7 @@
     "label": "Closed Premises of the Sanatorium Key",
     "map": "Shoreline",
     "markers": [
-      "-165.027118902439,69.7109375"
+      "-173.73110478468956,64.171875"
     ],
     "spawns": [
       "The key is located on a chair in the bunker near the Rock Passage Exit if you have the task Spa Tour - Part 5 active"
@@ -720,7 +720,7 @@
     "label": "Cottage Back Entrance Key",
     "map": "Shoreline",
     "markers": [
-      "-202.32121859967697,46.2158203125"
+      "-207.19684021722531,42.859375"
     ],
     "spawns": [
       "The key can be found on top of the bundle of water barrels in the backyard of the cottage on Shoreline"
@@ -740,7 +740,7 @@
     "label": "Cottage Safe Key",
     "map": "Shoreline",
     "markers": [
-      "-209.7156954887218,21.3099365234375"
+      "-212.00938963636406, 17.796875"
     ],
     "spawns": [
       "In the bus Next to the Tank at the Village on Shoreline. It spawns on a seat on the right side, in the middle of the bus"
@@ -760,7 +760,7 @@
     "label": "SMW Car Key",
     "map": "Shoreline",
     "markers": [
-      "-200.77186957779062,52.1947021484375"
+      "-206.3532137650722,48.640625"
     ],
     "spawns": [
       "On a box at the construction site near the locked Villa on Shoreline"
@@ -780,7 +780,7 @@
     "label": "Health Resort Utility Room Key",
     "map": "Shoreline",
     "markers": [
-      "-183.3399544534413,82.3663818359375"
+      "-190.0717413789478,75.734375"
     ],
     "spawns": [
       "Spawns on the ground, below the key locker in the janitors closet by the east wing admin (glass) staircase on second floor of Shoreline."
@@ -816,7 +816,7 @@
     "label": "Health Resort Room 321 Safe Key",
     "map": "Shoreline",
     "markers": [
-      "-216.01571988866397,102.0518798828125"
+      "-219.943430296651,93.46875"
     ],
     "spawns": [
       "The key can be found in a locker in a radio tower on Shoreline"
@@ -836,7 +836,7 @@
     "label": "Office 104 West Wing Key",
     "map": "Shoreline",
     "markers": [
-      "-207.32973358877965,76.3251953125"
+      "-211.97747247799083,70.234375"
     ],
     "spawns": [
       "In a locker inside the smaller building at the power plant on Shoreline"
@@ -856,7 +856,7 @@
     "label": "Office 112 West Wing Key",
     "map": "Shoreline",
     "markers": [
-      "-191.4837514459225,65.086669921875"
+      "-198.0410844086129,59.828125"
     ],
     "spawns": [
       "On the bus in the Shoreline bus station"
@@ -876,7 +876,7 @@
     "label": "West Wing Room 203 Key",
     "map": "Shoreline",
     "markers": [
-      "-207.05930089647194,18.515625"
+      "-212.00938963636406,17.796875"
     ],
     "spawns": [
       "In the house closest to the bus stop in the Village. Walk through the door and it's on the chair beneath the jackets"
@@ -896,7 +896,7 @@
     "label": "West Wing Room 205 Key",
     "map": "Shoreline",
     "markers": [
-      "-236.32564885772123,84.1640625"
+      "-238.32250737559855,77.328125"
     ],
     "spawns": [
       "Inside of the reception building at the boat launch on Shoreline. It sits on the ground at the base of the filing cabinets"
@@ -930,7 +930,7 @@
     "label": "West Wing Room 216 Key",
     "map": "Shoreline",
     "markers": [
-      "-179.53287440355697,80.35321044921875"
+      "-186.78789687416298,73.859375"
     ],
     "spawns": [
       "The key can be found on a desk located on the second floor of the theatre building of the Health Resort on Shoreline"
@@ -950,7 +950,7 @@
     "label": "West Wing Room 218 Key",
     "map": "Shoreline",
     "markers": [
-      "-179.56871746674378,77.3671875"
+      "-186.72534745502423,71.359375"
     ],
     "spawns": [
       "Spawns in a locker, in the bathroom on the second floor of admin building in the resort on Shoreline"
@@ -970,7 +970,7 @@
     "label": "West Wing Room 219 Key",
     "map": "Shoreline",
     "markers": [
-      "-243.6233552631579,97.3203125"
+      "-244.70548856650802,89.34375"
     ],
     "spawns": [
       "Lighthouse on Shoreline. Second floor on top of a broken wooden box"
@@ -990,7 +990,7 @@
     "label": "West Wing Room 220 Key",
     "map": "Shoreline",
     "markers": [
-      "-203.06519077139964,43.6551513671875"
+      "-208.13406841196215,40.546875"
     ],
     "spawns": [
       "On the keyrack in the back of the unlocked Villa on Shoreline"
@@ -1010,7 +1010,7 @@
     "label": "West Wing Room 221 Key",
     "map": "Shoreline",
     "markers": [
-      "-232.40296052631578,71.171875"
+      "-234.56277180526317,64.671875"
     ],
     "spawns": [
       "Spawns on a deck-chair at the beach near the Gas Station and Lighthouse"
@@ -1044,7 +1044,7 @@
     "label": "West Wing Room 301 Key",
     "map": "Shoreline",
     "markers": [
-      "-220.46037720503182,27.79833984375"
+      "-223.85190415789512,24.640625"
     ],
     "spawns": [
       "The key can be found on a seat on the yellow bus by the collapsed tunnel (Tunnel Extract) on Shoreline"
@@ -1140,7 +1140,7 @@
     "label": "Office 107 East Wing Key",
     "map": "Shoreline",
     "markers": [
-      "-180.8873490818392,78.2734375"
+      "-187.88251170909126,72.015625"
     ],
     "spawns": [
       "The key can be found on a chair in the Band Hall on Shoreline"
@@ -1174,7 +1174,7 @@
     "label": "East Wing Room 205 Key",
     "map": "Shoreline",
     "markers": [
-      "-173.5028353636495,72.031982421875"
+      "-181.38629227320627,66.359375"
     ],
     "spawns": [
       "Spawns on a carboard box, in the fenced off concrete area above the stream to the north of resort"
@@ -1194,7 +1194,7 @@
     "label": "East Wing Room 206 Key",
     "map": "Shoreline",
     "markers": [
-      "-233.2738893507808,79.683349609375"
+      "-236.10200299617264,73.828125"
     ],
     "spawns": [
       "In the back of an SUV between the gas station and dock on Shoreline"
@@ -1256,7 +1256,7 @@
     "label": "East Wing Room 222 Key",
     "map": "Shoreline",
     "markers": [
-      "-209.26617173944476,77.5142822265625"
+      "-213.69511054736878,71.203125"
     ],
     "spawns": [
       "The key can be found on a chair on the first floor of the power station on Shoreline"
@@ -1276,8 +1276,8 @@
     "label": "East Wing Room 226 Key",
     "map": "Shoreline",
     "markers": [
-      "-231.73836258314054,35.54766845703125",
-      "-183.36710616685946,82.656494140625"
+      "-234.32075299617264,33.859375",
+      "-190.00919195980904,76.109375"
     ],
     "spawns": [
       "This Key spawns on a table on the Scav Island of Shoreline, next to an outboard motor. East Wing 328 also spawns here.",
@@ -1432,7 +1432,7 @@
     "label": "East Wing Room 328 Key",
     "map": "Shoreline",
     "markers": [
-      "-231.76366396761134,34.9296875"
+      "-234.32075299617264,32.859375"
     ],
     "spawns": [
       "This Key spawns on a table on the Scav Island of Shoreline, next to an outboard motor. East Wing 226 also spawns here."
@@ -1452,7 +1452,7 @@
     "label": "Key To OLI Administrator Office",
     "map": "Shoreline",
     "markers": [
-      "-184.19325883820127,86.9765625"
+      "-190.9787079564598,80.171875"
     ],
     "spawns": [
       "The key can be found on a table in the Shoreline Health Resort East wing, Room 322"
@@ -1512,7 +1512,7 @@
     "label": "Key To Pharmacy",
     "map": "Shoreline",
     "markers": [
-      "-185.45995246529787,69.5078125"
+      "-192.04204808181868,63.921875"
     ],
     "spawns": [
       "In West Wing Room 101 on the desk, at the resort in Shoreline"
@@ -1674,9 +1674,9 @@
     "label": "Labs Blue Keycard",
     "map": "Shoreline",
     "markers": [
-      "-184.33013573597455,79.2777099609375",
-      "-184.23619595864662,69.53515625",
-      "-184.17373210670908,73.00390625"
+      "-191.16635621387607,72.984375",
+      "-191.10380679473732,64.015625",
+      "-191.19763092344544,67.203125"
     ],
     "spawns": [
       "Inside the passenger door of the ambulance that is parked in front of the resort",
@@ -1730,9 +1730,9 @@
     "label": "Labs Red Keycard",
     "map": "Shoreline",
     "markers": [
-      "-184.1849018580104,86.7261962890625",
-      "-183.09178444910353,75.7574462890625",
-      "-184.15334008097165,71.3427734375"
+      "-191.04125737559855,79.703125",
+      "-190.04046666937842,69.765625",
+      "-191.07253208516792,65.546875"
     ],
     "spawns": [
       "East wing room 221 in the resort on the table with the laptop",
@@ -1955,7 +1955,7 @@
     "label": "RB-AO Key",
     "map": "Shoreline",
     "markers": [
-      "-165.46583104395606,69.2950439453125"
+      "-173.73110478468956,64.771875"
     ],
     "spawns": [
       "In the bunker behind the health resort on Shoreline, on the chair"
