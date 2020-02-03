@@ -12,7 +12,9 @@
             <v-icon>{{ item.icon }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
-            <v-list-item-title>{{ item.label }}</v-list-item-title>
+            <v-list-item-title>
+              <g-link :to="item.route">{{ item.label }}</g-link>
+            </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -129,6 +131,9 @@ export default {
 
 .v-navigation-drawer {
   z-index: 170 !important;
+}
+.v-navigation-drawer a {
+  text-decoration: none;
 }
 
 .bmc-button img {
