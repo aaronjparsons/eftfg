@@ -137,6 +137,60 @@ query {
 import Map from '../components/Map'
 
 export default {
+  metaInfo: {
+    title: "Key Spawns",
+    link: [{ rel: "canonical", href: "https://eftfg.com/keyspawns" }],
+    meta: [
+      {
+        name: "description",
+        content:
+          "Map locations, screenshots, and video guides for every key in Escape From Tarkov. Quickly and easily search by key or by map."
+      },
+      { property: "og:title", content: "Key Spawns | EFTFG" },
+      { property: "og:site_name", content: "EFTFG" },
+      { property: "og:type", content: "website" },
+      {
+        property: "og:url",
+        content: "https://eftfg.com/keyspawns"
+      },
+      // {
+      //   property: "og:image",
+      //   content: "https://www.my-site.com/my-special-image.jpg"
+      // },
+      {
+        property: "og:description",
+        content:
+          "Map locations, screenshots, and video guides for every key in Escape From Tarkov. Quickly and easily search by key or by map."
+      },
+      { name: "twitter:card", content: "summary" },
+      {
+        name: "twitter:site",
+        content: "https://eftfg.com/keyspawns"
+      },
+      { name: "twitter:title", content: "Key Spawns | EFTFG" },
+      {
+        name: "twitter:description",
+        content:
+          "Map locations, screenshots, and video guides for every key in Escape From Tarkov. Quickly and easily search by key or by map."
+      },
+      { name: "twitter:creator", content: "@ChewyDinosaur" },
+      // {
+      //   name: "twitter:image:src",
+      //   content: "https://www.my-site.com/my-special-image.jpg"
+      // },
+      { itemprop: "name", content: "Key Spawns | EFTFG" },
+      {
+        itemprop: "description",
+        content:
+          "Map locations, screenshots, and video guides for every key in Escape From Tarkov. Quickly and easily search by key or by map."
+      }
+      // {
+      //   itemprop: "image",
+      //   content: "https://www.my-site.com/my-special-image.jpg"
+      // }
+    ]
+  },
+
   components: {
     Map
   },

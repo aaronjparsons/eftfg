@@ -23,6 +23,60 @@
 
 <script>
 export default {
+  metaInfo: {
+    title: "Resources",
+    link: [{ rel: "canonical", href: "https://eftfg.com/resources" }],
+    meta: [
+      {
+        name: "description",
+        content:
+          "Links to official and community created Escape From Tarkov resources."
+      },
+      { property: "og:title", content: "Resources | EFTFG" },
+      { property: "og:site_name", content: "EFTFG" },
+      { property: "og:type", content: "website" },
+      {
+        property: "og:url",
+        content: "https://eftfg.com/resources"
+      },
+      // {
+      //   property: "og:image",
+      //   content: "https://www.my-site.com/my-special-image.jpg"
+      // },
+      {
+        property: "og:description",
+        content:
+          "Links to official and community created Escape From Tarkov resources."
+      },
+      { name: "twitter:card", content: "summary" },
+      {
+        name: "twitter:site",
+        content: "https://eftfg.com/resources"
+      },
+      { name: "twitter:title", content: "Resources | EFTFG" },
+      {
+        name: "twitter:description",
+        content:
+          "Links to official and community created Escape From Tarkov resources."
+      },
+      { name: "twitter:creator", content: "@ChewyDinosaur" },
+      // {
+      //   name: "twitter:image:src",
+      //   content: "https://www.my-site.com/my-special-image.jpg"
+      // },
+      { itemprop: "name", content: "Resources | EFTFG" },
+      {
+        itemprop: "description",
+        content:
+          "Links to official and community created Escape From Tarkov resources."
+      }
+      // {
+      //   itemprop: "image",
+      //   content: "https://www.my-site.com/my-special-image.jpg"
+      // }
+    ]
+  },
+
   data() {
     return {
       resourceList: [

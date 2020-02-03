@@ -140,6 +140,60 @@ query {
 <script>
 import Map from '../components/Map'
 export default {
+  metaInfo: {
+    title: "Extractions",
+    link: [{ rel: "canonical", href: "https://eftfg.com/extractions" }],
+    meta: [
+      {
+        name: "description",
+        content:
+          "Map locations for every extraction point in Escape From Tarkov. Quickly and easily search by extraction name or by map."
+      },
+      { property: "og:title", content: "Extractions | EFTFG" },
+      { property: "og:site_name", content: "EFTFG" },
+      { property: "og:type", content: "website" },
+      {
+        property: "og:url",
+        content: "https://eftfg.com/extractions"
+      },
+      // {
+      //   property: "og:image",
+      //   content: "https://www.my-site.com/my-special-image.jpg"
+      // },
+      {
+        property: "og:description",
+        content:
+          "Map locations for every extraction point in Escape From Tarkov. Quickly and easily search by extraction name or by map."
+      },
+      { name: "twitter:card", content: "summary" },
+      {
+        name: "twitter:site",
+        content: "https://eftfg.com/extractions"
+      },
+      { name: "twitter:title", content: "Extractions | EFTFG" },
+      {
+        name: "twitter:description",
+        content:
+          "Map locations for every extraction point in Escape From Tarkov. Quickly and easily search by extraction name or by map."
+      },
+      { name: "twitter:creator", content: "@ChewyDinosaur" },
+      // {
+      //   name: "twitter:image:src",
+      //   content: "https://www.my-site.com/my-special-image.jpg"
+      // },
+      { itemprop: "name", content: "Extractions | EFTFG" },
+      {
+        itemprop: "description",
+        content:
+          "Map locations for every extraction point in Escape From Tarkov. Quickly and easily search by extraction name or by map."
+      }
+      // {
+      //   itemprop: "image",
+      //   content: "https://www.my-site.com/my-special-image.jpg"
+      // }
+    ]
+  },
+
   components: {
     Map
   },

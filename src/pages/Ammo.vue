@@ -72,6 +72,60 @@ import AmmoSpreadsheet from '../components/AmmoSpreadsheet'
 import AmmoScatterPlot from '../components/AmmoScatterPlot'
 
 export default {
+  metaInfo: {
+    title: "Ammo",
+    link: [{ rel: "canonical", href: "https://eftfg.com/ammochart" }],
+    meta: [
+      {
+        name: "description",
+        content:
+          "Search, sort and filter to easily compare every type of ammo in Escape From Tarkov using this ammo table and chart."
+      },
+      { property: "og:title", content: "Ammo | EFTFG" },
+      { property: "og:site_name", content: "EFTFG" },
+      { property: "og:type", content: "website" },
+      {
+        property: "og:url",
+        content: "https://eftfg.com/ammochart"
+      },
+      // {
+      //   property: "og:image",
+      //   content: "https://www.my-site.com/my-special-image.jpg"
+      // },
+      {
+        property: "og:description",
+        content:
+          "Search, sort and filter to easily compare every type of ammo in Escape From Tarkov using this ammo table and chart."
+      },
+      { name: "twitter:card", content: "summary" },
+      {
+        name: "twitter:site",
+        content: "https://eftfg.com/ammochart"
+      },
+      { name: "twitter:title", content: "Ammo | EFTFG" },
+      {
+        name: "twitter:description",
+        content:
+          "Search, sort and filter to easily compare every type of ammo in Escape From Tarkov using this ammo table and chart."
+      },
+      { name: "twitter:creator", content: "@ChewyDinosaur" },
+      // {
+      //   name: "twitter:image:src",
+      //   content: "https://www.my-site.com/my-special-image.jpg"
+      // },
+      { itemprop: "name", content: "Ammo | EFTFG" },
+      {
+        itemprop: "description",
+        content:
+          "Search, sort and filter to easily compare every type of ammo in Escape From Tarkov using this ammo table and chart."
+      }
+      // {
+      //   itemprop: "image",
+      //   content: "https://www.my-site.com/my-special-image.jpg"
+      // }
+    ]
+  },
+
   components: {
     AmmoSpreadsheet,
     AmmoScatterPlot

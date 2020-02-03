@@ -70,6 +70,60 @@ query {
 import debounce from 'lodash.debounce'
 
 export default {
+  metaInfo: {
+    title: "Required Items",
+    link: [{ rel: "canonical", href: "https://eftfg.com/required-items" }],
+    meta: [
+      {
+        name: "description",
+        content:
+          "List of all items required for both the Hideout and for tasks."
+      },
+      { property: "og:title", content: "Checklist | EFTFG" },
+      { property: "og:site_name", content: "EFTFG" },
+      { property: "og:type", content: "website" },
+      {
+        property: "og:url",
+        content: "https://eftfg.com/required-items"
+      },
+      // {
+      //   property: "og:image",
+      //   content: "https://www.my-site.com/my-special-image.jpg"
+      // },
+      {
+        property: "og:description",
+        content:
+          "List of all items required for both the Hideout and for tasks."
+      },
+      { name: "twitter:card", content: "summary" },
+      {
+        name: "twitter:site",
+        content: "https://eftfg.com/required-items"
+      },
+      { name: "twitter:title", content: "Required Items | EFTFG" },
+      {
+        name: "twitter:description",
+        content:
+          "List of all items required for both the Hideout and for tasks."
+      },
+      { name: "twitter:creator", content: "@ChewyDinosaur" },
+      // {
+      //   name: "twitter:image:src",
+      //   content: "https://www.my-site.com/my-special-image.jpg"
+      // },
+      { itemprop: "name", content: "Required Items | EFTFG" },
+      {
+        itemprop: "description",
+        content:
+          "List of all items required for both the Hideout and for tasks."
+      }
+      // {
+      //   itemprop: "image",
+      //   content: "https://www.my-site.com/my-special-image.jpg"
+      // }
+    ]
+  },
+
   data() {
     return {
       searchQuery: '',
