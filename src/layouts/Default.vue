@@ -50,7 +50,7 @@
     </v-app-bar>
 
     <v-content>
-      <v-container>
+      <v-container :style="{ 'max-width': '1185px' }">
         <slot />
       </v-container>
     </v-content>
