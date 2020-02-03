@@ -4,7 +4,9 @@
       EFTFG Updates
     </v-card-title>
     <v-card-text class="pt-4">
-      <p class="font-weight-bold">Updated: Jan 1 2020</p>
+      <p class="font-weight-bold">
+        Updated: {{ format($static.changelogs.edges[0].node.date) }}
+      </p>
       <ul>
         <li v-for="(item, index) in $static.changelogs.edges[0].node.summary" :key="index">
           {{ item }}
