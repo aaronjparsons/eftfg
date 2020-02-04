@@ -74,7 +74,7 @@ import AmmoScatterPlot from '../components/AmmoScatterPlot'
 export default {
   metaInfo: {
     title: "Ammo",
-    link: [{ rel: "canonical", href: "https://eftfg.com/ammochart" }],
+    link: [{ rel: "canonical", href: "https://eftfg.com/ammo" }],
     meta: [
       {
         name: "description",
@@ -86,7 +86,7 @@ export default {
       { property: "og:type", content: "website" },
       {
         property: "og:url",
-        content: "https://eftfg.com/ammochart"
+        content: "https://eftfg.com/ammo"
       },
       // {
       //   property: "og:image",
@@ -100,7 +100,7 @@ export default {
       { name: "twitter:card", content: "summary" },
       {
         name: "twitter:site",
-        content: "https://eftfg.com/ammochart"
+        content: "https://eftfg.com/ammo"
       },
       { name: "twitter:title", content: "Ammo | EFTFG" },
       {

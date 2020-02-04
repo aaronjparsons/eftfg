@@ -139,7 +139,7 @@ import Map from '../components/Map'
 export default {
   metaInfo: {
     title: "Key Spawns",
-    link: [{ rel: "canonical", href: "https://eftfg.com/keyspawns" }],
+    link: [{ rel: "canonical", href: "https://eftfg.com/key-spawns" }],
     meta: [
       {
         name: "description",
@@ -151,7 +151,7 @@ export default {
       { property: "og:type", content: "website" },
       {
         property: "og:url",
-        content: "https://eftfg.com/keyspawns"
+        content: "https://eftfg.com/key-spawns"
       },
       // {
       //   property: "og:image",
@@ -165,7 +165,7 @@ export default {
       { name: "twitter:card", content: "summary" },
       {
         name: "twitter:site",
-        content: "https://eftfg.com/keyspawns"
+        content: "https://eftfg.com/key-spawns"
       },
       { name: "twitter:title", content: "Key Spawns | EFTFG" },
       {
