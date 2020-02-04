@@ -1,0 +1,22 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://eftfg.com</loc>
+  </url>
+  <url>
+    <loc>https://eftfg.com/key-spawns</loc>
+  </url>
+  <url>
+    <loc>https://eftfg.com/ammo</loc>
+  </url>
+  <url>
+    <loc>https://eftfg.com/extractions</loc>
+  </url>
+  <url>
+    <loc>https://eftfg.com/items</loc>
+  </url>
+  <url>
+    <loc>https://eftfg.com/resources</loc>
+  </url>
+</urlset>
