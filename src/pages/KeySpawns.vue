@@ -13,7 +13,7 @@
       </v-col>
     </v-row>
     <v-row justify="center">
-      <v-col cols="12" sm="10">
+      <v-col cols="12">
         <v-row v-show="activeMap === 'all'" justify="center">
           <h2>{{ allMapsLabel }} has no set spawn location</h2>
           <p v-for="(desc, i) in allMapsDesc" :key="i">{{ desc }}</p>

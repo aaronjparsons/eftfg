@@ -130,7 +130,11 @@ export default {
       return {}
     },
     mapSource() {
-      return `mapimages/${this.activeMap}/{z}/{x}/{y}.png`
+      if (this.activeMap && this.activeMap !== 'all') {
+        return `mapimages/${this.activeMap}/{z}/{x}/{y}.png`
+      } else {
+        return ''
+      }
     },
     center() {
       if (this.activeItem.coords.length > 0) {

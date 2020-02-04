@@ -13,7 +13,7 @@
       </v-col>
     </v-row>
     <v-row justify="center">
-      <v-col cols="12" sm="10">
+      <v-col cols="12">
         <Map :active-map="activeMap" :active-item="activeItem" />
       </v-col>
     </v-row>
