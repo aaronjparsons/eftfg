@@ -19,6 +19,7 @@
     "vuex": "^3.1.2"
   },
   "devDependencies": {
+    "cheerio": "^1.0.0-rc.3",
     "webpack-node-externals": "^1.7.2"
   }
 }

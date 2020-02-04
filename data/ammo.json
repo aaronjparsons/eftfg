@@ -650,7 +650,7 @@
   {
     "name": ".366 TKM EKO",
     "damage": "65",
-    "penetration": "28",
+    "penetration": "30",
     "armorDamage": "38",
     "accuracy": "-10",
     "recoil": "",
