@@ -10,6 +10,7 @@
       <a
         href="https://escapefromtarkov.gamepedia.com/Changelog"
         target="_blank"
+        rel="noopener"
       >
         Click here to read the change log over on the Escape From Tarkov
         Wiki.

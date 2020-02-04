@@ -6,5 +6,12 @@
 
 module.exports = {
   siteName: 'EFTFG',
-  plugins: []
+  plugins: [
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-133325013-1'
+      }
+    }
+  ]
 }

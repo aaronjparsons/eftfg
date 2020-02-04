@@ -25,6 +25,7 @@
             :class="{ 'bmc-dark': isDarkMode }"
             target="_blank"
             href="https://www.buymeacoffee.com/ChewyDinosaur"
+            rel="noopener"
           >
             <img
               src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg"
