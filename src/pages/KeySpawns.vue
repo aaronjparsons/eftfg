@@ -14,10 +14,10 @@
     </v-row>
     <v-row justify="center">
       <v-col cols="12">
-        <v-row v-show="activeMap === 'all'" justify="center">
+        <div v-show="activeMap === 'all'" class="text-center">
           <h2>{{ allMapsLabel }} has no set spawn location</h2>
           <p v-for="(desc, i) in allMapsDesc" :key="i">{{ desc }}</p>
-        </v-row>
+        </div>
         <Map v-show="activeMap !== 'all'" :active-map="activeMap" :active-item="activeItem" />
       </v-col>
     </v-row>
