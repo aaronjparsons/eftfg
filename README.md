@@ -1,14 +1,15 @@
-# Default starter for Gridsome
+# EFTFG [Escape From Tarkov Field Guide]
 
-This is the project you get when you run `gridsome create new-project`.
+#### EFTFG is a companion style web app for the game Escape From Tarkov, providing players the ability to find the information they need quickly and efficiently.
 
-### 1. Install Gridsome CLI tool if you don't have
+[View the live site here](https://eftfg.com)
 
-`npm install --global @gridsome/cli`
+## Features
+- Ammo table with search and sort capabilities
+- Ammo scatter plot chart with ability to highlight and toggle different ammo calibers
+- Key spawn maps, searchable by map or key (complete with screenshots and videos)
+- Extraction maps, searchable by map or extraction
+- Searchable lists of required items, both for tasks and the hideout
+- Links to more resources created by the Escape From Tarkov community
 
-### 2. Create a Gridsome project
-
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+Built with Vue, Gridsome, Vuetify, and Chartjs. Hosted on Netlify
