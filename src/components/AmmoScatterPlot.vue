@@ -43,7 +43,7 @@ export default {
       options: {
         title: {
           display: true,
-          text: 'Hover calibre to highlight, click to hide'
+          text: 'Hover caliber to highlight, click to hide'
         },
         animation: {
           duration: 500
