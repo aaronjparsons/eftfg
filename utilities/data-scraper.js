@@ -92,7 +92,7 @@ async function run() {
   await getAmmoData()
   console.log('Saving files...')
   fs.writeFile(
-    "./data/wiki-data.json",
+    "../data/wiki-data.json",
     JSON.stringify(wikiData),
     err => {
       if (err) throw err;
@@ -100,7 +100,7 @@ async function run() {
     }
   )
   fs.writeFile(
-    "./data/ammo.json",
+    "../data/ammo.json",
     JSON.stringify(ammoData),
     err => {
       if (err) throw err;
