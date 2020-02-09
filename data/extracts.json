@@ -75,7 +75,7 @@
     "map": "Customs",
     "marker": [-218.59365962984384, 22.8511962890625],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203829/crossroads.jpg",
     "extractType": "PMC, Scav",
     "extractNotes": "Always Open"
   },
@@ -85,7 +85,7 @@
     "map": "Customs",
     "marker": [-230.6945172426258, 23.172607421875],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203832/trailer_park.jpg",
     "extractType": "PMC",
     "extractNotes": "Always Open"
   },
@@ -95,7 +95,7 @@
     "map": "Customs",
     "marker": [-231.22545998409484, 28.547607421875],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203831/trailer_park_workers_shacks.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open"
   },
@@ -105,7 +105,7 @@
     "map": "Customs",
     "marker": [-230.62112312030075, 36.38037109375],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203830/railroad_to_tarkov.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open"
   },
@@ -115,9 +115,9 @@
     "map": "Customs",
     "marker": [-227.6067587839792, 47.7952880859375],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203830/ruaf_roadblock.jpg",
     "extractType": "PMC, Scav",
-    "extractNotes": "Occasionally Open"
+    "extractNotes": "Occasionally Open. Will be open if the searchlight is on."
   },
   {
     "type": "extract",
@@ -125,7 +125,7 @@
     "map": "Customs",
     "marker": [-219.56840568970503, 52.084228515625],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203832/warehouse_17.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open"
   },
@@ -135,7 +135,7 @@
     "map": "Customs",
     "marker": [-212.0796432186235, 64.2835693359375],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203829/factory_shacks.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open"
   },
@@ -145,7 +145,7 @@
     "map": "Customs",
     "marker": [-215.0117752313476, 75.3955078125],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203831/warehouse_4.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open"
   },
@@ -155,9 +155,9 @@
     "map": "Customs",
     "marker": [-227.43187897628687, 73.3125],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203830/old_gas_station.jpg",
     "extractType": "PMC, Scav",
-    "extractNotes": "Occasionally Open"
+    "extractNotes": "Occasionally Open. Will be open if green flares are lit."
   },
   {
     "type": "extract",
@@ -165,9 +165,9 @@
     "map": "Customs",
     "marker": [-222.36237980769232, 86.1072998046875],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203829/zb_1012.jpg",
     "extractType": "PMC",
-    "extractNotes": "Occasionally Open"
+    "extractNotes": "Occasionally Open. Will be open if the searchlight is on (May not be working properly currently)"
   },
   {
     "type": "extract",
@@ -175,7 +175,7 @@
     "map": "Customs",
     "marker": [-223.65301474840948, 98.73291015625],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203829/zb_1011.jpg",
     "extractType": "PMC",
     "extractNotes": "Always Open"
   },
@@ -185,7 +185,7 @@
     "map": "Customs",
     "marker": [-225.18430089647194, 99.59375],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203829/factory_far_corner.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open"
   },
@@ -195,7 +195,7 @@
     "map": "Customs",
     "marker": [-217.05584423799885, 101.067138671875],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203829/administration_gate.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open"
   },
@@ -205,7 +205,7 @@
     "map": "Customs",
     "marker": [-214.93981347599768, 99.8631591796875],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203831/scavs_checkpoint.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open"
   },
@@ -215,7 +215,7 @@
     "map": "Customs",
     "marker": [-202.8258024869867, 99.77978515625],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203830/military_base_cp.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open"
   },
@@ -225,7 +225,7 @@
     "map": "Customs",
     "marker": [-199.3663244650087, 92.1875],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203830/passage_between_rocks.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open"
   },
@@ -235,7 +235,7 @@
     "map": "Customs",
     "marker": [-199.37467466743783, 84.00439453125],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203830/railroad_to_military_base.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open"
   },
@@ -245,9 +245,9 @@
     "map": "Customs",
     "marker": [-195.9313277183343, 62.845703125],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203829/dorms_vex_old_road_gate.jpg",
     "extractType": "PMC",
-    "extractNotes": "Occasionally Open, One Use, Costs 3000 Roubles"
+    "extractNotes": "Occasionally Open, One Use (Max 4 Players), Costs 7000 Roubles. Will be open if the car is there."
   },
   {
     "type": "extract",
@@ -255,7 +255,7 @@
     "map": "Customs",
     "marker": [-195.78732739300173, 62.687255859375],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203829/dorms_vex_old_road_gate.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open, Same location as Dorms V-Ex"
   },
@@ -265,7 +265,7 @@
     "map": "Customs",
     "marker": [-202.9129373915558, 49.4927978515625],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203831/sniper_roadblock.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open"
   },
@@ -275,9 +275,9 @@
     "map": "Customs",
     "marker": [-202.69431390977442, 45.0865478515625],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203831/smugglers_boat.jpg",
     "extractType": "PMC",
-    "extractNotes": "Occasionally Open"
+    "extractNotes": "Occasionally Open. Will be open if the fire is lit."
   },
   {
     "type": "extract",
@@ -285,7 +285,7 @@
     "map": "Customs",
     "marker": [-209.16980100491614, 36.9375],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203830/railroad_to_port.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open"
   },
@@ -295,7 +295,7 @@
     "map": "Factory",
     "marker": [-195.7682186234818, 61.7890625],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203848/camera_bunker_door.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open, Underground"
   },
@@ -305,7 +305,7 @@
     "map": "Factory",
     "marker": [-100.38396471949105, 144.5126953125],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203848/cellars.jpg",
     "extractType": "PMC",
     "extractNotes": "Always Open, Underground, Factory Key Required"
   },
@@ -315,7 +315,7 @@
     "map": "Factory",
     "marker": [-244.0596081550029, 43.7861328125],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203848/gate_0.jpg",
     "extractType": "PMC, Scav",
     "extractNotes": "Always Open, Factory Key Required"
   },
@@ -325,7 +325,7 @@
     "map": "Factory",
     "marker": [-106.26286871023714, 36.4169921875],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203848/gate_3.jpg",
     "extractType": "PMC, Scav",
     "extractNotes": "Always Open"
   },
@@ -335,7 +335,7 @@
     "map": "Factory",
     "marker": [-206.07768218623482, 156.068359375],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203848/office_window.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open"
   },
@@ -345,7 +345,7 @@
     "map": "Interchange",
     "marker": [-230.25795257374205, 115.62109375],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203868/railway_exfil.jpg",
     "extractType": "PMC, Scav",
     "extractNotes": "Always Open"
   },
@@ -355,7 +355,7 @@
     "map": "Interchange",
     "marker": [-137.25513302486988, 10.7841796875],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203868/emercom_checkpoint.jpg",
     "extractType": "PMC, Scav",
     "extractNotes": "Always Open"
   },
@@ -365,9 +365,9 @@
     "map": "Interchange",
     "marker": [-223.63898930017348, 18.550781255],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203868/power_station.jpg",
     "extractType": "PMC",
-    "extractNotes": "Occasionally Open, Single Use, Costs 3000 Roubles"
+    "extractNotes": "Occasionally Open, Single Use (Max 4 Players), Costs 3000 Roubles. Will be open if the car is there."
   },
   {
     "type": "extract",
@@ -375,7 +375,7 @@
     "map": "Woods",
     "marker": [-158.15767784846733, 129.314208984375],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581204015/dead_mans_place.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open"
   },
@@ -385,7 +385,7 @@
     "map": "Woods",
     "marker": [-209.48639929149797, 177.5224609375],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581204015/east_gate.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open"
   },
@@ -395,9 +395,9 @@
     "map": "Woods",
     "marker": [-142.15836466165413, 39.971435546875],
     "description": "",
-    "image": "",
-    "extractType": "Scav",
-    "extractNotes": "Always Open"
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581204016/gate_to_factory.jpg",
+    "extractType": "PMC, Scav",
+    "extractNotes": "Always Open. Requires a PMC and Scav to cooperate and extract together."
   },
   {
     "type": "extract",
@@ -405,9 +405,19 @@
     "map": "Woods",
     "marker": [-234.3345232070561, 64.98681640625],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581204016/cliff_descent_mountain_stash.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Cliff Descent",
+    "map": "Woods",
+    "marker": [-234.3245232070561, 64.94681640625],
+    "description": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581204016/cliff_descent_mountain_stash.jpg",
+    "extractType": "PMC",
+    "extractNotes": "Always Open. Requires Red Rebel Icepick and Paracord."
   },
   {
     "type": "extract",
@@ -415,7 +425,7 @@
     "map": "Woods",
     "marker": [-175.49455067958357, 15.11376953125],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581204015/old_station.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open"
   },
@@ -425,7 +435,7 @@
     "map": "Woods",
     "marker": [-145.43468948814342, 153.999755859375],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581204015/outskirts.jpg",
     "extractType": "PMC, Scav",
     "extractNotes": "Always Open"
   },
@@ -435,7 +445,7 @@
     "map": "Woods",
     "marker": [-149.30744830827066, 132.812255859375],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581204015/outskirts_water.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open"
   },
@@ -445,9 +455,9 @@
     "map": "Woods",
     "marker": [-133.44187391555812, 76.097412109375],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581204015/ruaf_roadblock_woods.jpg",
     "extractType": "PMC, Scav",
-    "extractNotes": "Occasionally Open"
+    "extractNotes": "Occasionally Open. Will be open if searchlight is on and green flares are lit."
   },
   {
     "type": "extract",
@@ -455,7 +465,7 @@
     "map": "Woods",
     "marker": [-161.7193735540775, 164.448974609375],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581204016/scav_house.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open"
   },
@@ -465,9 +475,9 @@
     "map": "Woods",
     "marker": [-235.4872532894737, 90.9591064453125],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581204016/south_vex.jpg",
     "extractType": "PMC",
-    "extractNotes": "Occasionally Open, One Use, Costs 3000 Roubles"
+    "extractNotes": "Occasionally Open, One Use (Max 4 Players), Costs 3000 Roubles. Will be open if the car is there."
   },
   {
     "type": "extract",
@@ -475,7 +485,7 @@
     "map": "Woods",
     "marker": [-165.61965008675534, 126.6875],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581204016/the_boat.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open"
   },
@@ -485,7 +495,7 @@
     "map": "Woods",
     "marker": [-153.79411419172934, 13.8131103515625],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581204016/un_roadblock.jpg",
     "extractType": "PMC, Scav",
     "extractNotes": "Always Open"
   },
@@ -495,7 +505,7 @@
     "map": "Woods",
     "marker": [-207.35815500289183, 19.5400390625],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581204016/west_border.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open"
   },
@@ -505,9 +515,9 @@
     "map": "Woods",
     "marker": [-188.94019303065355, 168.185546875],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581204016/zb_014.jpg",
     "extractType": "PMC, Scav",
-    "extractNotes": "Occasionally Open, Requires ZB-014 Key"
+    "extractNotes": "Occasionally Open, Requires ZB-014 Key. Will be open if green flares are lit."
   },
   {
     "type": "extract",
@@ -515,9 +525,9 @@
     "map": "Woods",
     "marker": [-196.64964394158474, 34.426025390625],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581204018/zb-016.jpg",
     "extractType": "PMC",
-    "extractNotes": "Occasionally Open"
+    "extractNotes": "Occasionally Open. Will be open if green flares are lit."
   },
   {
     "type": "extract",
@@ -525,7 +535,7 @@
     "map": "Shoreline",
     "marker": [-185.0210696574158, 72.578125],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203904/admin_basement.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open"
   },
@@ -535,9 +545,9 @@
     "map": "Shoreline",
     "marker": [-237.25066715837323, 120.703125],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203904/ccp_temporary.jpg",
     "extractType": "PMC",
-    "extractNotes": "Occasionally Open"
+    "extractNotes": "Occasionally Open. Will be open if the searchlight is on."
   },
   {
     "type": "extract",
@@ -545,7 +555,7 @@
     "map": "Shoreline",
     "marker": [-244.84785178851695, 89.265625],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203904/lighthouse.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open"
   },
@@ -555,9 +565,9 @@
     "map": "Shoreline",
     "marker": [-245.0667747555026, 79.546875],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203904/pier_boat.jpg",
     "extractType": "PMC",
-    "extractNotes": "Occasionally Open"
+    "extractNotes": "Occasionally Open. Will be open if the boat is there (This is currently not working, the boat will always be there)."
   },
   {
     "type": "extract",
@@ -565,7 +575,7 @@
     "map": "Shoreline",
     "marker": [-198.61726590478432, 121.703125],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203904/road_to_customs.jpg",
     "extractType": "PMC, Scav",
     "extractNotes": "Always Open"
   },
@@ -575,9 +585,9 @@
     "map": "Shoreline",
     "marker": [-169.4874475387554, 67.765625],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203904/rock_passage.jpg",
     "extractType": "PMC",
-    "extractNotes": "Occasionally Open"
+    "extractNotes": "Occasionally Open. Will be open if green flares are lit."
   },
   {
     "type": "extract",
@@ -585,7 +595,7 @@
     "map": "Shoreline",
     "marker": [-193.30271501052587, 13.015625],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203904/ruined_house_fence.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open"
   },
@@ -595,7 +605,7 @@
     "map": "Shoreline",
     "marker": [-225.29123266602917, 22.515625],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203905/ruined_road.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open"
   },
@@ -605,7 +615,7 @@
     "map": "Shoreline",
     "marker": [-189.89992435023893, 76.046875],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203905/rwing_gym_entrance.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open"
   },
@@ -615,7 +625,7 @@
     "map": "Shoreline",
     "marker": [-168.09785178851695, 95.703125],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203905/south_fence_passage.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open"
   },
@@ -625,7 +635,7 @@
     "map": "Shoreline",
     "marker": [-208.15269182200942, 14.640625],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203905/svetliy_dead_end.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open"
   },
@@ -635,7 +645,7 @@
     "map": "Shoreline",
     "marker": [-223.72749718756023, 20.984375],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203905/tunnel.jpg",
     "extractType": "PMC",
     "extractNotes": "Always Open"
   },
@@ -645,7 +655,7 @@
     "map": "Labs",
     "marker": [-48.695859239444765, 21.451171875],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203880/01_cargo_elevator.jpg",
     "extractType": "PMC",
     "extractNotes": "Must restore power to the elevator first (Room G1)"
   },
@@ -655,7 +665,7 @@
     "map": "Labs",
     "marker": [-157.81270785135916, 234.0283203125],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203880/02_main_elevator.jpg",
     "extractType": "PMC",
     "extractNotes": "Must restore power to the elevator first (Across from R1)"
   },
@@ -665,7 +675,7 @@
     "map": "Labs",
     "marker": [-173.66516953441294, 179.618408203125],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203880/03_ventilation_shaft.jpg",
     "extractType": "PMC",
     "extractNotes": "Can not have a backpack larger than a MBSS"
   },
@@ -675,7 +685,7 @@
     "map": "Labs",
     "marker": [-189.84870228455753, 185.190673828125],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203880/04_elevator_medical_block.jpg",
     "extractType": "PMC",
     "extractNotes": "Must restore power to the elevator first (Room G6)"
   },
@@ -685,7 +695,7 @@
     "map": "Labs",
     "marker": [-197.91678716020817, 215.76025390625],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203880/05_sewage_conduit.jpg",
     "extractType": "PMC",
     "extractNotes": "Must drain the water level (Panel on right side of room)"
   },
@@ -695,7 +705,7 @@
     "map": "Labs",
     "marker": [-20.826679077501442, 46.926025390625],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203880/06_parking_gate.jpg",
     "extractType": "PMC",
     "extractNotes": "Must open gate first (Button in Room Y21)"
   },
@@ -705,7 +715,7 @@
     "map": "Labs",
     "marker": [-70.08952971370735, 83.5625],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203880/07_hangar_gate.jpg",
     "extractType": "PMC",
     "extractNotes": "Must open gate first (Button in Room B24)"
   },
@@ -727,7 +737,7 @@
     "description": "",
     "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1572219981/cliff_descent.jpg",
     "extractType": "PMC",
-    "extractNotes": "Always Open, Requires 1 Paracord & 1 Rappelling Rig"
+    "extractNotes": "Always Open, Requires Reb Rebel Icepick and Paracord."
   },
   {
     "type": "extract",
@@ -757,7 +767,7 @@
     "description": "",
     "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1572219981/bunker_hermetic_door.jpg",
     "extractType": "PMC, Scav",
-    "extractNotes": "Always Open"
+    "extractNotes": "Always Open. Must active the switch to use. Alarm will sound and will only remain open for 4 minutes before needing to be re-activated."
   },
   {
     "type": "extract",
@@ -777,7 +787,7 @@
     "description": "",
     "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1572219981/armored_train.jpg",
     "extractType": "PMC",
-    "extractNotes": "Always Open, Must wait for the train"
+    "extractNotes": "Always Open. Train arrives somewhere between 25-35 minutes into the raid. Waits for 7 minutes for leaving. Honks once 1 minute before leaving. Honks twice before leaving."
   },
   {
     "type": "extract",
