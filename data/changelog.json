@@ -2,6 +2,20 @@
   {
     "date": "2020/02/02",
     "summary": [
+      "Added screenshots for all extraction points",
+      "Updated screenshots for some key spawns"
+    ],
+    "changes": [
+      "Factory, Interchange, Customs, Shoreline, Woods, and Labs now have screenshots for all extraction points.",
+      "Fixed and updated details for several extractions",
+      "Update screenshot for Idea Cash Register key.",
+      "Update screenshot for ZB-014 key.",
+      "Update screenshot for Oli Logistics Dept Office key."
+    ]
+  },
+  {
+    "date": "2020/02/02",
+    "summary": [
       "Full app rewrite, lots of changes"
     ],
     "changes": [
