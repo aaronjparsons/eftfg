@@ -2367,5 +2367,48 @@
     "unlocks": [
       ""
     ]
+  },
+  {
+    "type": "key",
+    "label": "USEC Stash on Customs Key",
+    "map": "all",
+    "markers": [],
+    "spawns": [
+      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    ],
+    "images": [],
+    "videos": [],
+    "unlocks": [
+      ""
+    ]
+  },
+  {
+    "type": "key",
+    "label": "Key to HEP Station Storage",
+    "map": "all",
+    "markers": [],
+    "spawns": [
+      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+      "Obtained as a reward from the Jaeger task, 'Nostalgia'"
+    ],
+    "images": [],
+    "videos": [],
+    "unlocks": [
+      ""
+    ]
+  },
+  {
+    "type": "key",
+    "label": "Shturman Key",
+    "map": "Woods",
+    "markers": ["-205.00489249473708,104.53125"],
+    "spawns": [
+      "Found on the Woods boss, Shturman. Shturman can be found patrolling the lumber yard."
+    ],
+    "images": [""],
+    "videos": [""],
+    "unlocks": [
+      ""
+    ]
   }
 ]
