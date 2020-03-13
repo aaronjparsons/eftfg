@@ -2401,9 +2401,37 @@
     "type": "key",
     "label": "Shturman Key",
     "map": "Woods",
-    "markers": ["-205.00489249473708,104.53125"],
+    "markers": ["-205.00489249473708, 104.53125"],
     "spawns": [
-      "Found on the Woods boss, Shturman. Shturman can be found patrolling the lumber yard."
+      "Found on the Woods scav boss, Shturman. Shturman can be found patrolling the lumber yard."
+    ],
+    "images": [""],
+    "videos": [""],
+    "unlocks": [
+      ""
+    ]
+  },
+  {
+    "type": "key",
+    "label": "Object #21WS Keycard",
+    "map": "Interchange",
+    "markers": ["-139.70109026315853, 136"],
+    "spawns": [
+      "Can be found on Killa, the Interchange scav boss."
+    ],
+    "images": [""],
+    "videos": [""],
+    "unlocks": [
+      ""
+    ]
+  },
+  {
+    "type": "key",
+    "label": "Object #11SR Keycard",
+    "map": "Interchange",
+    "markers": ["-139.38834316746474, 137"],
+    "spawns": [
+      "Can be found on Killa, the Interchange scav boss."
     ],
     "images": [""],
     "videos": [""],

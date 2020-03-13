@@ -532,8 +532,8 @@
   },
   {
     "name": "5.7x28 mm SS190",
-    "damage": "57",
-    "penetration": "32",
+    "damage": "49",
+    "penetration": "37",
     "armorDamage": "43",
     "accuracy": "",
     "recoil": "",

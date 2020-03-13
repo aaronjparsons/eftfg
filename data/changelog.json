@@ -1,5 +1,18 @@
 [
   {
+    "date": "2020/03/12",
+    "summary": [
+      "Added new Interchange extractions",
+      "Added new Interchange Keycards",
+      "Updated ammo"
+    ],
+    "changes": [
+      "Added new Interchange extractions (Scav Camp, Hole In Fence, and Saferoom Exfil)",
+      "Added new Interchange Keycards (Object #21WS and Object #11SR)",
+      "Update ammo (5.7x28 mm SS190: Damage: 57 -> 49, Penetration: 32 -> 37)"
+    ]
+  },
+  {
     "date": "2020/03/09",
     "summary": [
       "Added some missing keys",

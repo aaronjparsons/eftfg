@@ -777,7 +777,7 @@
     "description": "",
     "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1572219981/sewer_manhole.jpg",
     "extractType": "PMC",
-    "extractNotes": "Always Open, Can not be wearing a backpack to use"
+    "extractNotes": "Always Open. Can not be wearing a backpack to use"
   },
   {
     "type": "extract",
@@ -798,5 +798,35 @@
     "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1572310264/cp_fence.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Hole In Fence",
+    "map": "Interchange",
+    "marker": [-178.0794507645941, 22.0625],
+    "description": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1584057081/hole_in_fence.jpg",
+    "extractType": "PMC, Scav",
+    "extractNotes": "Always Open. Can not be wearing a backpack to use"
+  },
+  {
+    "type": "extract",
+    "label": "Scav Camp",
+    "map": "Interchange",
+    "marker": [-177.53607597129354, 90.625],
+    "description": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1584057081/scav_camp.jpg",
+    "extractType": "PMC, Scav",
+    "extractNotes": "Always Open. Requires a PMC and Scav to work together"
+  },
+  {
+    "type": "extract",
+    "label": "Saferoom Exfil",
+    "map": "Interchange",
+    "marker": [-185.8872065272733, 153.8125],
+    "description": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1584057080/saferoom_exfil.jpg",
+    "extractType": "PMC, Scav",
+    "extractNotes": "Always Open. One Use. Requires power to be turned on, and the 11SR Keycard to be used at the keypad in the Burger Spot washroom."
   }
 ]
