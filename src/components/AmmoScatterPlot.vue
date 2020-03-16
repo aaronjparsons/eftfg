@@ -1,6 +1,9 @@
 <template>
-  <v-card>
-    <canvas id="chart" ref="chart"></canvas>
+  <v-card class="pa-2">
+    <!-- <canvas id="chart" ref="chart"></canvas> -->
+    <div>
+      <ApexChart type="scatter" :options="apexOptions" :series="apexData"></ApexChart>
+    </div>
   </v-card>
 </template>
 
@@ -17,6 +20,100 @@ export default {
 
   data() {
     return {
+      apexOptions: {
+        chart: {
+          id: 'scatter-plot-chart',
+          background: '#424242',
+          toolbar: {
+            tools: {
+              download: true,
+              selection: true,
+              zoom: true,
+              zoomin: false,
+              zoomout: false,
+              pan: false,
+              reset: true
+            }
+          }
+        },
+        theme: {
+          mode: 'dark'
+        },
+        colors: [
+          '#0165fc',
+          '#fea051',
+          '#41fdfe',
+          '#99FF99',
+          '#FF1A66',
+          '#d0ff14',
+          '#21fc0d',
+          '#FF33FF',
+          '#eb5030',
+          '#fe01b1',
+          '#00B3E6',
+          '#bc13fe',
+          '#ff000d',
+          '#CCCC00',
+          '#66E64D',
+          '#4D80CC',
+          '#E64D66',
+          '#4DB380',
+          '#66991A',
+          '#6666FF'
+        ],
+        title: {
+          text: 'Hover calibre to highlight, click to hide',
+          align: 'centre'
+        },
+        legend: {
+          position: 'top'
+        },
+        tooltip: {
+          custom: function({series, seriesIndex, dataPointIndex, w}) {
+            const dataPoint = w.config.series[seriesIndex].data[dataPointIndex]
+            return '<div>' +
+              '<p>' + dataPoint.title + '</p>' +
+              '<p>Damage: ' + dataPoint.x + '</p>' +
+              '<p>Penetration: ' + dataPoint.y + '</p>' +
+              '</div>'
+          }
+        },
+        xaxis: {
+          // TODO Not displaying correctly!
+          tickAmount: 10,
+          type: 'numeric'
+        },
+        annotations: {
+          xaxis: [
+            {
+              x: 80,
+              borderColor: '#ffffff',
+              label: {
+                borderColor: '#ffffff',
+                style: {
+                  color: '#212121',
+                  background: '#ffffff'
+                },
+                text: 'Thorax HP'
+              }
+            }
+          ],
+          yaxis: [
+            {
+              y: 10,
+              borderColor: '#ffffff',
+              label: {
+                borderColor: '#ffffff',
+                style: {
+                  color: '#212121',
+                  background: '#ffffff'
+                },
+                text: 'Class 1 Armor'
+              }
+            }
+          ]
+        }
+      },
       scatterChart: null,
       colors: [
         '#0165fcfa',
@@ -97,6 +194,51 @@ export default {
   },
 
   computed: {
+    apexData() {
+      let index = 0
+      const datasets = []
+      let currentObject = {
+        name: '',
+        data: []
+        // borderColor: this.colors[index],
+        // backgroundColor: this.colors[index]
+      }
+      for (const ammo of this.data) {
+        const name = ammo.name.split(' ')[0]
+        if (currentObject.name === '') {
+          currentObject.name = name
+        }
+        if (currentObject.name !== name) {
+          datasets.push(currentObject)
+          index++
+          currentObject = {
+            name: name,
+            data: []
+            // borderColor: this.colors[index],
+            // backgroundColor: this.colors[index]
+          }
+        }
+        if (ammo.damage.includes('x')) {
+          currentObject.data.push({
+            x: parseInt(ammo.damage.split('x')[1]),
+            y: parseInt(ammo.penetration),
+            title: ammo.name
+          })
+        } else {
+          currentObject.data.push({
+            x: parseInt(ammo.damage),
+            y: parseInt(ammo.penetration),
+            title: ammo.name
+          })
+        }
+      }
+      if (
+        currentObject.name === this.chartLabels[this.chartLabels.length - 1]
+      ) {
+        datasets.push(currentObject)
+      }
+      return datasets
+    },
     chartLabels() {
       const labels = []
       for (const ammo of this.data) {
@@ -155,15 +297,15 @@ export default {
   },
 
   mounted() {
-    const ctx = this.$refs.chart
-    Chart.defaults.global.defaultFontColor = '#ccc'
-    this.scatterChart = new Chart(ctx, {
-      type: 'scatter',
-      data: {
-        datasets: this.mappedData
-      },
-      options: this.options
-    })
+    // const ctx = this.$refs.chart
+    // Chart.defaults.global.defaultFontColor = '#ccc'
+    // this.scatterChart = new Chart(ctx, {
+    //   type: 'scatter',
+    //   data: {
+    //     datasets: this.mappedData
+    //   },
+    //   options: this.options
+    // })
   },
 
   methods: {
