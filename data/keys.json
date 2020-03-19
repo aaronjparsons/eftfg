@@ -98,7 +98,7 @@
     "label": "Door Key",
     "map": "Factory",
     "markers": [
-      "-153.93009868421052,201.371337890625"
+      "-208.51057569569429, 48.96875"
     ],
     "spawns": [
       "Can be found on a bench in the Factory locker room"
@@ -508,7 +508,7 @@
     "label": "Portable Cabin Key Of Customs Factory Zone",
     "map": "Factory",
     "markers": [
-      "-195.15643074031232,160.221923828125"
+      "-190.52611040956913, 18.09375"
     ],
     "spawns": [
       "In the locked room next to the office on Factory on the ground under the jacket"
@@ -1078,7 +1078,7 @@
     "label": "West Wing Room 306 Key",
     "map": "Factory",
     "markers": [
-      "-135.82838255494505,199.05126953125"
+      "-200.50721519425872, 47.15625"
     ],
     "spawns": [
       "The key can be found in a bathroom locker on Factory"
@@ -1492,7 +1492,7 @@
     "label": "Key To Utility Room Of Power Substation",
     "map": "Factory",
     "markers": [
-      "-88.92396255060729,152.694580078125"
+      "-180.11442430430571, 111.625"
     ],
     "spawns": [
       "Spawns in a blue locker near the forklifts at Factory"
@@ -1532,7 +1532,7 @@
     "label": "Key To KIBA Store Outlet",
     "map": "Interchange",
     "markers": [
-      "-121.13402797860036,125.01123046875"
+      "-218.9454317717707, 94.03125"
     ],
     "spawns": [
       "Spawns in the scav campsite in goshan store, behind a tent on a book"
@@ -1586,7 +1586,7 @@
     "label": "Key To OLI Cash Register",
     "map": "Interchange",
     "markers": [
-      "-153.28401984528628,166.0306396484375"
+      "-242.91601027990475, 126.1875"
     ],
     "spawns": [
       "Spawns on a desk in the OLI offices. The office next to the OLI Logistics Office"
@@ -1606,7 +1606,7 @@
     "label": "Key To IDEA Cash Register",
     "map": "Interchange",
     "markers": [
-      "-220.80794534412956,49.9521484375"
+      "-191.24574995406678, 19.34375"
     ],
     "spawns": [
       "Spawns in the bus outside of the IDEA store"
@@ -2029,7 +2029,7 @@
     "label": "RB-OP Key",
     "map": "Interchange",
     "markers": [
-      "-134.27839430306537,144.09375"
+      "-227.5307805181818, 108.375"
     ],
     "spawns": [
       "On a nightstand in the back of Generic"
@@ -2089,7 +2089,7 @@
     "label": "RB-MP21 Key",
     "map": "Interchange",
     "markers": [
-      "-221.02698452862927,24.90625"
+      "-181.43957560382785, 18.09375"
     ],
     "spawns": [
       "On the wooden nightstand inside the bathroom in the powerstation"
@@ -2415,7 +2415,7 @@
     "type": "key",
     "label": "Object #21WS Keycard",
     "map": "Interchange",
-    "markers": ["-139.70109026315853, 136"],
+    "markers": ["-230.88416725023967, 100.1875"],
     "spawns": [
       "Can be found on Killa, the Interchange scav boss."
     ],
@@ -2429,12 +2429,26 @@
     "type": "key",
     "label": "Object #11SR Keycard",
     "map": "Interchange",
-    "markers": ["-139.38834316746474, 137"],
+    "markers": ["-230.79034312153152, 103.65625"],
     "spawns": [
       "Can be found on Killa, the Interchange scav boss."
     ],
     "images": [""],
     "videos": [""],
+    "unlocks": [
+      ""
+    ]
+  },
+  {
+    "type": "key",
+    "label": "ULTRA Medical Storage Key",
+    "map": "all",
+    "markers": [],
+    "spawns": [
+      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    ],
+    "images": [],
+    "videos": [],
     "unlocks": [
       ""
     ]

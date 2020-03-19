@@ -1,4 +1,5 @@
 import Vuex from 'vuex'
+// import VueApexCharts from 'vue-apexcharts'
 import Vuetify from 'vuetify'
 import DefaultLayout from '~/layouts/Default.vue'
 import 'vuetify/dist/vuetify.min.css'
@@ -7,6 +8,14 @@ import '../node_modules/leaflet/dist/leaflet.css'
 export default function (Vue, { head, appOptions }) {
   // Vuex
   Vue.use(Vuex)
+
+  // Apexcharts
+  if (process.isClient) {
+    const VueApexCharts = require('vue-apexcharts')
+
+    Vue.use(VueApexCharts)
+    Vue.component('ApexChart', VueApexCharts)
+  }
 
   appOptions.store = new Vuex.Store({
     state: {
