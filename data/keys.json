@@ -2438,5 +2438,19 @@
     "unlocks": [
       ""
     ]
+  },
+  {
+    "type": "key",
+    "label": "ULTRA Medical Storage Key",
+    "map": "all",
+    "markers": [],
+    "spawns": [
+      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    ],
+    "images": [],
+    "videos": [],
+    "unlocks": [
+      ""
+    ]
   }
 ]
