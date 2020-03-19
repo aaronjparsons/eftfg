@@ -1,5 +1,19 @@
 [
   {
+    "date": "2020/03/18",
+    "summary": [
+      "Updated ammo scatter plot chart",
+      "Added new maps for Interchange and Factory",
+      "Added ULTRA Medical Storage Key"
+    ],
+    "changes": [
+      "Scatter plot chart has been update. The axis have been flipped, damage is now on the bottom (x-axis) and penetration on the left (y-axis)",
+      "Added visual breakpoints on the chart for armor and health (only showing head and thorax HP as they are the important ones)",
+      "Added new custom made maps for Interchange and Factory. I hope to keep making these and will focus on ones that don't have good maps available (Labs and Reserve are priority)",
+      "Added ULTRA Medical Storage Key"
+    ]
+  },
+  {
     "date": "2020/03/12",
     "summary": [
       "Added new Interchange extractions",
