@@ -531,15 +531,6 @@
     "fragmentation": "50%"
   },
   {
-    "name": "5.7x28 mm SS190",
-    "damage": "49",
-    "penetration": "37",
-    "armorDamage": "43",
-    "accuracy": "",
-    "recoil": "",
-    "fragmentation": "20%"
-  },
-  {
     "name": "5.7x28 mm L191",
     "damage": "58",
     "penetration": "33",
@@ -555,6 +546,15 @@
     "armorDamage": "37",
     "accuracy": "",
     "recoil": "-20",
+    "fragmentation": "20%"
+  },
+  {
+    "name": "5.7x28 mm SS190",
+    "damage": "49",
+    "penetration": "37",
+    "armorDamage": "43",
+    "accuracy": "",
+    "recoil": "",
     "fragmentation": "20%"
   },
   {
@@ -675,15 +675,6 @@
     "fragmentation": "35%"
   },
   {
-    "name": "5.45x39 mm US",
-    "damage": "65",
-    "penetration": "15",
-    "armorDamage": "34",
-    "accuracy": "",
-    "recoil": "",
-    "fragmentation": "10%"
-  },
-  {
     "name": "5.45x39 mm PRS",
     "damage": "60",
     "penetration": "14",
@@ -691,6 +682,15 @@
     "accuracy": "",
     "recoil": "-5",
     "fragmentation": "30%"
+  },
+  {
+    "name": "5.45x39 mm US",
+    "damage": "65",
+    "penetration": "15",
+    "armorDamage": "34",
+    "accuracy": "",
+    "recoil": "",
+    "fragmentation": "10%"
   },
   {
     "name": "5.45x39 mm FMJ",
