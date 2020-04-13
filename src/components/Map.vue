@@ -153,6 +153,9 @@ export default {
   },
 
   methods: {
+    mapClick(event) {
+      console.log(`${event.latlng.lat}, ${event.latlng.lng}`)
+    },
     hasMediaContent(value, index) {
       if (!value) {
         return false
