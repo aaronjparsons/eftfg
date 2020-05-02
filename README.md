@@ -12,4 +12,4 @@
 - Searchable lists of required items, both for tasks and the hideout
 - Links to more resources created by the Escape From Tarkov community
 
-Built with Vue, Gridsome, Vuetify, and Chartjs. Hosted on Netlify
+Built with Vue, Gridsome, and Vuetify. Hosted on Netlify
