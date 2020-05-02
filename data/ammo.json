@@ -631,7 +631,7 @@
   },
   {
     "name": ".366 TKM Geksa",
-    "damage": "80",
+    "damage": "93",
     "penetration": "14",
     "armorDamage": "38",
     "accuracy": "",
@@ -640,9 +640,9 @@
   },
   {
     "name": ".366 TKM FMJ",
-    "damage": "73",
-    "penetration": "20",
-    "armorDamage": "36",
+    "damage": "88",
+    "penetration": "23",
+    "armorDamage": "41",
     "accuracy": "",
     "recoil": "+10",
     "fragmentation": "25%"
@@ -651,7 +651,7 @@
     "name": ".366 TKM EKO",
     "damage": "65",
     "penetration": "30",
-    "armorDamage": "38",
+    "armorDamage": "30",
     "accuracy": "-10",
     "recoil": "",
     "fragmentation": "20%"
