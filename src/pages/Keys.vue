@@ -5,7 +5,7 @@
         <v-autocomplete
           v-model="input"
           item-text="node.label"
-          :items="$page.keySpawns.edges"
+          :items="$page.keys.edges"
           return-object
           solo
           placeholder="Search by key or by map..."
@@ -26,107 +26,96 @@
 
 <page-query>
 query {
-  keySpawns: allKeySpawns {
+  keys: allKeys {
     edges {
       node {
         type,
         label,
-        map,
-        marker,
-        description,
-        images,
-        videos
+        maps,
+        spawns {
+          markers,
+          notes,
+          images,
+          videos
+        },
+        unlocks
       }
     }
   },
-  allCustoms: allKeySpawns(filter: {map: {eq: "Customs"}, type: {eq: "key"}}) {
+  allCustoms: allKeys(filter: {map: {eq: "Customs"}, type: {eq: "key"}}) {
     edges {
       node {
         type,
         label,
-        map,
-        marker,
-        description,
-        images,
-        videos
+        maps,
+        spawns,
+        unlocks
       }
     }
   },
-  allInterchange: allKeySpawns(filter: {map: {eq: "Interchange"}, type: {eq: "key"}}) {
+  allInterchange: allKeys(filter: {map: {eq: "Interchange"}, type: {eq: "key"}}) {
     edges {
       node {
         type,
         label,
-        map,
-        marker,
-        description,
-        images,
-        videos
+        maps,
+        spawns,
+        unlocks
       }
     }
   },
-  allShoreline: allKeySpawns(filter: {map: {eq: "Shoreline"}, type: {eq: "key"}}) {
+  allShoreline: allKeys(filter: {map: {eq: "Shoreline"}, type: {eq: "key"}}) {
     edges {
       node {
         type,
         label,
-        map,
-        marker,
-        description,
-        images,
-        videos
+        maps,
+        spawns,
+        unlocks
       }
     }
   },
-  allWoods: allKeySpawns(filter: {map: {eq: "Woods"}, type: {eq: "key"}}) {
+  allWoods: allKeys(filter: {map: {eq: "Woods"}, type: {eq: "key"}}) {
     edges {
       node {
         type,
         label,
-        map,
-        marker,
-        description,
-        images,
-        videos
+        maps,
+        spawns,
+        unlocks
       }
     }
   },
-  allFactory: allKeySpawns(filter: {map: {eq: "Factory"}, type: {eq: "key"}}) {
+  allFactory: allKeys(filter: {map: {eq: "Factory"}, type: {eq: "key"}}) {
     edges {
       node {
         type,
         label,
-        map,
-        marker,
-        description,
-        images,
-        videos
+        maps,
+        spawns,
+        unlocks
       }
     }
   },
-  allReserve: allKeySpawns(filter: {map: {eq: "Reserve"}, type: {eq: "key"}}) {
+  allReserve: allKeys(filter: {map: {eq: "Reserve"}, type: {eq: "key"}}) {
     edges {
       node {
         type,
         label,
-        map,
-        marker,
-        description,
-        images,
-        videos
+        maps,
+        spawns,
+        unlocks
       }
     }
   },
-  allLabs: allKeySpawns(filter: {map: {eq: "Labs"}, type: {eq: "key"}}) {
+  allLabs: allKeys(filter: {map: {eq: "Labs"}, type: {eq: "key"}}) {
     edges {
       node {
         type,
         label,
-        map,
-        marker,
-        description,
-        images,
-        videos
+        maps,
+        spawns,
+        unlocks
       }
     }
   }

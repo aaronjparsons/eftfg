@@ -52,18 +52,16 @@ module.exports = function (api) {
 
     // Add key data
     const keys = actions.addCollection({
-      typeName: 'KeySpawns'
+      typeName: 'Keys'
     })
 
     for (const item of keyData) {
       keys.addNode({
         type: item.type,
         label: item.label,
-        map: item.map,
-        marker: item.markers,
-        description: item.spawns,
-        images: item.images,
-        videos: item.videos
+        maps: item.maps,
+        spawns: item.spawns,
+        unlocks: item.unlocks
       })
     }
 

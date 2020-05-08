@@ -73,9 +73,9 @@ export default {
         label: 'Home'
       },
       {
-        route: '/key-spawns',
+        route: '/keys',
         icon: 'mdi-key',
-        label: 'Key Spawns'
+        label: 'Keys'
       },
       {
         route: '/extractions',
