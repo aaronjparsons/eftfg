@@ -1,42 +1,31 @@
 [
   {
-    "type": "map",
-    "label": "Customs (All Keys)",
-    "maps": ["Customs"],
-    "spawns": [],
-    "unlocks": []
-  },
-  {
     "type": "key",
     "label": "Door Key",
     "maps": [
       "Factory"
     ],
     "spawns": {
-      "Factory": {
-        "markers": [
-          "-208.51057569569429, 48.96875"
-        ],
-        "notes": [
-          "Can be found on a bench in the Factory locker room"
-        ],
-        "images": [
-          "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799183/factory_door_key.jpg"
-        ],
-        "videos": [
-          "fkfXkJffQkU"
-        ]
-      }
+      "markers": [
+        "-208.51057569569429, 48.96875"
+      ],
+      "notes": [
+        "Can be found on a bench in the Factory locker room"
+      ],
+      "images": [
+        "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799183/factory_door_key.jpg"
+      ],
+      "videos": [
+        "fkfXkJffQkU"
+      ]
     },
     "unlocks": {
-      "Factory": {
-        "markers": [],
-        "notes": [
-          "Unlocks the door to the pumping station in the Factory"
-        ],
-        "images": [],
-        "videos": []
-      }
+      "markers": [],
+      "notes": [
+        "Unlocks the door to the pumping station in the Factory"
+      ],
+      "images": [],
+      "videos": []
     }
   },
   {
@@ -46,30 +35,26 @@
       "Customs"
     ],
     "spawns": {
-      "Customs": {
-        "markers": [
-          "-212.9637186415558,94.14874267578125"
-        ],
-        "notes": [
-          "Customs Checkpoint: In the blue jacket located in the trunk of the blue car"
-        ],
-        "images": [
-          "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799177/customs_dorm_room_114_key.jpg"
-        ],
-        "videos": [
-          "_jLyvV304t0"
-        ]
-      }
+      "markers": [
+        "-212.9637186415558,94.14874267578125"
+      ],
+      "notes": [
+        "Customs Checkpoint: In the blue jacket located in the trunk of the blue car"
+      ],
+      "images": [
+        "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799177/customs_dorm_room_114_key.jpg"
+      ],
+      "videos": [
+        "_jLyvV304t0"
+      ]
     },
     "unlocks": {
-      "Customs": {
-        "markers": [],
-        "notes": [
-          "Unlocks dorm room 114 in the two story dorms on Customs"
-        ],
-        "images": [],
-        "videos": []
-      }
+      "markers": [],
+      "notes": [
+        "Unlocks dorm room 114 in the two story dorms on Customs"
+      ],
+      "images": [],
+      "videos": []
     }
   },
   {
@@ -80,30 +65,26 @@
       "Interchange"
     ],
     "spawns": {
-      "Shoreline": {
-        "markers": [
-          "-192.04204808181868,63.921875"
-        ],
-        "notes": [
-          "In West Wing Room 101 on the desk, at the resort in Shoreline"
-        ],
-        "images": [
-          "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799185/shoreline_key_to_pharmacy.jpg"
-        ],
-        "videos": [
-          "F_2-mjh-gNg"
-        ]
-      }
+      "markers": [
+        "-192.04204808181868,63.921875"
+      ],
+      "notes": [
+        "In West Wing Room 101 on the desk, at the resort in Shoreline"
+      ],
+      "images": [
+        "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799185/shoreline_key_to_pharmacy.jpg"
+      ],
+      "videos": [
+        "F_2-mjh-gNg"
+      ]
     },
     "unlocks": {
-      "Interchange": {
-        "markers": [],
-        "notes": [
-          "Unlocks the door to the pharmacy on Interchange"
-        ],
-        "images": [],
-        "videos": []
-      }
+      "markers": [],
+      "notes": [
+        "Unlocks the door to the pharmacy on Interchange"
+      ],
+      "images": [],
+      "videos": []
     }
   }
 ]
