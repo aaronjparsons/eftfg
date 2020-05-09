@@ -1051,5 +1051,23 @@
     "accuracy": "",
     "recoil": "",
     "fragmentation": "17%"
+  },
+  {
+    "name": ".45 ACP FMJ",
+    "damage": "72",
+    "penetration": "19",
+    "armorDamage": "36",
+    "accuracy": "",
+    "recoil": "",
+    "fragmentation": "1%"
+  },
+  {
+    "name": ".45 RIP",
+    "damage": "127",
+    "penetration": "3",
+    "armorDamage": "12",
+    "accuracy": "",
+    "recoil": "",
+    "fragmentation": "100%"
   }
 ]
