@@ -51,37 +51,56 @@ module.exports = function (api) {
     }
 
     // Add key data
-    const spawns = actions.addCollection({
+    const keys = actions.addCollection({
       typeName: 'Keys'
     })
-    const unlocks = actions.addCollection({
-      typeName: 'Unlocks'
-    })
-    const keys = actions.addCollection({
+
+    const spawns = actions.addCollection({
       typeName: 'Spawns'
     })
 
-    for (const item of keyData) {
-      const itemSpawns = spawns.addNode({
-        markers: item.spawns.markers,
-        notes: item.spawns.notes,
-        images: item.spawns.images,
-        videos: item.spawns.videos
-      })
+    const unlocks = actions.addCollection({
+      typeName: 'Unlocks'
+    })
 
-      const itemUnlocks = unlocks.addNode({
-        markers: item.unlocks.markers,
-        notes: item.unlocks.notes,
-        images: item.unlocks.images,
-        videos: item.unlocks.videos
-      })
+    for (const item of keyData) {
+      const spawnIds = []
+      const unlockIds = []
+
+      for (const [index, spawn] of item.spawns.entries()) {
+        const id = `${item.label}-index`
+        spawnIds.push(id)
+
+        spawns.addNode({
+          id,
+          map: spawn.map,
+          marker: spawn.marker,
+          notes: spawn.notes,
+          image: spawn.image,
+          video: spawn.video
+        })
+      }
+
+      for (const [index, unlock] of item.unlocks.entries()) {
+        const id = `${item.label}-index`
+        unlockIds.push(id)
+
+        unlocks.addNode({
+          id,
+          map: unlock.map,
+          marker: unlock.marker,
+          notes: unlock.notes,
+          image: unlock.image,
+          video: unlock.video
+        })
+      }
 
       keys.addNode({
         type: item.type,
         label: item.label,
         maps: item.maps,
-        spawns: actions.store.createReference(itemSpawns),
-        unlocks: actions.store.createReference(itemUnlocks)
+        spawns: actions.store.createReference('Spawns', spawnIds),
+        unlocks: actions.store.createReference('Unlocks', unlockIds)
       })
     }
 

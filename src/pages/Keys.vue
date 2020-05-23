@@ -29,11 +29,35 @@ query {
   keys: allKeys {
     edges {
       node {
-        type,
         label,
-        maps,
-        spawns
-        unlocks
+        spawns {
+          map,
+          marker,
+          notes,
+          image,
+          video
+        },
+        unlocks {
+          map,
+          marker,
+          notes,
+          image,
+          video
+        }
+      }
+    }
+  },
+	allCustomsSpawns: allKeys(filter: {maps: {contains: "Customs"}, type: {eq: "key"}}) {
+    edges {
+      node {
+        label,
+        spawns {
+          map,
+          marker,
+          notes,
+          image,
+          video
+        }
       }
     }
   }
