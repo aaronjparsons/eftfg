@@ -3,20 +3,46 @@
     <v-row justify="center">
       <v-col cols="12" sm="8">
         <v-autocomplete
-          v-model="input"
+          v-model="selection"
           item-text="node.label"
-          :items="$page.keys.edges"
+          :items="searchList"
           return-object
           solo
           placeholder="Search by key or by map..."
         />
       </v-col>
     </v-row>
+    <v-row>
+      <v-col cols="6">
+        <v-card
+          link
+          class="text-center"
+          :class="{ unselected: activeView !== 'spawns' }"
+          @click="setActiveView('spawns')"
+        >
+          <v-card-text>
+            Key Spawn Locations(s)
+          </v-card-text>
+        </v-card>
+      </v-col>
+      <v-col cols="6">
+        <v-card
+          link
+          class="text-center"
+          :class="{ unselected: activeView !== 'unlocks' }"
+          @click="setActiveView('unlocks')"
+        >
+          <v-card-text>
+            Key Use Location(s)
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
     <v-row justify="center">
       <v-col cols="12">
         <div v-show="activeMap === 'all'" class="text-center">
           <h2>{{ allMapsLabel }} has no set spawn location</h2>
-          <p v-for="(desc, i) in allMapsDesc" :key="i">{{ desc }}</p>
+          <p v-for="(desc, i) in allMapsNotes" :key="i">{{ desc }}</p>
         </div>
         <Map v-show="activeMap !== 'all'" :active-map="activeMap" :active-item="activeItem" />
       </v-col>
@@ -26,7 +52,29 @@
 
 <page-query>
 query {
-  keys: allKeys {
+  keys: allKeys(sortBy: "label", order: ASC) {
+    edges {
+      node {
+        label,
+        maps,
+        spawns {
+          map,
+          marker,
+          notes,
+          image,
+          video
+        },
+        unlocks {
+          map,
+          marker,
+          notes,
+          image,
+          video
+        }
+      }
+    }
+  },
+	allCustoms: allKeys(filter: {maps: {contains: "Customs"}, type: {eq: "key"}}) {
     edges {
       node {
         label,
@@ -47,11 +95,123 @@ query {
       }
     }
   },
-	allCustomsSpawns: allKeys(filter: {maps: {contains: "Customs"}, type: {eq: "key"}}) {
+  allFactory: allKeys(filter: {maps: {contains: "Factory"}, type: {eq: "key"}}) {
     edges {
       node {
         label,
         spawns {
+          map,
+          marker,
+          notes,
+          image,
+          video
+        },
+        unlocks {
+          map,
+          marker,
+          notes,
+          image,
+          video
+        }
+      }
+    }
+  },
+  allInterchange: allKeys(filter: {maps: {contains: "Interchange"}, type: {eq: "key"}}) {
+    edges {
+      node {
+        label,
+        spawns {
+          map,
+          marker,
+          notes,
+          image,
+          video
+        },
+        unlocks {
+          map,
+          marker,
+          notes,
+          image,
+          video
+        }
+      }
+    }
+  },
+  allWoods: allKeys(filter: {maps: {contains: "Woods"}, type: {eq: "key"}}) {
+    edges {
+      node {
+        label,
+        spawns {
+          map,
+          marker,
+          notes,
+          image,
+          video
+        },
+        unlocks {
+          map,
+          marker,
+          notes,
+          image,
+          video
+        }
+      }
+    }
+  },
+  allShoreline: allKeys(filter: {maps: {contains: "Shoreline"}, type: {eq: "key"}}) {
+    edges {
+      node {
+        label,
+        spawns {
+          map,
+          marker,
+          notes,
+          image,
+          video
+        },
+        unlocks {
+          map,
+          marker,
+          notes,
+          image,
+          video
+        }
+      }
+    }
+  },
+  allLabs: allKeys(filter: {maps: {contains: "Labs"}, type: {eq: "key"}}) {
+    edges {
+      node {
+        label,
+        spawns {
+          map,
+          marker,
+          notes,
+          image,
+          video
+        },
+        unlocks {
+          map,
+          marker,
+          notes,
+          image,
+          video
+        }
+      }
+    }
+  },
+  allReserve: allKeys(filter: {maps: {contains: "Reserve"}, type: {eq: "key"}}) {
+    edges {
+      node {
+        label,
+        spawns {
+          map,
+          marker,
+          notes,
+          image,
+          video
+        },
+        unlocks {
           map,
           marker,
           notes,
@@ -128,62 +288,107 @@ export default {
 
   data() {
     return {
-      input: {}
+      selection: {},
+      activeItem: {
+        label: '',
+        markers: [],
+        notes: [],
+        images: [],
+        videos: []
+      },
+      activeMap: '',
+      activeView: 'spawns'
+    }
+  },
+
+  watch: {
+    selection: function(newSelection) {
+      this.setActiveItem(newSelection)
     }
   },
 
   computed: {
-    activeItem() {
+    /**
+     * Returns an array of the keys, with [Map] (All Keys) options for all maps
+     *
+     * @return {array} The array of searchable items
+    */
+    searchList() {
+      const result = []
+      const maps = ['Customs', 'Factory', 'Interchange', 'Labs', 'Reserve', 'Shoreline', 'Woods']
+      for (const map of maps) {
+        result.push({
+          node: {
+            type: 'map',
+            label: `${map} (All Keys)`,
+            map,
+            spawns: 0,
+            unlocks: 0
+          }
+        })
+      }
+      return [...result, ...this.$page.keys.edges]
+    },
+    allMapsLabel() {
+      if (this.selection.node && this.selection.node.label) {
+        return this.selection.node.label
+      } else {
+        return ''
+      }
+    },
+    allMapsNotes() {
+      if (this.selection.node && this.selection.node.spawns && this.selection.node.spawns[0]) {
+        return this.selection.node.spawns[0].notes
+      } else {
+        return []
+      }
+    }
+  },
+
+  methods: {
+    setActiveView(view) {
+      this.activeView = view
+      this.setActiveItem(this.selection)
+    },
+    setActiveItem(selectedItem) {
       const object = {
-        coords: [],
+        labels: [],
+        markers: [],
         notes: [],
-        name: [],
         images: [],
         videos: []
       }
 
-      if (!this.input.node) {
-        return object
-      }
+      if (selectedItem.node.type && selectedItem.node.type === 'map') {
+        this.activeMap = selectedItem.node.map
 
-      if (this.input.node.type === 'key') {
-        return {
-          coords: this.input.node.marker.map(item => item.split(',')),
-          notes: this.input.node.description,
-          name: this.input.node.marker.map(() => this.input.node.label),
-          images: this.input.node.images,
-          videos: this.input.node.videos
+        const items = this.$page[`all${this.activeMap}`]
+        for (const item of items.edges) {
+          for (const instance of item.node[this.activeView]) {
+            if (instance.map === this.activeMap) {
+              object.labels.push(item.node.label)
+              object.markers.push(instance.marker)
+              object.notes.push(instance.notes)
+              object.images.push(instance.image)
+              object.videos.push(instance.video)
+            }
+          }
         }
+
+        this.activeItem = object
       } else {
-        return this.$page[`all${this.input.node.map}`].edges.reduce((obj,item) => {
-          obj.coords = [...item.node.marker.map(item => item.split(',')), ...obj.coords]
-          obj.notes = [...item.node.description, ...obj.notes]
-          obj.name = [...item.node.marker.map(() => item.node.label), ...obj.name],
-          obj.images = [...item.node.images, ...obj.images],
-          obj.videos = [...item.node.videos, ...obj.videos]
-          return obj
-        }, object)
-      }
-    },
-    activeMap() {
-      if (this.input.node) {
-        return this.input.node.map
-      } else {
-        return ''
-      }
-    },
-    allMapsLabel() {
-      if (this.input.node && this.input.node.label) {
-        return this.input.node.label
-      } else {
-        return ''
-      }
-    },
-    allMapsDesc() {
-      if (this.input.node && this.input.node.description) {
-        return this.input.node.description
-      } else {
-        return []
+        this.activeMap = selectedItem.node[this.activeView][0].map
+
+        for (const item of selectedItem.node[this.activeView]) {
+          if (item.map === this.activeMap) {
+            object.labels.push(selectedItem.node.label)
+            object.markers.push(item.marker)
+            object.notes.push(item.notes)
+            object.images.push(item.image)
+            object.videos.push(item.video)
+          }
+        }
+        this.activeItem = object
       }
     }
   }
@@ -193,5 +398,8 @@ export default {
 <style>
 .v-autocomplete {
   z-index: 160;
+}
+.unselected {
+  background: #3f3f3f44 !important;
 }
 </style>

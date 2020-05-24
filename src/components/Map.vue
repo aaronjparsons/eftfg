@@ -8,17 +8,18 @@
         :maxZoom="mapOptions.maxZoom"
         :center="center"
         :crs="crsSimple"
+        @click="mapClick"
       >
         <div class="map-name">{{ activeMap }}</div>
         <l-tile-layer :url="mapSource"></l-tile-layer>
         <l-feature-group ref="markerGroup">
           <l-marker
-            v-for="(coord, index) in activeItem.coords"
+            v-for="(marker, index) in activeItem.markers"
             :key="index"
-            :lat-lng="coord"
+            :lat-lng="marker"
           >
             <l-popup>
-              <h3>{{ activeItem.name[index] }}</h3>
+              <h3>{{ activeItem.labels[index] }}</h3>
               <p v-if="activeItem.type">Type: {{ activeItem.type[index] }}</p>
               <p>Notes: {{ activeItem.notes[index] }}</p>
               <v-btn
@@ -137,11 +138,11 @@ export default {
       }
     },
     center() {
-      if (this.activeItem.coords.length > 0) {
-        const markersLength = this.activeItem.coords.length
+      if (this.activeItem.markers.length > 0) {
+        const markersLength = this.activeItem.markers.length
         let lats = 0
         let lngs = 0
-        this.activeItem.coords.map(marker => {
+        this.activeItem.markers.map(marker => {
           lats += parseInt(marker[0])
           lngs += parseInt(marker[1])
         })
