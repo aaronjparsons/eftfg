@@ -129,6 +129,10 @@ export default {
   text-decoration: none;
 }
 
+.v-app-bar {
+  z-index: 175 !important;
+}
+
 .bmc-button img {
   width: 35px !important;
   margin-bottom: 1px !important;

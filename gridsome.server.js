@@ -7,7 +7,7 @@
 
 const changelogData = require('./data/changelog.json')
 const wikiData = require('./data/wiki-data.json')
-const keyData = require('./data/keys.json')
+const keyData = require('./data/keys_test.json')
 const extractData = require('./data/extracts.json')
 const ammoData = require('./data/ammo.json')
 const checklistData = require('./data/checklists.json')
@@ -68,7 +68,7 @@ module.exports = function (api) {
       const unlockIds = []
 
       for (const [index, spawn] of item.spawns.entries()) {
-        const id = `${item.label}-index`
+        const id = `${item.label}-${index}`
         spawnIds.push(id)
 
         spawns.addNode({
@@ -82,7 +82,7 @@ module.exports = function (api) {
       }
 
       for (const [index, unlock] of item.unlocks.entries()) {
-        const id = `${item.label}-index`
+        const id = `${item.label}-${index}`
         unlockIds.push(id)
 
         unlocks.addNode({

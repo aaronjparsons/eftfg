@@ -42,7 +42,7 @@
       <v-col cols="12">
         <div v-show="activeMap === 'all'" class="text-center">
           <h2>{{ allMapsLabel }} has no set spawn location</h2>
-          <p v-for="(desc, i) in allMapsNotes" :key="i">{{ desc }}</p>
+          <p>{{ allMapsNotes }}</p>
         </div>
         <Map v-show="activeMap !== 'all'" :active-map="activeMap" :active-item="activeItem" />
       </v-col>
@@ -340,7 +340,7 @@ export default {
       if (this.selection.node && this.selection.node.spawns && this.selection.node.spawns[0]) {
         return this.selection.node.spawns[0].notes
       } else {
-        return []
+        return ''
       }
     }
   },
@@ -367,7 +367,8 @@ export default {
           for (const instance of item.node[this.activeView]) {
             if (instance.map === this.activeMap) {
               object.labels.push(item.node.label)
-              object.markers.push(instance.marker)
+              const markers = instance.marker.split(',')
+              object.markers.push([parseFloat(markers[0]), parseFloat(markers[1])])
               object.notes.push(instance.notes)
               object.images.push(instance.image)
               object.videos.push(instance.video)
@@ -382,7 +383,8 @@ export default {
         for (const item of selectedItem.node[this.activeView]) {
           if (item.map === this.activeMap) {
             object.labels.push(selectedItem.node.label)
-            object.markers.push(item.marker)
+            const markers = item.marker.split(',')
+            object.markers.push([parseFloat(markers[0]), parseFloat(markers[1])])
             object.notes.push(item.notes)
             object.images.push(item.image)
             object.videos.push(item.video)
@@ -397,7 +399,7 @@ export default {
 
 <style>
 .v-autocomplete {
-  z-index: 160;
+  z-index: 160 !important;
 }
 .unselected {
   background: #3f3f3f44 !important;
