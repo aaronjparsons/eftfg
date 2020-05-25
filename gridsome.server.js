@@ -7,7 +7,7 @@
 
 const changelogData = require('./data/changelog.json')
 const wikiData = require('./data/wiki-data.json')
-const keyData = require('./data/keys_test.json')
+const keyData = require('./data/keys.json')
 const extractData = require('./data/extracts.json')
 const ammoData = require('./data/ammo.json')
 const checklistData = require('./data/checklists.json')

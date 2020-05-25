@@ -8,7 +8,6 @@
         :maxZoom="mapOptions.maxZoom"
         :center="center"
         :crs="crsSimple"
-        @click="mapClick"
       >
         <div class="map-name">{{ activeMap }}</div>
         <l-tile-layer :url="mapSource"></l-tile-layer>
@@ -155,7 +154,7 @@ export default {
 
   methods: {
     mapClick(event) {
-      console.log(`${event.latlng.lat}, ${event.latlng.lng}`)
+      console.log(`${event.latlng.lat},${event.latlng.lng}`)
     },
     hasMediaContent(value, index) {
       if (!value) {
@@ -231,14 +230,26 @@ export default {
 }
 
 .leaflet-container {
-  background-color: #ffffff;
   box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
     0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
   position: relative;
   border-radius: 4px;
+  background-color: #ffffff;
+  background-image: linear-gradient(rgba(21, 21, 24, 0.1) 2px, transparent 2px),
+  linear-gradient(90deg, rgba(21, 21, 24, 0.1) 2px, transparent 2px),
+  linear-gradient(rgba(21, 21, 24, 0.1) 1px, transparent 1px),
+  linear-gradient(90deg, rgba(21, 21, 24, 0.1) 1px, transparent 1px);
+  background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+  background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
 }
 .map-dark .leaflet-container {
-  background-color: #424242;
+  background-color: #151518;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1) 2px, transparent 2px),
+  linear-gradient(90deg, rgba(255, 255, 255, 0.1) 2px, transparent 2px),
+  linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+  linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+  background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
 }
 
 .map-dark .leaflet-popup-content-wrapper {

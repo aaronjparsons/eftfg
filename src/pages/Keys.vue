@@ -367,11 +367,14 @@ export default {
           for (const instance of item.node[this.activeView]) {
             if (instance.map === this.activeMap) {
               object.labels.push(item.node.label)
-              const markers = instance.marker.split(',')
-              object.markers.push([parseFloat(markers[0]), parseFloat(markers[1])])
               object.notes.push(instance.notes)
               object.images.push(instance.image)
               object.videos.push(instance.video)
+
+              if (instance.marker) {
+                const markers = instance.marker.split(',')
+                object.markers.push([parseFloat(markers[0]), parseFloat(markers[1])])
+              }
             }
           }
         }
@@ -383,11 +386,14 @@ export default {
         for (const item of selectedItem.node[this.activeView]) {
           if (item.map === this.activeMap) {
             object.labels.push(selectedItem.node.label)
-            const markers = item.marker.split(',')
-            object.markers.push([parseFloat(markers[0]), parseFloat(markers[1])])
             object.notes.push(item.notes)
             object.images.push(item.image)
             object.videos.push(item.video)
+
+            if (item.marker) {
+              const markers = item.marker.split(',')
+              object.markers.push([parseFloat(markers[0]), parseFloat(markers[1])])
+            }
           }
         }
         this.activeItem = object
