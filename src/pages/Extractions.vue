@@ -22,7 +22,7 @@
 
 <page-query>
 query {
-  extracts: allExtracts {
+  extracts: allExtracts(sortBy: "label", order: ASC) {
     edges {
       node {
         type,
@@ -207,10 +207,10 @@ export default {
   computed: {
     activeItem() {
       const object = {
-        coords: [],
+        markers: [],
         type: [],
         notes: [],
-        name: [],
+        labels: [],
         images: []
       }
 
@@ -220,18 +220,18 @@ export default {
 
       if (this.input.node.type === 'extract') {
         return {
-          coords: [this.input.node.marker],
+          markers: [this.input.node.marker],
           type: [this.input.node.extractType],
           notes: [this.input.node.extractNotes],
-          name: [this.input.node.label],
+          labels: [this.input.node.label],
           images: [this.input.node.image]
         }
       } else {
         return this.$page[`all${this.input.node.map}`].edges.reduce((obj,item) => {
-          obj.coords = [item.node.marker, ...obj.coords]
+          obj.markers = [item.node.marker, ...obj.markers]
           obj.type = [item.node.extractType, ...obj.type],
           obj.notes = [item.node.extractNotes, ...obj.notes]
-          obj.name = [item.node.label, ...obj.name]
+          obj.labels = [item.node.label, ...obj.labels]
           obj.images = [item.node.image, ...obj.images]
           return obj
         }, object)
