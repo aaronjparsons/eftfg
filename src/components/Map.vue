@@ -9,7 +9,18 @@
         :center="center"
         :crs="crsSimple"
       >
-        <div class="map-name">{{ activeMap }}</div>
+        <div v-show="availableMaps.length" class="map-names">
+          <div class="map-names-header">Select a map:</div>
+          <div
+            v-for="(map, index) in availableMaps"
+            :key="index"
+            class="map-name-item"
+            :class="{ 'map-unselected': activeMap !== map }"
+            @click="emitMapChange(map)"
+          >
+            {{ map }}
+          </div>
+        </div>
         <l-tile-layer :url="mapSource"></l-tile-layer>
         <l-feature-group ref="markerGroup">
           <l-marker
@@ -104,6 +115,10 @@ export default {
     activeItem: {
       type: Object,
       default: () => {}
+    },
+    availableMaps: {
+      type: Array,
+      default: () => []
     }
   },
 
@@ -156,6 +171,9 @@ export default {
     mapClick(event) {
       console.log(`${event.latlng.lat},${event.latlng.lng}`)
     },
+    emitMapChange(map) {
+      this.$emit('changeActiveMap', map)
+    },
     hasMediaContent(value, index) {
       if (!value) {
         return false
@@ -186,17 +204,48 @@ export default {
 </script>
 
 <style>
-.map-name {
+.map-names {
   position: absolute;
   right: 0;
-  padding: 5px 20px;
   background: #ffffffd8;
   border-bottom-left-radius: 5px;
   font-size: 16px;
   z-index: 150;
 }
-.map-dark .map-name {
+.map-dark .map-names {
   background: #434343d8;
+}
+.map-names .map-names-header {
+  background: #e0e0e0;
+  padding: 5px 20px;
+  margin-bottom: 5px;
+}
+.map-dark .map-names .map-names-header {
+  background: #2b2b2b;
+}
+.map-names .map-name-item {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  background: #dbdbdbd8;
+  text-align: center;
+  text-decoration: underline;
+}
+.map-dark .map-names .map-name-item {
+  background: #5a5a5ad8;
+}
+.map-names .map-name-item:hover {
+  cursor: pointer;
+}
+.map-names .map-unselected {
+  color: #0000006b;
+  background: transparent;
+  text-decoration: none;
+}
+.map-dark .map-names .map-unselected {
+  color: #ffffff63;
+  background: transparent;
+  text-decoration: none;
 }
 .image-dialog-container {
   position: relative;

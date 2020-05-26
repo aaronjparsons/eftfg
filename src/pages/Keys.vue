@@ -44,7 +44,13 @@
           <h2>{{ allMapsLabel }} has no set spawn location</h2>
           <p>{{ allMapsNotes }}</p>
         </div>
-        <Map v-show="activeMap !== 'all'" :active-map="activeMap" :active-item="activeItem" />
+        <Map
+          v-show="activeMap !== 'all'"
+          :active-map="activeMap"
+          :active-item="activeItem"
+          :available-maps="availableMaps"
+          @changeActiveMap="changeActiveMap"
+        />
       </v-col>
     </v-row>
   </Layout>
@@ -297,6 +303,7 @@ export default {
         videos: []
       },
       activeMap: '',
+      availableMaps: [],
       activeView: 'spawns'
     }
   },
@@ -308,11 +315,6 @@ export default {
   },
 
   computed: {
-    /**
-     * Returns an array of the keys, with [Map] (All Keys) options for all maps
-     *
-     * @return {array} The array of searchable items
-    */
     searchList() {
       const result = []
       const maps = ['Customs', 'Factory', 'Interchange', 'Labs', 'Reserve', 'Shoreline', 'Woods']
@@ -351,6 +353,17 @@ export default {
       this.setActiveItem(this.selection)
     },
     setActiveItem(selectedItem) {
+      this.availableMaps = []
+
+      if (selectedItem.node.type && selectedItem.node.type === 'map') {
+        this.activeMap = selectedItem.node.map
+        this.setMapItem()
+      } else {
+        this.activeMap = selectedItem.node[this.activeView][0].map
+        this.setIndividualItem(selectedItem)
+      }
+    },
+    setMapItem() {
       const object = {
         labels: [],
         markers: [],
@@ -358,46 +371,59 @@ export default {
         images: [],
         videos: []
       }
+      const items = this.$page[`all${this.activeMap}`]
+      for (const item of items.edges) {
+        for (const instance of item.node[this.activeView]) {
+          if (instance.map === this.activeMap) {
+            object.labels.push(item.node.label)
+            object.notes.push(instance.notes)
+            object.images.push(instance.image)
+            object.videos.push(instance.video)
 
-      if (selectedItem.node.type && selectedItem.node.type === 'map') {
-        this.activeMap = selectedItem.node.map
-
-        const items = this.$page[`all${this.activeMap}`]
-        for (const item of items.edges) {
-          for (const instance of item.node[this.activeView]) {
-            if (instance.map === this.activeMap) {
-              object.labels.push(item.node.label)
-              object.notes.push(instance.notes)
-              object.images.push(instance.image)
-              object.videos.push(instance.video)
-
-              if (instance.marker) {
-                const markers = instance.marker.split(',')
-                object.markers.push([parseFloat(markers[0]), parseFloat(markers[1])])
-              }
-            }
-          }
-        }
-
-        this.activeItem = object
-      } else {
-        this.activeMap = selectedItem.node[this.activeView][0].map
-
-        for (const item of selectedItem.node[this.activeView]) {
-          if (item.map === this.activeMap) {
-            object.labels.push(selectedItem.node.label)
-            object.notes.push(item.notes)
-            object.images.push(item.image)
-            object.videos.push(item.video)
-
-            if (item.marker) {
-              const markers = item.marker.split(',')
+            if (instance.marker) {
+              const markers = instance.marker.split(',')
               object.markers.push([parseFloat(markers[0]), parseFloat(markers[1])])
             }
           }
         }
-        this.activeItem = object
       }
+
+      this.activeItem = object
+    },
+    setIndividualItem(selectedItem) {
+      const object = {
+        labels: [],
+        markers: [],
+        notes: [],
+        images: [],
+        videos: []
+      }
+      const allMaps = []
+
+      for (const item of selectedItem.node[this.activeView]) {
+        if (!allMaps.includes(item.map)) {
+          allMaps.push(item.map)
+        }
+
+        if (item.map === this.activeMap) {
+          object.labels.push(selectedItem.node.label)
+          object.notes.push(item.notes)
+          object.images.push(item.image)
+          object.videos.push(item.video)
+
+          if (item.marker) {
+            const markers = item.marker.split(',')
+            object.markers.push([parseFloat(markers[0]), parseFloat(markers[1])])
+          }
+        }
+      }
+
+      this.availableMaps = allMaps
+      this.activeItem = object
+    },
+    changeActiveMap(map) {
+      this.activeMap = map
+      this.setIndividualItem(this.selection)
     }
   }
 }
