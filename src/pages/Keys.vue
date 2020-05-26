@@ -241,20 +241,20 @@ import Map from '../components/Map'
 
 export default {
   metaInfo: {
-    title: "Key Spawns",
-    link: [{ rel: "canonical", href: "https://eftfg.com/key-spawns" }],
+    title: "Keys",
+    link: [{ rel: "canonical", href: "https://eftfg.com/keys" }],
     meta: [
       {
         name: "description",
         content:
           "Map locations, screenshots, and video guides for every key in Escape From Tarkov. Quickly and easily search by key or by map."
       },
-      { property: "og:title", content: "Key Spawns | EFTFG" },
+      { property: "og:title", content: "Keys | EFTFG" },
       { property: "og:site_name", content: "EFTFG" },
       { property: "og:type", content: "website" },
       {
         property: "og:url",
-        content: "https://eftfg.com/key-spawns"
+        content: "https://eftfg.com/keys"
       },
       // {
       //   property: "og:image",
@@ -268,9 +268,9 @@ export default {
       { name: "twitter:card", content: "summary" },
       {
         name: "twitter:site",
-        content: "https://eftfg.com/key-spawns"
+        content: "https://eftfg.com/keys"
       },
-      { name: "twitter:title", content: "Key Spawns | EFTFG" },
+      { name: "twitter:title", content: "Keys | EFTFG" },
       {
         name: "twitter:description",
         content:
@@ -281,7 +281,7 @@ export default {
       //   name: "twitter:image:src",
       //   content: "https://www.my-site.com/my-special-image.jpg"
       // },
-      { itemprop: "name", content: "Key Spawns | EFTFG" },
+      { itemprop: "name", content: "Keys | EFTFG" },
       {
         itemprop: "description",
         content:
