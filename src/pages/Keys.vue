@@ -40,9 +40,15 @@
     </v-row>
     <v-row justify="center">
       <v-col cols="12">
-        <div v-show="activeMap === 'all'" class="text-center">
-          <h2>{{ allMapsLabel }} has no set spawn location</h2>
-          <p>{{ allMapsNotes }}</p>
+        <div v-show="activeMap === 'all'" class="text-center mt-10">
+          <div v-if="activeView === 'spawns'">
+            <h2>{{ allMapsLabel }} has no set spawn location</h2>
+            <p>{{ allMapsNotes }}</p>
+          </div>
+          <div v-else>
+            <h2>{{ allMapsLabel }} does not have a use</h2>
+            <p>{{ allMapsNotes }}</p>
+          </div>
         </div>
         <Map
           v-show="activeMap !== 'all'"
@@ -339,8 +345,8 @@ export default {
       }
     },
     allMapsNotes() {
-      if (this.selection.node && this.selection.node.spawns && this.selection.node.spawns[0]) {
-        return this.selection.node.spawns[0].notes
+      if (this.selection.node && this.selection.node[this.activeView] && this.selection.node[this.activeView][0]) {
+        return this.selection.node[this.activeView][0].notes
       } else {
         return ''
       }
