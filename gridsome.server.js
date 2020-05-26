@@ -52,18 +52,55 @@ module.exports = function (api) {
 
     // Add key data
     const keys = actions.addCollection({
-      typeName: 'KeySpawns'
+      typeName: 'Keys'
+    })
+
+    const spawns = actions.addCollection({
+      typeName: 'Spawns'
+    })
+
+    const unlocks = actions.addCollection({
+      typeName: 'Unlocks'
     })
 
     for (const item of keyData) {
+      const spawnIds = []
+      const unlockIds = []
+
+      for (const [index, spawn] of item.spawns.entries()) {
+        const id = `${item.label}-${index}`
+        spawnIds.push(id)
+
+        spawns.addNode({
+          id,
+          map: spawn.map,
+          marker: spawn.marker,
+          notes: spawn.notes,
+          image: spawn.image,
+          video: spawn.video
+        })
+      }
+
+      for (const [index, unlock] of item.unlocks.entries()) {
+        const id = `${item.label}-${index}`
+        unlockIds.push(id)
+
+        unlocks.addNode({
+          id,
+          map: unlock.map,
+          marker: unlock.marker,
+          notes: unlock.notes,
+          image: unlock.image,
+          video: unlock.video
+        })
+      }
+
       keys.addNode({
         type: item.type,
         label: item.label,
-        map: item.map,
-        marker: item.markers,
-        description: item.spawns,
-        images: item.images,
-        videos: item.videos
+        maps: item.maps,
+        spawns: actions.store.createReference('Spawns', spawnIds),
+        unlocks: actions.store.createReference('Unlocks', unlockIds)
       })
     }
 

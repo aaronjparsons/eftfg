@@ -1,2456 +1,3639 @@
 [
   {
-    "type": "map",
-    "label": "Customs (All Keys)",
-    "map": "Customs",
-    "markers": [],
-    "spawns": [],
-    "images": [],
-    "videos": []
-  },
-  {
-    "type": "map",
-    "label": "Shoreline (All Keys)",
-    "map": "Shoreline",
-    "markers": [],
-    "spawns": [],
-    "images": [],
-    "videos": []
-  },
-  {
-    "type": "map",
-    "label": "Woods (All Keys)",
-    "map": "Woods",
-    "markers": [],
-    "spawns": [],
-    "images": [],
-    "videos": []
-  },
-  {
-    "type": "map",
-    "label": "Interchange (All Keys)",
-    "map": "Interchange",
-    "markers": [],
-    "spawns": [],
-    "images": [],
-    "videos": []
-  },
-  {
-    "type": "map",
-    "label": "Factory (All Keys)",
-    "map": "Factory",
-    "markers": [],
-    "spawns": [],
-    "images": [],
-    "videos": []
-  },
-  {
-    "type": "map",
-    "label": "Labs (All Keys)",
-    "map": "Labs",
-    "markers": [],
-    "spawns": [],
-    "images": [],
-    "videos": []
-  },
-  {
-    "type": "map",
-    "label": "Reserve (All Keys)",
-    "map": "Reserve",
-    "markers": [],
-    "spawns": [],
-    "images": [],
-    "videos": []
-  },
-  {
     "type": "key",
     "label": "Factory Key",
-    "map": "Customs",
-    "markers": [
-      "-200.65491252168883,62.7421875",
-      "-222.17066403990745,93.0390625",
-      "-228.0138718189705,71.5390625"
+    "maps": [
+      "Customs",
+      "Factory"
     ],
     "spawns": [
-      "In the small office near the main entrance of three story dorms, on the table next to the TV",
-      "Inside the warehouse near the smokestacks on boilers side, in the blue lockers on the north wall",
-      "Behind Old Gas Station, next to the concrete cylinder with the med bag"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799180/customs_factory_key_1.jpg",
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799177/customs_dorm_room_214_key___factory_key_3.jpg",
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799180/customs_factory_key_2.jpg"
-    ],
-    "videos": [
-      "oe1MtwV6BR4",
-      "ZkXiq0kW1jU",
-      "GA-648mWqiM"
+      {
+        "map": "Customs",
+        "marker": "-200.65491252168883,62.7421875",
+        "notes": "In the small office near the main entrance of three story dorms, on the table next to the TV",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799180/customs_factory_key_1.jpg",
+        "video": "oe1MtwV6BR4"
+      },
+      {
+        "map": "Customs",
+        "marker": "-222.17066403990745,93.0390625",
+        "notes": "Inside the warehouse near the smokestacks on boilers side, in the blue lockers on the north wall",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799177/customs_dorm_room_214_key___factory_key_3.jpg",
+        "video": "ZkXiq0kW1jU"
+      },
+      {
+        "map": "Customs",
+        "marker": "-228.0138718189705,71.5390625",
+        "notes": "Behind Old Gas Station, next to the concrete cylinder with the med bag",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799180/customs_factory_key_2.jpg",
+        "video": "GA-648mWqiM"
+      }
     ],
     "unlocks": [
-      "Factory: Gate 0 extraction",
-      "Factory: Cellar extraction",
-      "Factory: Locked office on third floor, next to breach room",
-      "Customs: Shortcut near gas station & warehouse 4"
+      {
+        "map": "Factory",
+        "marker": "-246.72071319141693,63.078125",
+        "notes": "Opens Gate 0 extraction.",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203848/gate_0.jpg",
+        "video": ""
+      },
+      {
+        "map": "Factory",
+        "marker": "-184.06297918495358,133.453125",
+        "notes": "Opens Cellar extraction.",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203848/cellars.jpg",
+        "video": ""
+      },
+      {
+        "map": "Factory",
+        "marker": "-191.43797918495358,17.484375",
+        "notes": "Opens the locked office on third floor, next to breach room",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Customs",
+        "marker": "-213.7536745662511,76.703125",
+        "notes": "Opens the shortcut near gas station & warehouse 4",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Door Key",
-    "map": "Factory",
-    "markers": [
-      "-208.51057569569429, 48.96875"
+    "maps": [
+      "Factory"
     ],
     "spawns": [
-      "Can be found on a bench in the Factory locker room"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799183/factory_door_key.jpg"
-    ],
-    "videos": [
-      "fkfXkJffQkU"
+      {
+        "map": "Factory",
+        "marker": "-208.51057569569429,48.96875",
+        "notes": "Can be found on a bench in the Factory locker room",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799183/factory_door_key.jpg",
+        "video": "fkfXkJffQkU"
+      }
     ],
     "unlocks": [
-      "Unlocks the door to the pumping station in the Factory"
+      {
+        "map": "Factory",
+        "marker": "-197.31416736805272,96.21875",
+        "notes": "Unlocks the door to the pumping station in the Factory",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Door Key (alternative)",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Factory"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks the door to the pumping station in the Factory"
+      {
+        "map": "Factory",
+        "marker": "-196.814030458066,97.40625",
+        "notes": "Unlocks the door to the pumping station in the Factory",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Dorm Room 103 Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Customs"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks dorm room 103 in the three story dorms on Customs"
+      {
+        "map": "Customs",
+        "marker": "-201.18806475369527,62.609375",
+        "notes": "Unlocks dorm room 103 in the three story dorms on Customs",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Dorm Room 104 Key",
-    "map": "Customs",
-    "markers": [
-      "-201.70202700260265,66.019775390625"
+    "maps": [
+      "Customs"
     ],
     "spawns": [
-      "In a key cabinet at the dorm guard desk that is located at the two-story dorms on Customs"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799177/customs_dorm_room_104_key.jpg"
-    ],
-    "videos": [
-      "4czCBg5IjTA"
+      {
+        "map": "Customs",
+        "marker": "-201.70202700260265,66.019775390625",
+        "notes": "In a key cabinet at the dorm guard desk that is located at the two-story dorms on Customs",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799177/customs_dorm_room_104_key.jpg",
+        "video": "4czCBg5IjTA"
+      }
     ],
     "unlocks": [
-      "Unlocks dorm room 104 in the two story dorms on Customs"
+      {
+        "map": "Customs",
+        "marker": "-202.12563809833102,66.828125",
+        "notes": "Unlocks dorm room 104 in the two story dorms on Customs",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Dorm Room 105 Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Customs"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks dorm room 105 in the two story dorms on Customs"
+      {
+        "map": "Customs",
+        "marker": "-201.96937587422508,66.078125",
+        "notes": "Unlocks dorm room 105 in the two story dorms on Customs",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Dorm Room 108 Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Customs"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks dorm room 108 in the three story dorms on Customs"
+      {
+        "map": "Customs",
+        "marker": "-198.8441313921059,62.203125",
+        "notes": "Unlocks dorm room 108 in the three story dorms on Customs",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Dorm Room 110 Key",
-    "map": "Customs",
-    "markers": [
-      "-219.67507410352806,93.884765625"
+    "maps": [
+      "Customs"
     ],
     "spawns": [
-      "Spawns in a locker that is located in a warehouse on the eastern side of Customs"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799177/customs_dorm_room_110_key.jpg"
-    ],
-    "videos": [
-      "9o-yG_sH2as"
+      {
+        "map": "Customs",
+        "marker": "-219.67507410352806,93.884765625",
+        "notes": "Spawns in a locker that is located in a warehouse on the eastern side of Customs",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799177/customs_dorm_room_110_key.jpg",
+        "video": "9o-yG_sH2as"
+      }
     ],
     "unlocks": [
-      "Unlocks dorm room 110 in the two story dorms on Customs"
+      {
+        "map": "Customs",
+        "marker": "-200.03195410850321,66.390625",
+        "notes": "Unlocks dorm room 110 in the two story dorms on Customs",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Dorm Room 114 Key",
-    "map": "Customs",
-    "markers": [
-      "-212.9637186415558,94.14874267578125"
+    "maps": [
+      "Customs"
     ],
     "spawns": [
-      "Customs Checkpoint: In the blue jacket located in the trunk of the blue car"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799177/customs_dorm_room_114_key.jpg"
-    ],
-    "videos": [
-      "_jLyvV304t0"
+      {
+        "map": "Customs",
+        "marker": "-212.9637186415558,94.14874267578125",
+        "notes": "Customs Checkpoint: In the blue jacket located in the trunk of the blue car",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799177/customs_dorm_room_114_key.jpg",
+        "video": "_jLyvV304t0"
+      }
     ],
     "unlocks": [
-      "Unlocks dorm room 114 in the two story dorms on Customs"
+      {
+        "map": "Customs",
+        "marker": "-200.15555811560276,67.078125",
+        "notes": "Unlocks dorm room 114 in the two story dorms on Customs",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Dorm Room 118 Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Customs"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks dorm room 118 in the three story dorms on Customs"
+      {
+        "map": "Customs",
+        "marker": "-199.40549943989416,63.734375",
+        "notes": "Unlocks dorm room 118 in the three story dorms on Customs",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Dorm Room 203 Key",
-    "map": "Customs",
-    "markers": [
-      "-198.31405436668595,62.2578125"
+    "maps": [
+      "Customs"
     ],
     "spawns": [
-      "Inside a red mug in dorm room 214"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799177/customs_dorm_room_203_key.jpg"
-    ],
-    "videos": [
-      "m3_S4-aqe2s"
+      {
+        "map": "Customs",
+        "marker": "-198.31405436668595,62.2578125",
+        "notes": "Inside a red mug in dorm room 214",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799177/customs_dorm_room_203_key.jpg",
+        "video": "m3_S4-aqe2s"
+      }
     ],
     "unlocks": [
-      "Unlocks dorm room 203 in the three story dorms on Customs"
+      {
+        "map": "Customs",
+        "marker": "-201.18688879470207,62.703125",
+        "notes": "Unlocks dorm room 203 in the three story dorms on Customs",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Dorm Room 204 Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Customs"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks dorm room 204 in the three story dorms on Customs"
+      {
+        "map": "Customs",
+        "marker": "-201.0618790154173,61.859375",
+        "notes": "Unlocks dorm room 204 in the three story dorms on Customs",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Dorm Room 206 Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Customs"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks dorm room 206 in the two story dorms on Customs"
+      {
+        "map": "Customs",
+        "marker": "-201.9056950255895,66.921875",
+        "notes": "Unlocks dorm room 206 in the two story dorms on Customs",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Dorm Room 214 Key",
-    "map": "Customs",
-    "markers": [
-      "-222.21531593406593,92.3125"
+    "maps": [
+      "Customs"
     ],
     "spawns": [
-      "Inside the warehouse near the smokestacks on boilers side, in the blue lockers on the north wall"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799177/customs_dorm_room_214_key___factory_key_3.jpg"
-    ],
-    "videos": [
-      "HQNBw5saxmI"
+      {
+        "map": "Customs",
+        "marker": "-222.21531593406593,92.3125",
+        "notes": "Inside the warehouse near the smokestacks on boilers side, in the blue lockers on the north wall",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799177/customs_dorm_room_214_key___factory_key_3.jpg",
+        "video": "HQNBw5saxmI"
+      }
     ],
     "unlocks": [
-      "Unlocks dorm room 214 in the three story dorms on Customs"
+      {
+        "map": "Customs",
+        "marker": "-198.31166387115243,62.296875",
+        "notes": "Unlocks dorm room 214 in the three story dorms on Customs",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Dorm Room 218 Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Customs"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks dorm room 218 in the three story dorms on Customs"
+      {
+        "map": "Customs",
+        "marker": "-199.34299455025177,63.453125",
+        "notes": "Unlocks dorm room 218 in the three story dorms on Customs",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Dorm Room 220 Key",
-    "map": "Customs",
-    "markers": [
-      "-223.8320244722383,87.19989013671875"
+    "maps": [
+      "Customs"
     ],
     "spawns": [
-      "Partially under blue clothing in a train car on boiler side of Customs"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799178/customs_dorm_room_220_key.jpg"
-    ],
-    "videos": [
-      "0xB7AP4Mj5c"
+      {
+        "map": "Customs",
+        "marker": "-223.8320244722383,87.19989013671875",
+        "notes": "Partially under blue clothing in a train car on boiler side of Customs",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799178/customs_dorm_room_220_key.jpg",
+        "video": "0xB7AP4Mj5c"
+      }
     ],
     "unlocks": [
-      "Unlocks dorm room 220 in the three story dorms on Customs"
+      {
+        "map": "Customs",
+        "marker": "-199.43675188471533,63.703125",
+        "notes": "Unlocks dorm room 220 in the three story dorms on Customs",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Dorm Room 303 Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Customs"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks dorm room 303 in the three story dorms on Customs"
+      {
+        "map": "Customs",
+        "marker": "-201.1556363498809,62.421875",
+        "notes": "Unlocks dorm room 303 in the three story dorms on Customs",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Dorm Room 306 Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Customs"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks dorm room 306 in the three story dorms on Customs"
+      {
+        "map": "Customs",
+        "marker": "-200.56183989827824,61.921875",
+        "notes": "Unlocks dorm room 306 in the three story dorms on Customs",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Dorm Room 308 Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Customs"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks dorm room 308 in the three story dorms on Customs"
+      {
+        "map": "Customs",
+        "marker": "-198.8429554331127,62.171875",
+        "notes": "Unlocks dorm room 308 in the three story dorms on Customs",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Dorm Room 315 Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Customs"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks dorm room 315 in the three story dorms on Customs"
+      {
+        "map": "Customs",
+        "marker": "-199.217984770967,62.796875",
+        "notes": "Unlocks dorm room 315 in the three story dorms on Customs",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Marked Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Customs"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks door 314 (surrounded by strange markings) in the three story dorms on Customs."
+      {
+        "map": "Customs",
+        "marker": "-198.34291631597364,62.828125",
+        "notes": "Unlocks door 314 (surrounded by strange markings) in the three story dorms on Customs.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Dorm Guard Desk Key",
-    "map": "Customs",
-    "markers": [
-      "-201.06736417365528,66.822387695312"
+    "maps": [
+      "Customs"
     ],
     "spawns": [
-      "In the hand of the Dead Scav in the first-floor showers of the two-story dorms on Customs"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799177/customs_dorm_guard_desk_key.jpg"
-    ],
-    "videos": [
-      "T0cLUSAxTE8"
+      {
+        "map": "Customs",
+        "marker": "-201.06736417365528,66.822387695312",
+        "notes": "In the hand of the Dead Scav in the first-floor showers of the two-story dorms on Customs",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799177/customs_dorm_guard_desk_key.jpg",
+        "video": "T0cLUSAxTE8"
+      }
     ],
     "unlocks": [
-      "Unlocks the guard desk room at the first-floor main entrance of the two-story dorms on Customs."
+      {
+        "map": "Customs",
+        "marker": "-201.71818035666234,66.078125",
+        "notes": "Unlocks the guard desk room at the first-floor main entrance of the two-story dorms on Customs.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Machinery Key",
-    "map": "Customs",
-    "markers": [
-      "-200.9340434784981,62.625139474868774"
+    "maps": [
+      "Customs"
     ],
     "spawns": [
-      "Spawns inside of the brown jacket in room 205 of the three-story dorm building on Customs (100% spawn rate)"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799182/customs_machinery_key.jpg"
-    ],
-    "videos": [
-      "jC7NkWtJB0k"
+      {
+        "map": "Customs",
+        "marker": "-200.9340434784981,62.625139474868774",
+        "notes": "Spawns inside of the brown jacket in room 205 of the three-story dorm building on Customs (100% spawn rate)",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799182/customs_machinery_key.jpg",
+        "video": "jC7NkWtJB0k"
+      }
     ],
     "unlocks": [
-      "Unlocks the driver-side door of the orange tanker truck by the construction site on Customs"
+      {
+        "map": "Customs",
+        "marker": "-213.15657516121848,57.484375",
+        "notes": "Unlocks the driver-side door of the orange tanker truck by the construction site on Customs",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Military Base Checkpoint Key",
-    "map": "Customs",
-    "markers": [
-      "-222.53672417220938,94.1141357421875"
+    "maps": [
+      "Customs"
     ],
     "spawns": [
-      "Sitting next to the Dead Scav on the couch in the boiler building on the east side of Customs"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799182/customs_military_base_checkpoint_key.jpg"
-    ],
-    "videos": [
-      "Z37jECtzRz8"
+      {
+        "map": "Customs",
+        "marker": "-222.53672417220938,94.1141357421875",
+        "notes": "Sitting next to the Dead Scav on the couch in the boiler building on the east side of Customs",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799182/customs_military_base_checkpoint_key.jpg",
+        "video": "Z37jECtzRz8"
+      }
     ],
     "unlocks": [
-      "Unlocks the door at the military checkpoint tower on Customs"
+      {
+        "map": "Customs",
+        "marker": "-212.46907516121848,94.421875",
+        "notes": "Unlocks the door at the military checkpoint tower on Customs",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Customs Office Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Customs"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks the office door in the upstairs areaof the red Paradigm warehouse (aka \"Big Red\") on Customs"
+      {
+        "map": "Customs",
+        "marker": "-221.99986309001326,32.078125",
+        "notes": "Unlocks the office door in the upstairs area of the red Paradigm warehouse (aka \"Big Red\") on Customs",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Portable Cabin Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Customs"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks the portable door in the Bus Depot on Customs"
+      {
+        "map": "Customs",
+        "marker": "-207.99930811560276,65.796875",
+        "notes": "Unlocks the portable door in the Bus Depot on Customs",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Portable Cabin Key Of Customs Factory Zone",
-    "map": "Factory",
-    "markers": [
-      "-190.52611040956913, 18.09375"
+    "maps": [
+      "Factory",
+      "Customs"
     ],
     "spawns": [
-      "In the locked room next to the office on Factory on the ground under the jacket"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799184/factory_portable_cabin_key_of_customs_factory_zone.jpg"
-    ],
-    "videos": [
-      "1zybphcxjog"
+      {
+        "map": "Factory",
+        "marker": "-190.52611040956913, 18.09375",
+        "notes": "In the locked room next to the office on Factory on the ground under the jacket",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799184/factory_portable_cabin_key_of_customs_factory_zone.jpg",
+        "video": "1zybphcxjog"
+      }
     ],
     "unlocks": [
-      "Unlocks the second story mobile trailer door across from the bus depot on Customs"
+      {
+        "map": "Customs",
+        "marker": "-211.84335882860933,64.359375",
+        "notes": "Unlocks the second story mobile trailer door across from the bus depot on Customs",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Trailer Park Cabin Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Provided by Skier for the Golden Swag task"
+    "maps": [
+      "all",
+      "Customs"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Provided by Skier for the Golden Swag task",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks a mobile trailer in a parking lot on the west side of the river on Customs"
+      {
+        "map": "Customs",
+        "marker": "-229.22026823396004,33.015625",
+        "notes": "Unlocks a mobile trailer in a parking lot on the west side of the river on Customs",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Cabinet Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Customs"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks the gas station office door on Customs"
+      {
+        "map": "Customs",
+        "marker": "-209.68749022071523,81.390625",
+        "notes": "Unlocks the gas station office door on Customs",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "The Key To The Gas Station Storage Room",
-    "map": "Customs",
-    "markers": [
-      "-209.69744523568536,81.3826904296875"
+    "maps": [
+      "Customs"
     ],
     "spawns": [
-      "Spawns under the desk in the gas station office on Customs"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799182/customs_the_key_to_the_gas_station_storage_room.jpg"
-    ],
-    "videos": [
-      "8BQUmP2_whw"
+      {
+        "map": "Customs",
+        "marker": "-209.69744523568536,81.3826904296875",
+        "notes": "Spawns under the desk in the gas station office on Customs",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799182/customs_the_key_to_the_gas_station_storage_room.jpg",
+        "video": "8BQUmP2_whw"
+      }
     ],
     "unlocks": [
-      "Unlocks the gas station storage closet door on Customs"
+      {
+        "map": "Customs",
+        "marker": "-209.96876222410597,81.296875",
+        "notes": "Unlocks the gas station storage closet door on Customs",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Unknown Key",
-    "map": "Customs",
-    "markers": [
-      "-224.1907216960671,50.984375"
+    "maps": [
+      "Customs"
     ],
     "spawns": [
-      "Found on a body hidden in bushes on Customs behind the Welcome To Tarkov truck, near RUAF roadblock"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799184/customs_unknown_key.jpg"
-    ],
-    "videos": [
-      "df5sYJ2pssE"
+      {
+        "map": "Customs",
+        "marker": "-224.1907216960671,50.984375",
+        "notes": "Found on a body hidden in bushes on Customs behind the Welcome To Tarkov truck, near RUAF roadblock",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799184/customs_unknown_key.jpg",
+        "video": "df5sYJ2pssE"
+      }
     ],
     "unlocks": [
-      "Opens the Cabin near the Shortcut and warehouse 4"
+      {
+        "map": "Customs",
+        "marker": "-216.7817780813774,77.546875",
+        "notes": "Opens the Cabin near the Shortcut and warehouse 4",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Car Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Used to open the trunk of a car in the dormitory parking lot on Customs which gave access to a Grenade box"
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Used to open the trunk of a car in the dormitory parking lot. The trunk is now always unlocked, rendering this key useless.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Yotota Car Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Woods"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks a pickup truck on Woods in the lumber camp near the 3 wooden shacks"
+      {
+        "map": "Woods",
+        "marker": "-210.09524134092692,98.171875",
+        "notes": "Unlocks a pickup truck on Woods in the lumber camp near the 3 wooden shacks",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "ZB-014 Key",
-    "map": "Customs",
-    "markers": [
-      "-199.35820922498553,63.6953125"
+    "maps": [
+      "Customs",
+      "Woods"
     ],
     "spawns": [
-      "Can be found on the desk in dorm room 220 on Customs"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799184/customs_zb-014_key.jpg"
-    ],
-    "videos": [
-      "jPDThhXk_zY"
+      {
+        "map": "Customs",
+        "marker": "-199.35820922498553,63.6953125",
+        "notes": "Can be found on the desk in dorm room 220 on Customs",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799184/customs_zb-014_key.jpg",
+        "video": "jPDThhXk_zY"
+      }
     ],
     "unlocks": [
-      "Unlocks the locked door in the ZB-014 bunker on Woods"
+      {
+        "map": "Woods",
+        "marker": "-189.9999193209007,169.546875",
+        "notes": "Unlocks the locked door in the ZB-014 bunker on Woods",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Weather Station Safe Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "This key currently has no use, as the safe at the weather station is always unlocked"
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "This key currently has no use, as the safe at the weather station is always unlocked",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Closed Premises of the Sanatorium Key",
-    "map": "Shoreline",
-    "markers": [
-      "-173.73110478468956,64.171875"
+    "maps": [
+      "all",
+      "Shoreline"
     ],
     "spawns": [
-      "The key is located on a chair in the bunker near the Rock Passage Exit if you have the task Spa Tour - Part 5 active"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799183/shoreline_closed_premises_of_the_sanatorium_key.jpg"
-    ],
-    "videos": [
-      "mwvWYuGV-Y8"
+      {
+        "map": "Shoreline",
+        "marker": "-173.73110478468956,64.171875",
+        "notes": "The key is located on a chair in the bunker near the Rock Passage Exit if you have the task Spa Tour - Part 5 active",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799183/shoreline_closed_premises_of_the_sanatorium_key.jpg",
+        "video": "mwvWYuGV-Y8"
+      }
     ],
     "unlocks": [
-      "This is a task key for Spa Tour Part 5. When picked up, key is placed in the task inventory."
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "This is a task key for Spa Tour Part 5. When picked up, the key is placed in the task inventory. This is a quest item and has no use.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Health Resort Warehouse Safe Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Shoreline"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks the safe"
+      {
+        "map": "Shoreline",
+        "marker": "-185.71724887978831,71.296875",
+        "notes": "Unlocks the safe in the health resort warehouse",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Key To Store Safe",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "It is unknown what safe is supposed to be opened with this key."
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "It is unknown what safe is supposed to be opened with this key.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Gas Station Safe Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "This key currently has no use, as the safe at the gas station is always unlocked"
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "This key currently has no use, as the safe at the gas station is always unlocked",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Cottage Back Entrance Key",
-    "map": "Shoreline",
-    "markers": [
-      "-207.19684021722531,42.859375"
+    "maps": [
+      "Shoreline"
     ],
     "spawns": [
-      "The key can be found on top of the bundle of water barrels in the backyard of the cottage on Shoreline"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799183/shoreline_cottage_back_entrance_key.jpg"
-    ],
-    "videos": [
-      "lRTcryiBt54"
+      {
+        "map": "Shoreline",
+        "marker": "-207.19684021722531,42.859375",
+        "notes": "The key can be found on top of the bundle of water barrels in the backyard of the cottage on Shoreline",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799183/shoreline_cottage_back_entrance_key.jpg",
+        "video": "lRTcryiBt54"
+      }
     ],
     "unlocks": [
-      "Unlocks the back door of a cottage on Shoreline"
+      {
+        "map": "Shoreline",
+        "marker": "-206.81344614580118,43.296875",
+        "notes": "Unlocks the back door of a cottage on Shoreline",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Cottage Safe Key",
-    "map": "Shoreline",
-    "markers": [
-      "-212.00938963636406, 17.796875"
+    "maps": [
+      "Shoreline"
     ],
     "spawns": [
-      "In the bus Next to the Tank at the Village on Shoreline. It spawns on a seat on the right side, in the middle of the bus"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799183/shoreline_cottage_safe_key.jpg"
-    ],
-    "videos": [
-      "fLn7KMyoqY4"
+      {
+        "map": "Shoreline",
+        "marker": "-212.00938963636406, 17.796875",
+        "notes": "In the bus Next to the Tank at the Village on Shoreline. It spawns on a seat on the right side, in the middle of the bus",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799183/shoreline_cottage_safe_key.jpg",
+        "video": "fLn7KMyoqY4"
+      }
     ],
     "unlocks": [
-      "Unlocks the Safe in the locked Villa"
+      {
+        "map": "Shoreline",
+        "marker": "-207.1259705940131,44.078125",
+        "notes": "Unlocks the safe in the locked Villa",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "SMW Car Key",
-    "map": "Shoreline",
-    "markers": [
-      "-206.3532137650722,48.640625"
+    "maps": [
+      "Shoreline"
     ],
     "spawns": [
-      "On a box at the construction site near the locked Villa on Shoreline"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799188/shoreline_smw_car_key.jpg"
-    ],
-    "videos": [
-      "DLdm630XogA"
+      {
+        "map": "Shoreline",
+        "marker": "-206.3532137650722,48.640625",
+        "notes": "On a box at the construction site near the locked Villa on Shoreline",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799188/shoreline_smw_car_key.jpg",
+        "video": "DLdm630XogA"
+      }
     ],
     "unlocks": [
-      "Trunk of the blue Car at the unlocked villa on Shoreline"
+      {
+        "map": "Shoreline",
+        "marker": "-209.0948746177482,38.453125",
+        "notes": "Trunk of the blue Car at the unlocked villa on Shoreline",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Health Resort Utility Room Key",
-    "map": "Shoreline",
-    "markers": [
-      "-190.0717413789478,75.734375"
+    "maps": [
+      "Shoreline"
     ],
     "spawns": [
-      "Spawns on the ground, below the key locker in the janitors closet by the east wing admin (glass) staircase on second floor of Shoreline."
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799185/shoreline_health_resort_utility_room_key.jpg"
-    ],
-    "videos": [
-      "pUJWFkuhN_o"
+      {
+        "map": "Shoreline",
+        "marker": "-190.0717413789478,75.734375",
+        "notes": "Spawns on the ground, below the key locker in the janitors closet by the east wing admin (glass) staircase on second floor of Shoreline.",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799185/shoreline_health_resort_utility_room_key.jpg",
+        "video": "pUJWFkuhN_o"
+      }
     ],
     "unlocks": [
-      "Health resort east wing, 3rd floor: Room next to room 328",
-      "Health resort west wing, 2rd floor: Room next to room 227",
-      "Health resort west wing, 3rd floor: Room next to room 327"
+      {
+        "map": "Shoreline",
+        "marker": "-192.1885903902515,81.296875",
+        "notes": "Health resort east wing, 3rd floor: Room next to room 328",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-192.28234772471507,63.234375",
+        "notes": "Health resort west wing, 2nd floor: Room next to room 227",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-192.21984283507268,63.328125",
+        "notes": "Health resort west wing, 3rd floor: Room next to room 327",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
-    "label": "Health Resort Mgmt Office Safe Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "label": "Health Resort Management Office Safe Key",
+    "maps": [
+      "all",
+      "Shoreline"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks a safe in one of the offices in the admin building on Shoreline"
+      {
+        "map": "Shoreline",
+        "marker": "-186.28187831904626,73.484375",
+        "notes": "Unlocks a safe in one of the offices in the admin building on Shoreline",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Health Resort Room 321 Safe Key",
-    "map": "Shoreline",
-    "markers": [
-      "-219.943430296651,93.46875"
+    "maps": [
+      "Shoreline"
     ],
     "spawns": [
-      "The key can be found in a locker in a radio tower on Shoreline"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799185/shoreline_health_resort_room_321_safe_key.jpg"
-    ],
-    "videos": [
-      "BEFxzsg8wdA"
+      {
+        "map": "Shoreline",
+        "marker": "-219.943430296651,93.46875",
+        "notes": "The key can be found in a locker in a radio tower on Shoreline",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799185/shoreline_health_resort_room_321_safe_key.jpg",
+        "video": "BEFxzsg8wdA"
+      }
     ],
     "unlocks": [
-      "Unlocks a safe in room 321 of the West wing in the Health Resort on Shoreline"
+      {
+        "map": "Shoreline",
+        "marker": "-191.00099748704622,65.515625",
+        "notes": "Unlocks a safe in room 321 of the West wing in the Health Resort on Shoreline",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Office 104 West Wing Key",
-    "map": "Shoreline",
-    "markers": [
-      "-211.97747247799083,70.234375"
+    "maps": [
+      "Shoreline"
     ],
     "spawns": [
-      "In a locker inside the smaller building at the power plant on Shoreline"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799186/shoreline_office_104_west_wing_key.jpg"
-    ],
-    "videos": [
-      "YjDwUvhWPT0"
+      {
+        "map": "Shoreline",
+        "marker": "-211.97747247799083,70.234375",
+        "notes": "In a locker inside the smaller building at the power plant on Shoreline",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799186/shoreline_office_104_west_wing_key.jpg",
+        "video": "YjDwUvhWPT0"
+      }
     ],
     "unlocks": [
-      "Unlocks room 104 of the Health Resort West wing on Shoreline"
+      {
+        "map": "Shoreline",
+        "marker": "-190.93849259740384,64.453125",
+        "notes": "Unlocks room 104 of the Health Resort West wing on Shoreline",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Office 112 West Wing Key",
-    "map": "Shoreline",
-    "markers": [
-      "-198.0410844086129,59.828125"
+    "maps": [
+      "Shoreline"
     ],
     "spawns": [
-      "On the bus in the Shoreline bus station"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799187/shoreline_office_112_west_wing_key.jpg"
-    ],
-    "videos": [
-      "EN02A6sfajE"
+      {
+        "map": "Shoreline",
+        "marker": "-198.0410844086129,59.828125",
+        "notes": "On the bus in the Shoreline bus station",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799187/shoreline_office_112_west_wing_key.jpg",
+        "video": "EN02A6sfajE"
+      }
     ],
     "unlocks": [
-      "Unlocks room 112 of the Health Resort West wing on Shoreline"
+      {
+        "map": "Shoreline",
+        "marker": "-191.00113928667534,67.234375",
+        "notes": "Unlocks room 112 of the Health Resort West wing on Shoreline",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "West Wing Room 203 Key",
-    "map": "Shoreline",
-    "markers": [
-      "-212.00938963636406,17.796875"
+    "maps": [
+      "Shoreline"
     ],
     "spawns": [
-      "In the house closest to the bus stop in the Village. Walk through the door and it's on the chair beneath the jackets"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799187/shoreline_west_wing_room_203_key.jpg"
-    ],
-    "videos": [
-      "_w2TdI3lK7c"
+      {
+        "map": "Shoreline",
+        "marker": "-212.00938963636406,17.796875",
+        "notes": "In the house closest to the bus stop in the Village. Walk through the door and it's on the chair beneath the jackets",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799187/shoreline_west_wing_room_203_key.jpg",
+        "video": "_w2TdI3lK7c"
+      }
     ],
     "unlocks": [
-      "Unlocks room 203 of the West wing in the Health Resort on Shoreline"
+      {
+        "map": "Shoreline",
+        "marker": "-191.21990640042367,70.421875",
+        "notes": "Unlocks room 203 of the West wing in the Health Resort on Shoreline",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "West Wing Room 205 Key",
-    "map": "Shoreline",
-    "markers": [
-      "-238.32250737559855,77.328125"
+    "maps": [
+      "Shoreline"
     ],
     "spawns": [
-      "Inside of the reception building at the boat launch on Shoreline. It sits on the ground at the base of the filing cabinets"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799187/shoreline_west_wing_room_205_key.jpg"
-    ],
-    "videos": [
-      "8ToZeRm9Trw"
+      {
+        "map": "Shoreline",
+        "marker": "-238.32250737559855,77.328125",
+        "notes": "Inside of the reception building at the boat launch on Shoreline. It sits on the ground at the base of the filing cabinets",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799187/shoreline_west_wing_room_205_key.jpg",
+        "video": "8ToZeRm9Trw"
+      }
     ],
     "unlocks": [
-      "Unlocks room 205 of the West wing in the Health Resort on Shoreline"
+      {
+        "map": "Shoreline",
+        "marker": "-191.1886539556025,69.921875",
+        "notes": "Unlocks room 205 of the West wing in the Health Resort on Shoreline",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "West Wing Room 207 Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks room 207 of the West wing in the Health Resort on Shoreline. This key currently has no use as this room is always open"
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Unlocks room 207 of the West wing in the Health Resort on Shoreline. This key currently has no use as this room is always open",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "West Wing Room 216 Key",
-    "map": "Shoreline",
-    "markers": [
-      "-186.78789687416298,73.859375"
+    "maps": [
+      "Shoreline"
     ],
     "spawns": [
-      "The key can be found on a desk located on the second floor of the theatre building of the Health Resort on Shoreline"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799188/shoreline_west_wing_room_216_key.jpg"
-    ],
-    "videos": [
-      "yKQ9wKtTikQ"
+      {
+        "map": "Shoreline",
+        "marker": "-186.78789687416298,73.859375",
+        "notes": "The key can be found on a desk located on the second floor of the theatre building of the Health Resort on Shoreline",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799188/shoreline_west_wing_room_216_key.jpg",
+        "video": "yKQ9wKtTikQ"
+      }
     ],
     "unlocks": [
-      "Unlocks room 216 of the West wing in the Health Resort on Shoreline"
+      {
+        "map": "Shoreline",
+        "marker": "-192.15747974505942,66.515625",
+        "notes": "Unlocks room 216 of the West wing in the Health Resort on Shoreline",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "West Wing Room 218 Key",
-    "map": "Shoreline",
-    "markers": [
-      "-186.72534745502423,71.359375"
+    "maps": [
+      "Shoreline"
     ],
     "spawns": [
-      "Spawns in a locker, in the bathroom on the second floor of admin building in the resort on Shoreline"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799187/shoreline_west_wing_room_218_key.jpg"
-    ],
-    "videos": [
-      "ne9QC9cEwUY"
+      {
+        "map": "Shoreline",
+        "marker": "-186.72534745502423,71.359375",
+        "notes": "Spawns in a locker, in the bathroom on the second floor of admin building in the resort on Shoreline",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799187/shoreline_west_wing_room_218_key.jpg",
+        "video": "ne9QC9cEwUY"
+      }
     ],
     "unlocks": [
-      "Unlocks room 218 of the West wing in the Health Resort on Shoreline"
+      {
+        "map": "Shoreline",
+        "marker": "-191.0948966211389,65.859375",
+        "notes": "Unlocks room 218 of the West wing in the Health Resort on Shoreline",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "West Wing Room 219 Key",
-    "map": "Shoreline",
-    "markers": [
-      "-244.70548856650802,89.34375"
+    "maps": [
+      "Shoreline"
     ],
     "spawns": [
-      "Lighthouse on Shoreline. Second floor on top of a broken wooden box"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799188/shoreline_west_wing_room_219_key.jpg"
-    ],
-    "videos": [
-      "RfdXE9h6XQQ"
+      {
+        "map": "Shoreline",
+        "marker": "-244.70548856650802,89.34375",
+        "notes": "Lighthouse on Shoreline. Second floor on top of a broken wooden box",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799188/shoreline_west_wing_room_219_key.jpg",
+        "video": "RfdXE9h6XQQ"
+      }
     ],
     "unlocks": [
-      "Unlocks room 219 of the West wing in the Health Resort on Shoreline"
+      {
+        "map": "Shoreline",
+        "marker": "-192.1262273002382,65.859375",
+        "notes": "Unlocks room 219 of the West wing in the Health Resort on Shoreline",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "West Wing Room 220 Key",
-    "map": "Shoreline",
-    "markers": [
-      "-208.13406841196215,40.546875"
+    "maps": [
+      "Shoreline"
     ],
     "spawns": [
-      "On the keyrack in the back of the unlocked Villa on Shoreline"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799188/shoreline_west_wing_room_220_key.jpg"
-    ],
-    "videos": [
-      "1zOJeUsIm5E"
+      {
+        "map": "Shoreline",
+        "marker": "-208.13406841196215,40.546875",
+        "notes": "On the keyrack in the back of the unlocked Villa on Shoreline",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799188/shoreline_west_wing_room_220_key.jpg",
+        "video": "1zOJeUsIm5E"
+      }
     ],
     "unlocks": [
-      "Unlocks room 220 of the West wing in the Health Resort on Shoreline"
+      {
+        "map": "Shoreline",
+        "marker": "-192.09497485541704,65.140625",
+        "notes": "Unlocks room 220 of the West wing in the Health Resort on Shoreline",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "West Wing Room 221 Key",
-    "map": "Shoreline",
-    "markers": [
-      "-234.56277180526317,64.671875"
+    "maps": [
+      "Shoreline"
     ],
     "spawns": [
-      "Spawns on a deck-chair at the beach near the Gas Station and Lighthouse"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799188/shoreline_west_wing_room_221_key.jpg"
-    ],
-    "videos": [
-      "yrAcUOPrQ6c"
+      {
+        "map": "Shoreline",
+        "marker": "-234.56277180526317,64.671875",
+        "notes": "Spawns on a deck-chair at the beach near the Gas Station and Lighthouse",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799188/shoreline_west_wing_room_221_key.jpg",
+        "video": "yrAcUOPrQ6c"
+      }
     ],
     "unlocks": [
-      "Unlocks room 221 of the West wing in the Health Resort on Shoreline"
+      {
+        "map": "Shoreline",
+        "marker": "-190.96958123920518,65.421875",
+        "notes": "Unlocks room 221 of the West wing in the Health Resort on Shoreline",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "West Wing Room 222 Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Shoreline"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks room 222 of the West wing in the Health Resort on Shoreline"
+      {
+        "map": "all",
+        "marker": "-190.96958123920518,64.859375",
+        "notes": "Unlocks room 222 of the West wing in the Health Resort on Shoreline",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "West Wing Room 301 Key",
-    "map": "Shoreline",
-    "markers": [
-      "-223.85190415789512,24.640625"
+    "maps": [
+      "Shoreline"
     ],
     "spawns": [
-      "The key can be found on a seat on the yellow bus by the collapsed tunnel (Tunnel Extract) on Shoreline"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799188/shoreline_west_wing_room_301_key.jpg"
-    ],
-    "videos": [
-      "9f_B-gSfTUs"
+      {
+        "map": "Shoreline",
+        "marker": "-223.85190415789512,24.640625",
+        "notes": "The key can be found on a seat on the yellow bus by the collapsed tunnel (Tunnel Extract) on Shoreline",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799188/shoreline_west_wing_room_301_key.jpg",
+        "video": "9f_B-gSfTUs"
+      }
     ],
     "unlocks": [
-      "Unlocks room 301 of the West wing in the Health Resort on Shoreline"
+      {
+        "map": "Shoreline",
+        "marker": "-190.0632603393906,70.171875",
+        "notes": "Unlocks room 301 of the West wing in the Health Resort on Shoreline",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "West Wing Room 303 Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks room 303 of the West wing in the Health Resort on Shoreline. This key currently has no use as this room is always open"
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Unlocks room 303 of the West wing in the Health Resort on Shoreline. This key currently has no use as this room is always open",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "West Wing Room 306 Key",
-    "map": "Factory",
-    "markers": [
-      "-200.50721519425872, 47.15625"
+    "maps": [
+      "Factory",
+      "Shoreline"
     ],
     "spawns": [
-      "The key can be found in a bathroom locker on Factory"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799185/factory_west_wing_room_306_key.jpg"
-    ],
-    "videos": [
-      "VTbz-MFj73I"
+      {
+        "map": "Factory",
+        "marker": "-200.50721519425872, 47.15625",
+        "notes": "The key can be found in a bathroom locker on Factory",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799185/factory_west_wing_room_306_key.jpg",
+        "video": "VTbz-MFj73I"
+      }
     ],
     "unlocks": [
-      "Unlocks room 306 of the West wing in the Health Resort on Shoreline"
+      {
+        "map": "Shoreline",
+        "marker": "-191.15709590813233,69.578125",
+        "notes": "Unlocks room 306 of the West wing in the Health Resort on Shoreline",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "West Wing Room 309 Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks room 309 of the West wing in the Health Resort on Shoreline. This key currently has no use as this room is always open"
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Unlocks room 309 of the West wing in the Health Resort on Shoreline. This key currently has no use as this room is always open",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "West Wing Room 323 Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks room 323 of the West wing in the Health Resort on Shoreline.This key currently has no use as this room is always open"
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Unlocks room 323 of the West wing in the Health Resort on Shoreline. This key currently has no use as this room is always open",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "West Wing Room 325 Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks room 325 of the West wing in the Health Resort on Shoreline. This key currently has no use as this room is always open"
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Unlocks room 325 of the West wing in the Health Resort on Shoreline. This key currently has no use as this room is always open",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Office 107 East Wing Key",
-    "map": "Shoreline",
-    "markers": [
-      "-187.88251170909126,72.015625"
+    "maps": [
+      "Shoreline"
     ],
     "spawns": [
-      "The key can be found on a chair in the Band Hall on Shoreline"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799186/shoreline_office_107_east_wing_key.jpg"
-    ],
-    "videos": [
-      "C16qpeFFokM"
+      {
+        "map": "Shoreline",
+        "marker": "-187.88251170909126,72.015625",
+        "notes": "The key can be found on a chair in the Band Hall on Shoreline",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799186/shoreline_office_107_east_wing_key.jpg",
+        "video": "C16qpeFFokM"
+      }
     ],
     "unlocks": [
-      "Unlocks room 107 of the Health Resort East wing on Shoreline"
+      {
+        "map": "Shoreline",
+        "marker": "-192.09466925276809,78.984375",
+        "notes": "Unlocks room 107 of the Health Resort East wing on Shoreline",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Office 108 East Wing Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks room 108 of the Health Resort East wing on Shoreline. This key currently has no use as this room is always open"
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Unlocks room 108 of the Health Resort East wing on Shoreline. This key currently has no use as this room is always open",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "East Wing Room 205 Key",
-    "map": "Shoreline",
-    "markers": [
-      "-181.38629227320627,66.359375"
+    "maps": [
+      "Shoreline"
     ],
     "spawns": [
-      "Spawns on a carboard box, in the fenced off concrete area above the stream to the north of resort"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799183/shoreline_east_wing_room_205_key.jpg"
-    ],
-    "videos": [
-      "YzMMurBMuR4"
+      {
+        "map": "Shoreline",
+        "marker": "-181.38629227320627,66.359375",
+        "notes": "Spawns on a carboard box, in the fenced off concrete area above the stream to the north of resort",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799183/shoreline_east_wing_room_205_key.jpg",
+        "video": "YzMMurBMuR4"
+      }
     ],
     "unlocks": [
-      "Unlocks room 205 of the East wing in the Health Resort on Shoreline"
+      {
+        "map": "Shoreline",
+        "marker": "-191.21960079777472,74.484375",
+        "notes": "Unlocks room 205 of the East wing in the Health Resort on Shoreline",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "East Wing Room 206 Key",
-    "map": "Shoreline",
-    "markers": [
-      "-236.10200299617264,73.828125"
+    "maps": [
+      "Shoreline"
     ],
     "spawns": [
-      "In the back of an SUV between the gas station and dock on Shoreline"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799184/shoreline_east_wing_room_206_key.jpg"
-    ],
-    "videos": [
-      "ZxIaxN5ZJbo"
+      {
+        "map": "Shoreline",
+        "marker": "-236.10200299617264,73.828125",
+        "notes": "In the back of an SUV between the gas station and dock on Shoreline",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799184/shoreline_east_wing_room_206_key.jpg",
+        "video": "ZxIaxN5ZJbo"
+      }
     ],
     "unlocks": [
-      "Unlocks room 206 of the East wing in the Health Resort on Shoreline"
+      {
+        "map": "Shoreline",
+        "marker": "-191.21960079777472,74.859375",
+        "notes": "Unlocks room 206 of the East wing in the Health Resort on Shoreline",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "East Wing Room 209 Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks room 209 of the East wing in the Health Resort on Shoreline.This key currently has no use as this room is always open"
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Unlocks room 209 of the East wing in the Health Resort on Shoreline.This key currently has no use as this room is always open",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "East Wing Room 213 Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks room 213 of the East wing in the Health Resort on Shoreline. This key currently has no use as this room is always open"
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Unlocks room 213 of the East wing in the Health Resort on Shoreline. This key currently has no use as this room is always open",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "East Wing Room 216 Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks room 216 of the East wing in the Health Resort on Shoreline. This key currently has no use as this room is always open"
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Unlocks room 216 of the East wing in the Health Resort on Shoreline. This key currently has no use as this room is always open",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "East Wing Room 222 Key",
-    "map": "Shoreline",
-    "markers": [
-      "-213.69511054736878,71.203125"
+    "maps": [
+      "Shoreline"
     ],
     "spawns": [
-      "The key can be found on a chair on the first floor of the power station on Shoreline"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799184/shoreline_east_wing_room_222_key.jpg"
-    ],
-    "videos": [
-      "DDS_GhCxk1c"
+      {
+        "map": "Shoreline",
+        "marker": "-213.69511054736878,71.203125",
+        "notes": "The key can be found on a chair on the first floor of the power station on Shoreline",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799184/shoreline_east_wing_room_222_key.jpg",
+        "video": "DDS_GhCxk1c"
+      }
     ],
     "unlocks": [
-      "Unlocks room 222 of the East wing in the Health Resort on Shoreline"
+      {
+        "map": "Shoreline",
+        "marker": "-191.03208612884757,80.109375",
+        "notes": "Unlocks room 222 of the East wing in the Health Resort on Shoreline",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "East Wing Room 226 Key",
-    "map": "Shoreline",
-    "markers": [
-      "-234.32075299617264,33.859375",
-      "-190.00919195980904,76.109375"
+    "maps": [
+      "Shoreline"
     ],
     "spawns": [
-      "This Key spawns on a table on the Scav Island of Shoreline, next to an outboard motor. East Wing 328 also spawns here.",
-      "This Key spawns on Second Floor East wing in a keyrack near the central stairs"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799187/shoreline_east_wing_room_328_key___east_wing_room_226_key.jpg",
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799184/shoreline_east_wing_room_226_key.jpg"
-    ],
-    "videos": [
-      "zx_f0U4i3hI",
-      "MH6q1LemSfI"
+      {
+        "map": "Shoreline",
+        "marker": "-234.32075299617264,33.859375",
+        "notes": "This Key spawns on a table on the Scav Island of Shoreline, next to an outboard motor. East Wing 328 also spawns here.",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799187/shoreline_east_wing_room_328_key___east_wing_room_226_key.jpg",
+        "video": "zx_f0U4i3hI"
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-190.00919195980904,76.109375",
+        "notes": "This Key spawns on Second Floor East wing in a keyrack near the central stairs",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799184/shoreline_east_wing_room_226_key.jpg",
+        "video": "MH6q1LemSfI"
+      }
     ],
     "unlocks": [
-      "Unlocks room 226 of the East wing in the Health Resort on Shoreline"
+      {
+        "map": "Shoreline",
+        "marker": "-191.06333857366874,80.703125",
+        "notes": "Unlocks room 226 of the East wing in the Health Resort on Shoreline",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "East Wing Room 306 Key",
-    "map": "Customs",
-    "markers": [
-      "-221.22115610540774,32.4921875"
+    "maps": [
+      "Customs",
+      "Shoreline"
     ],
     "spawns": [
-      "The key can be found in the Tarcone Director's Office on Customs, on the desk"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799179/customs_east_wing_room_306_key.jpg"
-    ],
-    "videos": [
-      "s4O3gqORF2U"
+      {
+        "map": "Customs",
+        "marker": "-221.22115610540774,32.4921875",
+        "notes": "The key can be found in the Tarcone Director's Office on Customs, on the desk",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799179/customs_east_wing_room_306_key.jpg",
+        "video": "s4O3gqORF2U"
+      }
     ],
     "unlocks": [
-      "Unlocks room 306 of the East wing in the Health Resort on Shoreline"
+      {
+        "map": "Shoreline",
+        "marker": "-190.09451278421182,75.546875",
+        "notes": "Unlocks room 306 of the East wing in the Health Resort on Shoreline",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "East Wing Room 308 Key",
-    "map": "Woods",
-    "markers": [
-      "-211.17331640399075,97.6177978515625"
+    "maps": [
+      "Woods",
+      "Shoreline"
     ],
     "spawns": [
-      "On Woods, Cabin #1 in the lumber camp on top of a nightstand. The nightstand is between two beds that are end-to-end. The cabin is the closest one to the Yotota truck"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799189/woods_east_wing_room_308_key.jpg"
-    ],
-    "videos": [
-      "QD8stltdiJ8"
+      {
+        "map": "Woods",
+        "marker": "-211.17331640399075,97.6177978515625",
+        "notes": "On Woods, Cabin #1 in the lumber camp on top of a nightstand. The nightstand is between two beds that are end-to-end. The cabin is the closest one to the Yotota truck",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799189/woods_east_wing_room_308_key.jpg",
+        "video": "QD8stltdiJ8"
+      }
     ],
     "unlocks": [
-      "Unlocks room 308 of the East wing in the Health Resort on Shoreline"
+      {
+        "map": "Shoreline",
+        "marker": "-190.0632603393906,75.921875",
+        "notes": "Unlocks room 308 of the East wing in the Health Resort on Shoreline",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "East Wing Room 310 Key",
-    "map": "Customs",
-    "markers": [
-      "-230.93712270459804,29.3851318359375",
-      "-220.10697115384616,22.0703125"
+    "maps": [
+      "Customs",
+      "Shoreline"
     ],
     "spawns": [
-      "Located Inside the bus, in the Truck Stop on Customs. Sat on top of the Wheel Arch",
-      "Spawns in the front seat of the blue van in Crossroads on Customs"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799178/customs_east_wing_room_310_key_1.jpg",
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799180/customs_east_wing_room_310_key_2.jpg"
-    ],
-    "videos": [
-      "EnII3RNWN0w",
-      "qJxQ7FaCh_M"
+      {
+        "map": "Customs",
+        "marker": "-230.93712270459804,29.3851318359375",
+        "notes": "Located Inside the bus, in the Truck Stop on Customs. Sat on top of the Wheel Arch",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799178/customs_east_wing_room_310_key_1.jpg",
+        "video": "EnII3RNWN0w"
+      },
+      {
+        "map": "Customs",
+        "marker": "-220.10697115384616,22.0703125",
+        "notes": "Spawns in the front seat of the blue van in Crossroads on Customs",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799180/customs_east_wing_room_310_key_2.jpg",
+        "video": "qJxQ7FaCh_M"
+      }
     ],
     "unlocks": [
-      "Unlocks room 310 of the East wing in the Health Resort on Shoreline"
+      {
+        "map": "Shoreline",
+        "marker": "-192.15717414241047,76.453125",
+        "notes": "Unlocks room 310 of the East wing in the Health Resort on Shoreline",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "East Wing Room 313 Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Shoreline"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks room 313 of the East wing in the Health Resort on Shoreline"
+      {
+        "map": "Shoreline",
+        "marker": "-191.09459101848995,77.265625",
+        "notes": "Unlocks room 313 of the East wing in the Health Resort on Shoreline",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "East Wing Room 314 Key",
-    "map": "Woods",
-    "markers": [
-      "-211.37871873192597,136.45086669921875"
+    "maps": [
+      "Woods",
+      "Shoreline"
     ],
     "spawns": [
-      "In Woods, at the \"checkpoint\" on the eastern side of the map, in a cabin on a wooden stool"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799189/woods_east_wing_room_314_key.jpg"
-    ],
-    "videos": [
-      "oa_zSvzbmLA"
+      {
+        "map": "Woods",
+        "marker": "-211.37871873192597,136.45086669921875",
+        "notes": "In Woods, at the \"checkpoint\" on the eastern side of the map, in a cabin on a wooden stool",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799189/woods_east_wing_room_314_key.jpg",
+        "video": "oa_zSvzbmLA"
+      }
     ],
     "unlocks": [
-      "Unlocks room 314 of the East wing in the Health Resort on Shoreline"
+      {
+        "map": "Shoreline",
+        "marker": "-191.12584346331113,77.671875",
+        "notes": "Unlocks room 314 of the East wing in the Health Resort on Shoreline",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "East Wing Room 316 Key",
-    "map": "Woods",
-    "markers": [
-      "-165.08314280292078,82.843994140625"
+    "maps": [
+      "Woods",
+      "Shoreline"
     ],
     "spawns": [
-      "In Woods, western side of the lake, in an open suitcase behind the crashed minivan"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799190/woods_east_wing_room_316_key.jpg"
-    ],
-    "videos": [
-      "CbqM9zcsGb8"
+      {
+        "map": "Woods",
+        "marker": "-165.08314280292078,82.843994140625",
+        "notes": "In Woods, western side of the lake, in an open suitcase behind the crashed minivan",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799190/woods_east_wing_room_316_key.jpg",
+        "video": "CbqM9zcsGb8"
+      }
     ],
     "unlocks": [
-      "Unlocks room 316 of the East wing in the Health Resort on Shoreline"
+      {
+        "map": "Shoreline",
+        "marker": "-192.12592169758926,78.484375",
+        "notes": "Unlocks room 316 of the East wing in the Health Resort on Shoreline",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "East Wing Room 322 Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks room 322 of the East wing in the Health Resort on Shoreline. This key currently has no use as this room is always open"
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Unlocks room 322 of the East wing in the Health Resort on Shoreline. This key currently has no use as this room is always open",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "East Wing Room 328 Key",
-    "map": "Shoreline",
-    "markers": [
-      "-234.32075299617264,32.859375"
+    "maps": [
+      "Shoreline"
     ],
     "spawns": [
-      "This Key spawns on a table on the Scav Island of Shoreline, next to an outboard motor. East Wing 226 also spawns here."
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799187/shoreline_east_wing_room_328_key___east_wing_room_226_key.jpg"
-    ],
-    "videos": [
-      "zx_f0U4i3hI"
+      {
+        "map": "Shoreline",
+        "marker": "-234.32075299617264,32.859375",
+        "notes": "This Key spawns on a table on the Scav Island of Shoreline, next to an outboard motor. East Wing 226 also spawns here.",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799187/shoreline_east_wing_room_328_key___east_wing_room_226_key.jpg",
+        "video": "zx_f0U4i3hI"
+      }
     ],
     "unlocks": [
-      "Unlocks room 328 of the East wing in the Health Resort on Shoreline"
+      {
+        "map": "Shoreline",
+        "marker": "-192.12592169758926,80.953125",
+        "notes": "Unlocks room 328 of the East wing in the Health Resort on Shoreline",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Key To OLI Administrator Office",
-    "map": "Shoreline",
-    "markers": [
-      "-190.9787079564598,80.171875"
+    "maps": [
+      "Shoreline",
+      "Interchange"
     ],
     "spawns": [
-      "The key can be found on a table in the Shoreline Health Resort East wing, Room 322"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799185/shoreline_key_to_oli_administrator_office.jpg"
-    ],
-    "videos": [
-      "ClPaur4X9OE"
+      {
+        "map": "Shoreline",
+        "marker": "-190.9787079564598,80.171875",
+        "notes": "The key can be found on a table in the Shoreline Health Resort East wing, Room 322",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799185/shoreline_key_to_oli_administrator_office.jpg",
+        "video": "ClPaur4X9OE"
+      }
     ],
     "unlocks": [
-      "Unlocks the door to the OLI administrator office on Interchange"
+      {
+        "map": "Interchange",
+        "marker": "-242.97061539856927,123.453125",
+        "notes": "Unlocks the door to the OLI administrator office on Interchange",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Key To OLI Logistics Dept Office",
-    "map": "Customs",
-    "markers": [
-      "-213.3600527761712,75.4661865234375"
+    "maps": [
+      "Customs",
+      "Interchange"
     ],
     "spawns": [
-      "Spawns in the trunk of the blue car, near the Factory shortcut and warehouse 4 on Customs"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1581204046/customs_key_to_oli_logistics_dept_office.jpg"
-    ],
-    "videos": [
-      "Uc-BQNPJD7Q"
+      {
+        "map": "Customs",
+        "marker": "-213.3600527761712,75.4661865234375",
+        "notes": "Spawns in the trunk of the blue car, near the Factory shortcut and warehouse 4 on Customs",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581204046/customs_key_to_oli_logistics_dept_office.jpg",
+        "video": "Uc-BQNPJD7Q"
+      }
     ],
     "unlocks": [
-      "Unlocks the door to the OLI logistics department office on Interchange"
+      {
+        "map": "Interchange",
+        "marker": "-242.87685806410568,125.453125",
+        "notes": "Unlocks the door to the OLI logistics department office on Interchange",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Key To Utility Room Of Power Substation",
-    "map": "Factory",
-    "markers": [
-      "-180.11442430430571, 111.625"
+    "maps": [
+      "Factory",
+      "Interchange"
     ],
     "spawns": [
-      "Spawns in a blue locker near the forklifts at Factory"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799184/factory_key_to_utility_room_of_power_substation.jpg"
-    ],
-    "videos": [
-      "2qGSPewXIwI"
+      {
+        "map": "Factory",
+        "marker": "-180.11442430430571, 111.625",
+        "notes": "Spawns in a blue locker near the forklifts at Factory",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799184/factory_key_to_utility_room_of_power_substation.jpg",
+        "video": "2qGSPewXIwI"
+      }
     ],
     "unlocks": [
-      "Unlocks the door to the power substation adjacent to the Ultra shopping mall on Interchange"
+      {
+        "map": "Interchange",
+        "marker": "-180.2818954327946,21.515625",
+        "notes": "Unlocks the door to a shack at the power substation adjacent to the Ultra shopping mall on Interchange",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Key To Pharmacy",
-    "map": "Shoreline",
-    "markers": [
-      "-192.04204808181868,63.921875"
+    "maps": [
+      "Shoreline",
+      "Interchange"
     ],
     "spawns": [
-      "In West Wing Room 101 on the desk, at the resort in Shoreline"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799185/shoreline_key_to_pharmacy.jpg"
-    ],
-    "videos": [
-      "F_2-mjh-gNg"
+      {
+        "map": "Shoreline",
+        "marker": "-192.04204808181868,63.921875",
+        "notes": "In West Wing Room 101 on the desk, at the resort in Shoreline",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799185/shoreline_key_to_pharmacy.jpg",
+        "video": "F_2-mjh-gNg"
+      }
     ],
     "unlocks": [
-      "Unlocks the door to the pharmacy on Interchange"
+      {
+        "map": "Interchange",
+        "marker": "-241.4701313239733,14.984375",
+        "notes": "Unlocks the door to the pharmacy on Interchange",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Key To KIBA Store Outlet",
-    "map": "Interchange",
-    "markers": [
-      "-218.9454317717707, 94.03125"
+    "maps": [
+      "Interchange"
     ],
     "spawns": [
-      "Spawns in the scav campsite in goshan store, behind a tent on a book"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799186/interchange_key_to_kiba_store_outlet.jpg"
-    ],
-    "videos": [
-      "1s2oSeP7klU"
+      {
+        "map": "Interchange",
+        "marker": "-218.9454317717707, 94.03125",
+        "notes": "Spawns in the scav campsite in goshan store, behind a tent on a book",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799186/interchange_key_to_kiba_store_outlet.jpg",
+        "video": "1s2oSeP7klU"
+      }
     ],
     "unlocks": [
-      "Unlocks the door to the KIBA equipment outlet store on Interchange"
+      {
+        "map": "Interchange",
+        "marker": "-229.18768580641057,105.203125",
+        "notes": "Unlocks the door to the KIBA equipment outlet store on Interchange",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Key To KIBA Outlet Grate Door",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can only be obtained as a reward for completing the task Gunsmith - Part 11 from Mechanic"
+    "maps": [
+      "all",
+      "Interchange"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can only be obtained as a reward for completing the task Gunsmith - Part 11 from Mechanic",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "Unlocks the grate door to the KIBA firearms store on Interchange"
+      {
+        "map": "Interchange",
+        "marker": "-229.18768580641057,106.203125",
+        "notes": "Unlocks the grate door to the KIBA firearms store on Interchange",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Key To EMERCOM Medical Unit (MES)",
-    "map": "Customs",
-    "markers": [
-      "-210.26417004048582,78.9140625"
+    "maps": [
+      "Customs",
+      "Interchange"
     ],
     "spawns": [
-      "Ambulance near the big gas station on Customs. You have to jump inside the back to grab the key off the seat"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799180/customs_key_to_emercom_medical_unit__mes.jpg"
-    ],
-    "videos": [
-      "KsD374Mf2Lo"
+      {
+        "map": "Customs",
+        "marker": "-210.26417004048582,78.9140625",
+        "notes": "Ambulance near the big gas station on Customs. You have to jump inside the back to grab the key off the seat",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799180/customs_key_to_emercom_medical_unit__mes.jpg",
+        "video": "KsD374Mf2Lo"
+      }
     ],
     "unlocks": [
-      "Unlocks the door to the EMERCOM medical care unit on Interchange"
+      {
+        "map": "Interchange",
+        "marker": "-235.0006405431522,92.546875",
+        "notes": "Unlocks the door to the EMERCOM medical care unit on Interchange",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Key To OLI Cash Register",
-    "map": "Interchange",
-    "markers": [
-      "-242.91601027990475, 126.1875"
+    "maps": [
+      "Interchange"
     ],
     "spawns": [
-      "Spawns on a desk in the OLI offices. The office next to the OLI Logistics Office"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799185/interchange_key_to_oli_cash_register.jpg"
-    ],
-    "videos": [
-      "ocbOic7RWxI"
+      {
+        "map": "Interchange",
+        "marker": "-242.91601027990475, 126.1875",
+        "notes": "Spawns on a desk in the OLI offices. The office next to the OLI Logistics Office",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799185/interchange_key_to_oli_cash_register.jpg",
+        "video": "ocbOic7RWxI"
+      }
     ],
     "unlocks": [
-      "Unlocks the cash registers of the OLI outlet store on Interchange"
+      {
+        "map": "Interchange",
+        "marker": "-232.90672674013237,123.296875",
+        "notes": "Unlocks the cash registers of the OLI outlet store on Interchange",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Key To IDEA Cash Register",
-    "map": "Interchange",
-    "markers": [
-      "-191.24574995406678, 19.34375"
+    "maps": [
+      "Interchange"
     ],
     "spawns": [
-      "Spawns in the bus outside of the IDEA store"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799186/interchange_key_to_idea_cash_register.jpg"
-    ],
-    "videos": [
-      "R5CkzCl0vlY"
+      {
+        "map": "Interchange",
+        "marker": "-191.24574995406678, 19.34375",
+        "notes": "Spawns in the bus outside of the IDEA store",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799186/interchange_key_to_idea_cash_register.jpg",
+        "video": "R5CkzCl0vlY"
+      }
     ],
     "unlocks": [
-      "Unlocks the cash registers of the IDEA outlet store on Interchange"
+      {
+        "map": "Interchange",
+        "marker": "-233.46930252958933,74.390625",
+        "notes": "Unlocks the cash registers of the IDEA outlet store on Interchange",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Key To GOSHAN Cash Register",
-    "map": "Customs",
-    "markers": [
-      "-212.51351937536148,81.2265625"
+    "maps": [
+      "Customs",
+      "Interchange"
     ],
     "spawns": [
-      "Spawns in the bus next to the roadblock beside the gas station at Customs"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799181/customs_key_to_goshan_cash_register.jpg"
-    ],
-    "videos": [
-      "iOXDfLKIbSY"
+      {
+        "map": "Customs",
+        "marker": "-212.51351937536148,81.2265625",
+        "notes": "Spawns in the bus next to the roadblock beside the gas station at Customs",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799181/customs_key_to_goshan_cash_register.jpg",
+        "video": "iOXDfLKIbSY"
+      }
     ],
     "unlocks": [
-      "Unlocks the cash registers of the GOSHAN outlet store on Interchange"
+      {
+        "map": "Interchange",
+        "marker": "-221.5621210527153,101.265625",
+        "notes": "Unlocks the cash registers of the GOSHAN outlet store on Interchange",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Labs Black Keycard",
-    "map": "Labs",
-    "markers": [
-      "-241.43978702761535, 19.625",
-      "-196.7176423812446, 58.28125",
-      "-193.436033430722, 58.0625"
+    "maps": [
+      "Labs"
     ],
     "spawns": [
-      "In the laboratory block (G22), sitting next to a computer workstation. Labs Green keycard is required for entry.",
-      "Room O11, on the desk with the computer, across from the toxic waste spill that's covered by the large orange dome.",
-      "In room O11 on the large table of scientific supplies"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799178/labs_labs_black_keycard_3.jpg",
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799177/labs_labs_black_keycard_1.jpg",
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799177/labs_labs_black_keycard_2.jpg"
-    ],
-    "videos": [
-      "",
-      "sTtEPcM4Xm0",
-      "mAGdvbuOK2k"
+      {
+        "map": "Labs",
+        "marker": "-241.43978702761535, 19.625",
+        "notes": "In the laboratory block (G22), sitting next to a computer workstation. Labs Green keycard is required for entry.",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799178/labs_labs_black_keycard_3.jpg",
+        "video": ""
+      },
+      {
+        "map": "Labs",
+        "marker": "-196.7176423812446, 58.28125",
+        "notes": "Room O11, on the desk with the computer, across from the toxic waste spill that's covered by the large orange dome.",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799177/labs_labs_black_keycard_1.jpg",
+        "video": "sTtEPcM4Xm0"
+      },
+      {
+        "map": "Labs",
+        "marker": "-193.436033430722, 58.0625",
+        "notes": "In room O11 on the large table of scientific supplies",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799177/labs_labs_black_keycard_2.jpg",
+        "video": "mAGdvbuOK2k"
+      }
     ],
     "unlocks": [
-      "Unlocks the door to the laboratory experiment's area (G12) in The Lab"
+      {
+        "map": "Labs",
+        "marker": "-204.96896514426487,64.296875",
+        "notes": "Unlocks the door to the laboratory experiment's area (G12) in The Lab",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Labs Blue Keycard",
-    "map": "Shoreline",
-    "markers": [
-      "-191.16635621387607,72.984375",
-      "-191.10380679473732,64.015625",
-      "-191.19763092344544,67.203125"
+    "maps": [
+      "Shoreline",
+      "Labs"
     ],
     "spawns": [
-      "Inside the passenger door of the ambulance that is parked in front of the resort",
-      "West Wing Office 104 in the resort: On a desk",
-      "West Wing Office 112 in the resort: On the TV stand"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799187/shoreline_labs_blue_keycard_3.jpg",
-      "",
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799186/shoreline_labs_blue_keycard_2.jpg"
-    ],
-    "videos": [
-      "gKDj-cFDn2o",
-      "",
-      "d6Qxc612LaY"
+      {
+        "map": "Shoreline",
+        "marker": "-191.16635621387607,72.984375",
+        "notes": "Inside the passenger door of the ambulance that is parked in front of the resort",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799187/shoreline_labs_blue_keycard_3.jpg",
+        "video": "gKDj-cFDn2o"
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-191.10380679473732,64.015625",
+        "notes": "West Wing Office 104 in the resort: On a desk",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-191.19763092344544,67.203125",
+        "notes": "West Wing Office 112 in the resort: On the TV stand",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799186/shoreline_labs_blue_keycard_2.jpg",
+        "video": "d6Qxc612LaY"
+      }
     ],
     "unlocks": [
-      "Unlocks the door to the laboratory quarantine zone (G11) in The Lab."
+      {
+        "map": "Labs",
+        "marker": "-205.31242421054307,46.484375",
+        "notes": "Unlocks the door to the laboratory quarantine zone (G11) in The Lab.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Labs Green Keycard",
-    "map": "Labs",
-    "markers": [
-      "-217.24867701093103, 35.78125",
-      "-234.56175475034357, 27.3125",
-      "-204.43723676961676, 44.53125"
+    "maps": [
+      "Labs"
     ],
     "spawns": [
-      "On a shelf to the right in the hallway that leads to the security arsenal (R23)",
-      "Next to a keyboard at the reception desk of the managers office (O21) on the second level",
-      "On a desk next to the quarantine zone room (G11)"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799178/labs_labs_green_keycard_3.jpg",
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799182/labs-_labs_green_keycard_2.jpg",
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799178/labs_labs_green_keycard_1.jpg"
-    ],
-    "videos": [
-      "1u4RljDkoYc",
-      "SmCJBYMSipI",
-      "wHqDP6dRoA4"
+      {
+        "map": "Labs",
+        "marker": "-217.24867701093103, 35.78125",
+        "notes": "On a shelf to the right in the hallway that leads to the security arsenal (R23)",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799178/labs_labs_green_keycard_3.jpg",
+        "video": "1u4RljDkoYc"
+      },
+      {
+        "map": "Labs",
+        "marker": "-234.56175475034357, 27.3125",
+        "notes": "Next to a keyboard at the reception desk of the managers office (O21) on the second level",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799182/labs-_labs_green_keycard_2.jpg",
+        "video": "SmCJBYMSipI"
+      },
+      {
+        "map": "Labs",
+        "marker": "-204.43723676961676, 44.53125",
+        "notes": "On a desk next to the quarantine zone room (G11)",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799178/labs_labs_green_keycard_1.jpg",
+        "video": "wHqDP6dRoA4"
+      }
     ],
     "unlocks": [
-      "Unlocks the door to the laboratory block (G22) in The Lab."
+      {
+        "map": "Labs",
+        "marker": "-241.56276648550988,24.921875",
+        "notes": "Unlocks the door to the laboratory block (G22) in The Lab.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Labs Red Keycard",
-    "map": "Shoreline",
-    "markers": [
-      "-191.04125737559855,79.703125",
-      "-190.04046666937842,69.765625",
-      "-191.07253208516792,65.546875"
+    "maps": [
+      "Shoreline",
+      "Labs"
     ],
     "spawns": [
-      "East wing room 221 in the resort on the table with the laptop",
-      "West wing in the resort: In the basement gym in a locker",
-      "West wing room 218 in the resort: On top of a water barrel"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799187/shoreline_labs_red_keycard_3.jpg",
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799186/shoreline_labs_red_keycard_2.jpg",
-      ""
-    ],
-    "videos": [
-      "Vv1UwdKvyvo",
-      "g_gyM-MS0Fg",
-      ""
+      {
+        "map": "Shoreline",
+        "marker": "-191.04125737559855,79.703125",
+        "notes": "East wing room 221 in the resort on the table with the laptop",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799187/shoreline_labs_red_keycard_3.jpg",
+        "video": "Vv1UwdKvyvo"
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-190.04046666937842,69.765625",
+        "notes": "West wing of the resort, in the basement gym in a locker",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799186/shoreline_labs_red_keycard_2.jpg",
+        "video": "g_gyM-MS0Fg"
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-191.07253208516792,65.546875",
+        "notes": "West wing room 218 in the resort, on top of a water barrel",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-191.18833123920518,70.28125",
+        "notes": "West wing room 203 in the resort, on the floor next to the nightstand.",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-185.93792050924498,73.3125",
+        "notes": "In the admin building of the resort, next to the Health resort management office with locked safe, on the table under the ashtray",
+        "image": "",
+        "video": ""
+      }
     ],
     "unlocks": [
-      "Unlocks the door to the laboratory security arsenal (R23) in The Lab."
+      {
+        "map": "Labs",
+        "marker": "-219.24954281843716,32.890625",
+        "notes": "Unlocks the door to the laboratory security arsenal (R23) in The Lab.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Labs Violet Keycard",
-    "map": "Woods",
-    "markers": [
-      "-207.54742625795257,106.717041015625",
-      "-192.69603546124927,94.0531005859375",
-      "-211.43504193175247,135.553955078125"
+    "maps": [
+      "Woods",
+      "Labs"
     ],
     "spawns": [
-      "In the trunk of the black SUV that is parked in front of the blue warehouse in the lumber camp",
-      "In a brick house north of the lumber camp on the table next to the opened book",
-      "Inside the driver side door of the SUV at the checkpoint eastern of the lumber camp"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799189/woods_labs_violet_keycard_2.jpg",
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799189/woods_labs_violet_keycard_1.jpg",
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799190/woods_labs_violet_keycard_3.jpg"
-    ],
-    "videos": [
-      "2hre-8RdnUE",
-      "B_GTgbFcA1w",
-      "5Wdd43Sc1lc"
+      {
+        "map": "Woods",
+        "marker": "-207.54742625795257,106.717041015625",
+        "notes": "In the trunk of the black SUV that is parked in front of the blue warehouse in the lumber camp",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799189/woods_labs_violet_keycard_2.jpg",
+        "video": "2hre-8RdnUE"
+      },
+      {
+        "map": "Woods",
+        "marker": "-192.69603546124927,94.0531005859375",
+        "notes": "In a brick house north of the lumber camp on the table next to the opened book",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799189/woods_labs_violet_keycard_1.jpg",
+        "video": "B_GTgbFcA1w"
+      },
+      {
+        "map": "Woods",
+        "marker": "-211.43504193175247,135.553955078125",
+        "notes": "Inside the driver side door of the SUV at the checkpoint eastern of the lumber camp",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799190/woods_labs_violet_keycard_3.jpg",
+        "video": "5Wdd43Sc1lc"
+      }
     ],
     "unlocks": [
-      "Unlocks the door to the laboratory security post (R23) in The Lab."
+      {
+        "map": "Labs",
+        "marker": "-215.90553122256964,34.671875",
+        "notes": "Unlocks the door to the laboratory security post (R23) in The Lab.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Labs Yellow Keycard",
-    "map": "Labs",
-    "markers": [
-      "-223.62437440051778, 36.75",
-      "-236.00143580209036, 27.65625",
-      "-193.62589908559468, 60.65625"
+    "maps": [
+      "Labs"
     ],
     "spawns": [
-      "In R24 (cafeteria) on the centre window table",
-      "In O21 on the table in front of the managers office",
-      "In O11 on one of the work tables"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799181/labs_labs_yellow_keycard_3.jpg",
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799182/labs_labs_yellow_keycard_2.jpg",
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799181/labs_labs_yellow_keycard_1.jpg"
-    ],
-    "videos": [
-      "7odco9xlpqs",
-      "sC3iHT9dEC8",
-      "MyG_p3ruUeQ"
+      {
+        "map": "Labs",
+        "marker": "-223.62437440051778, 36.75",
+        "notes": "In R24 (cafeteria) on the centre window table",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799181/labs_labs_yellow_keycard_3.jpg",
+        "video": "7odco9xlpqs"
+      },
+      {
+        "map": "Labs",
+        "marker": "-236.00143580209036, 27.65625",
+        "notes": "In O21 on the table in front of the managers office",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799182/labs_labs_yellow_keycard_2.jpg",
+        "video": "sC3iHT9dEC8"
+      },
+      {
+        "map": "Labs",
+        "marker": "-193.62589908559468, 60.65625",
+        "notes": "In O11 on one of the work tables",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799181/labs_labs_yellow_keycard_1.jpg",
+        "video": "MyG_p3ruUeQ"
+      }
     ],
     "unlocks": [
-      "Unlocks the door to the parking garage alarm system control panel in The Lab."
+      {
+        "map": "Labs",
+        "marker": "-227.53144069605295,17.171875",
+        "notes": "Unlocks the door to the parking garage alarm system control panel in The Lab.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Labs Key Arsenal Storage Room",
-    "map": "Customs",
-    "markers": [
-      "-203.36108299595142,90.06103515625",
-      "-198.54427685801042,63.038330078125",
-      "-210.1860902255639,81.359375"
+    "maps": [
+      "Customs",
+      "Labs"
     ],
     "spawns": [
-      "Sitting on a chair within a shack on top of the hill with the transmission tower",
-      "Room 215 of the three-story dorms: Inside a night stand",
-      "On the counter behind the cash registers in the new gas station"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799181/customs_labs_key_arsenal_storage_room_2.jpg",
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799181/customs_labs_key_arsenal_storage_room_1.jpg",
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799182/customs_labs_key_arsenal_storage_room_3.jpg"
-    ],
-    "videos": [
-      "xFW56jXPGoI",
-      "t72ua2XlHac",
-      "Ud2ezZ9aaW0"
+      {
+        "map": "Customs",
+        "marker": "-203.36108299595142,90.06103515625",
+        "notes": "Sitting on a chair within a shack on top of the hill with the transmission tower",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799181/customs_labs_key_arsenal_storage_room_2.jpg",
+        "video": "xFW56jXPGoI"
+      },
+      {
+        "map": "Customs",
+        "marker": "-198.54427685801042,63.038330078125",
+        "notes": "Room 215 of the three-story dorms: Inside a night stand",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799181/customs_labs_key_arsenal_storage_room_1.jpg",
+        "video": "t72ua2XlHac"
+      },
+      {
+        "map": "Customs",
+        "marker": "-210.1860902255639,81.359375",
+        "notes": "On the counter behind the cash registers in the new gas station",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799182/customs_labs_key_arsenal_storage_room_3.jpg",
+        "video": "Ud2ezZ9aaW0"
+      }
     ],
     "unlocks": [
-      "Unlocks the storage room door inside the laboratory security arsenal (R23) in The Lab."
+      {
+        "map": "Labs",
+        "marker": "-219.71832949075502,31.484375",
+        "notes": "Unlocks the storage room door inside the laboratory security arsenal (R23) in The Lab.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Labs Key Managers Office",
-    "map": "Labs",
-    "markers": [
-      "-199.68906228941736, 49.5",
-      "-231.6273793291783, 10.875",
-      "-185.0328943352511, 42.59375"
+    "maps": [
+      "Labs"
     ],
     "spawns": [
-      "In The Lab in room O13 on a lit up desk, left of the glass door entrance",
-      "In room O22, in the conference room on the right side of the powered laptop",
-      "In the parking garage (Y11) sitting on the passenger side seat of the SUV that has the Weapon box in the trunk"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799179/labs_labs_key_managers_office_1.jpg",
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799179/labs_labs_key_managers_office_2.jpg",
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799179/labs_labs_key_managers_office_3.jpg"
-    ],
-    "videos": [
-      "RY_8bkhAqrk",
-      "b1j7WsuhT1Q",
-      "095egQLZd-U"
+      {
+        "map": "Labs",
+        "marker": "-199.68906228941736, 49.5",
+        "notes": "In The Lab in room O13 on a lit up desk, left of the glass door entrance",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799179/labs_labs_key_managers_office_1.jpg",
+        "video": "RY_8bkhAqrk"
+      },
+      {
+        "map": "Labs",
+        "marker": "-231.6273793291783, 10.875",
+        "notes": "In room O22, in the conference room on the right side of the powered laptop",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799179/labs_labs_key_managers_office_2.jpg",
+        "video": "b1j7WsuhT1Q"
+      },
+      {
+        "map": "Labs",
+        "marker": "-185.0328943352511, 42.59375",
+        "notes": "In the parking garage (Y11) sitting on the passenger side seat of the SUV that has the Weapon box in the trunk",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799179/labs_labs_key_managers_office_3.jpg",
+        "video": "095egQLZd-U"
+      }
     ],
     "unlocks": [
-      "Unlocks the door to the laboratory manager office (O21) in The Lab."
+      {
+        "map": "Labs",
+        "marker": "-237.18792784370854,27.609375",
+        "notes": "Unlocks the door to the laboratory manager office (O21) in The Lab.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Labs Key Testing Area (Weapon)",
-    "map": "Labs",
-    "markers": [
-      "-180.59511059340943, 83.15625",
-      "-241.69084336772468, 43.78125",
-      "-219.40640725451465, 34.65625"
+    "maps": [
+      "Labs"
     ],
     "spawns": [
-      "On the first level in room R15 (Gym) on a stool",
-      "On the second level in room B22 on the kitchen counter",
-      "On the bottom of a shelf left of the entrance to room R23"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799180/labs_labs_key_testing_area__weapon__1.jpg",
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799181/labs_labs_key_testing_area__weapon__2.jpg",
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799181/labs_labs_key_testing_area__weapon__3.jpg"
-    ],
-    "videos": [
-      "ytv7fmuxCZs",
-      "3yDoIlEwk_Q",
-      "whLxzzMh70E"
+      {
+        "map": "Labs",
+        "marker": "-180.59511059340943, 83.15625",
+        "notes": "On the first level in room R15 (Gym) on a stool",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799180/labs_labs_key_testing_area__weapon__1.jpg",
+        "video": "ytv7fmuxCZs"
+      },
+      {
+        "map": "Labs",
+        "marker": "-241.69084336772468, 43.78125",
+        "notes": "On the second level in room B22 on the kitchen counter",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799181/labs_labs_key_testing_area__weapon__2.jpg",
+        "video": "3yDoIlEwk_Q"
+      },
+      {
+        "map": "Labs",
+        "marker": "-219.40640725451465, 34.65625",
+        "notes": "On the bottom of a shelf left of the entrance to room R23",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799181/labs_labs_key_testing_area__weapon__3.jpg",
+        "video": "whLxzzMh70E"
+      }
     ],
     "unlocks": [
-      "Unlocks the door to the laboratory weapon testing area (O11) in The Lab."
+      {
+        "map": "Labs",
+        "marker": "-193.62590213901973,76.984375",
+        "notes": "Unlocks the door to the laboratory weapon testing area (O11) in The Lab.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "VAZ Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
-      "* This key has currently no use in the game *"
+    "maps": [
+      "all"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      "This key has currently no use in the game"
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "This key currently has no use in the game",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "RB-AM Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Reserve"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      ""
+      {
+        "map": "Reserve",
+        "marker": "-154.87878458320475,77.8125",
+        "notes": "Opens a door on the first floor of the Black Bishop building.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "RB-BK Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Reserve"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      ""
+      {
+        "map": "Reserve",
+        "marker": "-132.62704387051625,60.1875",
+        "notes": "Opens a door in the basement of the Pawn east building.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "RB-VO Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Reserve"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      ""
+      {
+        "map": "Reserve",
+        "marker": "-194.25686505790628,221.0625",
+        "notes": "Opens the door in the back side of the building north west of the train station (Rook building).",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "RB-AO Key",
-    "map": "Shoreline",
-    "markers": [
-      "-173.73110478468956,64.771875"
+    "maps": [
+      "Shoreline",
+      "Reserve"
     ],
     "spawns": [
-      "In the bunker behind the health resort on Shoreline, on the chair"
-    ],
-    "images": [
-      ""
-    ],
-    "videos": [
-      ""
+      {
+        "map": "Shoreline",
+        "marker": "-173.73110478468956,64.771875",
+        "notes": "In the bunker behind the health resort on Shoreline, on the chair",
+        "image": "",
+        "video": ""
+      }
     ],
     "unlocks": [
-      ""
+      {
+        "map": "Reserve",
+        "marker": "-187.13130763867457,221.1875",
+        "notes": "Opens the door on the south end of the building north west of the train station (Rook building).",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "RB-OB Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Reserve"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      ""
+      {
+        "map": "Reserve",
+        "marker": "-134.00215144264868,57.8125",
+        "notes": "Opens a door on the second floor of the Black Pawn east building.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "RB-TB Key",
-    "map": "Reserve",
-    "markers": [
-      "-179.4330176402545,212.375"
+    "maps": [
+      "Reserve"
     ],
     "spawns": [
-      "On the train station lower roof, on the sleeping bag next to the sand bag"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1573191111/reserve_rb-tb_key.jpg"
-    ],
-    "videos": [
-      "YGmeGrAVqgM"
+      {
+        "map": "Reserve",
+        "marker": "-179.4330176402545,212.375",
+        "notes": "On the train station lower roof, on the sleeping bag next to the sand bag",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1573191111/reserve_rb-tb_key.jpg",
+        "video": "YGmeGrAVqgM"
+      }
     ],
     "unlocks": [
-      ""
+      {
+        "map": "Reserve",
+        "marker": "-141.1277088618804,61.3125",
+        "notes": "Opens a grate door in the basement of the Black Pawn east building.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "RB-AK Key",
-    "map": "Reserve",
-    "markers": [
-      "-85.62201778484673,87.2864990234375"
+    "maps": [
+      "Reserve"
     ],
     "spawns": [
-      "On a filing cabinet in the unlocked guard shack on the path to the Weather Sation"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1573191111/reserve_rb-ak_key.jpg"
-    ],
-    "videos": [
-      "u35bvHExzWQ"
+      {
+        "map": "Reserve",
+        "marker": "-85.62201778484673,87.2864990234375",
+        "notes": "On a filing cabinet in the unlocked guard shack on the path to the Weather Sation",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1573191111/reserve_rb-ak_key.jpg",
+        "video": "u35bvHExzWQ"
+      }
     ],
     "unlocks": [
-      ""
+      {
+        "map": "Reserve",
+        "marker": "-156.25389215533718,76.3125",
+        "notes": "Opens a door on the second floor of the Black Bishop building",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "RB-OP Key",
-    "map": "Interchange",
-    "markers": [
-      "-227.5307805181818, 108.375"
+    "maps": [
+      "Interchange",
+      "Reserve"
     ],
     "spawns": [
-      "On a nightstand in the back of Generic"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1573191112/interchange_rb-op_key.jpg"
-    ],
-    "videos": [
-      "WvUWavZxaB0"
+      {
+        "map": "Interchange",
+        "marker": "-227.5307805181818, 108.375",
+        "notes": "On a nightstand in the back of Generic",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1573191112/interchange_rb-op_key.jpg",
+        "video": "WvUWavZxaB0"
+      }
     ],
     "unlocks": [
-      ""
+      {
+        "map": "Reserve",
+        "marker": "-138.5025034969003,100.3125",
+        "notes": "Opens a door in the basement of the White Queen building.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "RB-MP11 Key",
-    "map": "Customs",
-    "markers": [
-      "-217.917004048583,85.423583984375"
+    "maps": [
+      "Customs",
+      "all"
     ],
     "spawns": [
-      "In the warehouse on boilers side, on the desk with the light"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1573191111/customs_rb-mp11_key.jpg"
-    ],
-    "videos": [
-      "hECVskxq9DE"
+      {
+        "map": "Customs",
+        "marker": "-217.917004048583,85.423583984375",
+        "notes": "In the warehouse on boilers side, on the desk with the light",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1573191111/customs_rb-mp11_key.jpg",
+        "video": "hECVskxq9DE"
+      }
     ],
     "unlocks": [
-      ""
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "This key does not currently unlock anything.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "RB-MP12 Key",
-    "map": "Woods",
-    "markers": [
-      "-206.43421052631578,109.78125"
+    "maps": [
+      "Woods",
+      "all"
     ],
     "spawns": [
-      "In the warehouse in the lumber mill, next to the boxes in the blue locker"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1573191112/woods_rb-mp12_key.jpg"
-    ],
-    "videos": [
-      "gHP5ogK-z3E"
+      {
+        "map": "Woods",
+        "marker": "-206.43421052631578,109.78125",
+        "notes": "In the warehouse in the lumber mill, next to the boxes in the blue locker",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1573191112/woods_rb-mp12_key.jpg",
+        "video": "gHP5ogK-z3E"
+      }
     ],
     "unlocks": [
-      ""
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "This key does not currently unlock anything.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "RB-MP21 Key",
-    "map": "Interchange",
-    "markers": [
-      "-181.43957560382785, 18.09375"
+    "maps": [
+      "Interchange",
+      "Reserve"
     ],
     "spawns": [
-      "On the wooden nightstand inside the bathroom in the powerstation"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1573191111/interchange_rb-mp21_key.jpg"
-    ],
-    "videos": [
-      "VPs_q5OxtsM"
+      {
+        "map": "Interchange",
+        "marker": "-181.43957560382785, 18.09375",
+        "notes": "On the wooden nightstand inside the bathroom in the powerstation",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1573191111/interchange_rb-mp21_key.jpg",
+        "video": "VPs_q5OxtsM"
+      }
     ],
     "unlocks": [
-      ""
+      {
+        "map": "Reserve",
+        "marker": "-144.75299246113863,135.5625",
+        "notes": "Opens a door on the second floor of the Black Knight building.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "RB-MP22 Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Reserve"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      ""
+      {
+        "map": "Reserve",
+        "marker": "-142.50281643401283,161.9375",
+        "notes": "Opens a door on the second floor of the White Knight building.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "RB-PSP1 Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Reserve"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      ""
+      {
+        "map": "Reserve",
+        "marker": "-196.50704108503209,167.3125",
+        "notes": "Opens the north-west caged off storage area in the underground storage bunkers.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "RB-PS81 Key",
-    "map": "Reserve",
-    "markers": [
-      "-158.75234962406014,108.78125"
+    "maps": [
+      "Reserve"
     ],
     "spawns": [
-      "In the basement of white bishop building, on the chair behind a desk"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1573191111/reserve_rb-ps81_key.jpg"
-    ],
-    "videos": [
-      "ZNON-B7sXCA"
+      {
+        "map": "Reserve",
+        "marker": "-158.75234962406014,108.78125",
+        "notes": "In the basement of white bishop building, on the chair behind a desk",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1573191111/reserve_rb-ps81_key.jpg",
+        "video": "ZNON-B7sXCA"
+      }
     ],
     "unlocks": [
-      ""
+      {
+        "map": "Reserve",
+        "marker": "-190.25655212079374,155.8125",
+        "notes": "Opens the south-east caged off storage area in the underground storage bunkers.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "RB-PP Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      ""
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "This key does not currently unlock anything.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "RB-MP13 Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Reserve"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      ""
+      {
+        "map": "Reserve",
+        "marker": "-147.1281782675492,162.3125",
+        "notes": "Opens a door on the first floor of the White Knight building.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "RB-ORB1 Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "Reserve"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "Reserve",
+        "marker": "-89.31200772499759,99.40625",
+        "notes": "Bottom of the tunnel in the shower room on a key case on the wall next to the door",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      ""
+      {
+        "map": "Reserve",
+        "marker": "-123.12630064487398,70.1875",
+        "notes": "Opens a grate door on the fourth floor of the White Pawn building.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "RB-ORB2 Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "Reserve",
+      "Woods"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "Reserve",
+        "marker": "-90.87467865381787,94.90625",
+        "notes": "Bottom of the tunnel, in a locker in the room across from the shower room",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Woods",
+        "marker": "-138.28165339201587,69.25",
+        "notes": "On a concrete barrier near the tank, near the RUAF Roadblock extract",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      ""
+      {
+        "map": "Reserve",
+        "marker": "-125.37647667199978,71.4375",
+        "notes": "Opens a door on the second floor of the White Pawn building.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "RB-ORB3 Key",
-    "map": "Customs",
-    "markers": [
-      "-212.72937301185655,49.589599609375"
+    "maps": [
+      "Customs",
+      "Reserve"
     ],
     "spawns": [
-      "On the front passenger seat of the UN Humvee on Customs closest to the bridge"
-    ],
-    "images": [
-      "https://res.cloudinary.com/de1mrvcda/image/upload/v1573191111/customs_rb-orb3_key.jpg"
-    ],
-    "videos": [
-      "Kq5I3k6sFsc"
+      {
+        "map": "Customs",
+        "marker": "-212.72937301185655,49.589599609375",
+        "notes": "On the front passenger seat of the UN Humvee on Customs closest to the bridge",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1573191111/customs_rb-orb3_key.jpg",
+        "video": "Kq5I3k6sFsc"
+      }
     ],
     "unlocks": [
-      ""
+      {
+        "map": "Reserve",
+        "marker": "-147.00316848826444,57.1875",
+        "notes": "Opens a door on the second floor of the Black Pawn east building.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "RB-KORL Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Reserve"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      ""
+      {
+        "map": "Reserve",
+        "marker": "-82.74814193589432,103.6875",
+        "notes": "Opens a door on the second floor of the Radar Station (White King).",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "RB-KPRL Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Reserve"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      ""
+      {
+        "map": "Reserve",
+        "marker": "-90.62375803083462,90.3125",
+        "notes": "Opens one of the guard buildings near the Radar Station (White King).",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "RB-GN Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Reserve"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      ""
+      {
+        "map": "Reserve",
+        "marker": "-143.87792400614526,99.9375",
+        "notes": "Opens a door in the basement of the White Queen building.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "RB-SMP Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Reserve"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      ""
+      {
+        "map": "Reserve",
+        "marker": "-156.25389215533716,101.0625",
+        "notes": "Opens a door on the second floor of the White Bishop building.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "RB-KSM Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Reserve"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      ""
+      {
+        "map": "Reserve",
+        "marker": "-156.37890193462192,106.6875",
+        "notes": "Opens a door on the second floor of the White Bishop building.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "RB-PS82 Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Reserve"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      ""
+      {
+        "map": "Reserve",
+        "marker": "-196.50704108503209,155.9375",
+        "notes": "Opens the north-east caged off storage area in the underground storage bunkers.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "RB-PSP2 Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Reserve"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      ""
+      {
+        "map": "Reserve",
+        "marker": "-191.25663035507188,167.9375",
+        "notes": "Opens the south-west caged off storage area in the underground storage bunkers.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "RB-ST Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Reserve"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      ""
+      {
+        "map": "Reserve",
+        "marker": "-122.75127130701968,162.3125",
+        "notes": "Opens a door in the warehouse south of the White Knight building.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "RB-RS Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Reserve"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      ""
+      {
+        "map": "Reserve",
+        "marker": "-85.49835708015918,103.0625",
+        "notes": "Opens a door on the second floor of the Radar Station (White King).",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "RB-RH Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Reserve"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      ""
+      {
+        "map": "Reserve",
+        "marker": "-135.37725901478112,110.0625",
+        "notes": "Opens a door on the third floor of the White Queen building.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "USEC Stash on Customs Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Customs"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      ""
+      {
+        "map": "Customs",
+        "marker": "-217.37584101848995,93.828125",
+        "notes": "Opens the door in the corner of the warehouse.",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Customs",
+        "marker": "-217.96963747009258,93.140625",
+        "notes": "Opens the door under the metal staircase in the warehouse.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Key to HEP Station Storage",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
-      "Obtained as a reward from the Jaeger task, 'Nostalgia'"
+    "maps": [
+      "all",
+      "Shoreline"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers. Also obtained as a reward from the Jaeger task, 'Nostalgia'",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      ""
+      {
+        "map": "Shoreline",
+        "marker": "-213.87737392137714,69.890625",
+        "notes": "Opens the door to the booth on the second floor of the power station.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Shturman Key",
-    "map": "Woods",
-    "markers": ["-205.00489249473708, 104.53125"],
-    "spawns": [
-      "Found on the Woods scav boss, Shturman. Shturman can be found patrolling the lumber yard."
+    "maps": [
+      "Woods"
     ],
-    "images": [""],
-    "videos": [""],
+    "spawns": [
+      {
+        "map": "Woods",
+        "marker": "-205.00489249473708, 104.53125",
+        "notes": "Found on the Woods scav boss, Shturman. Shturman can be found patrolling the lumber yard.",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      ""
+      {
+        "map": "Woods",
+        "marker": "-204.9383239047416,101.984375",
+        "notes": "Opens Shturmans stash, a small lockbox near a log pile in the center of the lumber yard.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Object #21WS Keycard",
-    "map": "Interchange",
-    "markers": ["-230.88416725023967, 100.1875"],
-    "spawns": [
-      "Can be found on Killa, the Interchange scav boss."
+    "maps": [
+      "Interchange"
     ],
-    "images": [""],
-    "videos": [""],
+    "spawns": [
+      {
+        "map": "Interchange",
+        "marker": "-230.88416725023967, 100.1875",
+        "notes": "Can be found on Killa, the Interchange scav boss.",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      ""
+      {
+        "map": "Interchange",
+        "marker": "-197.5927207302783,49.328125",
+        "notes": "Opens the container sitting on top of other containers.",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "Object #11SR Keycard",
-    "map": "Interchange",
-    "markers": ["-230.79034312153152, 103.65625"],
-    "spawns": [
-      "Can be found on Killa, the Interchange scav boss."
+    "maps": [
+      "Interchange"
     ],
-    "images": [""],
-    "videos": [""],
+    "spawns": [
+      {
+        "map": "Interchange",
+        "marker": "-230.79034312153152, 103.65625",
+        "notes": "Can be found on Killa, the Interchange scav boss.",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      ""
+      {
+        "map": "Interchange",
+        "marker": "-181.15461930426514,89.453125",
+        "notes": "Opens the saferoom extract. The keypad is found behind a urinal in the Burger Spot store (interact with the urinal to reveal the keypad).",
+        "image": "",
+        "video": ""
+      }
     ]
   },
   {
     "type": "key",
     "label": "ULTRA Medical Storage Key",
-    "map": "all",
-    "markers": [],
-    "spawns": [
-      "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers"
+    "maps": [
+      "all",
+      "Interchange"
     ],
-    "images": [],
-    "videos": [],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
     "unlocks": [
-      ""
+      {
+        "map": "Interchange",
+        "marker": "-195.15571458415903,115.953125",
+        "notes": "Opens the back room in a Pharmacy on the second floor of the mall.",
+        "image": "",
+        "video": ""
+      }
     ]
   }
 ]

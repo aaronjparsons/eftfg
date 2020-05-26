@@ -9,16 +9,27 @@
         :center="center"
         :crs="crsSimple"
       >
-        <div class="map-name">{{ activeMap }}</div>
+        <div v-show="availableMaps.length" class="map-names">
+          <div class="map-names-header">Select a map:</div>
+          <div
+            v-for="(map, index) in availableMaps"
+            :key="index"
+            class="map-name-item"
+            :class="{ 'map-unselected': activeMap !== map }"
+            @click="emitMapChange(map)"
+          >
+            {{ map }}
+          </div>
+        </div>
         <l-tile-layer :url="mapSource"></l-tile-layer>
         <l-feature-group ref="markerGroup">
           <l-marker
-            v-for="(coord, index) in activeItem.coords"
+            v-for="(marker, index) in activeItem.markers"
             :key="index"
-            :lat-lng="coord"
+            :lat-lng="marker"
           >
             <l-popup>
-              <h3>{{ activeItem.name[index] }}</h3>
+              <h3>{{ activeItem.labels[index] }}</h3>
               <p v-if="activeItem.type">Type: {{ activeItem.type[index] }}</p>
               <p>Notes: {{ activeItem.notes[index] }}</p>
               <v-btn
@@ -104,6 +115,10 @@ export default {
     activeItem: {
       type: Object,
       default: () => {}
+    },
+    availableMaps: {
+      type: Array,
+      default: () => []
     }
   },
 
@@ -137,11 +152,11 @@ export default {
       }
     },
     center() {
-      if (this.activeItem.coords.length > 0) {
-        const markersLength = this.activeItem.coords.length
+      if (this.activeItem.markers.length > 0) {
+        const markersLength = this.activeItem.markers.length
         let lats = 0
         let lngs = 0
-        this.activeItem.coords.map(marker => {
+        this.activeItem.markers.map(marker => {
           lats += parseInt(marker[0])
           lngs += parseInt(marker[1])
         })
@@ -154,7 +169,10 @@ export default {
 
   methods: {
     mapClick(event) {
-      console.log(`${event.latlng.lat}, ${event.latlng.lng}`)
+      console.log(`${event.latlng.lat},${event.latlng.lng}`)
+    },
+    emitMapChange(map) {
+      this.$emit('changeActiveMap', map)
     },
     hasMediaContent(value, index) {
       if (!value) {
@@ -186,17 +204,48 @@ export default {
 </script>
 
 <style>
-.map-name {
+.map-names {
   position: absolute;
   right: 0;
-  padding: 5px 20px;
   background: #ffffffd8;
   border-bottom-left-radius: 5px;
   font-size: 16px;
   z-index: 150;
 }
-.map-dark .map-name {
+.map-dark .map-names {
   background: #434343d8;
+}
+.map-names .map-names-header {
+  background: #e0e0e0;
+  padding: 5px 20px;
+  margin-bottom: 5px;
+}
+.map-dark .map-names .map-names-header {
+  background: #2b2b2b;
+}
+.map-names .map-name-item {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  background: #dbdbdbd8;
+  text-align: center;
+  text-decoration: underline;
+}
+.map-dark .map-names .map-name-item {
+  background: #5a5a5ad8;
+}
+.map-names .map-name-item:hover {
+  cursor: pointer;
+}
+.map-names .map-unselected {
+  color: #0000006b;
+  background: transparent;
+  text-decoration: none;
+}
+.map-dark .map-names .map-unselected {
+  color: #ffffff63;
+  background: transparent;
+  text-decoration: none;
 }
 .image-dialog-container {
   position: relative;
@@ -230,14 +279,26 @@ export default {
 }
 
 .leaflet-container {
-  background-color: #ffffff;
   box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
     0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
   position: relative;
   border-radius: 4px;
+  background-color: #ffffff;
+  background-image: linear-gradient(rgba(21, 21, 24, 0.1) 2px, transparent 2px),
+  linear-gradient(90deg, rgba(21, 21, 24, 0.1) 2px, transparent 2px),
+  linear-gradient(rgba(21, 21, 24, 0.1) 1px, transparent 1px),
+  linear-gradient(90deg, rgba(21, 21, 24, 0.1) 1px, transparent 1px);
+  background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+  background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
 }
 .map-dark .leaflet-container {
-  background-color: #424242;
+  background-color: #151518;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1) 2px, transparent 2px),
+  linear-gradient(90deg, rgba(255, 255, 255, 0.1) 2px, transparent 2px),
+  linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+  linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+  background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
 }
 
 .map-dark .leaflet-popup-content-wrapper {

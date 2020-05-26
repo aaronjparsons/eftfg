@@ -73,9 +73,9 @@ export default {
         label: 'Home'
       },
       {
-        route: '/key-spawns',
+        route: '/keys',
         icon: 'mdi-key',
-        label: 'Key Spawns'
+        label: 'Keys'
       },
       {
         route: '/extractions',
@@ -127,6 +127,10 @@ export default {
 }
 .v-navigation-drawer a {
   text-decoration: none;
+}
+
+.v-app-bar {
+  z-index: 175 !important;
 }
 
 .bmc-button img {
