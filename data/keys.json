@@ -2462,14 +2462,28 @@
       {
         "map": "Shoreline",
         "marker": "-190.04046666937842,69.765625",
-        "notes": "West wing in the resort: In the basement gym in a locker",
+        "notes": "West wing of the resort, in the basement gym in a locker",
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799186/shoreline_labs_red_keycard_2.jpg",
         "video": "g_gyM-MS0Fg"
       },
       {
         "map": "Shoreline",
         "marker": "-191.07253208516792,65.546875",
-        "notes": "West wing room 218 in the resort: On top of a water barrel",
+        "notes": "West wing room 218 in the resort, on top of a water barrel",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-191.18833123920518,70.28125",
+        "notes": "West wing room 203 in the resort, on the floor next to the nightstand.",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-185.93792050924498,73.3125",
+        "notes": "In the admin building of the resort, next to the Health resort management office with locked safe, on the table under the ashtray",
         "image": "",
         "video": ""
       }
@@ -3122,14 +3136,13 @@
     "type": "key",
     "label": "RB-ORB1 Key",
     "maps": [
-      "all",
       "Reserve"
     ],
     "spawns": [
       {
-        "map": "all",
-        "marker": "",
-        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "map": "Reserve",
+        "marker": "-89.31200772499759,99.40625",
+        "notes": "Bottom of the tunnel in the shower room on a key case on the wall next to the door",
         "image": "",
         "video": ""
       }
@@ -3148,14 +3161,21 @@
     "type": "key",
     "label": "RB-ORB2 Key",
     "maps": [
-      "all",
-      "Reserve"
+      "Reserve",
+      "Woods"
     ],
     "spawns": [
       {
-        "map": "all",
-        "marker": "",
-        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "map": "Reserve",
+        "marker": "-90.87467865381787,94.90625",
+        "notes": "Bottom of the tunnel, in a locker in the room across from the shower room",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Woods",
+        "marker": "-138.28165339201587,69.25",
+        "notes": "On a concrete barrier near the tank, near the RUAF Roadblock extract",
         "image": "",
         "video": ""
       }
