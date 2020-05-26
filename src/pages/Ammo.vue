@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <v-row justify="center">
-      <h1>EFT Ammo Chart & Table</h1>
+      <h1 class="text-center">EFT Ammo Chart & Table</h1>
     </v-row>
     <v-row justify="center">
       <p class="caption grey--text mx-12 text-center">

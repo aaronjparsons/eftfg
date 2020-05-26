@@ -130,7 +130,7 @@ export default {
 }
 
 .v-app-bar {
-  z-index: 175 !important;
+  z-index: 165 !important;
 }
 
 .bmc-button img {

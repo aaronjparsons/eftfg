@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <v-row justify="center">
-      <h1>EFT Key Spawns & Use Locations</h1>
+      <h1 class="text-center">EFT Key Spawns & Use Locations</h1>
     </v-row>
     <v-row justify="center">
       <p class="caption grey--text mx-12 text-center">

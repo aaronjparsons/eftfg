@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <v-row justify="center">
-      <h1>EFT Extractions</h1>
+      <h1 class="text-center">EFT Extractions</h1>
     </v-row>
     <v-row justify="center">
       <p class="caption grey--text mx-12 text-center">
