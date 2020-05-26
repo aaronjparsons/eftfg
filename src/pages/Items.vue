@@ -1,6 +1,15 @@
 <template>
   <Layout>
     <v-row justify="center">
+      <h1>EFT Loot - Required Items</h1>
+    </v-row>
+    <v-row justify="center">
+      <p class="caption grey--text mx-12 text-center">
+        Escape From Tarkov loot items that are required for tasks and the hideout. Search to keep track of loot that is important to keep.
+      </p>
+    </v-row>
+    <v-divider class="mx-8 mb-4" />
+    <v-row justify="center">
       <v-col cols="12" sm="7">
         <v-row justify="end" align="center">
           <v-spacer />
@@ -71,15 +80,15 @@ import debounce from 'lodash.debounce'
 
 export default {
   metaInfo: {
-    title: "Required Items",
+    title: "EFT Loot List - Required Items",
     link: [{ rel: "canonical", href: "https://eftfg.com/items" }],
     meta: [
       {
         name: "description",
         content:
-          "List of all items required for both the Hideout and for tasks."
+          "List of all important Escape From Tarkov loot items that are required for tasks and the hideout. Easily keep track of EFT loot items to hold on to."
       },
-      { property: "og:title", content: "Checklist | EFTFG" },
+      { property: "og:title", content: "EFT Loot List - Required Items | EFTFG" },
       { property: "og:site_name", content: "EFTFG" },
       { property: "og:type", content: "website" },
       {
@@ -93,29 +102,29 @@ export default {
       {
         property: "og:description",
         content:
-          "List of all items required for both the Hideout and for tasks."
+          "List of all important Escape From Tarkov loot items that are required for tasks and the hideout. Easily keep track of EFT loot items to hold on to."
       },
       { name: "twitter:card", content: "summary" },
       {
         name: "twitter:site",
         content: "https://eftfg.com/items"
       },
-      { name: "twitter:title", content: "Required Items | EFTFG" },
+      { name: "twitter:title", content: "EFT Loot List - Required Items | EFTFG" },
       {
         name: "twitter:description",
         content:
-          "List of all items required for both the Hideout and for tasks."
+          "List of all important Escape From Tarkov loot items that are required for tasks and the hideout. Easily keep track of EFT loot items to hold on to."
       },
       { name: "twitter:creator", content: "@ChewyDinosaur" },
       // {
       //   name: "twitter:image:src",
       //   content: "https://www.my-site.com/my-special-image.jpg"
       // },
-      { itemprop: "name", content: "Required Items | EFTFG" },
+      { itemprop: "name", content: "EFT Loot List - Required Items | EFTFG" },
       {
         itemprop: "description",
         content:
-          "List of all items required for both the Hideout and for tasks."
+          "List of all important Escape From Tarkov loot items that are required for tasks and the hideout. Easily keep track of EFT loot items to hold on to."
       }
       // {
       //   itemprop: "image",

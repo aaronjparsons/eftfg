@@ -1,6 +1,20 @@
 <template>
   <Layout>
     <v-row justify="center">
+      <h1>EFT Extractions</h1>
+    </v-row>
+    <v-row justify="center">
+      <p class="caption grey--text mx-12 text-center">
+        Escape From Tarkov extract locations, searchable by specific extract or by map.
+      </p>
+    </v-row>
+    <v-row justify="center">
+      <p class="caption grey--text mx-12 text-center">
+        Eg: "RUAF Roadblock" or "Customs (All Extractions)"
+      </p>
+    </v-row>
+    <v-divider class="mx-8 mb-4" />
+    <v-row justify="center">
       <v-col cols="12" sm="8">
         <v-autocomplete
           v-model="input"
@@ -141,15 +155,15 @@ query {
 import Map from '../components/Map'
 export default {
   metaInfo: {
-    title: "Extractions",
+    title: "EFT Extractions",
     link: [{ rel: "canonical", href: "https://eftfg.com/extractions" }],
     meta: [
       {
         name: "description",
         content:
-          "Map locations for every extraction point in Escape From Tarkov. Quickly and easily search by extraction name or by map."
+          "Quickly find the location of any Escape From Tarkov extraction point. Search by extract or view all extracts by map (eg: All Customs Extracts)."
       },
-      { property: "og:title", content: "Extractions | EFTFG" },
+      { property: "og:title", content: "EFT Extractions | EFTFG" },
       { property: "og:site_name", content: "EFTFG" },
       { property: "og:type", content: "website" },
       {
@@ -163,29 +177,29 @@ export default {
       {
         property: "og:description",
         content:
-          "Map locations for every extraction point in Escape From Tarkov. Quickly and easily search by extraction name or by map."
+          "Quickly find the location of any Escape From Tarkov extraction point. Search by extract or view all extracts by map (eg: All Customs Extracts)."
       },
       { name: "twitter:card", content: "summary" },
       {
         name: "twitter:site",
         content: "https://eftfg.com/extractions"
       },
-      { name: "twitter:title", content: "Extractions | EFTFG" },
+      { name: "twitter:title", content: "EFT Extractions | EFTFG" },
       {
         name: "twitter:description",
         content:
-          "Map locations for every extraction point in Escape From Tarkov. Quickly and easily search by extraction name or by map."
+          "Quickly find the location of any Escape From Tarkov extraction point. Search by extract or view all extracts by map (eg: All Customs Extracts)."
       },
       { name: "twitter:creator", content: "@ChewyDinosaur" },
       // {
       //   name: "twitter:image:src",
       //   content: "https://www.my-site.com/my-special-image.jpg"
       // },
-      { itemprop: "name", content: "Extractions | EFTFG" },
+      { itemprop: "name", content: "EFT Extractions | EFTFG" },
       {
         itemprop: "description",
         content:
-          "Map locations for every extraction point in Escape From Tarkov. Quickly and easily search by extraction name or by map."
+          "Quickly find the location of any Escape From Tarkov extraction point. Search by extract or view all extracts by map (eg: All Customs Extracts)."
       }
       // {
       //   itemprop: "image",

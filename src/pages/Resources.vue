@@ -1,5 +1,14 @@
 <template>
   <Layout>
+    <v-row justify="center">
+      <h1>EFT Resources</h1>
+    </v-row>
+    <v-row justify="center">
+      <p class="caption grey--text mx-12 text-center">
+        Official and community created Escape From Tarkov resources.
+      </p>
+    </v-row>
+    <v-divider class="mx-8 mb-4" />
     <v-row>
       <v-col v-for="(resource, index) in resourceList" :key="index" cols="12" sm="6">
         <v-card >
@@ -24,7 +33,7 @@
 <script>
 export default {
   metaInfo: {
-    title: "Resources",
+    title: "EFT Resources",
     link: [{ rel: "canonical", href: "https://eftfg.com/resources" }],
     meta: [
       {
@@ -32,7 +41,7 @@ export default {
         content:
           "Links to official and community created Escape From Tarkov resources."
       },
-      { property: "og:title", content: "Resources | EFTFG" },
+      { property: "og:title", content: "EFT Resources | EFTFG" },
       { property: "og:site_name", content: "EFTFG" },
       { property: "og:type", content: "website" },
       {
@@ -53,7 +62,7 @@ export default {
         name: "twitter:site",
         content: "https://eftfg.com/resources"
       },
-      { name: "twitter:title", content: "Resources | EFTFG" },
+      { name: "twitter:title", content: "EFT Resources | EFTFG" },
       {
         name: "twitter:description",
         content:
@@ -64,7 +73,7 @@ export default {
       //   name: "twitter:image:src",
       //   content: "https://www.my-site.com/my-special-image.jpg"
       // },
-      { itemprop: "name", content: "Resources | EFTFG" },
+      { itemprop: "name", content: "EFT Resources | EFTFG" },
       {
         itemprop: "description",
         content:

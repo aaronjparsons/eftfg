@@ -1,6 +1,20 @@
 <template>
   <Layout>
     <v-row justify="center">
+      <h1>EFT Key Spawns & Use Locations</h1>
+    </v-row>
+    <v-row justify="center">
+      <p class="caption grey--text mx-12 text-center">
+        Escape From Tarkov key spawns & use locations, searchable by specific key or by map.
+      </p>
+    </v-row>
+    <v-row justify="center">
+      <p class="caption grey--text mx-12 text-center">
+        Eg: "Factory Key" or "Customs (All Keys)"
+      </p>
+    </v-row>
+    <v-divider class="mx-8 mb-4" />
+    <v-row justify="center">
       <v-col cols="12" sm="8">
         <v-autocomplete
           v-model="selection"
@@ -241,15 +255,15 @@ import Map from '../components/Map'
 
 export default {
   metaInfo: {
-    title: "Keys",
+    title: "EFT Key Spawns & Locations",
     link: [{ rel: "canonical", href: "https://eftfg.com/keys" }],
     meta: [
       {
         name: "description",
         content:
-          "Map locations, screenshots, and video guides for every key in Escape From Tarkov. Quickly and easily search by key or by map."
+          "The fastest way to find Escape From Tarkov key spawns and lock locations. Always up to date with all EFT key spawns."
       },
-      { property: "og:title", content: "Keys | EFTFG" },
+      { property: "og:title", content: "EFT Key Spawns & Locations | EFTFG" },
       { property: "og:site_name", content: "EFTFG" },
       { property: "og:type", content: "website" },
       {
@@ -263,29 +277,29 @@ export default {
       {
         property: "og:description",
         content:
-          "Map locations, screenshots, and video guides for every key in Escape From Tarkov. Quickly and easily search by key or by map."
+          "The fastest way to find Escape From Tarkov key spawns and lock locations. Always up to date with all EFT key spawns."
       },
       { name: "twitter:card", content: "summary" },
       {
         name: "twitter:site",
         content: "https://eftfg.com/keys"
       },
-      { name: "twitter:title", content: "Keys | EFTFG" },
+      { name: "twitter:title", content: "EFT Key Spawns & Locations | EFTFG" },
       {
         name: "twitter:description",
         content:
-          "Map locations, screenshots, and video guides for every key in Escape From Tarkov. Quickly and easily search by key or by map."
+          "The fastest way to find Escape From Tarkov key spawns and lock locations. Always up to date with all EFT key spawns."
       },
       { name: "twitter:creator", content: "@ChewyDinosaur" },
       // {
       //   name: "twitter:image:src",
       //   content: "https://www.my-site.com/my-special-image.jpg"
       // },
-      { itemprop: "name", content: "Keys | EFTFG" },
+      { itemprop: "name", content: "EFT Key Spawns & Locations | EFTFG" },
       {
         itemprop: "description",
         content:
-          "Map locations, screenshots, and video guides for every key in Escape From Tarkov. Quickly and easily search by key or by map."
+          "The fastest way to find Escape From Tarkov key spawns and lock locations. Always up to date with all EFT key spawns."
       }
       // {
       //   itemprop: "image",
