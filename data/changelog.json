@@ -1,5 +1,19 @@
 [
   {
+    "date": "2020/05/26",
+    "summary": [
+      "Overhaul of Keys page",
+      "There is now locations for both spawn locations and use locations for keys and maps",
+      "Added support for keys that have spawns/use on multiple maps (eg: Factory Key)"
+    ],
+    "changes": [
+      "Can now toggle between the spawn locations and key use locations on the Keys page.",
+      "Can toggle between maps if a key spawns on multiple maps or can be used on multiple maps.",
+      "Added a few new spawn locations for keys (Labs Red Keycard, RB-ORB1, & RB-ORB2).",
+      "Screenshots of key use locations will be added in the near future."
+    ]
+  },
+  {
     "date": "2020/04/12",
     "summary": [
       "Added new map for Labs"
