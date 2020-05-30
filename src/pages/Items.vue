@@ -196,9 +196,7 @@ export default {
     return {
       searchQuery: '',
       debouncedSearchQuery: '',
-      dialog: false,
       panels: [],
-      panelsState: [],
       lists: {
         hideout: {
           title: 'Hideout items',
@@ -233,11 +231,15 @@ export default {
       if (this.lists.tasks.items.length > 0) {
         this.lists.tasks.show = true
         this.panels.push(0)
+      } else {
+        this.lists.tasks.show = false
       }
 
       if (this.lists.hideout.items.length > 0) {
         this.lists.hideout.show = true
         this.panels.push(1)
+      } else {
+        this.lists.hideout.show = false
       }
     }
   },

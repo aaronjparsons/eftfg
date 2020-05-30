@@ -1348,6 +1348,23 @@
       ]
     },
     {
+      "name": "Graphics Card (Optional)",
+      "modules": [
+        {
+          "module": "Bitcoin Farm - Level 1",
+          "amount": 10
+        },
+        {
+          "module": "Bitcoin Farm - Level 2",
+          "amount": 15
+        },
+        {
+          "module": "Bitcoin Farm - Level 3",
+          "amount": 25
+        }
+      ]
+    },
+    {
       "name": "Phase Control Relay",
       "modules": [
         {
