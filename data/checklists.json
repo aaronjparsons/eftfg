@@ -2,7 +2,7 @@
   "tasks": [
     {
       "name": "MP-133 Shotgun",
-      "need": 4
+      "need": 3
     },
     {
       "name": "6L31 60 Round AK-74 Magazine",
@@ -10,7 +10,7 @@
     },
     {
       "name": "Lower Half Mask (Find in Raid)",
-      "need": 10
+      "need": 7
     },
     {
       "name": "Bars A-2607 Knife",
@@ -30,11 +30,11 @@
     },
     {
       "name": "USEC Dogtag",
-      "need": 10
+      "need": 14
     },
     {
       "name": "BEAR Dogtag",
-      "need": 10
+      "need": 7
     },
     {
       "name": "M67 Grenade",
@@ -54,15 +54,15 @@
     },
     {
       "name": "Gas Analyzer (Find in Raid)",
-      "need": 1
+      "need": 2
     },
     {
       "name": "Gas Analyzer",
-      "need": 3
+      "need": 1
     },
     {
       "name": "Morphine (Find in Raid)",
-      "need": 9
+      "need": 8
     },
     {
       "name": "Tushonka (Find in Raid)",
@@ -97,12 +97,8 @@
       "need": 4
     },
     {
-      "name": "Secure Flash Drive",
-      "need": 2
-    },
-    {
       "name": "Secure Flash Drive (Find in Raid)",
-      "need": 3
+      "need": 5
     },
     {
       "name": "Flyye MBSS Backpack",
@@ -118,11 +114,11 @@
     },
     {
       "name": "Respirator (Find in Raid)",
-      "need": 5
+      "need": 4
     },
     {
-      "name": "Medical Bloodset",
-      "need": 5
+      "name": "Medical Bloodset (Find in Raid)",
+      "need": 3
     },
     {
       "name": "SV-98 Sniper Rifle",
@@ -131,6 +127,10 @@
     {
       "name": "Roler Gold Watch",
       "need": 2
+    },
+    {
+      "name": "Roler Gold Watch (Find in Raid)",
+      "need": 1
     },
     {
       "name": "MRE Lunch Box",
@@ -162,39 +162,35 @@
     },
     {
       "name": "COFDM Signal Transmitters",
-      "need": 2
+      "need": 1
     },
     {
       "name": "Virtex Processor",
-      "need": 3
+      "need": 2
     },
     {
       "name": "Set of Tools",
       "need": 2
     },
     {
-      "name": "Powercord",
-      "need": 5
+      "name": "Powercord (Find in Raid)",
+      "need": 2
     },
     {
-      "name": "T Shaped Plug",
-      "need": 5
-    },
-    {
-      "name": "Printed Circuit Board",
-      "need": 3
+      "name": "T Shaped Plug (Find in Raid)",
+      "need": 4
     },
     {
       "name": "Printed Circuit Board (Find in Raid)",
+      "need": 5
+    },
+    {
+      "name": "Graphics Card (Find in Raid)",
       "need": 3
     },
     {
-      "name": "Graphics Card",
-      "need": 7
-    },
-    {
-      "name": "CPU Fan",
-      "need": 7
+      "name": "CPU Fan (Find in Raid)",
+      "need": 8
     },
     {
       "name": "PC CPU (Find in Raid)",
@@ -210,23 +206,23 @@
     },
     {
       "name": "Malboro Cigarettes (Find in Raid)",
-      "need": 7
+      "need": 5
     },
     {
       "name": "Strike Cigarettes (Find in Raid)",
-      "need": 7
+      "need": 5
     },
     {
       "name": "Wilston Cigarettes (Find in Raid)",
-      "need": 7
+      "need": 5
     },
     {
-      "name": "UHF RFID Reader",
-      "need": 2
+      "name": "UHF RFID Reader (Find in Raid)",
+      "need": 1
     },
     {
-      "name": "VPX Flash Storage Module",
-      "need": 2
+      "name": "VPX Flash Storage Module (Find in Raid)",
+      "need": 1
     },
     {
       "name": "Wires (Find in Raid)",
@@ -330,11 +326,11 @@
     },
     {
       "name": "Shmaska",
-      "need": 2
+      "need": 1
     },
     {
       "name": "Pilgrim Backpack",
-      "need": 2
+      "need": 1
     },
     {
       "name": "6B43 Fort Body Armor (0-50% Durability)",
@@ -357,16 +353,16 @@
       "need": 4
     },
     {
-      "name": "Bronze Lion Statue",
-      "need": 3
-    },
-    {
-      "name": "Horse Figurine",
-      "need": 3
-    },
-    {
-      "name": "Cat Figurine",
+      "name": "Bronze Lion Statue (Find in Raid)",
       "need": 2
+    },
+    {
+      "name": "Horse Figurine (Find in Raid)",
+      "need": 2
+    },
+    {
+      "name": "Cat Figurine (Find in Raid)",
+      "need": 1
     },
     {
       "name": "Antique Teapot (Find in Raid)",
@@ -377,8 +373,32 @@
       "need": 2
     },
     {
+      "name": "Aramid Fiber Cloth (Find in Raid)",
+      "need": 5
+    },
+    {
+      "name": "Ripstop Cloth (Find in Raid)",
+      "need": 10
+    },
+    {
+      "name": "Paracord (Find in Raid)",
+      "need": 3
+    },
+    {
+      "name": "Fleece Cloth (Find in Raid)",
+      "need": 10
+    },
+    {
+      "name": "Polyamide Fabric Cordura (Find in Raid)",
+      "need": 10
+    },
+    {
+      "name": "KEKTAPE Duct Tape (Find in Raid)",
+      "need": 5
+    },
+    {
       "name": "Iskra Lunch Box",
-      "need": 2
+      "need": 6
     },
     {
       "name": "Emelya Rye Croutons",
@@ -390,7 +410,7 @@
     },
     {
       "name": "Bottle of Water",
-      "need": 2
+      "need": 1
     },
     {
       "name": "Golden TT Pistol (Find in Raid)",
@@ -405,12 +425,12 @@
       "need": 1
     },
     {
-      "name": "CMS Surgery Kit",
-      "need": 3
+      "name": "CMS Surgery Kit (Find in Raid)",
+      "need": 2
     },
     {
-      "name": "Portable Defibrillator",
-      "need": 2
+      "name": "Portable Defibrillator (Find in Raid)",
+      "need": 1
     },
     {
       "name": "TerraGroup Labs Access Keycard (Find in Raid)",
@@ -603,7 +623,7 @@
       "need": 1
     },
     {
-      "name": "Flash Drive",
+      "name": "Secure Flash Drive",
       "need": 3
     },
     {

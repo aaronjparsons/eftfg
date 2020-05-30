@@ -649,7 +649,7 @@
   },
   {
     "name": ".366 TKM Geksa",
-    "damage": "93",
+    "damage": "102",
     "penetration": "14",
     "armorDamage": "38",
     "accuracy": "",
@@ -658,7 +658,7 @@
   },
   {
     "name": ".366 TKM FMJ",
-    "damage": "88",
+    "damage": "93",
     "penetration": "23",
     "armorDamage": "41",
     "accuracy": "",
@@ -667,7 +667,7 @@
   },
   {
     "name": ".366 TKM EKO",
-    "damage": "65",
+    "damage": "68",
     "penetration": "30",
     "armorDamage": "30",
     "accuracy": "-10",
@@ -830,7 +830,7 @@
   {
     "name": "5.56x45 mm M855",
     "damage": "49",
-    "penetration": "26",
+    "penetration": "29",
     "armorDamage": "37",
     "accuracy": "+5",
     "recoil": "",
@@ -850,7 +850,7 @@
     "damage": "44",
     "penetration": "40",
     "armorDamage": "52",
-    "accuracy": "-7",
+    "accuracy": "-10",
     "recoil": "",
     "fragmentation": "34%"
   },
@@ -865,7 +865,7 @@
   },
   {
     "name": "7.62x39 mm HP",
-    "damage": "83",
+    "damage": "87",
     "penetration": "15",
     "armorDamage": "35",
     "accuracy": "-5",
@@ -884,7 +884,7 @@
   {
     "name": "7.62x39 mm T45M",
     "damage": "62",
-    "penetration": "31",
+    "penetration": "30",
     "armorDamage": "46",
     "accuracy": "-2",
     "recoil": "-5",
@@ -892,8 +892,8 @@
   },
   {
     "name": "7.62x39 mm PS",
-    "damage": "54",
-    "penetration": "34",
+    "damage": "57",
+    "penetration": "32",
     "armorDamage": "52",
     "accuracy": "",
     "recoil": "",
@@ -910,10 +910,10 @@
   },
   {
     "name": "7.62x51 mm Ultra Nosler",
-    "damage": "102",
+    "damage": "107",
     "penetration": "15",
     "armorDamage": "20",
-    "accuracy": "+5",
+    "accuracy": "+10",
     "recoil": "-5",
     "fragmentation": "70%"
   },
@@ -931,8 +931,8 @@
     "damage": "60",
     "penetration": "36",
     "armorDamage": "40",
-    "accuracy": "-5",
-    "recoil": "",
+    "accuracy": "-8",
+    "recoil": "-5",
     "fragmentation": "20%"
   },
   {
@@ -1022,7 +1022,7 @@
     "penetration": "10",
     "armorDamage": "22",
     "accuracy": "-15",
-    "recoil": "+7",
+    "recoil": "-12",
     "fragmentation": "70%"
   },
   {
