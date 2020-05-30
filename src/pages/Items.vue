@@ -8,6 +8,11 @@
         Escape From Tarkov loot items that are required for tasks and the hideout. Search to keep track of loot that is important to keep.
       </p>
     </v-row>
+    <v-row justify="center">
+      <p class="caption grey--text mx-12 text-center">
+        Updated for patch 0.12.6.7456 (May 29, 2020)
+      </p>
+    </v-row>
     <v-divider class="mx-8 mb-4" />
     <v-row justify="center">
       <v-col cols="12" sm="7">
