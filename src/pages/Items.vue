@@ -29,30 +29,77 @@
     <v-row justify="center">
       <v-col cols="12" sm="8">
         <v-expansion-panels v-model="panels" multiple focusable>
-          <template v-for="(list, index) in filteredLists">
-            <v-expansion-panel
-              v-if="list.show"
-              :key="index"
-            >
-              <v-expansion-panel-header>{{ list.title }}</v-expansion-panel-header>
-              <v-expansion-panel-content>
-                <v-list dense>
-                  <template v-for="(item, itemIndex) in list.items">
-                    <v-list-item :key="itemIndex" link>
-                      <v-list-item-content>
-                        <v-list-item-title>{{ item.node.name }}</v-list-item-title>
-                        <!-- <v-list-item-subtitle>Need: {{ item.node.need }}</v-list-item-subtitle> -->
-                      </v-list-item-content>
-                      <v-list-item-action>
-                        <v-list-item-subtitle>Need: {{ item.node.need }}</v-list-item-subtitle>
-                      </v-list-item-action>
-                    </v-list-item>
-                    <v-divider />
-                  </template>
-                </v-list>
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-          </template>
+          <!-- Task Items -->
+          <v-expansion-panel v-if="lists.tasks.show">
+            <v-expansion-panel-header>{{ lists.tasks.title }}</v-expansion-panel-header>
+            <v-expansion-panel-content>
+              <v-card
+                v-for="(item, itemIndex) in lists.tasks.items"
+                :key="itemIndex"
+                class="my-2"
+                flat
+                hover
+              >
+                <v-card-title>{{ item.node.name }}</v-card-title>
+                <v-card-subtitle>Total Needed: {{ calculateTotal(item.node.tasks) }}</v-card-subtitle>
+                <v-card-text>
+                  Tasks:
+                  <v-card outlined>
+                    <v-card-text class="py-0">
+                      <div v-for="(task, taskIndex) in item.node.tasks" :key="taskIndex">
+                        <v-row>
+                          <v-col cols=12 md=4 class="text-center">
+                            {{ task.task }}
+                          </v-col>
+                          <v-col cols=12 md=4 class="text-center">
+                            Amount: {{ task.amount }}
+                          </v-col>
+                          <v-col cols=12 md=4 class="text-center">
+                            Find In Raid: {{ task.findInRaid ? 'Yes' : 'No' }}
+                          </v-col>
+                        </v-row>
+                        <v-divider v-if="item.node.tasks.length > 1 && taskIndex !== item.node.tasks.length - 1" />
+                      </div>
+                    </v-card-text>
+                  </v-card>
+                </v-card-text>
+              </v-card>
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+          <!-- Hideout Items -->
+          <v-expansion-panel v-if="lists.hideout.show">
+            <v-expansion-panel-header>{{ lists.hideout.title }}</v-expansion-panel-header>
+            <v-expansion-panel-content>
+              <v-card
+                v-for="(item, itemIndex) in lists.hideout.items"
+                :key="itemIndex"
+                class="my-2"
+                flat
+                hover
+              >
+                <v-card-title>{{ item.node.name }}</v-card-title>
+                <v-card-subtitle>Total Needed: {{ calculateTotal(item.node.modules) }}</v-card-subtitle>
+                <v-card-text>
+                  Modules:
+                  <v-card outlined>
+                    <v-card-text class="py-0">
+                      <div v-for="(module, moduleIndex) in item.node.modules" :key="moduleIndex">
+                        <v-row>
+                          <v-col cols=12 md=6 class="text-center">
+                            {{ module.module }}
+                          </v-col>
+                          <v-col cols=12 md=6 class="text-center">
+                            Amount: {{ module.amount }}
+                          </v-col>
+                        </v-row>
+                        <v-divider v-if="item.node.modules.length > 1 && moduleIndex !== item.node.modules.length - 1" />
+                      </div>
+                    </v-card-text>
+                  </v-card>
+                </v-card-text>
+              </v-card>
+            </v-expansion-panel-content>
+          </v-expansion-panel>
         </v-expansion-panels>
       </v-col>
     </v-row>
@@ -65,7 +112,11 @@ query {
     edges {
       node {
         name,
-        need
+        tasks {
+          task,
+          amount,
+          findInRaid
+        }
       }
     }
   },
@@ -73,7 +124,10 @@ query {
     edges {
       node {
         name,
-        need
+        modules {
+          module,
+          amount
+        }
       }
     }
   }
@@ -144,7 +198,19 @@ export default {
       debouncedSearchQuery: '',
       dialog: false,
       panels: [],
-      panelsState: []
+      panelsState: [],
+      lists: {
+        hideout: {
+          title: 'Hideout items',
+          show: true,
+          items: []
+        },
+        tasks: {
+          title: 'Task items',
+          show: true,
+          items: []
+        }
+      }
     }
   },
 
@@ -154,47 +220,31 @@ export default {
     },
     debouncedSearchQuery: function(newValue, oldValue) {
       this.panels = []
+      this.lists.tasks.show = true
+      this.lists.hideout.show = true
+
+      this.lists.tasks.items = this.filter(this.$page.taskItems.edges)
+      this.lists.hideout.items = this.filter(this.$page.hideoutItems.edges)
 
       if (newValue === '') {
         return
       }
 
-      for (const index in this.filteredLists) {
-        if (this.filteredLists[index].items.length > 0) {
-          if (!this.panels.includes(index)) {
-            this.panels.push(parseInt(index))
-          }
-        }
+      if (this.lists.tasks.items.length > 0) {
+        this.lists.tasks.show = true
+        this.panels.push(0)
+      }
+
+      if (this.lists.hideout.items.length > 0) {
+        this.lists.hideout.show = true
+        this.panels.push(1)
       }
     }
   },
 
-  computed: {
-    checklists() {
-      return [
-        {
-          title: 'Hideout items',
-          show: true,
-          items: this.$page.hideoutItems.edges
-        },
-        {
-          title: 'Task items',
-          show: true,
-          items: this.$page.taskItems.edges
-        }
-      ]
-    },
-    filteredLists() {
-      const array = []
-      for (const list of this.checklists) {
-        array.push({
-          title: list.title,
-          show: list.show,
-          items: this.filter(list.items)
-        })
-      }
-      return array
-    }
+  mounted() {
+    this.lists.tasks.items = this.$page.taskItems.edges
+    this.lists.hideout.items = this.$page.hideoutItems.edges
   },
 
   methods: {
@@ -205,6 +255,11 @@ export default {
       return list.filter(item => {
         return item.node.name.toLowerCase().includes(this.debouncedSearchQuery.toLowerCase())
       })
+    },
+    calculateTotal(array) {
+      return array.reduce((a, b) => {
+        return a + b.amount
+      }, 0)
     }
   }
 }

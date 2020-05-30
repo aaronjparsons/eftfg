@@ -10,7 +10,7 @@ const wikiData = require('./data/wiki-data.json')
 const keyData = require('./data/keys.json')
 const extractData = require('./data/extracts.json')
 const ammoData = require('./data/ammo.json')
-const checklistData = require('./data/checklists.json')
+const lootItemData = require('./data/loot-items.json')
 const nodeExternals = require('webpack-node-externals')
 
 module.exports = function (api) {
@@ -140,26 +140,61 @@ module.exports = function (api) {
     }
 
     // Add task item data
-    const task = actions.addCollection({
+    const taskItems = actions.addCollection({
       typeName: 'TaskItems'
     })
 
-    for (const item of checklistData.tasks) {
-      task.addNode({
+    const tasks = actions.addCollection({
+      typeName: 'Tasks'
+    })
+
+    for (const item of lootItemData.taskItems) {
+      const tasksIds = []
+
+      for (const taskItem of item.tasks) {
+        const id = `${item.name}-${taskItem.task}`
+        tasksIds.push(id)
+
+        tasks.addNode({
+          id,
+          task: taskItem.task,
+          amount: taskItem.amount,
+          findInRaid: taskItem.findInRaid
+        })
+      }
+
+      taskItems.addNode({
         name: item.name,
-        need: item.need
+        tasks: actions.store.createReference('Tasks', tasksIds)
       })
     }
 
     // Add hideout item data
-    const hideout = actions.addCollection({
+    const hideoutItems = actions.addCollection({
       typeName: 'HideoutItems'
     })
 
-    for (const item of checklistData.hideout) {
-      hideout.addNode({
+    const modules = actions.addCollection({
+      typeName: 'Modules'
+    })
+
+    for (const item of lootItemData.hideoutItems) {
+      const moduleIds = []
+
+      for (const moduleItem of item.modules) {
+        const id = `${item.name}-${moduleItem.module}`
+        moduleIds.push(id)
+
+        modules.addNode({
+          id,
+          module: moduleItem.module,
+          amount: moduleItem.amount
+        })
+      }
+
+      hideoutItems.addNode({
         name: item.name,
-        need: item.need
+        modules: actions.store.createReference('Modules', moduleIds),
       })
     }
   })

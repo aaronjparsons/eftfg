@@ -1,5 +1,14 @@
 [
   {
+    "date": "2020/05/30",
+    "summary": [
+      "Revamped the Required Loot Items page"
+    ],
+    "changes": [
+      "Required loot items are now split up better and display the required amounts for individual tasks and hideout modules."
+    ]
+  },
+  {
     "date": "2020/05/29",
     "summary": [
       "Updated ammo for patch 12.6",
