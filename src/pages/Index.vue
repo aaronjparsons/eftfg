@@ -25,15 +25,15 @@ import TwitterCard from '../components/TwitterCard'
 
 export default {
   metaInfo: {
-    title: "Home",
+    title: "Escape From Tarkov Field Guide",
     link: [{ rel: "canonical", href: "https://eftfg.com" }],
     meta: [
       {
         name: "description",
         content:
-          "Key spawn guides, ammo chart & spreadsheet, barter item values, and more. Escape From Tarkov Field Guide."
+          "EFTFG has everything you need for Escape From Tarkov. Detailed ammo chart, key spawns & lock locations, extract locations, loot items for tasks, and more!"
       },
-      { property: "og:title", content: "Home | EFTFG" },
+      { property: "og:title", content: "Escape From Tarkov Field Guide | EFTFG" },
       { property: "og:site_name", content: "EFTFG" },
       { property: "og:type", content: "website" },
       {
@@ -47,29 +47,29 @@ export default {
       {
         property: "og:description",
         content:
-          "Key spawn guides, ammo chart & spreadsheet, barter item values, and more. Escape From Tarkov Field Guide."
+          "EFTFG has everything you need for Escape From Tarkov. Detailed ammo chart, key spawns & lock locations, extract locations, loot items for tasks, and more!"
       },
       { name: "twitter:card", content: "summary" },
       {
         name: "twitter:site",
         content: "https://eftfg.com"
       },
-      { name: "twitter:title", content: "Home | EFTFG" },
+      { name: "twitter:title", content: "Escape From Tarkov Field Guide | EFTFG" },
       {
         name: "twitter:description",
         content:
-          "Key spawn guides, ammo chart & spreadsheet, barter item values, and more. Escape From Tarkov Field Guide."
+          "EFTFG has everything you need for Escape From Tarkov. Detailed ammo chart, key spawns & lock locations, extract locations, loot items for tasks, and more!"
       },
       { name: "twitter:creator", content: "@ChewyDinosaur" },
       // {
       //   name: "twitter:image:src",
       //   content: "https://www.my-site.com/my-special-image.jpg"
       // },
-      { itemprop: "name", content: "Home | EFTFG" },
+      { itemprop: "name", content: "Escape From Tarkov Field Guide | EFTFG" },
       {
         itemprop: "description",
         content:
-          "Key spawn guides, ammo chart & spreadsheet, barter item values, and more. Escape From Tarkov Field Guide."
+          "EFTFG has everything you need for Escape From Tarkov. Detailed ammo chart, key spawns & lock locations, extract locations, loot items for tasks, and more!"
       }
       // {
       //   itemprop: "image",
