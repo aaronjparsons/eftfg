@@ -1,1953 +1,2018 @@
-{
-  "taskItems": [
-    {
-      "name": "MP-133 Shotgun",
-      "tasks": [
-        {
-          "task": "Debut",
-          "amount": 2,
-          "findInRaid": false
-        },
-        {
-          "task": "Gunsmith - Part 1",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "6L31 60-round AK Magazine",
-      "tasks": [
-        {
-          "task": "Ice Cream Cones",
-          "amount": 6,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "Lower Half Mask",
-      "tasks": [
-        {
-          "task": "The Punisher - Part 2",
-          "amount": 7,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Bars A-2607 Knife",
-      "tasks": [
-        {
-          "task": "The Punisher - Part 4",
-          "amount": 5,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "AK-74N Rifle",
-      "tasks": [
-        {
-          "task": "The Punisher - Part 5",
-          "amount": 3,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "M4A1 Rifle",
-      "tasks": [
-        {
-          "task": "The Punisher - Part 5",
-          "amount": 3,
-          "findInRaid": false
-        },
-        {
-          "task": "Gunsmith - Part 4",
-          "amount": 1,
-          "findInRaid": false
-        },
-        {
-          "task": "Gunsmith - Part 16",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "PM Pistol",
-      "tasks": [
-        {
-          "task": "The Punisher - Part 5",
-          "amount": 5,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "USEC Dogtag",
-      "tasks": [
-        {
-          "task": "The Punisher - Part 6",
-          "amount": 7,
-          "findInRaid": false
-        },
-        {
-          "task": "Friend From The West - Part 1",
-          "amount": 7,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "BEAR Dogtag",
-      "tasks": [
-        {
-          "task": "The Punisher - Part 6",
-          "amount": 7,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "M67 Grenade",
-      "tasks": [
-        {
-          "task": "No Offence",
-          "amount": 10,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "Military Battery",
-      "tasks": [
-        {
-          "task": "Regulated Materials",
-          "amount": 1,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "OFZ 30x160mm Shell",
-      "tasks": [
-        {
-          "task": "Regulated Materials",
-          "amount": 10,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Salewa First Aid Kit",
-      "tasks": [
-        {
-          "task": "Shortage",
-          "amount": 5,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "Gas Analyzer",
-      "tasks": [
-        {
-          "task": "Sanitary Standards - Part 1",
-          "amount": 1,
-          "findInRaid": false
-        },
-        {
-          "task": "Sanitary Standards - Part 2",
-          "amount": 2,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Morphine Syringe",
-      "tasks": [
-        {
-          "task": "Painkiller",
-          "amount": 4,
-          "findInRaid": true
-        },
-        {
-          "task": "Spa Tour - Part 7",
-          "amount": 4,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Tushonka Beef Stew",
-      "tasks": [
-        {
-          "task": "General Wares",
-          "amount": 15,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Car Battery",
-      "tasks": [
-        {
-          "task": "Car Repair",
-          "amount": 4,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Spark Plug",
-      "tasks": [
-        {
-          "task": "Car Repair",
-          "amount": 8,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Gunpowder 'Kite'",
-      "tasks": [
-        {
-          "task": "Health Care Privacy - Part 5",
-          "amount": 3,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "303 Dorm Room Key",
-      "tasks": [
-        {
-          "task": "Trust Regain",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "ZB-014 Key",
-      "tasks": [
-        {
-          "task": "Trust Regain",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "Customs Military Checkpoint Key",
-      "tasks": [
-        {
-          "task": "Trust Regain",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "Gas Station Closet Key",
-      "tasks": [
-        {
-          "task": "Trust Regain",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "Ophthalmoscope",
-      "tasks": [
-        {
-          "task": "Private Clinic",
-          "amount": 3,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "LEDX Skin Transilluminator",
-      "tasks": [
-        {
-          "task": "Private Clinic",
-          "amount": 3,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "3M Body Armor",
-      "tasks": [
-        {
-          "task": "Supplier",
-          "amount": 4,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "TOZ-106 Shotgun",
-      "tasks": [
-        {
-          "task": "Supplier",
-          "amount": 4,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "Secure USB Flash Drive",
-      "tasks": [
-        {
-          "task": "Whats On The Flash Drive?",
-          "amount": 2,
-          "findInRaid": true
-        },
-        {
-          "task": "Shady Business",
-          "amount": 3,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Medical Bloodset",
-      "tasks": [
-        {
-          "task": "Vitamins - Part 2",
-          "amount": 3,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Respirator",
-      "tasks": [
-        {
-          "task": "Vitamins - Part 2",
-          "amount": 4,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Gold Chain",
-      "tasks": [
-        {
-          "task": "Chumming",
-          "amount": 9,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "SV-98 Sniper Rifle",
-      "tasks": [
-        {
-          "task": "Bullshit",
-          "amount": 1,
-          "findInRaid": false
-        },
-        {
-          "task": "Fishing Gear",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "Roler Gold Watch",
-      "tasks": [
-        {
-          "task": "Bullshit",
-          "amount": 1,
-          "findInRaid": false
-        },
-        {
-          "task": "Living High is Not a Crime - Part 1",
-          "amount": 1,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "MRE Lunch Box",
-      "tasks": [
-        {
-          "task": "Humanitarian Supplies",
-          "amount": 5,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "WD-40 100ml",
-      "tasks": [
-        {
-          "task": "Spa Tour - Part 3",
-          "amount": 1,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Clin Wiper",
-      "tasks": [
-        {
-          "task": "Spa Tour - Part 3",
-          "amount": 2,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Corrugated Hose",
-      "tasks": [
-        {
-          "task": "Spa Tour - Part 3",
-          "amount": 2,
-          "findInRaid": true
-        },
-        {
-          "task": "Spa Tour - Part 7",
-          "amount": 2,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Ox Bleach",
-      "tasks": [
-        {
-          "task": "Spa Tour - Part 3",
-          "amount": 2,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Alkali",
-      "tasks": [
-        {
-          "task": "Spa Tour - Part 7",
-          "amount": 2,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "5L Propane Tank",
-      "tasks": [
-        {
-          "task": "Spa Tour - Part 7",
-          "amount": 2,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Military COFDM Wireless Signal Transmitter",
-      "tasks": [
-        {
-          "task": "Lend Lease - Part 2",
-          "amount": 2,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Virtex Programmable Processor",
-      "tasks": [
-        {
-          "task": "Lend Lease - Part 2",
-          "amount": 2,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "AKS-74U Rifle",
-      "tasks": [
-        {
-          "task": "Gunsmith - Part 2",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "MP5 Submachinegun",
-      "tasks": [
-        {
-          "task": "Gunsmith - Part 3",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "DVL-10 Sniper Rifle",
-      "tasks": [
-        {
-          "task": "Gunsmith - Part 5",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "R11 RSASS Rifle",
-      "tasks": [
-        {
-          "task": "Gunsmith - Part 6",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "Remington Model 870 Shotgun",
-      "tasks": [
-        {
-          "task": "Gunsmith - Part 7",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "AKM Rifle",
-      "tasks": [
-        {
-          "task": "Gunsmith - Part 8",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "AKS-74N Rifle",
-      "tasks": [
-        {
-          "task": "Gunsmith - Part 9",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "AK-105 Rifle",
-      "tasks": [
-        {
-          "task": "Gunsmith - Part 10",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "AS VAL Rifle",
-      "tasks": [
-        {
-          "task": "Gunsmith - Part 11",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "AK-102 Rifle",
-      "tasks": [
-        {
-          "task": "Gunsmith - Part 12",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "SIG MPX Submachinegun",
-      "tasks": [
-        {
-          "task": "Gunsmith - Part 13",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "AKMN Rifle",
-      "tasks": [
-        {
-          "task": "Gunsmith - Part 14",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "M1A Rifle",
-      "tasks": [
-        {
-          "task": "Gunsmith - Part 15",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "Set of Tools",
-      "tasks": [
-        {
-          "task": "Farming - Part 1",
-          "amount": 2,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "Powercord",
-      "tasks": [
-        {
-          "task": "Farming - Part 2",
-          "amount": 2,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "T-Shaped Plug",
-      "tasks": [
-        {
-          "task": "Farming - Part 2",
-          "amount": 4,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Printed Circuit Board",
-      "tasks": [
-        {
-          "task": "Farming - Part 2",
-          "amount": 2,
-          "findInRaid": true
-        },
-        {
-          "task": "Signal - Part 2",
-          "amount": 3,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Graphics Card",
-      "tasks": [
-        {
-          "task": "Farming - Part 4",
-          "amount": 3,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "CPU Fan",
-      "tasks": [
-        {
-          "task": "Farming - Part 4",
-          "amount": 8,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "PC CPU",
-      "tasks": [
-        {
-          "task": "Signal - Part 2",
-          "amount": 3,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Rechargeable Battery",
-      "tasks": [
-        {
-          "task": "Signal - Part 2",
-          "amount": 3,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Broken GPhone",
-      "tasks": [
-        {
-          "task": "Signal - Part 2",
-          "amount": 3,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Malboro Cigarettes",
-      "tasks": [
-        {
-          "task": "Bad Habit",
-          "amount": 5,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Strike Cigarettes",
-      "tasks": [
-        {
-          "task": "Bad Habit",
-          "amount": 5,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Wilston Cigarettes",
-      "tasks": [
-        {
-          "task": "Bad Habit",
-          "amount": 5,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "UHF RFID Reader",
-      "tasks": [
-        {
-          "task": "Import",
-          "amount": 1,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "VPX Flash Storage Module",
-      "tasks": [
-        {
-          "task": "Import",
-          "amount": 1,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Wires",
-      "tasks": [
-        {
-          "task": "Fertilizers",
-          "amount": 5,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Capacitors",
-      "tasks": [
-        {
-          "task": "Fertilizers",
-          "amount": 5,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Ushanka Ear Flap Cap",
-      "tasks": [
-        {
-          "task": "Dressed To Kill",
-          "amount": 7,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "Kinda Cowboy Hat",
-      "tasks": [
-        {
-          "task": "Dressed To Kill",
-          "amount": 7,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "Ghost Balaclava",
-      "tasks": [
-        {
-          "task": "Gratitude",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "Shemagh",
-      "tasks": [
-        {
-          "task": "Gratitude",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "Raybench Sunglasses",
-      "tasks": [
-        {
-          "task": "Gratitude",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "Round Frame Sunglasses",
-      "tasks": [
-        {
-          "task": "Gratitude",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "Shmaska",
-      "tasks": [
-        {
-          "task": "Sew It Good - Part 1",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "Pilgrim Backpack",
-      "tasks": [
-        {
-          "task": "Sew It Good - Part 1",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "Gzhel Armor (0-50% Condition)",
-      "tasks": [
-        {
-          "task": "Sew It Good - Part 2",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "Gzhel Armor (50-100% Condition)",
-      "tasks": [
-        {
-          "task": "Sew It Good - Part 2",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "6B43 Armor (0-50% Condition)",
-      "tasks": [
-        {
-          "task": "Sew It Good - Part 3",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "6B43 Armor (50-100% Condition)",
-      "tasks": [
-        {
-          "task": "Sew It Good - Part 3",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "WTRig (Wartech Rig)",
-      "tasks": [
-        {
-          "task": "Sew It Good - Part 4",
-          "amount": 2,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Blackrock Chest Rig",
-      "tasks": [
-        {
-          "task": "Sew It Good - Part 4",
-          "amount": 2,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Fuel Conditioner",
-      "tasks": [
-        {
-          "task": "The Blood of War - Part 2",
-          "amount": 4,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Bronze Lion",
-      "tasks": [
-        {
-          "task": "Living High is Not a Crime - Part 1",
-          "amount": 2,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Horse Figurine",
-      "tasks": [
-        {
-          "task": "Living High is Not a Crime - Part 1",
-          "amount": 2,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Cat Figurine",
-      "tasks": [
-        {
-          "task": "Living High is Not a Crime - Part 1",
-          "amount": 1,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Antique Teapot",
-      "tasks": [
-        {
-          "task": "Living High is Not a Crime - Part 2",
-          "amount": 3,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Antique Vase",
-      "tasks": [
-        {
-          "task": "Living High is Not a Crime - Part 2",
-          "amount": 2,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Goshan Cash Register Key",
-      "tasks": [
-        {
-          "task": "Supervisor",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "Aramid Fiber Cloth",
-      "tasks": [
-        {
-          "task": "Textile - Part 1",
-          "amount": 5,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Ripstop Cloth",
-      "tasks": [
-        {
-          "task": "Textile - Part 1",
-          "amount": 10,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Paracord",
-      "tasks": [
-        {
-          "task": "Textile - Part 1",
-          "amount": 3,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Fleece Cloth",
-      "tasks": [
-        {
-          "task": "Textile - Part 2",
-          "amount": 10,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Polyamide Pabric Cordura",
-      "tasks": [
-        {
-          "task": "Textile - Part 2",
-          "amount": 10,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "KEKTAPE Duct Tape",
-      "tasks": [
-        {
-          "task": "Textile - Part 2",
-          "amount": 5,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Emelya Rye Croutons",
-      "tasks": [
-        {
-          "task": "Acquaintance",
-          "amount": 6,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "Iskra Lunch Box",
-      "tasks": [
-        {
-          "task": "Acquaintance",
-          "amount": 5,
-          "findInRaid": false
-        },
-        {
-          "task": "The Survivalist Path - Thrifty",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "Tushonka Beef Stew (Tall Can)",
-      "tasks": [
-        {
-          "task": "Acquaintance",
-          "amount": 3,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "Bottle of Water",
-      "tasks": [
-        {
-          "task": "The Survivalist Path - Thrifty",
-          "amount": 1,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "Golden TT Pistol",
-      "tasks": [
-        {
-          "task": "Huntsman Path - The Trophy",
-          "amount": 1,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Maska 1Sch Helmet (Killa Helmet)",
-      "tasks": [
-        {
-          "task": "Huntsman Path - The Sellout",
-          "amount": 1,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Shturman Key",
-      "tasks": [
-        {
-          "task": "Huntsman Path - Woods Keeper",
-          "amount": 1,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Portable Defibrillator",
-      "tasks": [
-        {
-          "task": "Ambulance",
-          "amount": 1,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "CMS Surgery Kit",
-      "tasks": [
-        {
-          "task": "Ambulance",
-          "amount": 2,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Remington Model 700 Sniper Rifle (M700)",
-      "tasks": [
-        {
-          "task": "Hunting Trip",
-          "amount": 3,
-          "findInRaid": false
-        }
-      ]
-    },
-    {
-      "name": "Old Firesteel",
-      "tasks": [
-        {
-          "task": "Collector",
-          "amount": 1,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Antique Axe",
-      "tasks": [
-        {
-          "task": "Collector",
-          "amount": 1,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Battered Antique Book",
-      "tasks": [
-        {
-          "task": "Collector",
-          "amount": 1,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "FireKlean Gun Lube",
-      "tasks": [
-        {
-          "task": "Collector",
-          "amount": 1,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Golden Rooster",
-      "tasks": [
-        {
-          "task": "Collector",
-          "amount": 1,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Silver Badge",
-      "tasks": [
-        {
-          "task": "Collector",
-          "amount": 1,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "DeadlySlob Beard Oil",
-      "tasks": [
-        {
-          "task": "Collector",
-          "amount": 1,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Golden 1GPhone",
-      "tasks": [
-        {
-          "task": "Collector",
-          "amount": 1,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Jar of Devildog Mayo",
-      "tasks": [
-        {
-          "task": "Collector",
-          "amount": 1,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Can of Sprats",
-      "tasks": [
-        {
-          "task": "Collector",
-          "amount": 1,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Fake Mustache",
-      "tasks": [
-        {
-          "task": "Collector",
-          "amount": 1,
-          "findInRaid": true
-        }
-      ]
-    },
-    {
-      "name": "Kotton beanie",
-      "tasks": [
-        {
-          "task": "Collector",
-          "amount": 1,
-          "findInRaid": true
-        }
-      ]
-    }
-  ],
-  "hideoutItems": [
-    {
-      "name": "CPU Fan",
-      "modules": [
-        {
-          "module": "Bitcoin Farm - Level 1",
-          "amount": 10
-        },
-        {
-          "module": "Bitcoin Farm - Level 2",
-          "amount": 15
-        },
-        {
-          "module": "Bitcoin Farm - Level 3",
-          "amount": 25
-        }
-      ]
-    },
-    {
-      "name": "Power Supply Unit (PSU)",
-      "modules": [
-        {
-          "module": "Bitcoin Farm - Level 1",
-          "amount": 5
-        },
-        {
-          "module": "Bitcoin Farm - Level 2",
-          "amount": 5
-        },
-        {
-          "module": "Generator - Level 3",
-          "amount": 5
-        }
-      ]
-    },
-    {
-      "name": "Powercord",
-      "modules": [
-        {
-          "module": "Bitcoin Farm - Level 1",
-          "amount": 5
-        },
-        {
-          "module": "Intelligence Center - Level 2",
-          "amount": 4
-        },
-        {
-          "module": "Rest Space - Level 3",
-          "amount": 4
-        }
-      ]
-    },
-    {
-      "name": "Electric Drill",
-      "modules": [
-        {
-          "module": "Bitcoin Farm - Level 1",
-          "amount": 1
-        },
-        {
-          "module": "Lavatory - Level 2",
-          "amount": 1
-        },
-        {
-          "module": "Stash - Level 3",
-          "amount": 2
-        },
-        {
-          "module": "Workbench - Level 2",
-          "amount": 2
-        }
-      ]
-    },
-    {
-      "name": "Printed Circuit Board",
-      "modules": [
-        {
-          "module": "Bitcoin Farm - Level 2",
-          "amount": 5
-        },
-        {
-          "module": "Vents - Level 3",
-          "amount": 3
-        }
-      ]
-    },
-    {
-      "name": "Graphics Card (Optional)",
-      "modules": [
-        {
-          "module": "Bitcoin Farm - Level 1",
-          "amount": 10
-        },
-        {
-          "module": "Bitcoin Farm - Level 2",
-          "amount": 15
-        },
-        {
-          "module": "Bitcoin Farm - Level 3",
-          "amount": 25
-        }
-      ]
-    },
-    {
-      "name": "Phase Control Relay",
-      "modules": [
-        {
-          "module": "Bitcoin Farm - Level 2",
-          "amount": 2
-        },
-        {
-          "module": "Generator - Level 2",
-          "amount": 5
-        },
-        {
-          "module": "Generator - Level 3",
-          "amount": 6
-        },
-        {
-          "module": "Nutrition unit - Level 1",
-          "amount": 2
-        },
-        {
-          "module": "Nutrition unit - Level 2",
-          "amount": 1
-        }
-      ]
-    },
-    {
-      "name": "Silicone Tube",
-      "modules": [
-        {
-          "module": "Bitcoin Farm - Level 3",
-          "amount": 10
-        },
-        {
-          "module": "Booze Generator - Level 1",
-          "amount": 4
-        }
-      ]
-    },
-    {
-      "name": "Electric Motor",
-      "modules": [
-        {
-          "module": "Bitcoin Farm - Level 3",
-          "amount": 1
-        },
-        {
-          "module": "Generator - Level 2",
-          "amount": 1
-        },
-        {
-          "module": "Generator - Level 3",
-          "amount": 2
-        },
-        {
-          "module": "Vents - Level 2",
-          "amount": 1
-        },
-        {
-          "module": "Vents - Level 3",
-          "amount": 2
-        },
-        {
-          "module": "Water Collector - Level 2",
-          "amount": 2
-        }
-      ]
-    },
-    {
-      "name": "Pressure Gauge",
-      "modules": [
-        {
-          "module": "Bitcoin Farm - Level 3",
-          "amount": 2
-        },
-        {
-          "module": "Booze Generator - Level 1",
-          "amount": 2
-        },
-        {
-          "module": "Lavatory - Level 3",
-          "amount": 2
-        }
-      ]
-    },
-    {
-      "name": "Analog Thermometer",
-      "modules": [
-        {
-          "module": "Booze Generator - Level 1",
-          "amount": 2
-        }
-      ]
-    },
-    {
-      "name": "Corrugated Hose",
-      "modules": [
-        {
-          "module": "Booze Generator - Level 1",
-          "amount": 5
-        },
-        {
-          "module": "Lavatory - Level 2",
-          "amount": 3
-        },
-        {
-          "module": "Lavatory - Level 3",
-          "amount": 6
-        },
-        {
-          "module": "Nutrition Unit - Level 2",
-          "amount": 2
-        },
-        {
-          "module": "Water Collector - Level 1",
-          "amount": 4
-        },
-        {
-          "module": "Water Collector - Level 2",
-          "amount": 6
-        }
-      ]
-    },
-    {
-      "name": "Wires",
-      "modules": [
-        {
-          "module": "Generator - Level 1",
-          "amount": 15
-        },
-        {
-          "module": "Heating - Level 3",
-          "amount": 8
-        },
-        {
-          "module": "Lighting - Level 2",
-          "amount": 5
-        },
-        {
-          "module": "Rest Space - Level 3",
-          "amount": 7
-        },
-        {
-          "module": "Security - Level 3",
-          "amount": 4
-        },
-        {
-          "module": "Vents - Level 3",
-          "amount": 8
-        }
-      ]
-    },
-    {
-      "name": "Spark Plug",
-      "modules": [
-        {
-          "module": "Generator - Level 2",
-          "amount": 5
-        }
-      ]
-    },
-    {
-      "name": "Radiator Helix",
-      "modules": [
-        {
-          "module": "Heating - Level 3",
-          "amount": 8
-        }
-      ]
-    },
-    {
-      "name": "Light Bulb",
-      "modules": [
-        {
-          "module": "Lighting - Level 2",
-          "amount": 14
-        }
-      ]
-    },
-    {
-      "name": "Capacitors",
-      "modules": [
-        {
-          "module": "Lighting - Level 3",
-          "amount": 7
-        },
-        {
-          "module": "Rest Space - Level 3",
-          "amount": 5
-        }
-      ]
-    },
-    {
-      "name": "Folder With Intelligence",
-      "modules": [
-        {
-          "module": "Intelligence Center - Level 1",
-          "amount": 1
-        },
-        {
-          "module": "Intelligence Center - Level 2",
-          "amount": 3
-        }
-      ]
-    },
-    {
-      "name": "Secure Flash Drive",
-      "modules": [
-        {
-          "module": "Intelligence Center - Level 2",
-          "amount": 3
-        }
-      ]
-    },
-    {
-      "name": "Hard Drive",
-      "modules": [
-        {
-          "module": "Intelligence Center - Level 2",
-          "amount": 4
-        }
-      ]
-    },
-    {
-      "name": "Military COFDM Wireless Signal Transmitter",
-      "modules": [
-        {
-          "module": "Intelligence Center - Level 3",
-          "amount": 2
-        }
-      ]
-    },
-    {
-      "name": "VPX Flash Storage Module",
-      "modules": [
-        {
-          "module": "Intelligence Center - Level 3",
-          "amount": 2
-        }
-      ]
-    },
-    {
-      "name": "Gas Analyzer",
-      "modules": [
-        {
-          "module": "Intelligence Center - Level 3",
-          "amount": 3
-        }
-      ]
-    },
-    {
-      "name": "Military Cable",
-      "modules": [
-        {
-          "module": "Intelligence Center - Level 3",
-          "amount": 4
-        },
-        {
-          "module": "Solar Power - Level 1",
-          "amount": 4
-        }
-      ]
-    },
-    {
-      "name": "Pack of Screws",
-      "modules": [
-        {
-          "module": "Lavatory - Level 2",
-          "amount": 5
-        },
-        {
-          "module": "Stash - Level 2",
-          "amount": 7
-        },
-        {
-          "module": "Stash - Level 3",
-          "amount": 8
-        }
-      ]
-    },
-    {
-      "name": "Set of Tools",
-      "modules": [
-        {
-          "module": "Lavatory - Level 3",
-          "amount": 1
-        },
-        {
-          "module": "Water Collector - Level 2",
-          "amount": 2
-        },
-        {
-          "module": "Workbench - Level 2",
-          "amount": 3
-        }
-      ]
-    },
-    {
-      "name": "Xenomorph Sealing Foam",
-      "modules": [
-        {
-          "module": "Lavatory - Level 3",
-          "amount": 3
-        }
-      ]
-    },
-    {
-      "name": "Medical Bloodset",
-      "modules": [
-        {
-          "module": "Medstation - Level 2",
-          "amount": 1
-        }
-      ]
-    },
-    {
-      "name": "Saline Solution",
-      "modules": [
-        {
-          "module": "Medstation - Level 2",
-          "amount": 3
-        },
-        {
-          "module": "Medstation - Level 3",
-          "amount": 5
-        }
-      ]
-    },
-    {
-      "name": "LEDX Skin Transilluminator",
-      "modules": [
-        {
-          "module": "Medstation - Level 3",
-          "amount": 1
-        }
-      ]
-    },
-    {
-      "name": "Wrench",
-      "modules": [
-        {
-          "module": "Nutrition Unit - Level 2",
-          "amount": 5
-        }
-      ]
-    },
-    {
-      "name": "Alkali",
-      "modules": [
-        {
-          "module": "Nutrition Unit - Level 2",
-          "amount": 2
-        }
-      ]
-    },
-    {
-      "name": "Coffee Majaica",
-      "modules": [
-        {
-          "module": "Nutrition Unit - Level 3",
-          "amount": 3
-        }
-      ]
-    },
-    {
-      "name": "Sodium Bicarbonate",
-      "modules": [
-        {
-          "module": "Nutrition Unit - Level 3",
-          "amount": 3
-        }
-      ]
-    },
-    {
-      "name": "Bronze Lion",
-      "modules": [
-        {
-          "module": "Scav Case - Level 1",
-          "amount": 2
-        }
-      ]
-    },
-    {
-      "name": "Gold Skull Ring",
-      "modules": [
-        {
-          "module": "Scav Case - Level 1",
-          "amount": 4
-        }
-      ]
-    },
-    {
-      "name": "Gold Chain",
-      "modules": [
-        {
-          "module": "Scav Case - Level 1",
-          "amount": 6
-        }
-      ]
-    },
-    {
-      "name": "Roler Gold Watch",
-      "modules": [
-        {
-          "module": "Scav Case - Level 1",
-          "amount": 3
-        }
-      ]
-    },
-    {
-      "name": "Working LCD",
-      "modules": [
-        {
-          "module": "Security - Level 3",
-          "amount": 3
-        }
-      ]
-    },
-    {
-      "name": "NIXXOR Lens",
-      "modules": [
-        {
-          "module": "Security - Level 3",
-          "amount": 8
-        }
-      ]
-    },
-    {
-      "name": "SSD Drive",
-      "modules": [
-        {
-          "module": "Security - Level 3",
-          "amount": 1
-        }
-      ]
-    },
-    {
-      "name": "Pack of Nails",
-      "modules": [
-        {
-          "module": "Shooting Range - Level 1",
-          "amount": 4
-        }
-      ]
-    },
-    {
-      "name": "Screw Nut",
-      "modules": [
-        {
-          "module": "Shooting Range - Level 1",
-          "amount": 5
-        },
-        {
-          "module": "Water Collector - Level 1",
-          "amount": 5
-        },
-        {
-          "module": "Workbench - Level 1",
-          "amount": 2
-        }
-      ]
-    },
-    {
-      "name": "Bolts",
-      "modules": [
-        {
-          "module": "Shooting Range - Level 1",
-          "amount": 5
-        },
-        {
-          "module": "Water Collector - Level 1",
-          "amount": 5
-        },
-        {
-          "module": "Workbench - Level 1",
-          "amount": 2
-        },
-        {
-          "module": "Workbench - Level 2",
-          "amount": 6
-        }
-      ]
-    },
-    {
-      "name": "Duct Tape",
-      "modules": [
-        {
-          "module": "Shooting Range - Level 1",
-          "amount": 3
-        },
-        {
-          "module": "Water Collector - Level 1",
-          "amount": 3
-        }
-      ]
-    },
-    {
-      "name": "Phased Array Element",
-      "modules": [
-        {
-          "module": "Solar Power - Level 1",
-          "amount": 2
-        }
-      ]
-    },
-    {
-      "name": "Military Power Filter",
-      "modules": [
-        {
-          "module": "Solar Power - Level 1",
-          "amount": 4
-        }
-      ]
-    },
-    {
-
-      "name": "Handdrill",
-      "modules": [
-        {
-          "module": "Stash - Level 2",
-          "amount": 4
-        }
-      ]
-    },
-    {
-      "name": "WD-40 100ml",
-      "modules": [
-        {
-          "module": "Stash - Level 2",
-          "amount": 4
-        }
-      ]
-    },
-    {
-      "name": "Car Battery",
-      "modules": [
-        {
-          "module": "Vents - Level 2",
-          "amount": 1
-        },
-        {
-          "module": "Vents - Level 3",
-          "amount": 3
-        }
-      ]
-    },
-    {
-      "name": "Pliers Elite",
-      "modules": [
-        {
-          "module": "Water Collector - Level 3",
-          "amount": 2
-        },
-        {
-          "module": "Workbench - Level 3",
-          "amount": 2
-        }
-      ]
-    },
-    {
-      "name": "Shustrilo Sealing Foam",
-      "modules": [
-        {
-          "module": "Water Collector - Level 3",
-          "amount": 5
-        }
-      ]
-    },
-    {
-      "name": "Leatherman Multitool",
-      "modules": [
-        {
-          "module": "Workbench - Level 1",
-          "amount": 1
-        }
-      ]
-    },
-    {
-      "name": "FireKlean Gun Lube",
-      "modules": [
-        {
-          "module": "Workbench - Level 3",
-          "amount": 1
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "name": "MP-133 Shotgun",
+    "tasks": [
+      {
+        "task": "Debut",
+        "amount": 2,
+        "findInRaid": false
+      },
+      {
+        "task": "Gunsmith - Part 1",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "6L31 60-round AK Magazine",
+    "tasks": [
+      {
+        "task": "Ice Cream Cones",
+        "amount": 6,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Lower Half Mask",
+    "tasks": [
+      {
+        "task": "The Punisher - Part 2",
+        "amount": 7,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Bars A-2607 Knife",
+    "tasks": [
+      {
+        "task": "The Punisher - Part 4",
+        "amount": 5,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "AK-74N Rifle",
+    "tasks": [
+      {
+        "task": "The Punisher - Part 5",
+        "amount": 3,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "M4A1 Rifle",
+    "tasks": [
+      {
+        "task": "The Punisher - Part 5",
+        "amount": 3,
+        "findInRaid": false
+      },
+      {
+        "task": "Gunsmith - Part 4",
+        "amount": 1,
+        "findInRaid": false
+      },
+      {
+        "task": "Gunsmith - Part 16",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "PM Pistol",
+    "tasks": [
+      {
+        "task": "The Punisher - Part 5",
+        "amount": 5,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "USEC Dogtag",
+    "tasks": [
+      {
+        "task": "The Punisher - Part 6",
+        "amount": 7,
+        "findInRaid": false
+      },
+      {
+        "task": "Friend From The West - Part 1",
+        "amount": 7,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "BEAR Dogtag",
+    "tasks": [
+      {
+        "task": "The Punisher - Part 6",
+        "amount": 7,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "M67 Grenade",
+    "tasks": [
+      {
+        "task": "No Offence",
+        "amount": 10,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Military Battery",
+    "tasks": [
+      {
+        "task": "Regulated Materials",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "OFZ 30x160mm Shell",
+    "tasks": [
+      {
+        "task": "Regulated Materials",
+        "amount": 10,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Salewa First Aid Kit",
+    "tasks": [
+      {
+        "task": "Shortage",
+        "amount": 5,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Gas Analyzer",
+    "tasks": [
+      {
+        "task": "Sanitary Standards - Part 1",
+        "amount": 1,
+        "findInRaid": false
+      },
+      {
+        "task": "Sanitary Standards - Part 2",
+        "amount": 2,
+        "findInRaid": true
+      }
+    ],
+    "modules": [
+      {
+        "module": "Intelligence Center - Level 3",
+        "amount": 3
+      }
+    ]
+  },
+  {
+    "name": "Morphine Syringe",
+    "tasks": [
+      {
+        "task": "Painkiller",
+        "amount": 4,
+        "findInRaid": true
+      },
+      {
+        "task": "Spa Tour - Part 7",
+        "amount": 4,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Tushonka Beef Stew",
+    "tasks": [
+      {
+        "task": "General Wares",
+        "amount": 15,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Car Battery",
+    "tasks": [
+      {
+        "task": "Car Repair",
+        "amount": 4,
+        "findInRaid": true
+      }
+    ],
+    "modules": [
+      {
+        "module": "Vents - Level 2",
+        "amount": 1
+      },
+      {
+        "module": "Vents - Level 3",
+        "amount": 3
+      }
+    ]
+  },
+  {
+    "name": "Spark Plug",
+    "tasks": [
+      {
+        "task": "Car Repair",
+        "amount": 8,
+        "findInRaid": true
+      }
+    ],
+    "modules": [
+      {
+        "module": "Generator - Level 2",
+        "amount": 5
+      }
+    ]
+  },
+  {
+    "name": "Gunpowder 'Kite'",
+    "tasks": [
+      {
+        "task": "Health Care Privacy - Part 5",
+        "amount": 3,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "303 Dorm Room Key",
+    "tasks": [
+      {
+        "task": "Trust Regain",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "ZB-014 Key",
+    "tasks": [
+      {
+        "task": "Trust Regain",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Customs Military Checkpoint Key",
+    "tasks": [
+      {
+        "task": "Trust Regain",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Gas Station Closet Key",
+    "tasks": [
+      {
+        "task": "Trust Regain",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Ophthalmoscope",
+    "tasks": [
+      {
+        "task": "Private Clinic",
+        "amount": 3,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "LEDX Skin Transilluminator",
+    "tasks": [
+      {
+        "task": "Private Clinic",
+        "amount": 3,
+        "findInRaid": false
+      }
+    ],
+    "modules": [
+      {
+        "module": "Medstation - Level 3",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "name": "3M Body Armor",
+    "tasks": [
+      {
+        "task": "Supplier",
+        "amount": 4,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "TOZ-106 Shotgun",
+    "tasks": [
+      {
+        "task": "Supplier",
+        "amount": 4,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Secure USB Flash Drive",
+    "tasks": [
+      {
+        "task": "Whats On The Flash Drive?",
+        "amount": 2,
+        "findInRaid": true
+      },
+      {
+        "task": "Shady Business",
+        "amount": 3,
+        "findInRaid": true
+      }
+    ],
+    "modules": [
+      {
+        "module": "Intelligence Center - Level 2",
+        "amount": 3
+      }
+    ]
+  },
+  {
+    "name": "Medical Bloodset",
+    "tasks": [
+      {
+        "task": "Vitamins - Part 2",
+        "amount": 3,
+        "findInRaid": true
+      }
+    ],
+    "modules": [
+      {
+        "module": "Medstation - Level 2",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "name": "Respirator",
+    "tasks": [
+      {
+        "task": "Vitamins - Part 2",
+        "amount": 4,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Gold Chain",
+    "tasks": [
+      {
+        "task": "Chumming",
+        "amount": 9,
+        "findInRaid": false
+      }
+    ],
+    "modules": [
+      {
+        "module": "Scav Case - Level 1",
+        "amount": 6
+      }
+    ]
+  },
+  {
+    "name": "SV-98 Sniper Rifle",
+    "tasks": [
+      {
+        "task": "Bullshit",
+        "amount": 1,
+        "findInRaid": false
+      },
+      {
+        "task": "Fishing Gear",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Roler Gold Watch",
+    "tasks": [
+      {
+        "task": "Bullshit",
+        "amount": 1,
+        "findInRaid": false
+      },
+      {
+        "task": "Living High is Not a Crime - Part 1",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": [
+      {
+        "module": "Scav Case - Level 1",
+        "amount": 3
+      }
+    ]
+  },
+  {
+    "name": "MRE Lunch Box",
+    "tasks": [
+      {
+        "task": "Humanitarian Supplies",
+        "amount": 5,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "WD-40 100ml",
+    "tasks": [
+      {
+        "task": "Spa Tour - Part 3",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": [
+      {
+        "module": "Stash - Level 2",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "name": "Clin Wiper",
+    "tasks": [
+      {
+        "task": "Spa Tour - Part 3",
+        "amount": 2,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Corrugated Hose",
+    "tasks": [
+      {
+        "task": "Spa Tour - Part 3",
+        "amount": 2,
+        "findInRaid": true
+      },
+      {
+        "task": "Spa Tour - Part 7",
+        "amount": 2,
+        "findInRaid": true
+      }
+    ],
+    "modules": [
+      {
+        "module": "Booze Generator - Level 1",
+        "amount": 5
+      },
+      {
+        "module": "Lavatory - Level 2",
+        "amount": 3
+      },
+      {
+        "module": "Lavatory - Level 3",
+        "amount": 6
+      },
+      {
+        "module": "Nutrition Unit - Level 2",
+        "amount": 2
+      },
+      {
+        "module": "Water Collector - Level 1",
+        "amount": 4
+      },
+      {
+        "module": "Water Collector - Level 2",
+        "amount": 6
+      }
+    ]
+  },
+  {
+    "name": "Ox Bleach",
+    "tasks": [
+      {
+        "task": "Spa Tour - Part 3",
+        "amount": 2,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Alkali",
+    "tasks": [
+      {
+        "task": "Spa Tour - Part 7",
+        "amount": 2,
+        "findInRaid": true
+      }
+    ],
+    "modules": [
+      {
+        "module": "Nutrition Unit - Level 2",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "name": "5L Propane Tank",
+    "tasks": [
+      {
+        "task": "Spa Tour - Part 7",
+        "amount": 2,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Military COFDM Wireless Signal Transmitter",
+    "tasks": [
+      {
+        "task": "Lend Lease - Part 2",
+        "amount": 2,
+        "findInRaid": true
+      }
+    ],
+    "modules": [
+      {
+        "module": "Intelligence Center - Level 3",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "name": "Virtex Programmable Processor",
+    "tasks": [
+      {
+        "task": "Lend Lease - Part 2",
+        "amount": 2,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "AKS-74U Rifle",
+    "tasks": [
+      {
+        "task": "Gunsmith - Part 2",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "MP5 Submachinegun",
+    "tasks": [
+      {
+        "task": "Gunsmith - Part 3",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "DVL-10 Sniper Rifle",
+    "tasks": [
+      {
+        "task": "Gunsmith - Part 5",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "R11 RSASS Rifle",
+    "tasks": [
+      {
+        "task": "Gunsmith - Part 6",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Remington Model 870 Shotgun",
+    "tasks": [
+      {
+        "task": "Gunsmith - Part 7",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "AKM Rifle",
+    "tasks": [
+      {
+        "task": "Gunsmith - Part 8",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "AKS-74N Rifle",
+    "tasks": [
+      {
+        "task": "Gunsmith - Part 9",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "AK-105 Rifle",
+    "tasks": [
+      {
+        "task": "Gunsmith - Part 10",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "AS VAL Rifle",
+    "tasks": [
+      {
+        "task": "Gunsmith - Part 11",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "AK-102 Rifle",
+    "tasks": [
+      {
+        "task": "Gunsmith - Part 12",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "SIG MPX Submachinegun",
+    "tasks": [
+      {
+        "task": "Gunsmith - Part 13",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "AKMN Rifle",
+    "tasks": [
+      {
+        "task": "Gunsmith - Part 14",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "M1A Rifle",
+    "tasks": [
+      {
+        "task": "Gunsmith - Part 15",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Set of Tools",
+    "tasks": [
+      {
+        "task": "Farming - Part 1",
+        "amount": 2,
+        "findInRaid": false
+      }
+    ],
+    "modules": [
+      {
+        "module": "Lavatory - Level 3",
+        "amount": 1
+      },
+      {
+        "module": "Water Collector - Level 2",
+        "amount": 2
+      },
+      {
+        "module": "Workbench - Level 2",
+        "amount": 3
+      }
+    ]
+  },
+  {
+    "name": "Powercord",
+    "tasks": [
+      {
+        "task": "Farming - Part 2",
+        "amount": 2,
+        "findInRaid": true
+      }
+    ],
+    "modules": [
+      {
+        "module": "Bitcoin Farm - Level 1",
+        "amount": 5
+      },
+      {
+        "module": "Intelligence Center - Level 2",
+        "amount": 4
+      },
+      {
+        "module": "Rest Space - Level 3",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "name": "T-Shaped Plug",
+    "tasks": [
+      {
+        "task": "Farming - Part 2",
+        "amount": 4,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Printed Circuit Board",
+    "tasks": [
+      {
+        "task": "Farming - Part 2",
+        "amount": 2,
+        "findInRaid": true
+      },
+      {
+        "task": "Signal - Part 2",
+        "amount": 3,
+        "findInRaid": true
+      }
+    ],
+    "modules": [
+      {
+        "module": "Bitcoin Farm - Level 2",
+        "amount": 5
+      },
+      {
+        "module": "Vents - Level 3",
+        "amount": 3
+      }
+    ]
+  },
+  {
+    "name": "Graphics Card",
+    "tasks": [
+      {
+        "task": "Farming - Part 4",
+        "amount": 3,
+        "findInRaid": true
+      }
+    ],
+    "modules": [
+      {
+        "module": "Bitcoin Farm - Level 1",
+        "amount": 10
+      },
+      {
+        "module": "Bitcoin Farm - Level 2",
+        "amount": 15
+      },
+      {
+        "module": "Bitcoin Farm - Level 3",
+        "amount": 25
+      }
+    ]
+  },
+  {
+    "name": "CPU Fan",
+    "tasks": [
+      {
+        "task": "Farming - Part 4",
+        "amount": 8,
+        "findInRaid": true
+      }
+    ],
+    "modules": [
+      {
+        "module": "Bitcoin Farm - Level 1",
+        "amount": 10
+      },
+      {
+        "module": "Bitcoin Farm - Level 2",
+        "amount": 15
+      },
+      {
+        "module": "Bitcoin Farm - Level 3",
+        "amount": 25
+      }
+    ]
+  },
+  {
+    "name": "PC CPU",
+    "tasks": [
+      {
+        "task": "Signal - Part 2",
+        "amount": 3,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Rechargeable Battery",
+    "tasks": [
+      {
+        "task": "Signal - Part 2",
+        "amount": 3,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Broken GPhone",
+    "tasks": [
+      {
+        "task": "Signal - Part 2",
+        "amount": 3,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Malboro Cigarettes",
+    "tasks": [
+      {
+        "task": "Bad Habit",
+        "amount": 5,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Strike Cigarettes",
+    "tasks": [
+      {
+        "task": "Bad Habit",
+        "amount": 5,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Wilston Cigarettes",
+    "tasks": [
+      {
+        "task": "Bad Habit",
+        "amount": 5,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "UHF RFID Reader",
+    "tasks": [
+      {
+        "task": "Import",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "VPX Flash Storage Module",
+    "tasks": [
+      {
+        "task": "Import",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": [
+      {
+        "module": "Intelligence Center - Level 3",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "name": "Wires",
+    "tasks": [
+      {
+        "task": "Fertilizers",
+        "amount": 5,
+        "findInRaid": true
+      }
+    ],
+    "modules": [
+      {
+        "module": "Generator - Level 1",
+        "amount": 15
+      },
+      {
+        "module": "Heating - Level 3",
+        "amount": 8
+      },
+      {
+        "module": "Lighting - Level 2",
+        "amount": 5
+      },
+      {
+        "module": "Rest Space - Level 3",
+        "amount": 7
+      },
+      {
+        "module": "Security - Level 3",
+        "amount": 4
+      },
+      {
+        "module": "Vents - Level 3",
+        "amount": 8
+      }
+    ]
+  },
+  {
+    "name": "Capacitors",
+    "tasks": [
+      {
+        "task": "Fertilizers",
+        "amount": 5,
+        "findInRaid": true
+      }
+    ],
+    "modules": [
+      {
+        "module": "Lighting - Level 3",
+        "amount": 7
+      },
+      {
+        "module": "Rest Space - Level 3",
+        "amount": 5
+      }
+    ]
+  },
+  {
+    "name": "Ushanka Ear Flap Cap",
+    "tasks": [
+      {
+        "task": "Dressed To Kill",
+        "amount": 7,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Kinda Cowboy Hat",
+    "tasks": [
+      {
+        "task": "Dressed To Kill",
+        "amount": 7,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Ghost Balaclava",
+    "tasks": [
+      {
+        "task": "Gratitude",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Shemagh",
+    "tasks": [
+      {
+        "task": "Gratitude",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Raybench Sunglasses",
+    "tasks": [
+      {
+        "task": "Gratitude",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Round Frame Sunglasses",
+    "tasks": [
+      {
+        "task": "Gratitude",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Shmaska",
+    "tasks": [
+      {
+        "task": "Sew It Good - Part 1",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Pilgrim Backpack",
+    "tasks": [
+      {
+        "task": "Sew It Good - Part 1",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Gzhel Armor (0-50% Condition)",
+    "tasks": [
+      {
+        "task": "Sew It Good - Part 2",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Gzhel Armor (50-100% Condition)",
+    "tasks": [
+      {
+        "task": "Sew It Good - Part 2",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "6B43 Armor (0-50% Condition)",
+    "tasks": [
+      {
+        "task": "Sew It Good - Part 3",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "6B43 Armor (50-100% Condition)",
+    "tasks": [
+      {
+        "task": "Sew It Good - Part 3",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "WTRig (Wartech Rig)",
+    "tasks": [
+      {
+        "task": "Sew It Good - Part 4",
+        "amount": 2,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Blackrock Chest Rig",
+    "tasks": [
+      {
+        "task": "Sew It Good - Part 4",
+        "amount": 2,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Fuel Conditioner",
+    "tasks": [
+      {
+        "task": "The Blood of War - Part 2",
+        "amount": 4,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Bronze Lion",
+    "tasks": [
+      {
+        "task": "Living High is Not a Crime - Part 1",
+        "amount": 2,
+        "findInRaid": true
+      }
+    ],
+    "modules": [
+      {
+        "module": "Scav Case - Level 1",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "name": "Horse Figurine",
+    "tasks": [
+      {
+        "task": "Living High is Not a Crime - Part 1",
+        "amount": 2,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Cat Figurine",
+    "tasks": [
+      {
+        "task": "Living High is Not a Crime - Part 1",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Antique Teapot",
+    "tasks": [
+      {
+        "task": "Living High is Not a Crime - Part 2",
+        "amount": 3,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Antique Vase",
+    "tasks": [
+      {
+        "task": "Living High is Not a Crime - Part 2",
+        "amount": 2,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Goshan Cash Register Key",
+    "tasks": [
+      {
+        "task": "Supervisor",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Aramid Fiber Cloth",
+    "tasks": [
+      {
+        "task": "Textile - Part 1",
+        "amount": 5,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Ripstop Cloth",
+    "tasks": [
+      {
+        "task": "Textile - Part 1",
+        "amount": 10,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Paracord",
+    "tasks": [
+      {
+        "task": "Textile - Part 1",
+        "amount": 3,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Fleece Cloth",
+    "tasks": [
+      {
+        "task": "Textile - Part 2",
+        "amount": 10,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Polyamide Pabric Cordura",
+    "tasks": [
+      {
+        "task": "Textile - Part 2",
+        "amount": 10,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "KEKTAPE Duct Tape",
+    "tasks": [
+      {
+        "task": "Textile - Part 2",
+        "amount": 5,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Emelya Rye Croutons",
+    "tasks": [
+      {
+        "task": "Acquaintance",
+        "amount": 6,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Iskra Lunch Box",
+    "tasks": [
+      {
+        "task": "Acquaintance",
+        "amount": 5,
+        "findInRaid": false
+      },
+      {
+        "task": "The Survivalist Path - Thrifty",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Tushonka Beef Stew (Tall Can)",
+    "tasks": [
+      {
+        "task": "Acquaintance",
+        "amount": 3,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Bottle of Water",
+    "tasks": [
+      {
+        "task": "The Survivalist Path - Thrifty",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Golden TT Pistol",
+    "tasks": [
+      {
+        "task": "Huntsman Path - The Trophy",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Maska 1Sch Helmet (Killa Helmet)",
+    "tasks": [
+      {
+        "task": "Huntsman Path - The Sellout",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Shturman Key",
+    "tasks": [
+      {
+        "task": "Huntsman Path - Woods Keeper",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Portable Defibrillator",
+    "tasks": [
+      {
+        "task": "Ambulance",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "CMS Surgery Kit",
+    "tasks": [
+      {
+        "task": "Ambulance",
+        "amount": 2,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Remington Model 700 Sniper Rifle (M700)",
+    "tasks": [
+      {
+        "task": "Hunting Trip",
+        "amount": 3,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Old Firesteel",
+    "tasks": [
+      {
+        "task": "Collector",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Antique Axe",
+    "tasks": [
+      {
+        "task": "Collector",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Battered Antique Book",
+    "tasks": [
+      {
+        "task": "Collector",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "FireKlean Gun Lube",
+    "tasks": [
+      {
+        "task": "Collector",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": [
+      {
+        "module": "Workbench - Level 3",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "name": "Golden Rooster",
+    "tasks": [
+      {
+        "task": "Collector",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Silver Badge",
+    "tasks": [
+      {
+        "task": "Collector",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "DeadlySlob Beard Oil",
+    "tasks": [
+      {
+        "task": "Collector",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Golden 1GPhone",
+    "tasks": [
+      {
+        "task": "Collector",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Jar of Devildog Mayo",
+    "tasks": [
+      {
+        "task": "Collector",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Can of Sprats",
+    "tasks": [
+      {
+        "task": "Collector",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Fake Mustache",
+    "tasks": [
+      {
+        "task": "Collector",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Kotton beanie",
+    "tasks": [
+      {
+        "task": "Collector",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Power Supply Unit (PSU)",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Bitcoin Farm - Level 1",
+        "amount": 5
+      },
+      {
+        "module": "Bitcoin Farm - Level 2",
+        "amount": 5
+      },
+      {
+        "module": "Generator - Level 3",
+        "amount": 5
+      }
+    ]
+  },
+  {
+    "name": "Electric Drill",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Bitcoin Farm - Level 1",
+        "amount": 1
+      },
+      {
+        "module": "Lavatory - Level 2",
+        "amount": 1
+      },
+      {
+        "module": "Stash - Level 3",
+        "amount": 2
+      },
+      {
+        "module": "Workbench - Level 2",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "name": "Phase Control Relay",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Bitcoin Farm - Level 2",
+        "amount": 2
+      },
+      {
+        "module": "Generator - Level 2",
+        "amount": 5
+      },
+      {
+        "module": "Generator - Level 3",
+        "amount": 6
+      },
+      {
+        "module": "Nutrition unit - Level 1",
+        "amount": 2
+      },
+      {
+        "module": "Nutrition unit - Level 2",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "name": "Silicone Tube",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Bitcoin Farm - Level 3",
+        "amount": 10
+      },
+      {
+        "module": "Booze Generator - Level 1",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "name": "Electric Motor",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Bitcoin Farm - Level 3",
+        "amount": 1
+      },
+      {
+        "module": "Generator - Level 2",
+        "amount": 1
+      },
+      {
+        "module": "Generator - Level 3",
+        "amount": 2
+      },
+      {
+        "module": "Vents - Level 2",
+        "amount": 1
+      },
+      {
+        "module": "Vents - Level 3",
+        "amount": 2
+      },
+      {
+        "module": "Water Collector - Level 2",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "name": "Pressure Gauge",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Bitcoin Farm - Level 3",
+        "amount": 2
+      },
+      {
+        "module": "Booze Generator - Level 1",
+        "amount": 2
+      },
+      {
+        "module": "Lavatory - Level 3",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "name": "Analog Thermometer",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Booze Generator - Level 1",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "name": "Radiator Helix",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Heating - Level 3",
+        "amount": 8
+      }
+    ]
+  },
+  {
+    "name": "Light Bulb",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Lighting - Level 2",
+        "amount": 14
+      }
+    ]
+  },
+  {
+    "name": "Folder With Intelligence",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Intelligence Center - Level 1",
+        "amount": 1
+      },
+      {
+        "module": "Intelligence Center - Level 2",
+        "amount": 3
+      }
+    ]
+  },
+  {
+    "name": "Hard Drive",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Intelligence Center - Level 2",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "name": "Military Cable",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Intelligence Center - Level 3",
+        "amount": 4
+      },
+      {
+        "module": "Solar Power - Level 1",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "name": "Pack of Screws",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Lavatory - Level 2",
+        "amount": 5
+      },
+      {
+        "module": "Stash - Level 2",
+        "amount": 7
+      },
+      {
+        "module": "Stash - Level 3",
+        "amount": 8
+      }
+    ]
+  },
+  {
+    "name": "Xenomorph Sealing Foam",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Lavatory - Level 3",
+        "amount": 3
+      }
+    ]
+  },
+  {
+    "name": "Saline Solution",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Medstation - Level 2",
+        "amount": 3
+      },
+      {
+        "module": "Medstation - Level 3",
+        "amount": 5
+      }
+    ]
+  },
+  {
+    "name": "Wrench",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Nutrition Unit - Level 2",
+        "amount": 5
+      }
+    ]
+  },
+  {
+    "name": "Coffee Majaica",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Nutrition Unit - Level 3",
+        "amount": 3
+      }
+    ]
+  },
+  {
+    "name": "Sodium Bicarbonate",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Nutrition Unit - Level 3",
+        "amount": 3
+      }
+    ]
+  },
+  {
+    "name": "Gold Skull Ring",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Scav Case - Level 1",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "name": "Working LCD",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Security - Level 3",
+        "amount": 3
+      }
+    ]
+  },
+  {
+    "name": "NIXXOR Lens",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Security - Level 3",
+        "amount": 8
+      }
+    ]
+  },
+  {
+    "name": "SSD Drive",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Security - Level 3",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "name": "Pack of Nails",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Shooting Range - Level 1",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "name": "Screw Nut",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Shooting Range - Level 1",
+        "amount": 5
+      },
+      {
+        "module": "Water Collector - Level 1",
+        "amount": 5
+      },
+      {
+        "module": "Workbench - Level 1",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "name": "Bolts",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Shooting Range - Level 1",
+        "amount": 5
+      },
+      {
+        "module": "Water Collector - Level 1",
+        "amount": 5
+      },
+      {
+        "module": "Workbench - Level 1",
+        "amount": 2
+      },
+      {
+        "module": "Workbench - Level 2",
+        "amount": 6
+      }
+    ]
+  },
+  {
+    "name": "Duct Tape",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Shooting Range - Level 1",
+        "amount": 3
+      },
+      {
+        "module": "Water Collector - Level 1",
+        "amount": 3
+      }
+    ]
+  },
+  {
+    "name": "Phased Array Element",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Solar Power - Level 1",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "name": "Military Power Filter",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Solar Power - Level 1",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "name": "Handdrill",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Stash - Level 2",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "name": "Pliers Elite",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Water Collector - Level 3",
+        "amount": 2
+      },
+      {
+        "module": "Workbench - Level 3",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "name": "Shustrilo Sealing Foam",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Water Collector - Level 3",
+        "amount": 5
+      }
+    ]
+  },
+  {
+    "name": "Leatherman Multitool",
+    "tasks": [
+      {
+        "task": "Fishing Gear",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": [
+      {
+        "module": "Workbench - Level 1",
+        "amount": 1
+      }
+    ]
+  }
+]

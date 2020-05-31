@@ -140,45 +140,20 @@ module.exports = function (api) {
     }
 
     // Add task item data
-    const taskItems = actions.addCollection({
-      typeName: 'TaskItems'
+    const requiredItems = actions.addCollection({
+      typeName: 'RequiredItems'
     })
 
     const tasks = actions.addCollection({
       typeName: 'Tasks'
     })
 
-    for (const item of lootItemData.taskItems) {
-      const tasksIds = []
-
-      for (const taskItem of item.tasks) {
-        const id = `${item.name}-${taskItem.task}`
-        tasksIds.push(id)
-
-        tasks.addNode({
-          id,
-          task: taskItem.task,
-          amount: taskItem.amount,
-          findInRaid: taskItem.findInRaid
-        })
-      }
-
-      taskItems.addNode({
-        name: item.name,
-        tasks: actions.store.createReference('Tasks', tasksIds)
-      })
-    }
-
-    // Add hideout item data
-    const hideoutItems = actions.addCollection({
-      typeName: 'HideoutItems'
-    })
-
     const modules = actions.addCollection({
       typeName: 'Modules'
     })
 
-    for (const item of lootItemData.hideoutItems) {
+    for (const item of lootItemData) {
+      const tasksIds = []
       const moduleIds = []
 
       for (const moduleItem of item.modules) {
@@ -192,11 +167,51 @@ module.exports = function (api) {
         })
       }
 
-      hideoutItems.addNode({
+      for (const taskItem of item.tasks) {
+        const id = `${item.name}-${taskItem.task}`
+        tasksIds.push(id)
+
+        tasks.addNode({
+          id,
+          task: taskItem.task,
+          amount: taskItem.amount,
+          findInRaid: taskItem.findInRaid
+        })
+      }
+
+      requiredItems.addNode({
         name: item.name,
-        modules: actions.store.createReference('Modules', moduleIds),
+        tasks: actions.store.createReference('Tasks', tasksIds),
+        modules: actions.store.createReference('Modules', moduleIds)
       })
     }
+
+    // Add hideout item data
+    // const hideoutItems = actions.addCollection({
+    //   typeName: 'HideoutItems'
+    // })
+
+
+
+    // for (const item of lootItemData.hideoutItems) {
+    //   const moduleIds = []
+
+    //   for (const moduleItem of item.modules) {
+    //     const id = `${item.name}-${moduleItem.module}`
+    //     moduleIds.push(id)
+
+    //     modules.addNode({
+    //       id,
+    //       module: moduleItem.module,
+    //       amount: moduleItem.amount
+    //     })
+    //   }
+
+    //   hideoutItems.addNode({
+    //     name: item.name,
+    //     modules: actions.store.createReference('Modules', moduleIds),
+    //   })
+    // }
   })
 
   api.createPages(({ createPage }) => {
