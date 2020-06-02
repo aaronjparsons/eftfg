@@ -31,7 +31,7 @@
                 <v-img
                   class="white--text"
                   height="200px"
-                  :src="map.image"
+                  :src="map.thumb"
                 >
                   <v-card-title class="justify-center grey darken-4 low-opacity">
                     {{ map.title }}
@@ -125,19 +125,23 @@ export default {
       mapList: [
         {
           title: 'Reserve',
-          image: 'maps/ReserveMap.png'
+          image: 'maps/ReserveMap.png',
+          thumb: 'maps/ReserveMapThumb.png'
         },
         {
           title: 'Factory',
-          image: 'maps/FactoryMap.png'
+          image: 'maps/FactoryMap.png',
+          thumb: 'maps/FactoryMapThumb.png'
         },
         {
           title: 'Interchange',
-          image: 'maps/InterchangeMap.png'
+          image: 'maps/InterchangeMap.png',
+          thumb: 'maps/InterchangeMapThumb.png'
         },
         {
           title: 'The Lab',
-          image: 'maps/TheLabMap.png'
+          image: 'maps/TheLabMap.png',
+          thumb: 'maps/TheLabMapThumb.png'
         }
       ],
       resourceList: [
