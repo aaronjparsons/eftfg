@@ -20,8 +20,10 @@
           v-model="selection"
           item-text="node.label"
           :items="searchList"
+          :menu-props="autocompleteMenuProps"
           return-object
           solo
+          no-data-text="No keys found..."
           placeholder="Search by key or by map..."
         />
       </v-col>
@@ -364,6 +366,21 @@ export default {
       } else {
         return ''
       }
+    },
+    autocompleteMenuProps() {
+      // default properties copied from the vuetify-autocomplete docs
+      let defaultProps = {
+        closeOnClick: false,
+        closeOnContentClick: false,
+        disableKeys: true,
+        openOnClick: false,
+        maxHeight: 304
+      }
+
+      if (this.$vuetify.breakpoint.smAndDown) {
+        defaultProps.maxHeight = 130
+      }
+      return defaultProps
     }
   },
 

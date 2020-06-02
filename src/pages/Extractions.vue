@@ -20,8 +20,10 @@
           v-model="input"
           item-text="node.label"
           :items="$page.extracts.edges"
+          :menu-props="autocompleteMenuProps"
           return-object
           solo
+          no-data-text="No extracts found..."
           placeholder="Search by extract or by map..."
         />
       </v-col>
@@ -257,6 +259,21 @@ export default {
       } else {
         return ''
       }
+    },
+    autocompleteMenuProps() {
+      // default properties copied from the vuetify-autocomplete docs
+      let defaultProps = {
+        closeOnClick: false,
+        closeOnContentClick: false,
+        disableKeys: true,
+        openOnClick: false,
+        maxHeight: 304
+      }
+
+      if (this.$vuetify.breakpoint.smAndDown) {
+        defaultProps.maxHeight = 130
+      }
+      return defaultProps
     }
   }
 }

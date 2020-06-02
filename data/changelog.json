@@ -2,10 +2,12 @@
   {
     "date": "2020/06/01",
     "summary": [
-      "New map for Reserve!"
+      "New map for Reserve!",
+      "Added EFTFG Map files to the 'More Resources' page"
     ],
     "changes": [
-      "Added the new map for Reserve."
+      "Added the new map for Reserve.",
+      "All EFTFG maps are now available on the 'More Resources' page. Feel free to save them."
     ]
   },
   {

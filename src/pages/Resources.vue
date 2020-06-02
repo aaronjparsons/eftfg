@@ -10,6 +10,40 @@
     </v-row>
     <v-divider class="mx-8 mb-4" />
     <v-row>
+      <v-col cols="12">
+        <v-card>
+          <v-card-title class="headline font-weight-bold secondary">
+            <div class="card-header-links">
+              EFTFG Map Files
+            </div>
+          </v-card-title>
+          <v-card-text class="d-flex flex-wrap justify-center">
+            <a
+              v-for="(map, index) in mapList"
+              :key="index"
+              :href="map.image"
+            >
+              <v-card
+                class="ma-4"
+                width="300px"
+                hover
+              >
+                <v-img
+                  class="white--text"
+                  height="200px"
+                  :src="map.image"
+                >
+                  <v-card-title class="justify-center grey darken-4 low-opacity">
+                    {{ map.title }}
+                  </v-card-title>
+                </v-img>
+              </v-card>
+            </a>
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
+    <v-row>
       <v-col v-for="(resource, index) in resourceList" :key="index" cols="12" sm="6">
         <v-card >
           <v-card-title class="headline font-weight-bold secondary">
@@ -22,7 +56,7 @@
               - {{ feature }}
             </p>
             <v-divider class="mb-4" />
-            <a :href="resource.link">Link</a>
+            <a :href="resource.link" target="_blank">Link</a>
           </v-card-text>
         </v-card>
       </v-col>
@@ -88,6 +122,24 @@ export default {
 
   data() {
     return {
+      mapList: [
+        {
+          title: 'Reserve',
+          image: 'maps/ReserveMap.png'
+        },
+        {
+          title: 'Factory',
+          image: 'maps/FactoryMap.png'
+        },
+        {
+          title: 'Interchange',
+          image: 'maps/InterchangeMap.png'
+        },
+        {
+          title: 'The Lab',
+          image: 'maps/TheLabMap.png'
+        }
+      ],
       resourceList: [
         {
           title: "EFT Wiki",
@@ -151,5 +203,8 @@ export default {
 .card-header-links {
   text-decoration: none;
   color: inherit;
+}
+.low-opacity {
+  opacity: 0.95;
 }
 </style>
