@@ -185,33 +185,6 @@ module.exports = function (api) {
         modules: actions.store.createReference('Modules', moduleIds)
       })
     }
-
-    // Add hideout item data
-    // const hideoutItems = actions.addCollection({
-    //   typeName: 'HideoutItems'
-    // })
-
-
-
-    // for (const item of lootItemData.hideoutItems) {
-    //   const moduleIds = []
-
-    //   for (const moduleItem of item.modules) {
-    //     const id = `${item.name}-${moduleItem.module}`
-    //     moduleIds.push(id)
-
-    //     modules.addNode({
-    //       id,
-    //       module: moduleItem.module,
-    //       amount: moduleItem.amount
-    //     })
-    //   }
-
-    //   hideoutItems.addNode({
-    //     name: item.name,
-    //     modules: actions.store.createReference('Modules', moduleIds),
-    //   })
-    // }
   })
 
   api.createPages(({ createPage }) => {

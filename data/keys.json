@@ -2739,7 +2739,7 @@
     "unlocks": [
       {
         "map": "Reserve",
-        "marker": "-154.87878458320475,77.8125",
+        "marker": "-152.31574764758534,105.5625",
         "notes": "Opens a door on the first floor of the Black Bishop building.",
         "image": "",
         "video": ""
@@ -2765,8 +2765,8 @@
     "unlocks": [
       {
         "map": "Reserve",
-        "marker": "-132.62704387051625,60.1875",
-        "notes": "Opens a door in the basement of the Pawn east building.",
+        "marker": "-181.44028272119417,172.3125",
+        "notes": "Opens a door in the basement of the Black Pawn building.",
         "image": "",
         "video": ""
       }
@@ -2791,8 +2791,8 @@
     "unlocks": [
       {
         "map": "Reserve",
-        "marker": "-194.25686505790628,221.0625",
-        "notes": "Opens the door in the back side of the building north west of the train station (Rook building).",
+        "marker": "-136.18801962361366,4.375",
+        "notes": "Opens the door in the back side of the building north west of the train station (White Rook).",
         "image": "",
         "video": ""
       }
@@ -2817,8 +2817,8 @@
     "unlocks": [
       {
         "map": "Reserve",
-        "marker": "-187.13130763867457,221.1875",
-        "notes": "Opens the door on the south end of the building north west of the train station (Rook building).",
+        "marker": "-149.59573619289165,5.218755",
+        "notes": "Opens the door on the south end of the building north west of the train station (White Rook).",
         "image": "",
         "video": ""
       }
@@ -2843,8 +2843,8 @@
     "unlocks": [
       {
         "map": "Reserve",
-        "marker": "-134.00215144264868,57.8125",
-        "notes": "Opens a door on the second floor of the Black Pawn east building.",
+        "marker": "-146.87457609652571,189.53125",
+        "notes": "Opens a door on the third floor of the Black Pawn building.",
         "image": "",
         "video": ""
       }
@@ -2859,7 +2859,7 @@
     "spawns": [
       {
         "map": "Reserve",
-        "marker": "-179.4330176402545,212.375",
+        "marker": "-176.37529057899448,79.9375",
         "notes": "On the train station lower roof, on the sleeping bag next to the sand bag",
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1573191111/reserve_rb-tb_key.jpg",
         "video": "YGmeGrAVqgM"
@@ -2868,8 +2868,8 @@
     "unlocks": [
       {
         "map": "Reserve",
-        "marker": "-141.1277088618804,61.3125",
-        "notes": "Opens a grate door in the basement of the Black Pawn east building.",
+        "marker": "-185.81387426771505,174.25",
+        "notes": "Opens a grate door in the basement of the Black Pawn building.",
         "image": "",
         "video": ""
       }
@@ -2884,7 +2884,7 @@
     "spawns": [
       {
         "map": "Reserve",
-        "marker": "-85.62201778484673,87.2864990234375",
+        "marker": "-195.09608830626144,103.9375",
         "notes": "On a filing cabinet in the unlocked guard shack on the path to the Weather Sation",
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1573191111/reserve_rb-ak_key.jpg",
         "video": "u35bvHExzWQ"
@@ -2893,7 +2893,7 @@
     "unlocks": [
       {
         "map": "Reserve",
-        "marker": "-156.25389215533718,76.3125",
+        "marker": "-142.78390965244355,105.8125",
         "notes": "Opens a door on the second floor of the Black Bishop building",
         "image": "",
         "video": ""
@@ -2919,7 +2919,7 @@
     "unlocks": [
       {
         "map": "Reserve",
-        "marker": "-138.5025034969003,100.3125",
+        "marker": "-231.5006563666699,90.375",
         "notes": "Opens a door in the basement of the White Queen building.",
         "image": "",
         "video": ""
@@ -2997,7 +2997,7 @@
     "unlocks": [
       {
         "map": "Reserve",
-        "marker": "-144.75299246113863,135.5625",
+        "marker": "-231.50107343299135,38.28125",
         "notes": "Opens a door on the second floor of the Black Knight building.",
         "image": "",
         "video": ""
@@ -3023,7 +3023,7 @@
     "unlocks": [
       {
         "map": "Reserve",
-        "marker": "-142.50281643401283,161.9375",
+        "marker": "-226.06347087569918,10",
         "notes": "Opens a door on the second floor of the White Knight building.",
         "image": "",
         "video": ""
@@ -3049,7 +3049,7 @@
     "unlocks": [
       {
         "map": "Reserve",
-        "marker": "-196.50704108503209,167.3125",
+        "marker": "-167.1868299590245,41.5",
         "notes": "Opens the north-west caged off storage area in the underground storage bunkers.",
         "image": "",
         "video": ""
@@ -3065,8 +3065,8 @@
     "spawns": [
       {
         "map": "Reserve",
-        "marker": "-158.75234962406014,108.78125",
-        "notes": "In the basement of white bishop building, on the chair behind a desk",
+        "marker": "-147.31180602898965,86.8125",
+        "notes": "In the basement of White Bishop building, on the chair behind a desk",
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1573191111/reserve_rb-ps81_key.jpg",
         "video": "ZNON-B7sXCA"
       }
@@ -3074,7 +3074,7 @@
     "unlocks": [
       {
         "map": "Reserve",
-        "marker": "-190.25655212079374,155.8125",
+        "marker": "-179.3131563666699,55.25",
         "notes": "Opens the south-east caged off storage area in the underground storage bunkers.",
         "image": "",
         "video": ""
@@ -3125,7 +3125,7 @@
     "unlocks": [
       {
         "map": "Reserve",
-        "marker": "-147.1281782675492,162.3125",
+        "marker": "-240.50052304219005,9.96875",
         "notes": "Opens a door on the first floor of the White Knight building.",
         "image": "",
         "video": ""
@@ -3141,8 +3141,8 @@
     "spawns": [
       {
         "map": "Reserve",
-        "marker": "-89.31200772499759,99.40625",
-        "notes": "Bottom of the tunnel in the shower room on a key case on the wall next to the door",
+        "marker": "-228.68791364774506,183.8125",
+        "notes": "In the tunnels, in a keycase on the wall.",
         "image": "",
         "video": ""
       }
@@ -3150,7 +3150,7 @@
     "unlocks": [
       {
         "map": "Reserve",
-        "marker": "-123.12630064487398,70.1875",
+        "marker": "-129.31136845120974,157.40625",
         "notes": "Opens a grate door on the fourth floor of the White Pawn building.",
         "image": "",
         "video": ""
@@ -3167,8 +3167,8 @@
     "spawns": [
       {
         "map": "Reserve",
-        "marker": "-90.87467865381787,94.90625",
-        "notes": "Bottom of the tunnel, in a locker in the room across from the shower room",
+        "marker": "-226.6876948588551,193.1875",
+        "notes": "In the tunnels, in a locker in the locker room",
         "image": "",
         "video": ""
       },
@@ -3183,7 +3183,7 @@
     "unlocks": [
       {
         "map": "Reserve",
-        "marker": "-125.37647667199978,71.4375",
+        "marker": "-151.6257999468789,157.4375",
         "notes": "Opens a door on the second floor of the White Pawn building.",
         "image": "",
         "video": ""
@@ -3209,8 +3209,8 @@
     "unlocks": [
       {
         "map": "Reserve",
-        "marker": "-147.00316848826444,57.1875",
-        "notes": "Opens a door on the second floor of the Black Pawn east building.",
+        "marker": "-159.2514631507016,191.25",
+        "notes": "Opens a door on the second floor of the Black Pawn building.",
         "image": "",
         "video": ""
       }
@@ -3235,7 +3235,7 @@
     "unlocks": [
       {
         "map": "Reserve",
-        "marker": "-82.74814193589432,103.6875",
+        "marker": "-212.62819978751565,140.125",
         "notes": "Opens a door on the second floor of the Radar Station (White King).",
         "image": "",
         "video": ""
@@ -3261,7 +3261,7 @@
     "unlocks": [
       {
         "map": "Reserve",
-        "marker": "-90.62375803083462,90.3125",
+        "marker": "-193.97010717483303,103.53125",
         "notes": "Opens one of the guard buildings near the Radar Station (White King).",
         "image": "",
         "video": ""
@@ -3287,7 +3287,7 @@
     "unlocks": [
       {
         "map": "Reserve",
-        "marker": "-143.87792400614526,99.9375",
+        "marker": "-235.53462071633592,88.6875",
         "notes": "Opens a door in the basement of the White Queen building.",
         "image": "",
         "video": ""
@@ -3313,7 +3313,7 @@
     "unlocks": [
       {
         "map": "Reserve",
-        "marker": "-156.25389215533716,101.0625",
+        "marker": "-128.12837755348875,84.5",
         "notes": "Opens a door on the second floor of the White Bishop building.",
         "image": "",
         "video": ""
@@ -3339,7 +3339,7 @@
     "unlocks": [
       {
         "map": "Reserve",
-        "marker": "-156.37890193462192,106.6875",
+        "marker": "-128.12837755348875,76.0625",
         "notes": "Opens a door on the second floor of the White Bishop building.",
         "image": "",
         "video": ""
@@ -3365,7 +3365,7 @@
     "unlocks": [
       {
         "map": "Reserve",
-        "marker": "-196.50704108503209,155.9375",
+        "marker": "-167.0701370996901,55.25",
         "notes": "Opens the north-east caged off storage area in the underground storage bunkers.",
         "image": "",
         "video": ""
@@ -3391,7 +3391,7 @@
     "unlocks": [
       {
         "map": "Reserve",
-        "marker": "-191.25663035507188,167.9375",
+        "marker": "-179.25897034448832,41.4375",
         "notes": "Opens the south-west caged off storage area in the underground storage bunkers.",
         "image": "",
         "video": ""
@@ -3417,8 +3417,8 @@
     "unlocks": [
       {
         "map": "Reserve",
-        "marker": "-122.75127130701968,162.3125",
-        "notes": "Opens a door in the warehouse south of the White Knight building.",
+        "marker": "-227.0674466800589,56.0625",
+        "notes": "Opens a grate door in the warehouse south of the White Knight building.",
         "image": "",
         "video": ""
       }
@@ -3443,7 +3443,7 @@
     "unlocks": [
       {
         "map": "Reserve",
-        "marker": "-85.49835708015918,103.0625",
+        "marker": "-219.6922005425577,139.0625",
         "notes": "Opens a door on the second floor of the Radar Station (White King).",
         "image": "",
         "video": ""
@@ -3469,7 +3469,7 @@
     "unlocks": [
       {
         "map": "Reserve",
-        "marker": "-135.37725901478112,110.0625",
+        "marker": "-216.19650453025235,105.875",
         "notes": "Opens a door on the third floor of the White Queen building.",
         "image": "",
         "video": ""

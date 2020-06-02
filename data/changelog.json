@@ -1,5 +1,14 @@
 [
   {
+    "date": "2020/06/01",
+    "summary": [
+      "New map for Reserve!"
+    ],
+    "changes": [
+      "Added the new map for Reserve."
+    ]
+  },
+  {
     "date": "2020/05/30",
     "summary": [
       "Revamped the Required Loot Items page"
