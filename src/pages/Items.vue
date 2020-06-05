@@ -15,7 +15,7 @@
     </v-row>
     <v-divider class="mx-8 mb-4" />
     <v-row justify="center">
-      <v-col cols="11" sm="6">
+      <v-col cols="11" sm="4" md="3">
         <v-row justify="center" align="center">
           <v-text-field
             v-model="searchQuery"
@@ -23,6 +23,13 @@
             append-icon="mdi-magnify"
           />
         </v-row>
+      </v-col>
+       <v-col cols="11" sm="4" md="3">
+        <v-select
+          v-model="listSelection"
+          :items="listOptions"
+          label="Items List"
+        />
       </v-col>
     </v-row>
     <v-row justify="center">
@@ -39,7 +46,7 @@
           <v-card-title>{{ item.node.name }}</v-card-title>
           <v-card-subtitle>Total Needed: {{ calculateTotal(item.node) }}</v-card-subtitle>
           <v-card-text>
-            <div v-if="item.node.tasks.length">
+            <div v-if="(listSelection === 'all' || listSelection ==='tasks') && item.node.tasks.length">
               Tasks:
               <v-card outlined>
                 <v-card-text class="py-0">
@@ -60,8 +67,8 @@
                 </v-card-text>
               </v-card>
             </div>
-            <div v-if="item.node.modules.length && item.node.tasks.length" class="mt-5"></div>
-            <div v-if="item.node.modules.length">
+            <div v-if="listSelection === 'all' && item.node.modules.length && item.node.tasks.length" class="mt-5"></div>
+            <div v-if="(listSelection === 'all' || listSelection ==='hideout') && item.node.modules.length">
               Hideout Modules:
               <v-card outlined>
                 <v-card-text class="py-0">
@@ -88,7 +95,7 @@
 
 <page-query>
 query {
-  requiredItems: allRequiredItems(sortBy: "name", order: ASC) {
+  allItems: allRequiredItems(sortBy: "name", order: ASC) {
     edges {
       node {
         name,
@@ -169,13 +176,28 @@ export default {
     return {
       searchQuery: '',
       debouncedSearchQuery: '',
-      numberOfItems: 15
+      numberOfItems: 15,
+      listSelection: 'all',
+      listOptions: [
+        {
+          text: 'Tasks & Hideout',
+          value: 'all'
+        },
+        {
+          text: 'Tasks Only',
+          value: 'tasks'
+        },
+        {
+          text: 'Hideout Only',
+          value: 'hideout'
+        }
+      ]
     }
   },
 
   computed: {
     list() {
-      return this.filter(this.$page.requiredItems.edges)
+      return this.filter(this.listSelection, this.$page.allItems.edges)
     }
   },
 
@@ -205,9 +227,13 @@ export default {
     debouncer: debounce(function(){
       this.debouncedSearchQuery = this.searchQuery
     },500),
-    filter(list) {
+    filter(selection, list) {
       return list.filter(item => {
-        return item.node.name.toLowerCase().includes(this.debouncedSearchQuery.toLowerCase())
+        if ((selection === 'all') || (selection === 'tasks' && item.node.tasks.length) || (selection === 'hideout' && item.node.modules.length)) {
+          return item.node.name.toLowerCase().includes(this.debouncedSearchQuery.toLowerCase())
+        } else {
+          return false
+        }
       })
     },
     calculateTotal(object) {
@@ -218,7 +244,13 @@ export default {
         return a + b.amount
       }, 0)
 
-      return taskTotals + moduleTotals
+      if (this.listSelection === 'tasks') {
+        return taskTotals
+      } else if (this.listSelection === 'hideout') {
+        return moduleTotals
+      } else {
+        return taskTotals + moduleTotals
+      }
     }
   }
 }
