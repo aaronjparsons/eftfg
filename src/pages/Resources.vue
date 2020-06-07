@@ -142,6 +142,11 @@ export default {
           title: 'The Lab',
           image: 'maps/TheLabMap.png',
           thumb: 'maps/TheLabMapThumb.png'
+        },
+        {
+          title: 'Woods',
+          image: 'maps/WoodsMap.png',
+          thumb: 'maps/WoodsMapThumb.png'
         }
       ],
       resourceList: [
