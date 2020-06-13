@@ -4,12 +4,9 @@
       <h1 class="text-center">EFT Extractions</h1>
     </v-row>
     <v-row justify="center">
-      <p class="caption grey--text mx-12 text-center">
+      <p class="caption-text mx-12 text-center">
         Escape From Tarkov extract locations, searchable by specific extract or by map.
-      </p>
-    </v-row>
-    <v-row justify="center">
-      <p class="caption grey--text mx-12 text-center">
+        <br/>
         Eg: "RUAF Roadblock" or "Customs (All Extractions)"
       </p>
     </v-row>

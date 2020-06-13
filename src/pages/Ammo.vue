@@ -4,12 +4,9 @@
       <h1 class="text-center">EFT Ammo Chart & Table</h1>
     </v-row>
     <v-row justify="center">
-      <p class="caption grey--text mx-12 text-center">
+      <p class="caption-text mx-12 text-center">
         Escape From Tarkov ammo chart and table. Search, sort, and filter to easily compare the different ammo types.
-      </p>
-    </v-row>
-    <v-row justify="center">
-      <p class="caption grey--text mx-12 text-center">
+        <br/>
         Ammo data updated on
         {{ format($page.wikiData.edges[0].node.ammoUpdated) }}
       </p>
@@ -20,7 +17,7 @@
         <v-card
           link
           class="text-center"
-          :class="{ unselected: activeView !== 'sheet' }"
+          :class="{ selected: activeView === 'sheet' }"
           @click="activeView = 'sheet'"
         >
           <v-card-text>
@@ -32,7 +29,7 @@
         <v-card
           link
           class="text-center"
-          :class="{ unselected: activeView !== 'chart' }"
+          :class="{ selected: activeView === 'chart' }"
           @click="activeView = 'chart'"
         >
           <v-card-text>
@@ -161,7 +158,7 @@ export default {
 </script>
 
 <style scoped>
-.unselected {
-  background: #3f3f3f44;
+.theme--dark.v-card.selected {
+  background: #353029 !important;
 }
 </style>

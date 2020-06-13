@@ -45,6 +45,7 @@ export default function (Vue, { head, appOptions }) {
       dark: true,
       themes: {
         dark: {
+          primary: '#968465',
           secondary: '#212121',
           anchor: '#ffffffb3'
         },

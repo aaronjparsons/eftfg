@@ -6,6 +6,7 @@
           <v-switch
             v-model="armorBreakpoints"
             label="Show Armor Breakpoints"
+            color="primary"
           />
         </v-row>
       </v-col>
@@ -14,6 +15,7 @@
           <v-switch
             v-model="healthBreakpoints"
             label="Show Health Breakpoints"
+            color="primary"
           />
         </v-row>
       </v-col>
@@ -167,7 +169,8 @@ export default {
       return {
         chart: {
           id: 'scatter-plot-chart',
-          background: '#424242',
+          background: '#161616',
+          fontFamily: 'Bender Regular, Roboto, sans-serif',
           toolbar: {
             show: false
           },
@@ -301,7 +304,8 @@ export default {
   min-height: 70vh;
 }
 .tooltip-title {
-  background: rgba(19, 19, 19, 0.781);
+  background: #968465;
+  color: #000000;
   padding: 10px;
 }
 .tooltip-body {

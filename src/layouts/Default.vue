@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-navigation-drawer v-model="drawer" app clipped>
+    <v-navigation-drawer v-model="drawer" app clipped color="#161616">
       <v-list nav>
         <v-list-item
           v-for="(item, index) in navItems"
@@ -9,11 +9,11 @@
           :to="item.route"
         >
           <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
+            <v-icon class="primary--text">{{ item.icon }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>
-              <g-link :to="item.route">{{ item.label }}</g-link>
+              <g-link class="primary--text" :to="item.route">{{ item.label }}</g-link>
             </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
@@ -39,14 +39,14 @@
       </template>
     </v-navigation-drawer>
 
-    <v-app-bar app clipped-left color="secondary">
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-      <v-toolbar-title>EFT Field Guide</v-toolbar-title>
-      <v-spacer></v-spacer>
+    <v-app-bar app clipped-left color="black">
+      <v-app-bar-nav-icon class="primary--text" @click.stop="drawer = !drawer" />
+      <v-toolbar-title class="primary--text" :style="{ 'font-family': 'Bender Black', 'font-size': '2rem' }">EFT Field Guide</v-toolbar-title>
+      <!-- <v-spacer></v-spacer>
       <v-btn icon class="mr-1" @click="toggleDarkMode">
         <v-icon v-if="isDarkMode">mdi-weather-night</v-icon>
         <v-icon v-else>mdi-weather-sunny</v-icon>
-      </v-btn>
+      </v-btn> -->
       </div>
     </v-app-bar>
 
@@ -120,7 +120,24 @@ export default {
 </script>
 
 <style>
+@import '../../static/fonts/style.css';
 @import url('https://fonts.googleapis.com/css?family=Cookie&display=swap');
+
+.theme--dark.v-application {
+  background-image: linear-gradient(135deg, #11100e 14.29%, #0c0c0c 14.29%, #0c0c0c 50%, #11100e 50%, #11100e 64.29%, #0c0c0c 64.29%, #0c0c0c 100%) !important;
+  background-size: 9.90px 9.90px !important;
+  color: #968465 !important;
+  font-family: 'Bender Regular', 'Roboto', 'sans serif';
+}
+.caption-text {
+  color: #968465 !important;
+  font-size: 0.75rem;
+  font-family: 'Bender Regular', 'Roboto', 'sans serif';
+}
+
+.v-list-item--link::before {
+  background-color: #968465 !important;
+}
 
 .v-navigation-drawer {
   z-index: 170 !important;
@@ -133,6 +150,16 @@ export default {
   z-index: 165 !important;
 }
 
+.theme--dark.v-card {
+  background-color: #161616 !important;
+}
+.card-header {
+  background-color: #000000;
+  color: #968465;
+  font-family: 'Bender Bold', 'Roboto', 'sans serif';
+  font-size: 1.75rem !important;
+}
+
 .bmc-button img {
   width: 35px !important;
   margin-bottom: 1px !important;
@@ -141,6 +168,7 @@ export default {
   vertical-align: middle !important;
 }
 .bmc-button {
+  color: #968465 !important;
   padding: 7px 10px 7px 10px !important;
   line-height: 35px !important;
   height: 51px !important;
@@ -164,14 +192,14 @@ export default {
   transition: 0.3s all linear !important;
 }
 .bmc-dark {
-  background-color: #212121;
+  background-color: #000000;
 }
 .bmc-button:hover,
 .bmc-button:active,
 .bmc-button:focus {
-  -webkit-box-shadow: 0px 1px 2px 2px rgba(56, 56, 56, 0.75) !important;
+  -webkit-box-shadow: 0px 1px 2px 2px #9684659d !important;
   text-decoration: none !important;
-  box-shadow: 0px 1px 2px 2px rgba(56, 56, 56, 0.75) !important;
+  box-shadow: 0px 1px 2px 2px #9684659d !important;
   opacity: 0.85 !important;
 }
 </style>

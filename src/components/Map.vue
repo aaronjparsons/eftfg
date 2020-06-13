@@ -92,9 +92,11 @@ if (process.isClient) {
   const Icon = L.Icon
   delete Icon.Default.prototype._getIconUrl;
   Icon.Default.mergeOptions({
-    iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
-    iconUrl: require('leaflet/dist/images/marker-icon.png'),
-    shadowUrl: require('leaflet/dist/images/marker-shadow.png')
+    iconRetinaUrl: require('../../static/mapmarker.png'),
+    iconUrl: require('../../static/mapmarker.png'),
+    shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
+    iconSize: [30, 35],
+    iconAnchor: [15, 35]
   })
 }
 
@@ -209,11 +211,12 @@ export default {
   right: 0;
   background: #ffffffd8;
   border-bottom-left-radius: 5px;
+  font-family: 'Bender Regular', 'Roboto', 'sans serif';
   font-size: 16px;
   z-index: 150;
 }
 .map-dark .map-names {
-  background: #434343d8;
+  background: #161616af;
 }
 .map-names .map-names-header {
   background: #e0e0e0;
@@ -221,7 +224,8 @@ export default {
   margin-bottom: 5px;
 }
 .map-dark .map-names .map-names-header {
-  background: #2b2b2b;
+  background: #968465bb;
+  color: #000000;
 }
 .map-names .map-name-item {
   margin: 5px;
@@ -232,7 +236,8 @@ export default {
   text-decoration: underline;
 }
 .map-dark .map-names .map-name-item {
-  background: #5a5a5ad8;
+  background: #353029;
+  color: white;
 }
 .map-names .map-name-item:hover {
   cursor: pointer;
@@ -292,20 +297,25 @@ export default {
   background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
 }
 .map-dark .leaflet-container {
-  background-color: #151518;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.1) 2px, transparent 2px),
-  linear-gradient(90deg, rgba(255, 255, 255, 0.1) 2px, transparent 2px),
-  linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px),
-  linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-color: #161616;
+  background-image: linear-gradient(rgba(150, 132, 101, 0.1) 2px, transparent 2px),
+  linear-gradient(90deg, rgba(150, 132, 101, 0.1) 2px, transparent 2px),
+  linear-gradient(rgba(150, 132, 101, 0.1) 1px, transparent 1px),
+  linear-gradient(90deg, rgba(150, 132, 101, 0.1) 1px, transparent 1px);
   background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
   background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
 }
 
 .map-dark .leaflet-popup-content-wrapper {
-  background: #dbdbdb;
+  background: #968465;
+  color: #000000;
+  font-family: 'Bender Regular', 'Roboto', 'sans serif';
 }
 .map-dark .leaflet-popup-tip {
-  background: #dbdbdb;
+  background: #968465;
+}
+.map-dark .leaflet-popup .leaflet-popup-close-button {
+  color: #000000;
 }
 .map-dark .leaflet-bar a {
   background: #212121;

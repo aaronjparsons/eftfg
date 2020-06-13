@@ -4,12 +4,9 @@
       <h1 class="text-center">EFT Loot - Required Items</h1>
     </v-row>
     <v-row justify="center">
-      <p class="caption grey--text mx-12 text-center">
+      <p class="caption-text mx-12 text-center">
         Escape From Tarkov loot items that are required for tasks and the hideout. Search to keep track of loot that is important to keep.
-      </p>
-    </v-row>
-    <v-row justify="center">
-      <p class="caption grey--text mx-12 text-center">
+        <br/>
         Updated for patch 0.12.6.7456 (May 29, 2020)
       </p>
     </v-row>

@@ -1,6 +1,6 @@
 <template>
   <v-card>
-    <v-card-title class="headline font-weight-bold secondary">
+    <v-card-title class="card-header font-weight-bold">
       EFTFG Updates
     </v-card-title>
     <v-card-text class="pt-4">
@@ -15,12 +15,12 @@
       <v-divider class="my-3" />
       <v-dialog v-model="changelogDialog" width="750" scrollable>
         <template v-slot:activator="{ on }">
-          <v-btn class="ml-4" v-on="on">
+          <v-btn class="ml-4 black--text" color="primary" v-on="on">
             View Full Changelog
           </v-btn>
         </template>
         <v-card>
-          <v-card-title class="headline font-weight-bold secondary" primary-title>
+          <v-card-title class="card-header font-weight-bold" primary-title>
             EFTFG Full Changelog
           </v-card-title>
           <v-card-text class="mt-4">
@@ -38,7 +38,7 @@
           <v-divider />
           <v-card-actions>
             <v-spacer></v-spacer>
-            <v-btn text @click="changelogDialog = false">
+            <v-btn color="primary" text @click="changelogDialog = false">
               Close
             </v-btn>
           </v-card-actions>

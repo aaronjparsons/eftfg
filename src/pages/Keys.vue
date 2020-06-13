@@ -4,12 +4,9 @@
       <h1 class="text-center">EFT Key Spawns & Use Locations</h1>
     </v-row>
     <v-row justify="center">
-      <p class="caption grey--text mx-12 text-center">
+      <p class="caption-text mx-12 text-center">
         Escape From Tarkov key spawns & use locations, searchable by specific key or by map.
-      </p>
-    </v-row>
-    <v-row justify="center">
-      <p class="caption grey--text mx-12 text-center">
+        <br/>
         Eg: "Factory Key" or "Customs (All Keys)"
       </p>
     </v-row>
@@ -33,7 +30,7 @@
         <v-card
           link
           class="text-center"
-          :class="{ unselected: activeView !== 'spawns' }"
+          :class="{ selected: activeView === 'spawns' }"
           @click="setActiveView('spawns')"
         >
           <v-card-text>
@@ -45,7 +42,7 @@
         <v-card
           link
           class="text-center"
-          :class="{ unselected: activeView !== 'unlocks' }"
+          :class="{ selected: activeView === 'unlocks' }"
           @click="setActiveView('unlocks')"
         >
           <v-card-text>
@@ -467,10 +464,16 @@ export default {
 </script>
 
 <style>
+.theme--dark.v-text-field--solo > .v-input__control > .v-input__slot {
+  background-color: #161616;
+}
 .v-autocomplete {
   z-index: 160 !important;
 }
-.unselected {
-  background: #3f3f3f44 !important;
+.theme--dark.v-list {
+  background-color: #161616;
+}
+.theme--dark.v-card.selected {
+  background: #353029 !important;
 }
 </style>
