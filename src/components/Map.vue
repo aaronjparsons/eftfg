@@ -309,6 +309,7 @@ export default {
 .map-dark .leaflet-popup-content-wrapper {
   background: #968465;
   color: #000000;
+  font-family: 'Bender Regular', 'Roboto', 'sans serif';
 }
 .map-dark .leaflet-popup-tip {
   background: #968465;

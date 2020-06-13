@@ -33,7 +33,7 @@
                   height="200px"
                   :src="map.thumb"
                 >
-                  <v-card-title class="justify-center primary black--text low-opacity">
+                  <v-card-title class="justify-center primary darken-1 black--text low-opacity">
                     {{ map.title }}
                   </v-card-title>
                 </v-img>
