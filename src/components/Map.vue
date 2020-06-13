@@ -92,9 +92,11 @@ if (process.isClient) {
   const Icon = L.Icon
   delete Icon.Default.prototype._getIconUrl;
   Icon.Default.mergeOptions({
-    iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
-    iconUrl: require('leaflet/dist/images/marker-icon.png'),
-    shadowUrl: require('leaflet/dist/images/marker-shadow.png')
+    iconRetinaUrl: require('../../static/mapmarker.png'),
+    iconUrl: require('../../static/mapmarker.png'),
+    shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
+    iconSize: [30, 35],
+    iconAnchor: [15, 35]
   })
 }
 
@@ -295,20 +297,24 @@ export default {
   background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
 }
 .map-dark .leaflet-container {
-  background-color: #151518;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.1) 2px, transparent 2px),
-  linear-gradient(90deg, rgba(255, 255, 255, 0.1) 2px, transparent 2px),
-  linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px),
-  linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-color: #161616;
+  background-image: linear-gradient(rgba(150, 132, 101, 0.1) 2px, transparent 2px),
+  linear-gradient(90deg, rgba(150, 132, 101, 0.1) 2px, transparent 2px),
+  linear-gradient(rgba(150, 132, 101, 0.1) 1px, transparent 1px),
+  linear-gradient(90deg, rgba(150, 132, 101, 0.1) 1px, transparent 1px);
   background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
   background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
 }
 
 .map-dark .leaflet-popup-content-wrapper {
-  background: #dbdbdb;
+  background: #968465;
+  color: #000000;
 }
 .map-dark .leaflet-popup-tip {
-  background: #dbdbdb;
+  background: #968465;
+}
+.map-dark .leaflet-popup .leaflet-popup-close-button {
+  color: #000000;
 }
 .map-dark .leaflet-bar a {
   background: #212121;
