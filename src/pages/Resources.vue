@@ -4,7 +4,7 @@
       <h1 class="text-center">EFT Resources</h1>
     </v-row>
     <v-row justify="center">
-      <p class="caption grey--text mx-12 text-center">
+      <p class="caption-text mx-12 text-center">
         Official and community created Escape From Tarkov resources.
       </p>
     </v-row>
@@ -12,7 +12,7 @@
     <v-row>
       <v-col cols="12">
         <v-card>
-          <v-card-title class="headline font-weight-bold secondary">
+          <v-card-title class="card-header font-weight-bold">
             <div class="card-header-links">
               EFTFG Map Files
             </div>
@@ -33,7 +33,7 @@
                   height="200px"
                   :src="map.thumb"
                 >
-                  <v-card-title class="justify-center grey darken-4 low-opacity">
+                  <v-card-title class="justify-center primary black--text low-opacity">
                     {{ map.title }}
                   </v-card-title>
                 </v-img>
@@ -46,7 +46,7 @@
     <v-row>
       <v-col v-for="(resource, index) in resourceList" :key="index" cols="12" sm="6">
         <v-card >
-          <v-card-title class="headline font-weight-bold secondary">
+          <v-card-title class="card-header font-weight-bold">
             <a :href="resource.link" class="card-header-links" target="_blank">
               {{ resource.title }}
             </a>
@@ -215,5 +215,6 @@ export default {
 }
 .low-opacity {
   opacity: 0.95;
+  padding: 5px;
 }
 </style>

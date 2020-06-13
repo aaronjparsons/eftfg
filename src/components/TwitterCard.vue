@@ -1,6 +1,6 @@
 <template>
   <v-card>
-    <v-card-title class="headline font-weight-bold secondary">
+    <v-card-title class="card-header font-weight-bold">
       BSG Twitter Feed
     </v-card-title>
     <v-card-text>

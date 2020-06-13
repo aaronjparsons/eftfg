@@ -1,6 +1,6 @@
 <template>
   <v-card>
-    <v-card-title class="headline font-weight-bold secondary">
+    <v-card-title class="card-header font-weight-bold">
       Current Game Version
     </v-card-title>
     <v-card-text class="pt-4">

@@ -16,6 +16,7 @@
       :items="data"
       :search="searchValue"
       height="75vh"
+      no-results-text="No ammo found..."
       disable-pagination
       hide-default-footer
       fixed-header
@@ -82,3 +83,19 @@ export default {
   }
 }
 </script>
+
+<style>
+.theme--dark.v-data-table.v-data-table--fixed-header thead th {
+  background: #161616;
+  color: #968465;
+  font-family: 'Bender Bold', 'Roboto', 'sans serif';
+  font-size: 0.85rem;
+}
+.theme--dark.v-data-table {
+  background-color: #161616;
+}
+.theme--dark.v-data-table tbody tr:hover:not(.v-data-table__expanded__content) {
+  background: #968465;
+  color: #000000;
+}
+</style>

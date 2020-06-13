@@ -209,11 +209,12 @@ export default {
   right: 0;
   background: #ffffffd8;
   border-bottom-left-radius: 5px;
+  font-family: 'Bender Regular', 'Roboto', 'sans serif';
   font-size: 16px;
   z-index: 150;
 }
 .map-dark .map-names {
-  background: #434343d8;
+  background: #161616af;
 }
 .map-names .map-names-header {
   background: #e0e0e0;
@@ -221,7 +222,8 @@ export default {
   margin-bottom: 5px;
 }
 .map-dark .map-names .map-names-header {
-  background: #2b2b2b;
+  background: #968465bb;
+  color: #000000;
 }
 .map-names .map-name-item {
   margin: 5px;
@@ -232,7 +234,8 @@ export default {
   text-decoration: underline;
 }
 .map-dark .map-names .map-name-item {
-  background: #5a5a5ad8;
+  background: #353029;
+  color: white;
 }
 .map-names .map-name-item:hover {
   cursor: pointer;

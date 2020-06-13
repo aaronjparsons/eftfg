@@ -1,6 +1,6 @@
 <template>
   <v-card>
-    <v-card-title class="headline font-weight-bold secondary">
+    <v-card-title class="card-header font-weight-bold">
       Reddit Posts From r/EscapeFromTarkov
     </v-card-title>
     <v-card-text>
@@ -11,7 +11,7 @@
           type="list-item"
         ></v-skeleton-loader>
       </v-list>
-      <v-list v-else>
+      <v-list class="reddit-list" v-else>
         <template v-for="thread in redditThreads">
           <v-list-item
             :key="thread.data.id"
@@ -70,8 +70,14 @@ export default {
 }
 </script>
 
-<style scoped>
-.v-list-item__action {
+<style>
+.theme--dark.v-list {
+  background-color: #161616;
+}
+.theme--dark.v-skeleton-loader .v-skeleton-loader__list-item {
+  background-color: #161616 !important;
+}
+.reddit-list .v-list-item__action {
   min-width: 60px;
 }
 </style>
