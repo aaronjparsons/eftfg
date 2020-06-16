@@ -8,6 +8,7 @@
         :maxZoom="mapOptions.maxZoom"
         :center="center"
         :crs="crsSimple"
+        @click="mapClick"
       >
         <div v-show="availableMaps.length" class="map-names">
           <div class="map-names-header">Select a map:</div>

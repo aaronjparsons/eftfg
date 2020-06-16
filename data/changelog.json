@@ -1,5 +1,19 @@
 [
   {
+    "date": "2020/06/15",
+    "summary": [
+      "Updated a few key spawns, lock locations, and extracts."
+    ],
+    "changes": [
+      "Updated image for Armored Train extract.",
+      "Updated lock location for RB-MP11 key",
+      "Added new spawn for Dorm Room 214 key",
+      "Added images for RB-ORB1 and RB-ORB2 spawns",
+      "Added image for one of Labs Red Keycard spawn",
+      "Small update to Reserve map"
+    ]
+  },
+  {
     "date": "2020/06/06",
     "summary": [
       "New map for Woods!"

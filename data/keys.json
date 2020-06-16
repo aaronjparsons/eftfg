@@ -376,6 +376,13 @@
     "spawns": [
       {
         "map": "Customs",
+        "marker": "-224.18832045833736,25.1875",
+        "notes": "On the pallets in the storage unit marked with number 88",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1592266348/customs_dorm_room_214_key.jpg",
+        "video": ""
+      },
+      {
+        "map": "Customs",
         "marker": "-222.21531593406593,92.3125",
         "notes": "Inside the warehouse near the smokestacks on boilers side, in the blue lockers on the north wall",
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799177/customs_dorm_room_214_key___factory_key_3.jpg",
@@ -2484,7 +2491,7 @@
         "map": "Shoreline",
         "marker": "-185.93792050924498,73.3125",
         "notes": "In the admin building of the resort, next to the Health resort management office with locked safe, on the table under the ashtray",
-        "image": "",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1592266348/shoreline_labs_red_keycard_4.jpg",
         "video": ""
       }
     ],
@@ -2944,9 +2951,9 @@
     ],
     "unlocks": [
       {
-        "map": "all",
-        "marker": "",
-        "notes": "This key does not currently unlock anything.",
+        "map": "Reserve",
+        "marker": "-227.72002171042288,38.34375",
+        "notes": "Opens a door on the second floor of the Black Knight building",
         "image": "",
         "video": ""
       }
@@ -3067,7 +3074,7 @@
         "map": "Reserve",
         "marker": "-147.31180602898965,86.8125",
         "notes": "In the basement of White Bishop building, on the chair behind a desk",
-        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1573191111/reserve_rb-ps81_key.jpg",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1592266348/reserve_rb-ps81_key.jpg",
         "video": "ZNON-B7sXCA"
       }
     ],
@@ -3143,7 +3150,7 @@
         "map": "Reserve",
         "marker": "-228.68791364774506,183.8125",
         "notes": "In the tunnels, in a keycase on the wall.",
-        "image": "",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1592266348/reserve_rb-orb1_key.jpg",
         "video": ""
       }
     ],
@@ -3169,7 +3176,7 @@
         "map": "Reserve",
         "marker": "-226.6876948588551,193.1875",
         "notes": "In the tunnels, in a locker in the locker room",
-        "image": "",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1592266348/reserve_rb-orb2_key.jpg",
         "video": ""
       },
       {
