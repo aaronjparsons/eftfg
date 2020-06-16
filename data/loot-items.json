@@ -226,7 +226,7 @@
       },
       {
         "module": "Vents - Level 3",
-        "amount": 3
+        "amount": 4
       }
     ]
   },
@@ -310,7 +310,12 @@
         "findInRaid": false
       }
     ],
-    "modules": []
+    "modules": [
+      {
+        "module": "Medstation - Level 3",
+        "amount": 1
+      }
+    ]
   },
   {
     "name": "LEDX Skin Transilluminator",
@@ -383,7 +388,7 @@
     "modules": [
       {
         "module": "Medstation - Level 2",
-        "amount": 1
+        "amount": 2
       }
     ]
   },
@@ -410,7 +415,7 @@
     "modules": [
       {
         "module": "Scav Case - Level 1",
-        "amount": 6
+        "amount": 8
       }
     ]
   },
@@ -447,7 +452,7 @@
     "modules": [
       {
         "module": "Scav Case - Level 1",
-        "amount": 3
+        "amount": 4
       }
     ]
   },
@@ -818,7 +823,7 @@
       },
       {
         "module": "Vents - Level 3",
-        "amount": 3
+        "amount": 5
       }
     ]
   },
@@ -995,7 +1000,7 @@
       },
       {
         "module": "Vents - Level 3",
-        "amount": 8
+        "amount": 14
       }
     ]
   },
@@ -1091,7 +1096,7 @@
       {
         "task": "Sew It Good - Part 1",
         "amount": 1,
-        "findInRaid": false
+        "findInRaid": true
       }
     ],
     "modules": []
@@ -1102,7 +1107,7 @@
       {
         "task": "Sew It Good - Part 1",
         "amount": 1,
-        "findInRaid": false
+        "findInRaid": true
       }
     ],
     "modules": []
@@ -1196,7 +1201,7 @@
     "modules": [
       {
         "module": "Scav Case - Level 1",
-        "amount": 2
+        "amount": 4
       }
     ]
   },
@@ -1574,6 +1579,50 @@
     "modules": []
   },
   {
+    "name": "Can of Dr. Lupo's Coffee Beans",
+    "tasks": [
+      {
+        "task": "Collector",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Pestily Plague Mask",
+    "tasks": [
+      {
+        "task": "Collector",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Raven Figurine",
+    "tasks": [
+      {
+        "task": "Collector",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Shroud Half Mask",
+    "tasks": [
+      {
+        "task": "Collector",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
     "name": "Power Supply Unit (PSU)",
     "tasks": [],
     "modules": [
@@ -1659,7 +1708,7 @@
     "modules": [
       {
         "module": "Bitcoin Farm - Level 3",
-        "amount": 1
+        "amount": 2
       },
       {
         "module": "Generator - Level 2",
@@ -1675,7 +1724,7 @@
       },
       {
         "module": "Vents - Level 3",
-        "amount": 2
+        "amount": 4
       },
       {
         "module": "Water Collector - Level 2",
@@ -1689,7 +1738,7 @@
     "modules": [
       {
         "module": "Bitcoin Farm - Level 3",
-        "amount": 2
+        "amount": 4
       },
       {
         "module": "Booze Generator - Level 1",
@@ -1807,7 +1856,7 @@
       },
       {
         "module": "Medstation - Level 3",
-        "amount": 5
+        "amount": 4
       }
     ]
   },
@@ -1817,7 +1866,7 @@
     "modules": [
       {
         "module": "Nutrition Unit - Level 2",
-        "amount": 5
+        "amount": 4
       }
     ]
   },
@@ -1847,7 +1896,7 @@
     "modules": [
       {
         "module": "Scav Case - Level 1",
-        "amount": 4
+        "amount": 6
       }
     ]
   },
@@ -1971,7 +2020,7 @@
     "modules": [
       {
         "module": "Stash - Level 2",
-        "amount": 4
+        "amount": 1
       }
     ]
   },
@@ -2014,5 +2063,16 @@
         "amount": 1
       }
     ]
+  },
+  {
+    "name": "Labs Access Keycard",
+    "tasks": [
+      {
+        "task": "Fishing Place",
+        "amount": 3,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
   }
 ]

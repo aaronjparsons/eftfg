@@ -1,5 +1,16 @@
 [
   {
+    "date": "2020/06/16",
+    "summary": [
+      "Updated Task and Hideout required items list"
+    ],
+    "changes": [
+      "Updated Task and Hideout required items list.",
+      "Was missing the Fishing Place task and the new items for the Collector task.",
+      "Some item quantities were incorrect as well. Those have been fixed."
+    ]
+  },
+  {
     "date": "2020/06/15",
     "summary": [
       "Updated a few key spawns, lock locations, and extracts."
