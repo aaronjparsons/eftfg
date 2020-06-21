@@ -292,8 +292,8 @@
     "damage": "59",
     "penetration": "8",
     "armorDamage": "22",
-    "accuracy": "",
-    "recoil": "",
+    "accuracy": "-5",
+    "recoil": "-7",
     "fragmentation": "17%"
   },
   {
@@ -391,7 +391,7 @@
     "damage": "60",
     "penetration": "12",
     "armorDamage": "34",
-    "accuracy": "",
+    "accuracy": "-5",
     "recoil": "",
     "fragmentation": "17%"
   },
@@ -436,8 +436,8 @@
     "damage": "58",
     "penetration": "14",
     "armorDamage": "33",
-    "accuracy": "",
-    "recoil": "",
+    "accuracy": "-5",
+    "recoil": "-6",
     "fragmentation": "15%"
   },
   {
@@ -508,8 +508,8 @@
     "damage": "63",
     "penetration": "39",
     "armorDamage": "47",
-    "accuracy": "",
-    "recoil": "",
+    "accuracy": "-4",
+    "recoil": "-4",
     "fragmentation": "20%"
   },
   {
@@ -553,7 +553,7 @@
     "damage": "58",
     "penetration": "33",
     "armorDamage": "41",
-    "accuracy": "",
+    "accuracy": "-4",
     "recoil": "",
     "fragmentation": "20%"
   },
@@ -724,8 +724,8 @@
     "damage": "57",
     "penetration": "20",
     "armorDamage": "38",
-    "accuracy": "",
-    "recoil": "",
+    "accuracy": "-5",
+    "recoil": "-5",
     "fragmentation": "16%"
   },
   {
@@ -760,8 +760,8 @@
     "damage": "44",
     "penetration": "37",
     "armorDamage": "49",
-    "accuracy": "",
-    "recoil": "+5",
+    "accuracy": "-2",
+    "recoil": "+3",
     "fragmentation": "16%"
   },
   {
@@ -814,8 +814,8 @@
     "damage": "55",
     "penetration": "23",
     "armorDamage": "34",
-    "accuracy": "",
-    "recoil": "",
+    "accuracy": "-5",
+    "recoil": "-2",
     "fragmentation": "33%"
   },
   {
@@ -829,8 +829,8 @@
   },
   {
     "name": "5.56x45 mm M855",
-    "damage": "49",
-    "penetration": "29",
+    "damage": "50",
+    "penetration": "30",
     "armorDamage": "37",
     "accuracy": "-5",
     "recoil": "",
@@ -841,14 +841,14 @@
     "damage": "51",
     "penetration": "37",
     "armorDamage": "52",
-    "accuracy": "",
+    "accuracy": "-2",
     "recoil": "+4",
     "fragmentation": "33%"
   },
   {
     "name": "5.56x45 mm M855A1",
-    "damage": "44",
-    "penetration": "40",
+    "damage": "45",
+    "penetration": "43",
     "armorDamage": "52",
     "accuracy": "-10",
     "recoil": "",
@@ -856,7 +856,7 @@
   },
   {
     "name": "5.56x45 mm M995",
-    "damage": "41",
+    "damage": "39",
     "penetration": "53",
     "armorDamage": "58",
     "accuracy": "",
@@ -886,8 +886,8 @@
     "damage": "62",
     "penetration": "30",
     "armorDamage": "46",
-    "accuracy": "-2",
-    "recoil": "-5",
+    "accuracy": "-4",
+    "recoil": "-6",
     "fragmentation": "12%"
   },
   {
@@ -949,8 +949,8 @@
     "damage": "79",
     "penetration": "54",
     "armorDamage": "75",
-    "accuracy": "",
-    "recoil": "+5",
+    "accuracy": "-6",
+    "recoil": "-5",
     "fragmentation": "14%"
   },
   {
@@ -967,8 +967,8 @@
     "damage": "82",
     "penetration": "41",
     "armorDamage": "83",
-    "accuracy": "+5",
-    "recoil": "",
+    "accuracy": "-1",
+    "recoil": "-5",
     "fragmentation": "18%"
   },
   {
@@ -994,8 +994,8 @@
     "damage": "78",
     "penetration": "59",
     "armorDamage": "87",
-    "accuracy": "",
-    "recoil": "",
+    "accuracy": "-2",
+    "recoil": "-4",
     "fragmentation": "8%"
   },
   {
