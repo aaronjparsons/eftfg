@@ -15,6 +15,7 @@
     "gridsome": "^0.7.0",
     "leaflet": "^1.6.0",
     "lodash.debounce": "^4.0.8",
+    "lodash.isequal": "^4.5.0",
     "vue-apexcharts": "^1.5.2",
     "vue2-leaflet": "^2.4.2",
     "vuetify": "^2.2.3",
