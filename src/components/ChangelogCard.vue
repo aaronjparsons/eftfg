@@ -25,9 +25,9 @@
           </v-card-title>
           <v-card-text class="mt-4">
             <div v-for="(update, index) in $static.changelogs.edges" :key="index">
-              <h4>
+              <h3>
                 {{ format(update.node.date) }}
-              </h4>
+              </h3>
               <ul>
                 <li v-for="(change,index) in update.node.changes" :key="`${update.node.date}-${index}`">
                   {{ change }}

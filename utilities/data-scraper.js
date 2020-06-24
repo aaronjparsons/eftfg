@@ -1,6 +1,7 @@
 const axios = require("axios")
 const cheerio = require("cheerio")
 const fs = require("fs")
+const isEqual = require('lodash.isequal')
 
 const gameVersionUrl = "https://escapefromtarkov.gamepedia.com/Changelog"
 const ammoDataUrl = "https://escapefromtarkov.gamepedia.com/Ballistics"
@@ -14,7 +15,9 @@ const keys = [
   "fragmentation"
 ]
 
+let currentAmmoData = []
 let ammoData = []
+let ammoChanges = []
 let wikiData = {
   gameVersion: {
     version: null,
@@ -86,27 +89,72 @@ async function getAmmoData() {
   console.log('Ammo data complete')
 }
 
+function logAmmoChanges() {
+  const changes = []
+  for (const item of ammoData) {
+    const comparableItem = currentAmmoData.ammo.find(ammo => ammo.name === item.name)
+
+    if (!isEqual(item, comparableItem)) {
+      const itemChanges = {}
+      for (const key in item) {
+        if (item[key] !== comparableItem[key]) {
+          itemChanges[key] = [comparableItem[key], item[key]]
+        }
+      }
+
+      if (Object.keys(itemChanges).length) {
+        itemChanges.name = item.name
+        changes.push(itemChanges)
+      }
+    }
+  }
+
+  ammoChanges = changes
+}
+
 async function run() {
   console.log('Starting...')
+
+  // Wiki Data
   await getWikiData()
-  await getAmmoData()
-  console.log('Saving files...')
   fs.writeFile(
     "../data/wiki-data.json",
     JSON.stringify(wikiData),
     err => {
-      if (err) throw err;
-      console.log("Wiki data has been saved!");
+      if (err) {
+        throw err
+      } else {
+        console.log("Wiki data has been saved!")
+      }
     }
   )
-  fs.writeFile(
-    "../data/ammo.json",
-    JSON.stringify(ammoData),
-    err => {
-      if (err) throw err;
-      console.log("Ammo data has been saved!");
+
+  // Ammo Data
+  await getAmmoData()
+  fs.readFile("../data/ammo.json", (err, data) => {
+    if (err)  {
+      throw err
+    } else {
+      currentAmmoData = JSON.parse(data)
+      const ammoUpdated = !isEqual(currentAmmoData.ammo, ammoData)
+      console.log(`Ammo has ${ammoUpdated ? '' : 'not '}been updated`)
+
+      if (ammoUpdated) {
+        logAmmoChanges()
+        fs.writeFile(
+          "../data/ammo.json",
+          JSON.stringify({ changes: ammoChanges, ammo: ammoData }),
+          err => {
+            if (err) {
+              throw err
+            } else {
+              console.log("Ammo data has been saved!")
+            }
+          }
+        )
+      }
     }
-  )
+  })
 }
 
 run()

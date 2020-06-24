@@ -127,7 +127,7 @@ module.exports = function (api) {
       typeName: 'Ammo'
     })
 
-    for (const item of ammoData) {
+    for (const item of ammoData.ammo) {
       ammo.addNode({
         name: item.name,
         damage: item.damage,
@@ -136,6 +136,23 @@ module.exports = function (api) {
         accuracy: item.accuracy,
         recoil: item.recoil,
         fragmentation: item.fragmentation
+      })
+    }
+
+    // Add ammo changes data
+    const ammoChanges = actions.addCollection({
+      typeName: 'AmmoChanges'
+    })
+
+    for (const item of ammoData.changes) {
+      ammoChanges.addNode({
+        name: item.name,
+        damage: item.damage || '',
+        penetration: item.penetration || '',
+        armorDamage: item.armorDamage || '',
+        accuracy: item.accuracy || '',
+        recoil: item.recoil || '',
+        fragmentation: item.fragmentation || ''
       })
     }
 

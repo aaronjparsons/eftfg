@@ -131,7 +131,7 @@ export default {
 }
 .caption-text {
   color: #968465 !important;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-family: 'Bender Regular', 'Roboto', 'sans serif';
 }
 

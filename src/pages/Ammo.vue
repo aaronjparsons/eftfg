@@ -9,6 +9,53 @@
         <br/>
         Ammo data updated on
         {{ format($page.wikiData.edges[0].node.ammoUpdated) }}
+        <br/>
+        <v-dialog v-model="ammoChangeDialog" width="750" scrollable>
+          <template v-slot:activator="{ on }">
+            <v-btn text class="ml-4 black--text" color="primary" v-on="on">
+              CLick Here To View Recent Ammo Changes
+            </v-btn>
+          </template>
+          <v-card>
+            <v-card-title class="card-header font-weight-bold" primary-title>
+              Most Recent Ammo Changes
+            </v-card-title>
+            <v-card-text class="mt-4">
+              <div v-for="(ammo, index) in $page.ammoChanges.edges" :key="index">
+                <h3>
+                  {{ ammo.node.name }}
+                </h3>
+                <ul>
+                  <div v-if="ammo.node.damage.length">
+                    {{ `Damage: ${ammo.node.damage[0]}` }} <v-icon size="medium">mdi-arrow-right</v-icon> {{ ammo.node.damage[1] }}
+                  </div>
+                  <div v-if="ammo.node.penetration.length">
+                    {{ `Penetration: ${ammo.node.penetration[0]}` }} <v-icon size="medium">mdi-arrow-right</v-icon> {{ ammo.node.penetration[1] }}
+                  </div>
+                  <div v-if="ammo.node.armorDamage.length">
+                    {{ `Armor Damage (%): ${ammo.node.armorDamage[0]}` }} <v-icon size="medium">mdi-arrow-right</v-icon> {{ ammo.node.armorDamage[1] }}
+                  </div>
+                  <div v-if="ammo.node.accuracy.length">
+                    {{ `Accuracy: ${ammo.node.accuracy[0]}` }} <v-icon size="medium">mdi-arrow-right</v-icon> {{ ammo.node.accuracy[1] }}
+                  </div>
+                  <div v-if="ammo.node.recoil.length">
+                    {{ `Recoil: ${ammo.node.recoil[0]}` }} <v-icon size="medium">mdi-arrow-right</v-icon> {{ ammo.node.recoil[1] }}
+                  </div>
+                  <div v-if="ammo.node.fragmentation.length">
+                    {{ `Fragmentation: ${ammo.node.fragmentation[0]}` }} <v-icon size="medium">mdi-arrow-right</v-icon> {{ ammo.node.fragmentation[1] }}
+                  </div>
+                </ul>
+              </div>
+            </v-card-text>
+            <v-divider />
+            <v-card-actions>
+              <v-spacer></v-spacer>
+              <v-btn color="primary" text @click="ammoChangeDialog = false">
+                Close
+              </v-btn>
+            </v-card-actions>
+          </v-card>
+        </v-dialog>
       </p>
     </v-row>
     <v-divider class="mx-8 mb-4" />
@@ -57,6 +104,19 @@ query {
     }
   },
   ammo: allAmmo {
+    edges {
+      node {
+        name,
+        damage,
+        penetration,
+        armorDamage,
+        accuracy,
+        recoil,
+        fragmentation
+      }
+    }
+  },
+  ammoChanges: allAmmoChanges {
     edges {
       node {
         name,
@@ -139,7 +199,8 @@ export default {
 
   data() {
     return {
-      activeView: 'sheet'
+      activeView: 'sheet',
+      ammoChangeDialog: false
     }
   },
 

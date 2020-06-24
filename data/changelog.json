@@ -1,5 +1,16 @@
 [
   {
+    "date": "2020/06/24",
+    "summary": [
+      "Updated ammo values",
+      "Added ability to view detailed ammo value changes when there have been updates to ammo"
+    ],
+    "changes": [
+      "Ammo data was updated, changes to .366",
+      "You can now view exactly what ammo data has been changed when ammo gets updated. See the 'CLICK HERE TO VIEW RECENT AMMO CHANGES' button on the Ammo page"
+    ]
+  },
+  {
     "date": "2020/06/16",
     "summary": [
       "Updated Task and Hideout required items list"
