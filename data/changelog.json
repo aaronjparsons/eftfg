@@ -1,13 +1,15 @@
 [
   {
-    "date": "2020/06/24",
+    "date": "2020/06/25",
     "summary": [
       "Updated ammo values",
-      "Added ability to view detailed ammo value changes when there have been updates to ammo"
+      "Added ability to view detailed ammo value changes when there have been updates to ammo",
+      "Added toggle switch on ammo chart to show or hide all calibers"
     ],
     "changes": [
       "Ammo data was updated, changes to .366",
-      "You can now view exactly what ammo data has been changed when ammo gets updated. See the 'CLICK HERE TO VIEW RECENT AMMO CHANGES' button on the Ammo page"
+      "You can now view exactly what ammo data has been changed when ammo gets updated. See the 'CLICK HERE TO VIEW RECENT AMMO CHANGES' button on the Ammo page",
+      "Toggling the 'Show All Calibers' switch on the ammo chart will show or hide all ammo on the chart, so you can easily hide everything and select only the caliber you want."
     ]
   },
   {
