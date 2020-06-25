@@ -1,7 +1,7 @@
 <template>
   <v-card class="pa-2">
     <v-row>
-      <v-col>
+      <v-col cols="12" sm="4">
         <v-row justify="center">
           <v-switch
             v-model="armorBreakpoints"
@@ -9,7 +9,7 @@
             color="primary"
           />
         </v-row>
-      </v-col>
+      </v-col cols="12" sm="4">
       <v-col>
         <v-row justify="center">
           <v-switch
@@ -19,10 +19,27 @@
           />
         </v-row>
       </v-col>
+      <v-col cols="12" sm="4">
+        <v-row justify="center">
+          <v-switch
+            v-model="toggleAll"
+            label="Show All Calibers"
+            color="primary"
+          />
+        </v-row>
+      </v-col>
     </v-row>
     <div>
-      <ApexChart type="scatter" :options="apexOptions" :series="apexData"></ApexChart>
+      <ApexChart ref="chart" type="scatter" :options="apexOptions" :series="apexData"></ApexChart>
     </div>
+    <v-overlay absolute :value="chartLoading" color="#000000">
+      <v-row justify="center">
+        <h2>Loading...</h2>
+      </v-row>
+      <v-row justify="center">
+        <v-icon class="icon-spinner" size="x-large">mdi-loading</v-icon>
+      </v-row>
+    </v-overlay>
   </v-card>
 </template>
 
@@ -37,8 +54,10 @@ export default {
 
   data() {
     return {
+      chartLoading: false,
       armorBreakpoints: false,
       healthBreakpoints: false,
+      toggleAll: true,
       colors: [
         '#0165fc',
         '#fea051',
@@ -247,42 +266,34 @@ export default {
     apexData() {
       let index = 0
       const datasets = []
-      let currentObject = {
-        name: '',
-        data: []
-      }
+
       for (const ammo of this.data) {
         const name = ammo.name.split(' ')[0]
-        if (currentObject.name === '') {
-          currentObject.name = name
-        }
-        if (currentObject.name !== name) {
-          datasets.push(currentObject)
-          index++
-          currentObject = {
+        let index = datasets.findIndex(item => item.name === name)
+
+        if (index === -1) {
+          datasets.push({
             name: name,
             data: []
-          }
+          })
+          index = datasets.length - 1
         }
+
         if (ammo.damage.includes('x')) {
-          currentObject.data.push({
+          datasets[index].data.push({
             x: parseInt(ammo.damage.split('x')[1]),
             y: parseInt(ammo.penetration),
             title: `${ammo.name} (Per Pellet)`
           })
         } else {
-          currentObject.data.push({
+          datasets[index].data.push({
             x: parseInt(ammo.damage),
             y: parseInt(ammo.penetration),
             title: ammo.name
           })
         }
       }
-      if (
-        currentObject.name === this.chartLabels[this.chartLabels.length - 1]
-      ) {
-        datasets.push(currentObject)
-      }
+
       return datasets
     },
     chartLabels() {
@@ -294,6 +305,18 @@ export default {
         }
       }
       return labels
+    }
+  },
+
+  watch: {
+    toggleAll: function(bool) {
+      this.chartLoading = true
+      setTimeout(() => {
+        for (const item of this.apexData) {
+          bool ? this.$refs.chart.showSeries(item.name) : this.$refs.chart.hideSeries(item.name)
+        }
+        this.chartLoading = false
+      }, 25)
     }
   }
 }
@@ -310,5 +333,14 @@ export default {
 }
 .tooltip-body {
   padding: 10px;
+}
+.icon-spinner {
+  animation:rotate 1s  infinite;
+  animation-timing-function: cubic-bezier(1,0, .5,1);
+}
+
+@keyframes rotate {
+  from { -webkit-transform: rotate(0deg) }
+  to { -webkit-transform: rotate(360deg) }
 }
 </style>
