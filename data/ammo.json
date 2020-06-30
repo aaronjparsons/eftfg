@@ -1,33 +1,18 @@
 {
   "changes": [
     {
-      "damage": [
-        "102",
-        "110"
-      ],
-      "name": ".366 TKM Geksa"
-    },
-    {
-      "damage": [
-        "93",
-        "98"
-      ],
-      "armorDamage": [
-        "41",
-        "48"
-      ],
-      "name": ".366 TKM FMJ"
-    },
-    {
-      "damage": [
-        "68",
-        "73"
-      ],
-      "armorDamage": [
-        "30",
-        "40"
+      "recoil": [
+        "0",
+        "-15"
       ],
       "name": ".366 TKM EKO"
+    },
+    {
+      "damage": [
+        "39",
+        "40"
+      ],
+      "name": "5.56x45 mm M995"
     }
   ],
   "ammo": [
@@ -703,7 +688,7 @@
       "penetration": "30",
       "armorDamage": "40",
       "accuracy": "-10",
-      "recoil": "",
+      "recoil": "-15",
       "fragmentation": "20%"
     },
     {
@@ -888,7 +873,7 @@
     },
     {
       "name": "5.56x45 mm M995",
-      "damage": "39",
+      "damage": "40",
       "penetration": "53",
       "armorDamage": "58",
       "accuracy": "",

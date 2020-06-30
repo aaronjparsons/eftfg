@@ -1,5 +1,19 @@
 [
   {
+    "date": "2020/06/30",
+    "summary": [
+      "Updated Reserve map, added underground area",
+      "Added 2 new Reserve keys",
+      "Added new Reserve extract",
+      "Updated ammo"
+    ],
+    "changes": [
+      "Reserve map was updated with the new underground area",
+      "Added the key use locations for the 3 new reserve keys",
+      "Added the new Reserve extract location"
+    ]
+  },
+  {
     "date": "2020/06/25",
     "summary": [
       "Updated ammo values",
