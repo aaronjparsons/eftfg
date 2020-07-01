@@ -1,18 +1,44 @@
 {
   "changes": [
     {
-      "recoil": [
-        "0",
-        "-15"
+      "penetration": [
+        "13",
+        "18"
       ],
-      "name": ".366 TKM EKO"
+      "name": "4.6x30mm Action SX"
     },
     {
       "damage": [
-        "39",
+        "41",
+        "45"
+      ],
+      "penetration": [
+        "34",
+        "36"
+      ],
+      "accuracy": [
+        "0",
+        "+10"
+      ],
+      "recoil": [
+        "-20",
+        "-22"
+      ],
+      "name": "4.6x30mm Subsonic SX"
+    },
+    {
+      "penetration": [
+        "30",
         "40"
       ],
-      "name": "5.56x45 mm M995"
+      "name": "4.6x30mm FMJ SX"
+    },
+    {
+      "penetration": [
+        "47",
+        "53"
+      ],
+      "name": "4.6x30mm AP SX"
     }
   ],
   "ammo": [
@@ -595,34 +621,34 @@
     {
       "name": "4.6x30mm Action SX",
       "damage": "65",
-      "penetration": "13",
+      "penetration": "18",
       "armorDamage": "39",
       "accuracy": "",
       "recoil": "",
       "fragmentation": "50%"
     },
     {
+      "name": "4.6x30mm Subsonic SX",
+      "damage": "45",
+      "penetration": "36",
+      "armorDamage": "46",
+      "accuracy": "+10",
+      "recoil": "-22",
+      "fragmentation": "20%"
+    },
+    {
       "name": "4.6x30mm FMJ SX",
       "damage": "43",
-      "penetration": "30",
+      "penetration": "40",
       "armorDamage": "41",
       "accuracy": "",
       "recoil": "",
       "fragmentation": "20%"
     },
     {
-      "name": "4.6x30mm Subsonic SX",
-      "damage": "41",
-      "penetration": "34",
-      "armorDamage": "46",
-      "accuracy": "",
-      "recoil": "-20",
-      "fragmentation": "20%"
-    },
-    {
       "name": "4.6x30mm AP SX",
       "damage": "35",
-      "penetration": "47",
+      "penetration": "53",
       "armorDamage": "46",
       "accuracy": "",
       "recoil": "+10",
