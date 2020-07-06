@@ -1,50 +1,188 @@
 {
   "changes": [
     {
-      "penetration": [
-        "13",
-        "18"
+      "damage": [
+        "8x34",
+        "8x37"
       ],
-      "name": "4.6x30mm Action SX"
+      "name": "12x70 5.25mm Buckshot"
     },
     {
       "damage": [
-        "41",
-        "45"
+        "8x44",
+        "8x50"
+      ],
+      "name": "12x70 8.5 mm \"Magnum\" Buckshot"
+    },
+    {
+      "damage": [
+        "8x32",
+        "8x39"
+      ],
+      "name": "12x70 7mm Buckshot"
+    },
+    {
+      "damage": [
+        "8x19",
+        "8x25"
       ],
       "penetration": [
-        "34",
-        "36"
+        "28",
+        "31"
+      ],
+      "name": "12x70 Flechette"
+    },
+    {
+      "damage": [
+        "235",
+        "265"
+      ],
+      "name": "12x70 RIP"
+    },
+    {
+      "damage": [
+        "190",
+        "220"
       ],
       "accuracy": [
-        "0",
-        "+10"
+        "+140",
+        "+170"
+      ],
+      "name": "12x70 HP Slug \"SuperFormance\""
+    },
+    {
+      "damage": [
+        "170",
+        "190"
+      ],
+      "name": "12x70 Grizzly 40 Slug"
+    },
+    {
+      "damage": [
+        "160",
+        "206"
+      ],
+      "penetration": [
+        "13",
+        "14"
+      ],
+      "name": "12x70 HP Slug Copper Sabot Premier"
+    },
+    {
+      "damage": [
+        "147",
+        "167"
+      ],
+      "armorDamage": [
+        "45",
+        "55"
+      ],
+      "accuracy": [
+        "+100",
+        "+120"
+      ],
+      "name": "12x70 Led slug"
+    },
+    {
+      "damage": [
+        "153",
+        "183"
+      ],
+      "penetration": [
+        "18",
+        "20"
+      ],
+      "accuracy": [
+        "+115",
+        "+135"
+      ],
+      "name": "12x70 FTX Custom LIte Slug"
+    },
+    {
+      "penetration": [
+        "32",
+        "37"
+      ],
+      "name": "12x70 AP-20 Slug"
+    },
+    {
+      "damage": [
+        "8x25",
+        "8x26"
+      ],
+      "name": "20x70 5.6mm Buckshot"
+    },
+    {
+      "damage": [
+        "8x21",
+        "8x22"
+      ],
+      "name": "20x70 6.2mm Buckshot"
+    },
+    {
+      "damage": [
+        "8x24",
+        "8x25"
+      ],
+      "name": "20x70 7.5mm Buckshot"
+    },
+    {
+      "damage": [
+        "188",
+        "198"
+      ],
+      "penetration": [
+        "4",
+        "5"
+      ],
+      "accuracy": [
+        "+115",
+        "+125"
+      ],
+      "name": "20x70 Devastator Slug"
+    },
+    {
+      "damage": [
+        "110",
+        "120"
+      ],
+      "accuracy": [
+        "+90",
+        "+110"
+      ],
+      "name": "20x70 Slug \"Poleva-3\""
+    },
+    {
+      "damage": [
+        "134",
+        "154"
+      ],
+      "accuracy": [
+        "+100",
+        "+130"
       ],
       "recoil": [
-        "-20",
-        "-22"
+        "0",
+        "+5"
       ],
-      "name": "4.6x30mm Subsonic SX"
+      "name": "20x70 Star Slug"
     },
     {
-      "penetration": [
-        "30",
-        "40"
+      "damage": [
+        "120",
+        "135"
       ],
-      "name": "4.6x30mm FMJ SX"
-    },
-    {
-      "penetration": [
-        "47",
-        "53"
+      "accuracy": [
+        "+95",
+        "+110"
       ],
-      "name": "4.6x30mm AP SX"
+      "name": "20x70 Slug Poleva-6u"
     }
   ],
   "ammo": [
     {
       "name": "12x70 5.25mm Buckshot",
-      "damage": "8x34",
+      "damage": "8x37",
       "penetration": "1",
       "armorDamage": "15",
       "accuracy": "",
@@ -53,7 +191,7 @@
     },
     {
       "name": "12x70 8.5 mm \"Magnum\" Buckshot",
-      "damage": "8x44",
+      "damage": "8x50",
       "penetration": "2",
       "armorDamage": "26",
       "accuracy": "-15",
@@ -71,7 +209,7 @@
     },
     {
       "name": "12x70 7mm Buckshot",
-      "damage": "8x32",
+      "damage": "8x39",
       "penetration": "3",
       "armorDamage": "26",
       "accuracy": "",
@@ -80,8 +218,8 @@
     },
     {
       "name": "12x70 Flechette",
-      "damage": "8x19",
-      "penetration": "28",
+      "damage": "8x25",
+      "penetration": "31",
       "armorDamage": "26",
       "accuracy": "-25",
       "recoil": "",
@@ -89,7 +227,7 @@
     },
     {
       "name": "12x70 RIP",
-      "damage": "235",
+      "damage": "265",
       "penetration": "0",
       "armorDamage": "11",
       "accuracy": "+80",
@@ -98,16 +236,16 @@
     },
     {
       "name": "12x70 HP Slug \"SuperFormance\"",
-      "damage": "190",
+      "damage": "220",
       "penetration": "2",
       "armorDamage": "12",
-      "accuracy": "+140",
+      "accuracy": "+170",
       "recoil": "-15",
       "fragmentation": "39%"
     },
     {
       "name": "12x70 Grizzly 40 Slug",
-      "damage": "170",
+      "damage": "190",
       "penetration": "12",
       "armorDamage": "48",
       "accuracy": "+80",
@@ -116,8 +254,8 @@
     },
     {
       "name": "12x70 HP Slug Copper Sabot Premier",
-      "damage": "160",
-      "penetration": "13",
+      "damage": "206",
+      "penetration": "14",
       "armorDamage": "46",
       "accuracy": "+150",
       "recoil": "+10",
@@ -125,10 +263,10 @@
     },
     {
       "name": "12x70 Led slug",
-      "damage": "147",
+      "damage": "167",
       "penetration": "15",
-      "armorDamage": "45",
-      "accuracy": "+100",
+      "armorDamage": "55",
+      "accuracy": "+120",
       "recoil": "",
       "fragmentation": "20%"
     },
@@ -152,10 +290,10 @@
     },
     {
       "name": "12x70 FTX Custom LIte Slug",
-      "damage": "153",
-      "penetration": "18",
+      "damage": "183",
+      "penetration": "20",
       "armorDamage": "50",
-      "accuracy": "+115",
+      "accuracy": "+135",
       "recoil": "",
       "fragmentation": "10%"
     },
@@ -180,7 +318,7 @@
     {
       "name": "12x70 AP-20 Slug",
       "damage": "164",
-      "penetration": "32",
+      "penetration": "37",
       "armorDamage": "65",
       "accuracy": "+125",
       "recoil": "+50",
@@ -188,7 +326,7 @@
     },
     {
       "name": "20x70 5.6mm Buckshot",
-      "damage": "8x25",
+      "damage": "8x26",
       "penetration": "1",
       "armorDamage": "12",
       "accuracy": "-10",
@@ -197,7 +335,7 @@
     },
     {
       "name": "20x70 6.2mm Buckshot",
-      "damage": "8x21",
+      "damage": "8x22",
       "penetration": "2",
       "armorDamage": "13",
       "accuracy": "",
@@ -206,7 +344,7 @@
     },
     {
       "name": "20x70 7.5mm Buckshot",
-      "damage": "8x24",
+      "damage": "8x25",
       "penetration": "3",
       "armorDamage": "14",
       "accuracy": "",
@@ -224,37 +362,37 @@
     },
     {
       "name": "20x70 Devastator Slug",
-      "damage": "188",
-      "penetration": "4",
+      "damage": "198",
+      "penetration": "5",
       "armorDamage": "13",
-      "accuracy": "+115",
+      "accuracy": "+125",
       "recoil": "+30",
       "fragmentation": "100%"
     },
     {
       "name": "20x70 Slug \"Poleva-3\"",
-      "damage": "110",
+      "damage": "120",
       "penetration": "14",
       "armorDamage": "35",
-      "accuracy": "+90",
+      "accuracy": "+110",
       "recoil": "-15",
       "fragmentation": "20%"
     },
     {
       "name": "20x70 Star Slug",
-      "damage": "134",
+      "damage": "154",
       "penetration": "16",
       "armorDamage": "42",
-      "accuracy": "+100",
-      "recoil": "",
+      "accuracy": "+130",
+      "recoil": "+5",
       "fragmentation": "10%"
     },
     {
       "name": "20x70 Slug Poleva-6u",
-      "damage": "120",
+      "damage": "135",
       "penetration": "17",
       "armorDamage": "40",
-      "accuracy": "+95",
+      "accuracy": "+110",
       "recoil": "-10",
       "fragmentation": "15%"
     },
