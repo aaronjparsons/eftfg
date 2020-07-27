@@ -1,5 +1,18 @@
 [
   {
+    "date": "2020/07/25",
+    "summary": [
+      "Updated ammo, several new rounds were added",
+      "Added 2 new keys",
+      "Updated thorax health to 85 on scatter plot breakpoints"
+    ],
+    "changes": [
+      "New ammo: 9x19 mm QuakeMaker, 9x19 mm 7N31, .45 ACP Hydr-Shock, .45 ACP Lasermatch FMJ, .45 ACP AP, .366 AP, 7.62x51 mm M993",
+      "Added new keys that are found on the Shoreline scav boss Sanitar: Key Card With a Strip of Duct Tape & Key With Tape",
+      "Thorax health was changed from 80 to 85"
+    ]
+  },
+  {
     "date": "2020/06/30",
     "summary": [
       "Updated Reserve map, added underground area",

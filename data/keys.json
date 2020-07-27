@@ -3694,5 +3694,84 @@
         "video": ""
       }
     ]
+  },
+  {
+    "type": "key",
+    "label": "Key Card With a Strip of Duct Tape",
+    "maps": [
+      "Shoreline",
+      "Labs"
+    ],
+    "spawns": [
+      {
+        "map": "Shoreline",
+        "marker": "-191.5139784129274,72.28125",
+        "notes": "Found on the Shoreline scav boss, Sanitar.",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-239.45522876863544,77.40625",
+        "notes": "Found on the Shoreline scav boss, Sanitar.",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-209.9529208574305,41.21875",
+        "notes": "Found on the Shoreline scav boss, Sanitar.",
+        "image": "",
+        "video": ""
+      }
+    ],
+    "unlocks": [
+      {
+        "map": "Labs",
+        "marker": "-241.78851547125836,28.765625",
+        "notes": "Opens the room across the hall from G22 on the second floor.",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "key",
+    "label": "Key With Tape",
+    "maps": [
+      "Shoreline"
+    ],
+    "spawns": [
+      {
+        "map": "Shoreline",
+        "marker": "-191.5139784129274,72.78125",
+        "notes": "Found on the Shoreline scav boss, Sanitar.",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-239.45522876863544,77.90625",
+        "notes": "Found on the Shoreline scav boss, Sanitar.",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-209.9529208574305,41.71875",
+        "notes": "Found on the Shoreline scav boss, Sanitar.",
+        "image": "",
+        "video": ""
+      }
+    ],
+    "unlocks": [
+      {
+        "map": "Shoreline",
+        "marker": "-191.97570253414582,77.796875",
+        "notes": "Unlocks room 110 of the East wing in the Health Resort on Shoreline",
+        "image": "",
+        "video": ""
+      }
+    ]
   }
 ]

@@ -168,7 +168,7 @@ export default {
           }
         },
         {
-          x: 80,
+          x: 85,
           borderColor: '#ffffff',
           label: {
             borderColor: '#ffffff',
