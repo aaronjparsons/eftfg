@@ -213,7 +213,7 @@ export default {
         },
         colors: this.colors,
         title: {
-          text: 'Hover calibre to highlight, click to hide',
+          text: 'Hover calibre to highlight, click to show/hide',
           align: 'centre'
         },
         legend: {
