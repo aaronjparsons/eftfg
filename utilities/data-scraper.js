@@ -33,7 +33,7 @@ async function getWikiData() {
   const content = $(".mw-parser-output")
   const versionText = content
     .find("h2 > .mw-headline")
-    .first()
+    .eq(1)
     .text()
     .split(" ")
 
@@ -94,7 +94,7 @@ function logAmmoChanges() {
   for (const item of ammoData) {
     const comparableItem = currentAmmoData.ammo.find(ammo => ammo.name === item.name)
 
-    if (!isEqual(item, comparableItem)) {
+    if (comparableItem && !isEqual(item, comparableItem)) {
       const itemChanges = {}
       for (const key in item) {
         if (item[key] !== comparableItem[key]) {

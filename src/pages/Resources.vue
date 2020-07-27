@@ -189,11 +189,11 @@ export default {
           link: "http://www.gamemaps.co.uk/game/tarkov/"
         },
         {
-          title: "EFT Loot",
+          title: "Tarkov Market",
           features: [
-            "Up to date flea market prices for items."
+            "Flea market price monitoring"
           ],
-          link: "https://eft-loot.com/"
+          link: "https://tarkov-market.com/"
         },
         {
           title: "EFT Developer Tracker",

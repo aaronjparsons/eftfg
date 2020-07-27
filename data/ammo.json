@@ -1,65 +1,25 @@
 {
   "changes": [
     {
-      "damage": [
-        "9x29",
-        "9x35"
-      ],
-      "name": "12x70 6.5 mm \"Express\" Buckshot"
+      "name": "9x19 mm QuakeMaker *NEW*"
     },
     {
-      "damage": [
-        "130",
-        "140"
-      ],
-      "accuracy": [
-        "+90",
-        "+110"
-      ],
-      "name": "12x70 \"Poleva-3\" Slug"
+      "name": "9x19 mm 7N31 *NEW*"
     },
     {
-      "damage": [
-        "2x75",
-        "2x85"
-      ],
-      "name": "12x70 Dual Sabot Slug"
+      "name": ".45 ACP Hydr-Shock *NEW*"
     },
     {
-      "damage": [
-        "140",
-        "150"
-      ],
-      "accuracy": [
-        "+95",
-        "+115"
-      ],
-      "name": "12x70 \"Poleva-6u\" Slug"
+      "name": ".45 ACP Lasermatch FMJ *NEW*"
     },
     {
-      "damage": [
-        "177",
-        "197"
-      ],
-      "penetration": [
-        "23",
-        "26"
-      ],
-      "name": "12x70 shell with .50 BMG bullet"
+      "name": ".45 ACP AP *NEW*"
     },
     {
-      "damage": [
-        "9x22",
-        "9x23"
-      ],
-      "name": "20x70 7.3mm Buckshot"
+      "name": ".366 AP *NEW*"
     },
     {
-      "recoil": [
-        "0",
-        "-25"
-      ],
-      "name": "5.45x39 mm US"
+      "name": "7.62x51 mm M993 *NEW*"
     }
   ],
   "ammo": [
@@ -478,6 +438,15 @@
       "fragmentation": "100%"
     },
     {
+      "name": "9x19 mm QuakeMaker",
+      "damage": "85",
+      "penetration": "8",
+      "armorDamage": "22",
+      "accuracy": "+10",
+      "recoil": "+10",
+      "fragmentation": "10%"
+    },
+    {
       "name": "9x19 mm PSO gzh",
       "damage": "59",
       "penetration": "10",
@@ -523,6 +492,15 @@
       "fragmentation": "5%"
     },
     {
+      "name": "9x19 mm 7N31",
+      "damage": "52",
+      "penetration": "39",
+      "armorDamage": "53",
+      "accuracy": "+15",
+      "recoil": "+15",
+      "fragmentation": "5%"
+    },
+    {
       "name": ".45 RIP",
       "damage": "127",
       "penetration": "3",
@@ -532,12 +510,39 @@
       "fragmentation": "100%"
     },
     {
+      "name": ".45 ACP Hydr-Shock",
+      "damage": "95",
+      "penetration": "13",
+      "armorDamage": "30",
+      "accuracy": "",
+      "recoil": "",
+      "fragmentation": "50%"
+    },
+    {
+      "name": ".45 ACP Lasermatch FMJ",
+      "damage": "74",
+      "penetration": "18",
+      "armorDamage": "37",
+      "accuracy": "",
+      "recoil": "",
+      "fragmentation": "1%"
+    },
+    {
       "name": ".45 ACP FMJ",
       "damage": "72",
       "penetration": "19",
       "armorDamage": "36",
       "accuracy": "",
       "recoil": "",
+      "fragmentation": "1%"
+    },
+    {
+      "name": ".45 ACP AP",
+      "damage": "70",
+      "penetration": "36",
+      "armorDamage": "43",
+      "accuracy": "-5",
+      "recoil": "-20",
       "fragmentation": "1%"
     },
     {
@@ -737,6 +742,15 @@
       "accuracy": "-10",
       "recoil": "-15",
       "fragmentation": "20%"
+    },
+    {
+      "name": ".366 AP",
+      "damage": "90",
+      "penetration": "42",
+      "armorDamage": "60",
+      "accuracy": "-17",
+      "recoil": "+25",
+      "fragmentation": "1%"
     },
     {
       "name": "5.45x39 mm SP",
@@ -1024,6 +1038,15 @@
       "armorDamage": "83",
       "accuracy": "+3",
       "recoil": "+10",
+      "fragmentation": "13%"
+    },
+    {
+      "name": "7.62x51 mm M993",
+      "damage": "67",
+      "penetration": "70",
+      "armorDamage": "85",
+      "accuracy": "+3",
+      "recoil": "+8",
       "fragmentation": "13%"
     },
     {
