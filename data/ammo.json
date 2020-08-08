@@ -1,25 +1,29 @@
 {
   "changes": [
     {
-      "name": "9x19 mm QuakeMaker *NEW*"
+      "recoil": [
+        "-20",
+        "+20"
+      ],
+      "name": ".45 ACP AP"
     },
     {
-      "name": "9x19 mm 7N31 *NEW*"
+      "accuracy": [
+        "+3",
+        "+5"
+      ],
+      "name": "7.62x51 mm M993"
     },
     {
-      "name": ".45 ACP Hydr-Shock *NEW*"
-    },
-    {
-      "name": ".45 ACP Lasermatch FMJ *NEW*"
-    },
-    {
-      "name": ".45 ACP AP *NEW*"
-    },
-    {
-      "name": ".366 AP *NEW*"
-    },
-    {
-      "name": "7.62x51 mm M993 *NEW*"
+      "accuracy": [
+        "-17",
+        "-28"
+      ],
+      "recoil": [
+        "+25",
+        "+35"
+      ],
+      "name": ".366 TKM AP"
     }
   ],
   "ammo": [
@@ -510,7 +514,7 @@
       "fragmentation": "100%"
     },
     {
-      "name": ".45 ACP Hydr-Shock",
+      "name": ".45 ACP Hydra-Shok",
       "damage": "95",
       "penetration": "13",
       "armorDamage": "30",
@@ -542,7 +546,7 @@
       "penetration": "36",
       "armorDamage": "43",
       "accuracy": "-5",
-      "recoil": "-20",
+      "recoil": "+20",
       "fragmentation": "1%"
     },
     {
@@ -744,12 +748,12 @@
       "fragmentation": "20%"
     },
     {
-      "name": ".366 AP",
+      "name": ".366 TKM AP",
       "damage": "90",
       "penetration": "42",
       "armorDamage": "60",
-      "accuracy": "-17",
-      "recoil": "+25",
+      "accuracy": "-28",
+      "recoil": "+35",
       "fragmentation": "1%"
     },
     {
@@ -1045,7 +1049,7 @@
       "damage": "67",
       "penetration": "70",
       "armorDamage": "85",
-      "accuracy": "+3",
+      "accuracy": "+5",
       "recoil": "+8",
       "fragmentation": "13%"
     },
@@ -1129,6 +1133,15 @@
       "accuracy": "",
       "recoil": "+15",
       "fragmentation": "30%"
+    },
+    {
+      "name": "40x46 mm M576",
+      "damage": "15x121",
+      "penetration": "5",
+      "armorDamage": "95",
+      "accuracy": "",
+      "recoil": "",
+      "fragmentation": "0%"
     },
     {
       "name": "30x29 mm VOG-30",
