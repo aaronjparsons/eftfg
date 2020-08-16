@@ -1,29 +1,11 @@
 {
   "changes": [
     {
-      "recoil": [
-        "-20",
-        "+20"
+      "damage": [
+        "15x121",
+        "15x140"
       ],
-      "name": ".45 ACP AP"
-    },
-    {
-      "accuracy": [
-        "+3",
-        "+5"
-      ],
-      "name": "7.62x51 mm M993"
-    },
-    {
-      "accuracy": [
-        "-17",
-        "-28"
-      ],
-      "recoil": [
-        "+25",
-        "+35"
-      ],
-      "name": ".366 TKM AP"
+      "name": "40x46 mm M576"
     }
   ],
   "ammo": [
@@ -1136,7 +1118,7 @@
     },
     {
       "name": "40x46 mm M576",
-      "damage": "15x121",
+      "damage": "15x140",
       "penetration": "5",
       "armorDamage": "95",
       "accuracy": "",
