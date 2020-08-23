@@ -161,6 +161,16 @@
   },
   {
     "type": "extract",
+    "label": "ZB-013",
+    "map": "Customs",
+    "marker": [-223.62406880496638,62.5],
+    "description": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1598215933/zb_1013.jpg",
+    "extractType": "PMC",
+    "extractNotes": "Always Open. Requires the Factory Key, and power to be turned on (located in Warehouse 4)."
+  },
+  {
+    "type": "extract",
     "label": "ZB-1012",
     "map": "Customs",
     "marker": [-222.36237980769232, 86.1072998046875],
@@ -805,7 +815,7 @@
     "map": "Reserve",
     "marker": [-215.00839008900653,226.6875],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1598215941/d-2.jpg",
     "extractType": "PMC",
     "extractNotes": "Always Open. Power must be turned on first (found in the Underground area)"
   },

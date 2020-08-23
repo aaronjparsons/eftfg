@@ -1,5 +1,16 @@
 [
   {
+    "date": "2020/08/23",
+    "summary": [
+      "Added ZB-013 extract on Customs",
+      "Added screenshot for D-2 extract"
+    ],
+    "changes": [
+      "Added ZB-013 extract on Customs",
+      "Added screenshot for D-2 extract"
+    ]
+  },
+  {
     "date": "2020/07/25",
     "summary": [
       "Updated ammo, several new rounds were added",
