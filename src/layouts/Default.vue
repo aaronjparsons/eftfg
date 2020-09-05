@@ -53,6 +53,16 @@
     <v-content>
       <v-container :style="{ 'max-width': '1185px' }">
         <slot />
+        <div>
+          <ins
+            class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-2143532549719007"
+            data-ad-slot="1581579401"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
+        </div>
       </v-container>
     </v-content>
   </v-app>
@@ -102,6 +112,10 @@ export default {
 
   created() {
     this.$vuetify.theme.dark = this.isDarkMode
+  },
+
+  mounted() {
+    (window.adsbygoogle = window.adsbygoogle || []).push({})
   },
 
   computed: {
