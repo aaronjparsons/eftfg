@@ -39,6 +39,12 @@ export default function (Vue, { head, appOptions }) {
     href: 'https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css'
   })
 
+  head.script.push({
+    'data-ad-client': 'ca-pub-2143532549719007',
+    async: true,
+    src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
+  })
+
   // Vuetify
   const opts = {
     theme: {
