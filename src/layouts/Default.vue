@@ -55,14 +55,11 @@
     <v-content>
       <v-container :style="{ 'max-width': '1185px' }">
         <slot />
-        <div>
+        <div :style="{ 'padding': '10px 0' }">
           <ins
-            class="adsbygoogle"
-            style="display:block"
+            style="display:inline-block;width:728px;height:90px"
             data-ad-client="ca-pub-2143532549719007"
             data-ad-slot="1581579401"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
           ></ins>
         </div>
       </v-container>
