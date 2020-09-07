@@ -57,6 +57,7 @@
         <slot />
         <div :style="{ 'padding': '10px 0' }">
           <ins
+            class="adsbygoogle"
             style="display:inline-block;width:728px;height:90px"
             data-ad-client="ca-pub-2143532549719007"
             data-ad-slot="1581579401"
