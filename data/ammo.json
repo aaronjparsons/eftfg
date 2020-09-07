@@ -1,13 +1,7 @@
 {
-  "changes": [
-    {
-      "damage": [
-        "15x121",
-        "15x140"
-      ],
-      "name": "40x46 mm M576"
-    }
-  ],
+  "changes": [{
+    "name": "No changes since last update"
+  }],
   "ammo": [
     {
       "name": "12x70 5.25mm Buckshot",
@@ -730,7 +724,7 @@
       "fragmentation": "20%"
     },
     {
-      "name": ".366 TKM AP",
+      "name": ".366 AP",
       "damage": "90",
       "penetration": "42",
       "armorDamage": "60",
