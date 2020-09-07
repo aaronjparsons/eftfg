@@ -55,7 +55,7 @@
     <v-content>
       <v-container :style="{ 'max-width': '1185px' }">
         <slot />
-        <div :style="{ 'padding': '10px 0' }">
+        <div class="ins-container">
           <ins
             class="adsbygoogle"
             style="display:inline-block;width:728px;height:90px"
@@ -172,6 +172,11 @@ export default {
   color: #968465;
   font-family: 'Bender Bold', 'Roboto', 'sans serif';
   font-size: 1.75rem !important;
+}
+.ins-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
 }
 
 .bmc-button img {
