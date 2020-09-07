@@ -18,6 +18,7 @@
           </v-list-item-content>
         </v-list-item>
       </v-list>
+      <!--
       <template v-slot:append>
         <v-row class="pb-4" justify="center">
           <a
@@ -37,6 +38,7 @@
           </a>
         </v-row>
       </template>
+      -->
     </v-navigation-drawer>
 
     <v-app-bar app clipped-left color="black">
