@@ -52,7 +52,7 @@
       </div>
     </v-app-bar>
 
-    <v-content>
+    <v-main>
       <v-container :style="{ 'max-width': '1185px' }">
         <slot />
         <div class="ins-container">
@@ -64,7 +64,7 @@
           ></ins>
         </div>
       </v-container>
-    </v-content>
+    </v-main>
   </v-app>
 </template>
 
