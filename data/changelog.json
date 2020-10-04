@@ -1,5 +1,15 @@
 [
   {
+    "date": "2020/10/03",
+    "summary": [
+      "Added Flea Market Prices"
+    ],
+    "changes": [
+      "Added the Flea Market Prices page. You can search for any item and get up to date prices.",
+      "Data provided by Tarkov-Market"
+    ]
+  },
+  {
     "date": "2020/08/23",
     "summary": [
       "Added ZB-013 extract on Customs",

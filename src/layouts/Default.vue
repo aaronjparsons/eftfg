@@ -98,6 +98,11 @@ export default {
         label: 'Ammo Chart'
       },
       {
+        route: '/flea-market',
+        icon: 'mdi-currency-usd',
+        label: 'Flea Market Prices'
+      },
+      {
         route: '/items',
         icon: 'mdi-checkbox-marked',
         label: 'Required Items'

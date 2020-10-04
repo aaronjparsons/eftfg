@@ -277,7 +277,13 @@ export default {
 </script>
 
 <style>
+.theme--dark.v-text-field--solo > .v-input__control > .v-input__slot {
+  background-color: #161616;
+}
 .v-autocomplete {
-  z-index: 160;
+  z-index: 160 !important;
+}
+.theme--dark.v-list {
+  background-color: #161616;
 }
 </style>

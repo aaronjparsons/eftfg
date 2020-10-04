@@ -13,7 +13,7 @@
         <v-dialog v-model="ammoChangeDialog" width="750" scrollable>
           <template v-slot:activator="{ on }">
             <v-btn text class="ml-4 black--text" color="primary" v-on="on">
-              CLick Here To View Recent Ammo Changes
+              Click Here To View Recent Ammo Changes
             </v-btn>
           </template>
           <v-card>

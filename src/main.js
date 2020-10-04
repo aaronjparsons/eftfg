@@ -19,16 +19,25 @@ export default function (Vue, { head, appOptions }) {
 
   appOptions.store = new Vuex.Store({
     state: {
-      darkMode: true
+      darkMode: true,
+      marketItems: [],
+      topMarketItems: []
     },
     mutations: {
-      TOGGLE_DARKMODE (state) {
+      TOGGLE_DARKMODE(state) {
         state.darkMode = !state.darkMode
+      },
+      SET_MARKET_ITEMS(state, items) {
+        state.marketItems = items.data;
+        state.topMarketItems = items.top;
       }
     },
     actions: {
       toggleDarkmode({ commit }) {
         commit('TOGGLE_DARKMODE')
+      },
+      setMarketItems({ commit }, items) {
+        commit('SET_MARKET_ITEMS', items)
       }
     }
   })
