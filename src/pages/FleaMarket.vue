@@ -75,11 +75,7 @@
           <v-expand-transition>
             <v-card-text v-show="topItemExpanded('input')">
               <v-row class="px-3">
-                <v-sheet
-                  color="rgba(0, 0, 0, .18)"
-                  rounded
-                  style="width: 100%;"
-                >
+                <v-card outlined style="width: 100%;">
                   <div class="px-4 py-2 trend-title">Daily Trend</div>
                   <v-sparkline
                     :value="trendList(input)"
@@ -96,7 +92,7 @@
                       ₽{{ parsePrice(item.value) }}
                     </template>
                   </v-sparkline>
-                </v-sheet>
+                </v-card>
               </v-row>
               <v-row>
                 <v-col cols="12" md="4">
@@ -168,11 +164,7 @@
             <v-expand-transition>
               <v-card-text v-show="topItemExpanded(index)">
                 <v-row class="px-3">
-                  <v-sheet
-                    color="rgba(0, 0, 0, .18)"
-                    rounded
-                    style="width: 100%;"
-                  >
+                  <v-card outlined style="width: 100%;">
                     <div class="px-4 py-2 trend-title">Daily Trend</div>
                     <v-sparkline
                       :value="trendList(item)"
@@ -189,7 +181,7 @@
                         ₽{{ parsePrice(item.value) }}
                       </template>
                     </v-sparkline>
-                  </v-sheet>
+                  </v-card>
                 </v-row>
                 <v-row>
                   <v-col cols="12" md="4">
@@ -429,9 +421,8 @@ export default {
   transform: rotate(180deg);
 }
 .trend-title {
-  color: rgb(150, 132, 101);
   font-size: 1.15rem;
   font-weight: 500;
-  /* opacity: 0.8; */
+  opacity: 0.6;
 }
 </style>
