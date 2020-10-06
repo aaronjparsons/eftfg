@@ -74,6 +74,30 @@
           </div>
           <v-expand-transition>
             <v-card-text v-show="topItemExpanded('input')">
+              <v-row class="px-3">
+                <v-sheet
+                  color="rgba(0, 0, 0, .18)"
+                  rounded
+                  style="width: 100%;"
+                >
+                  <div class="px-4 py-2 trend-title">Daily Trend</div>
+                  <v-sparkline
+                    :value="trendList(input)"
+                    color="rgb(150, 132, 101)"
+                    height="75"
+                    padding="24"
+                    stroke-linecap="round"
+                    line-width="3"
+                    smooth
+                    auto-draw
+                    :auto-draw-duration="1000"
+                  >
+                    <template v-slot:label="item">
+                      ₽{{ parsePrice(item.value) }}
+                    </template>
+                  </v-sparkline>
+                </v-sheet>
+              </v-row>
               <v-row>
                 <v-col cols="12" md="4">
                   <v-card outlined class="data-card">
@@ -143,6 +167,30 @@
             </div>
             <v-expand-transition>
               <v-card-text v-show="topItemExpanded(index)">
+                <v-row class="px-3">
+                  <v-sheet
+                    color="rgba(0, 0, 0, .18)"
+                    rounded
+                    style="width: 100%;"
+                  >
+                    <div class="px-4 py-2 trend-title">Daily Trend</div>
+                    <v-sparkline
+                      :value="trendList(item)"
+                      color="rgb(150, 132, 101)"
+                      height="75"
+                      padding="24"
+                      stroke-linecap="round"
+                      line-width="3"
+                      smooth
+                      auto-draw
+                      :auto-draw-duration="1000"
+                    >
+                      <template v-slot:label="item">
+                        ₽{{ parsePrice(item.value) }}
+                      </template>
+                    </v-sparkline>
+                  </v-sheet>
+                </v-row>
                 <v-row>
                   <v-col cols="12" md="4">
                     <v-card outlined class="data-card">
@@ -302,7 +350,7 @@ export default {
         return
       }
 
-      if (this.activeItemIndex !== null) {
+      if (this.activeItemIndex === index) {
         this.activeItemIndex = null
       } else {
         this.activeItemIndex = index
@@ -323,6 +371,9 @@ export default {
       }
 
       return index === this.activeItemIndex
+    },
+    trendList(item) {
+      return [...item.history, item.price].slice(0, 5)
     }
   }
 }
@@ -376,5 +427,11 @@ export default {
 }
 .expanded {
   transform: rotate(180deg);
+}
+.trend-title {
+  color: rgb(150, 132, 101);
+  font-size: 1.15rem;
+  font-weight: 500;
+  /* opacity: 0.8; */
 }
 </style>
