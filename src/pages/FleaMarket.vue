@@ -399,7 +399,7 @@ export default {
   opacity: 0.9;
 }
 .item-updated {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-weight: 400;
   opacity: 0.65;
 }
