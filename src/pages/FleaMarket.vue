@@ -365,7 +365,7 @@ export default {
       return index === this.activeItemIndex
     },
     trendList(item) {
-      return [...item.history, item.price].slice(0, 5)
+      return [...item.history, item.price].slice(-5)
     }
   }
 }
