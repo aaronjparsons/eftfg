@@ -78,7 +78,8 @@ export default {
         '#E64D66',
         '#4DB380',
         '#66991A',
-        '#6666FF'
+        '#6666FF',
+        '#078C00'
       ],
       armorAnnotations: [
         {

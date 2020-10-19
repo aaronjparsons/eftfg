@@ -1,7 +1,103 @@
 {
-  "changes": [{
-    "name": "No changes since last update"
-  }],
+  "changes": [
+    {
+      "penetration": [
+        "5",
+        "7"
+      ],
+      "accuracy": [
+        "",
+        "+10"
+      ],
+      "recoil": [
+        "",
+        "-10"
+      ],
+      "name": "7.62x25mm TT LRNPC"
+    },
+    {
+      "penetration": [
+        "6",
+        "8"
+      ],
+      "accuracy": [
+        "",
+        "+5"
+      ],
+      "recoil": [
+        "",
+        "-5"
+      ],
+      "name": "7.62x25mm TT LRN"
+    },
+    {
+      "penetration": [
+        "8",
+        "11"
+      ],
+      "name": "7.62x25mm TT FMJ43"
+    },
+    {
+      "penetration": [
+        "9",
+        "12"
+      ],
+      "accuracy": [
+        "",
+        "+15"
+      ],
+      "recoil": [
+        "",
+        "-15"
+      ],
+      "name": "7.62x25mm TT AKBS"
+    },
+    {
+      "penetration": [
+        "10",
+        "14"
+      ],
+      "name": "7.62x25mm TT P gl"
+    },
+    {
+      "damage": [
+        "60",
+        "55"
+      ],
+      "penetration": [
+        "12",
+        "18"
+      ],
+      "accuracy": [
+        "-5",
+        "-10"
+      ],
+      "name": "7.62x25mm TT PT gzh"
+    },
+    {
+      "penetration": [
+        "24",
+        "25"
+      ],
+      "name": "7.62x25mm TT Pst gzh"
+    },
+    {
+      "damage": [
+        "15x140",
+        "15x160"
+      ],
+      "name": "40x46 mm M576"
+    },
+    {
+      "name": "*NEW - 23x75mm Shrapnel-25"
+    },
+    {
+      "name": "*NEW - 23x75mm Shrapnel-10"
+    },
+    {
+      "name": "*NEW - 23x75mm \"Barricade\""
+    }
+  ],
   "ammo": [
     {
       "name": "12x70 5.25mm Buckshot",
@@ -348,25 +444,25 @@
     {
       "name": "7.62x25mm TT LRNPC",
       "damage": "66",
-      "penetration": "5",
+      "penetration": "7",
       "armorDamage": "27",
-      "accuracy": "",
-      "recoil": "",
+      "accuracy": "+10",
+      "recoil": "-10",
       "fragmentation": "35%"
     },
     {
       "name": "7.62x25mm TT LRN",
       "damage": "64",
-      "penetration": "6",
+      "penetration": "8",
       "armorDamage": "28",
-      "accuracy": "",
-      "recoil": "",
+      "accuracy": "+5",
+      "recoil": "-5",
       "fragmentation": "35%"
     },
     {
       "name": "7.62x25mm TT FMJ43",
       "damage": "60",
-      "penetration": "8",
+      "penetration": "11",
       "armorDamage": "29",
       "accuracy": "",
       "recoil": "",
@@ -375,16 +471,16 @@
     {
       "name": "7.62x25mm TT AKBS",
       "damage": "58",
-      "penetration": "9",
+      "penetration": "12",
       "armorDamage": "32",
-      "accuracy": "",
-      "recoil": "",
+      "accuracy": "+15",
+      "recoil": "-15",
       "fragmentation": "25%"
     },
     {
       "name": "7.62x25mm TT P gl",
       "damage": "58",
-      "penetration": "10",
+      "penetration": "14",
       "armorDamage": "32",
       "accuracy": "",
       "recoil": "",
@@ -392,17 +488,17 @@
     },
     {
       "name": "7.62x25mm TT PT gzh",
-      "damage": "60",
-      "penetration": "12",
+      "damage": "55",
+      "penetration": "18",
       "armorDamage": "34",
-      "accuracy": "-5",
+      "accuracy": "-10",
       "recoil": "",
       "fragmentation": "17%"
     },
     {
       "name": "7.62x25mm TT Pst gzh",
       "damage": "50",
-      "penetration": "24",
+      "penetration": "25",
       "armorDamage": "36",
       "accuracy": "",
       "recoil": "",
@@ -1112,12 +1208,39 @@
     },
     {
       "name": "40x46 mm M576",
-      "damage": "15x140",
+      "damage": "15x160",
       "penetration": "5",
       "armorDamage": "95",
       "accuracy": "",
       "recoil": "",
       "fragmentation": "0%"
+    },
+    {
+      "name": "23x75mm Shrapnel-25",
+      "damage": "8x78",
+      "penetration": "10",
+      "armorDamage": "20",
+      "accuracy": "+20",
+      "recoil": "+10",
+      "fragmentation": "0%"
+    },
+    {
+      "name": "23x75mm Shrapnel 10",
+      "damage": "8x87",
+      "penetration": "11",
+      "armorDamage": "20",
+      "accuracy": "",
+      "recoil": "",
+      "fragmentation": "0%"
+    },
+    {
+      "name": "23x75mm \"Barricade\"",
+      "damage": "192",
+      "penetration": "39",
+      "armorDamage": "75",
+      "accuracy": "-5",
+      "recoil": "+25",
+      "fragmentation": "20%"
     },
     {
       "name": "30x29 mm VOG-30",
