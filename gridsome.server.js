@@ -9,6 +9,7 @@ const changelogData = require('./data/changelog.json')
 const wikiData = require('./data/wiki-data.json')
 const keyData = require('./data/keys.json')
 const extractData = require('./data/extracts.json')
+const cacheData = require('./data/caches.json')
 const ammoData = require('./data/ammo.json')
 const lootItemData = require('./data/loot-items.json')
 const nodeExternals = require('webpack-node-externals')
@@ -119,6 +120,37 @@ module.exports = function (api) {
         image: item.image,
         extractType: item.extractType,
         extractNotes: item.extractNotes
+      })
+    }
+
+    // Add cache data
+    const cacheMaps = actions.addCollection({
+      typeName: 'Caches'
+    })
+
+    const singleCache = actions.addCollection({
+      typeName: 'SingleCache'
+    })
+
+    for (const map of cacheData) {
+      const cacheIds = []
+
+      for (const [index, cache] of map.caches.entries()) {
+        const id = `${map.map}-${index}`
+
+        cacheIds.push(id)
+
+        singleCache.addNode({
+          id,
+          type: cache.type,
+          coords: cache.coords,
+          image: cache.image
+        })
+      }
+
+      cacheMaps.addNode({
+        map: map.map,
+        caches: actions.store.createReference('SingleCache', cacheIds)
       })
     }
 

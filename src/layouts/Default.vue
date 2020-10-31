@@ -93,6 +93,11 @@ export default {
         label: 'Extractions'
       },
       {
+        route: '/caches',
+        icon: 'mdi-treasure-chest',
+        label: 'Caches'
+      },
+      {
         route: '/ammo',
         icon: 'mdi-poll-box',
         label: 'Ammo Chart'

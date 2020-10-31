@@ -32,7 +32,7 @@
             <l-popup>
               <h3>{{ activeItem.labels[index] }}</h3>
               <p v-if="activeItem.type">Type: {{ activeItem.type[index] }}</p>
-              <p>Notes: {{ activeItem.notes[index] }}</p>
+              <p v-if="activeItem.notes">Notes: {{ activeItem.notes[index] }}</p>
               <v-btn
                 :class="{
                   strikethrough: !hasMediaContent(activeItem.images, index)
@@ -172,7 +172,7 @@ export default {
 
   methods: {
     mapClick(event) {
-      // console.log(`${event.latlng.lat},${event.latlng.lng}`)
+      console.log(`${event.latlng.lat},${event.latlng.lng}`)
     },
     emitMapChange(map) {
       this.$emit('changeActiveMap', map)

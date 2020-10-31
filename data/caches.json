@@ -1,0 +1,97 @@
+[
+  {
+    "map": "Interchange",
+    "caches": [
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-213.51770657770095,17.3287353515625],
+        "image": ""
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-202.20970343140272,17.466796875],
+        "image": ""
+      },
+      {
+        "type": "Ground Cache",
+        "coords": [-213.36146811105235,20.7037353515625],
+        "image": ""
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-210.11170800476097,21.9537353515625],
+        "image": ""
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-208.8930479649017,23.0162353515625],
+        "image": ""
+      },
+      {
+        "type": "Ground Cache",
+        "coords": [-206.2057463385454,28.2037353515625],
+        "image": ""
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-196.96448515888346,19.865234375],
+        "image": ""
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-198.68310829201832,22.208984375],
+        "image": ""
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-180.49670665151442,16.3594970703125],
+        "image": ""
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-179.24679891832542,22.7657470703125],
+        "image": ""
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-176.51518903931796,44.6575927734375],
+        "image": ""
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-184.60602244697733,49.0673828125],
+        "image": ""
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-184.98099476693403,48.7861328125],
+        "image": ""
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-193.17167431968605,53.6685791015625],
+        "image": ""
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-197.42136061252862,54.7935791015625],
+        "image": ""
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-200.73361610547943,54.0748291015625],
+        "image": ""
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-200.48363455884163,46.7935791015625],
+        "image": ""
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-201.88978075867925,39.9810791015625],
+        "image": ""
+      }
+    ]
+  }
+]
