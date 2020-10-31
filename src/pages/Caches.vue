@@ -134,7 +134,7 @@ export default {
           obj.markers = [item.coords, ...obj.markers],
           obj.type = [item.type, ...obj.type],
           obj.labels = ['Cache', ...obj.labels]
-          obj.images = ['', ...obj.images]
+          obj.images = [item.image, ...obj.images]
           return obj
         }, object)
     },
