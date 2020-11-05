@@ -95,12 +95,102 @@
     ]
   },
   {
-    "map": "Woods",
+    "map": "Customs",
     "caches": [
       {
         "type": "Buried Barrel Cache",
-        "coords": [],
-        "image": ""
+        "coords": [-203.4969040998448,100.943603515625],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1604550706/cache_customs_19.jpg"
+      },
+      {
+        "type": "Ground Cache",
+        "coords": [-221.05685463010863,44.617919921875],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1604550706/cache_customs_8.jpg"
+      },
+      {
+        "type": "Ground Cache",
+        "coords": [-199.73142459906882,90.376220703125],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1604550706/cache_customs_17.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-206.53711685204345,75.5224609375],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1604550705/cache_customs_12.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-209.72428705380239,68.2099609375],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1604550705/cache_customs_10.jpg"
+      },
+      {
+        "type": "Ground Cache",
+        "coords": [-206.72459745214692,71.1474609375],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1604550705/cache_customs_11.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-224.98222969477496,44.5810546875],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1604550705/cache_customs_7.jpg"
+      },
+      {
+        "type": "Ground Cache",
+        "coords": [-204.04640778582515,91.714111328125],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1604550705/cache_customs_18.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-207.54604565442318,81.089111328125],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1604550704/cache_customs_14.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-204.04640778582515,87.401611328125],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1604550704/cache_customs_16.jpg"
+      },
+      {
+        "type": "Ground Cache",
+        "coords": [-213.48293132436626,82.339111328125],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1604550704/cache_customs_15.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-207.10859092084843,64.276611328125],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1604550704/cache_customs_9.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-228.63419555095706,71.133056640625],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1604550704/cache_customs_6.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-220.4775688696327,82.57080078125],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1604550704/cache_customs_5.jpg"
+      },
+      {
+        "type": "Ground Cache",
+        "coords": [-224.26038056130366,100.079833984375],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1604550703/cache_customs_3.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-193.7564569322297,83.29248046875],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1604550703/cache_customs_13.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-222.3105923435075,97.0625],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1604550703/cache_customs_4.jpg"
+      },
+      {
+        "type": "Ground Cache",
+        "coords": [-215.56129073978272,97.1875],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1604550703/cache_customs_1.jpg"
+      },
+      {
+        "type": "Ground Cache",
+        "coords": [-217.68607087428867,101],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1604550703/cache_customs_2.jpg"
       }
     ]
   }

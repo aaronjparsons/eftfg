@@ -5,7 +5,7 @@
     </v-row>
     <v-row justify="center">
       <p class="caption-text mx-12 text-center">
-        Escape From Tarkov extract locations, searchable by specific extract or by map.
+        Escape From Tarkov cache locations.
         <br/>
         Eg: "RUAF Roadblock" or "Customs (All Extractions)"
       </p>
@@ -13,16 +13,13 @@
     <v-divider class="mx-8 mb-4" />
     <v-row justify="center">
       <v-col cols="12" sm="8">
-        <v-autocomplete
+        <v-select
           v-model="input"
-          item-text="node.map"
           :items="$page.caches.edges"
-          :menu-props="autocompleteMenuProps"
+          item-text="node.map"
           return-object
           solo
-          no-data-text="No extracts found..."
-          placeholder="Search by map..."
-        />
+        ></v-select>
       </v-col>
     </v-row>
     <v-row justify="center">
@@ -115,6 +112,10 @@ export default {
     return {
       input: {}
     }
+  },
+
+  mounted() {
+    this.input = this.$page.caches.edges[0]
   },
 
   computed: {
