@@ -23,7 +23,7 @@
         <v-row justify="center">
           <v-switch
             v-model="toggleAll"
-            label="Show All Calibers"
+            label="Show All Ammo"
             color="primary"
           />
         </v-row>
@@ -214,7 +214,7 @@ export default {
         },
         colors: this.colors,
         title: {
-          text: 'Hover calibre to highlight, click to show/hide',
+          text: 'Hover ammo to highlight, click to show/hide',
           align: 'centre'
         },
         legend: {

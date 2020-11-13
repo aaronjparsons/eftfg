@@ -1623,6 +1623,17 @@
     "modules": []
   },
   {
+    "name": "Veritas Guitar Pick",
+    "tasks": [
+      {
+        "task": "Collector",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
     "name": "Power Supply Unit (PSU)",
     "tasks": [],
     "modules": [
