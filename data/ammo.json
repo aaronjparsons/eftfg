@@ -96,6 +96,9 @@
     },
     {
       "name": "*NEW - 23x75mm \"Barricade\""
+    },
+    {
+      "name": "*NEW - 23x75mm \"Star\""
     }
   ],
   "ammo": [
@@ -1240,6 +1243,15 @@
       "armorDamage": "75",
       "accuracy": "-5",
       "recoil": "+25",
+      "fragmentation": "20%"
+    },
+    {
+      "name": "23x75mm \"Star\"",
+      "damage": "0",
+      "penetration": "0",
+      "armorDamage": "0",
+      "accuracy": "0",
+      "recoil": "0",
       "fragmentation": "20%"
     },
     {
