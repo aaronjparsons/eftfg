@@ -5,9 +5,7 @@
     </v-row>
     <v-row justify="center">
       <p class="caption-text mx-12 text-center">
-        Escape From Tarkov cache locations.
-        <br/>
-        Eg: "RUAF Roadblock" or "Customs (All Extractions)"
+        Escape From Tarkov cache locations for all maps.
       </p>
     </v-row>
     <v-divider class="mx-8 mb-4" />

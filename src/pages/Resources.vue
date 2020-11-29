@@ -203,7 +203,7 @@ export default {
           link: "https://developertracker.com/escape-from-tarkov/"
         },
         {
-          title: "EFT Graphs",
+          title: "EFT Graph",
           features: [
             "Handy graph detailing the hideout components & upgrades."
           ],
