@@ -201,6 +201,13 @@ export default {
             "See all recent posts from the EFT developers across the forums, Reddit, and Twitter."
           ],
           link: "https://developertracker.com/escape-from-tarkov/"
+        },
+        {
+          title: "EFT Graph",
+          features: [
+            "Handy graph detailing the hideout components & upgrades."
+          ],
+          link: "https://www.eft-graph.com/"
         }
       ]
     }

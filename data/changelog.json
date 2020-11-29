@@ -1,5 +1,14 @@
 [
   {
+    "date": "2020/11/29",
+    "summary": [
+      "Added cache locations maps"
+    ],
+    "changes": [
+      "Added the Cachess page. View maps of all caches on the maps that have them."
+    ]
+  },
+  {
     "date": "2020/10/03",
     "summary": [
       "Added Flea Market Prices"
