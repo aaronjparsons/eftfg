@@ -193,5 +193,235 @@
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1604550703/cache_customs_2.jpg"
       }
     ]
+  },
+  {
+    "map": "Woods",
+    "caches": [
+      {
+        "type": "Ground Cache",
+        "coords": [-190.81212843386317,80.319580078125],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634592/woods_cache_1.jpg"
+      },
+      {
+        "type": "Ground Cache",
+        "coords": [-214.5714075917132,76.88623046875],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634593/woods_cache_2.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-234.3053024198509,71.15966796875],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634592/woods_cache_3.jpg"
+      },
+      {
+        "type": "Ground Cache",
+        "coords": [-222.21268922385158,27.1611328125],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634592/woods_cache_4.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-216.11205650419507,10.8328857421875],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634591/woods_cache_5.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-206.18505492950817,22.55322265625],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634592/woods_cache_6.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-183.788270735428,27.003662109375],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634593/woods_cache_7.jpg"
+      },
+      {
+        "type": "Ground Cache",
+        "coords": [-206.46807414560934,26.6875],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606679355/woods_cache_8.jpg"
+      }
+    ]
+  },
+  {
+    "map": "Shoreline",
+    "caches": [
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-234.82768692487022,66.3773193359375],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634577/shoreline_cache_35.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-243.54518305735306,87.6802978515625],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634576/shoreline_cache_34.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-230.8067435121054,103.095703125],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634576/shoreline_cache_30.jpg"
+      },
+      {
+        "type": "Ground Cache",
+        "coords": [-167.91741005523707,85.1341552734375],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634570/shoreline_cache_18.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-236.9804824939104,104.2918701171875],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634576/shoreline_cache_31.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-190.98484325406588,30.7552490234375],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634573/shoreline_cache_9.jpg"
+      },
+      {
+        "type": "Ground Cache",
+        "coords": [-200.283407313375,103.8388671875],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634573/shoreline_cache_21.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-233.90851111353737,34.9638671875],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634578/shoreline_cache_39.jpg"
+      },
+      {
+        "type": "Ground Cache",
+        "coords": [-208.68896858007528,126.9964599609375],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634575/shoreline_cache_24.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-209.6734692936053,21.81787109375],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634571/shoreline_cache_3.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-200.0524990465763,94.5550537109375],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634572/shoreline_cache_20.jpg"
+      },
+      {
+        "type": "Ground Cache",
+        "coords": [-209.15567044909332,13.850830078125],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634571/shoreline_cache_4.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-228.05544082006742,46.7091064453125],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634577/shoreline_cache_36.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-191.470241262333,25.638916015625],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634572/shoreline_cache_7.jpg"
+      },
+      {
+        "type": "Ground Cache",
+        "coords": [-203.1482122152031,17.504638671875],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634571/shoreline_cache_5.jpg"
+      },
+      {
+        "type": "Ground Cache",
+        "coords": [-169.24605174937872,65.7491455078125],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634570/shoreline_cache_17.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-188.48852777538568,46.8702392578125],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634575/shoreline_cache_14.jpg"
+      },
+      {
+        "type": "Ground Cache",
+        "coords": [-219.77430423135596,110.7938232421875],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634575/shoreline_cache_27.jpg"
+      },
+      {
+        "type": "Ground Cache",
+        "coords": [-213.75741440715498,80.3760986328125],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634576/shoreline_cache_33.jpg"
+      },
+      {
+        "type": "Ground Cache",
+        "coords": [-189.1070123929705,23.0699462890625],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634573/shoreline_cache_8.jpg"
+      },
+      {
+        "type": "Ground Cache",
+        "coords": [-209.30754757891887,26.8447265625],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634570/shoreline_cache_1.jpg"
+      },
+      {
+        "type": "Ground Cache",
+        "coords": [-168.18729201523016,58.24072265625],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634574/shoreline_cache_16.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-206.3736821223827,47.406982421875],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634573/shoreline_cache_13.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-188.12441891131311,84.4261474609375],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634571/shoreline_cache_19.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-196.47182517592205,64.0146484375],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634574/shoreline_cache_15.jpg"
+      },
+      {
+        "type": "Ground Cache",
+        "coords": [-230.5720911350048,91.11865234375],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634576/shoreline_cache_32.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-196.5941306005954,38.1236572265625],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634573/shoreline_cache_12.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-210.59004567976035,22.8489990234375],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634570/shoreline_cache_2.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-217.59502174421178,33.09912109375],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634578/shoreline_cache_37.jpg"
+      },
+      {
+        "type": "Ground Cache",
+        "coords": [-227.33319448459758,134.2655029296875],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634575/shoreline_cache_26.jpg"
+      },
+      {
+        "type": "Ground Cache",
+        "coords": [-198.89291110246535,113.4031982421875],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634575/shoreline_cache_23.jpg"
+      },
+      {
+        "type": "Ground Cache",
+        "coords": [-204.53028004514923,64.672119140625],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634577/shoreline_cache_40.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-185.00437767573752,31.5738525390625],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634573/shoreline_cache_10.jpg"
+      },
+      {
+        "type": "Ground Cache",
+        "coords": [-189.86412635632212,37.6473388671875],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634573/shoreline_cache_11.jpg"
+      },
+      {
+        "type": "Ground Cache",
+        "coords": [-215.26532743953447,115.7908935546875],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634576/shoreline_cache_28.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-190.16488540462072,19.101318359375],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1606634570/shoreline_cache_6.jpg"
+      }
+    ]
   }
 ]
