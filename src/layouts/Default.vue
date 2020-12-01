@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-navigation-drawer v-model="drawer" app clipped color="#161616">
+    <v-navigation-drawer v-model="drawer" app clipped width="300" color="#161616">
       <v-list nav>
         <v-list-item
           v-for="(item, index) in navItems"
@@ -18,9 +18,14 @@
           </v-list-item-content>
         </v-list-item>
       </v-list>
-      <!--
       <template v-slot:append>
-        <v-row class="pb-4" justify="center">
+        <ins
+          class="adsbygoogle"
+          style="display:inline-block;width:300px;height:250px"
+          data-ad-client="ca-pub-2143532549719007"
+          data-ad-slot="8687979973"
+        ></ins>
+        <!-- <v-row class="pb-4" justify="center">
           <a
             class="bmc-button"
             :class="{ 'bmc-dark': isDarkMode }"
@@ -36,9 +41,8 @@
               Buy me a coffee
             </span>
           </a>
-        </v-row>
+        </v-row> -->
       </template>
-      -->
     </v-navigation-drawer>
 
     <v-app-bar app clipped-left color="black">
@@ -53,16 +57,16 @@
     </v-app-bar>
 
     <v-main>
-      <v-container :style="{ 'max-width': '1185px' }">
+      <v-container :style="{ 'max-width': '1185px', 'padding-bottom': '20px' }">
         <slot />
-        <div class="ins-container">
+        <!-- <div class="ins-container">
           <ins
             class="adsbygoogle"
             style="display:inline-block;width:728px;height:90px"
             data-ad-client="ca-pub-2143532549719007"
             data-ad-slot="1581579401"
           ></ins>
-        </div>
+        </div> -->
       </v-container>
     </v-main>
   </v-app>
