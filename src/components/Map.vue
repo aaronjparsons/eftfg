@@ -22,7 +22,7 @@
             {{ map }}
           </div>
         </div>
-        <l-tile-layer :url="mapSource"></l-tile-layer>
+        <l-tile-layer :url="mapSource" :options="tileOptions"></l-tile-layer>
         <l-feature-group ref="markerGroup">
           <l-marker
             v-for="(marker, index) in activeItem.markers"
@@ -133,6 +133,15 @@ export default {
       mapOptions: {
         zoom: 2,
         maxZoom: 5
+      },
+      bounds: {
+        Customs: [[-190, 0], [-256, 144]],
+        Interchange: [[-168, 0], [-256, 141]],
+        Shoreline: [[-162, 0], [-256, 151]],
+        Woods: [[-168, 0], [-256, 141]],
+        Labs: [[-168, 0], [-256, 141]],
+        Reserve: [[-118, 0], [-256, 232]],
+        Factory: [[-168, 0], [-256, 141]]
       }
     }
   },
@@ -166,6 +175,11 @@ export default {
         return [lats / markersLength, lngs / markersLength]
       } else {
         return [0, 0]
+      }
+    },
+    tileOptions() {
+      return {
+        bounds: this.bounds[this.activeMap]
       }
     }
   },

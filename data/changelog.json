@@ -1,11 +1,24 @@
 [
   {
+    "date": "2020/12/05",
+    "summary": [
+      "Added cardinal direction to maps (Factory, Interchange, Woods)",
+      "Flipped Woods map to match cardinal directions",
+      "Customs map is in the works"
+    ],
+    "changes": [
+      "Updated most maps with cardinal directions now that the compass is in the game.",
+      "Woods was flipped to match the cardinal directions",
+      "Woods has some extract names that now conflict with the in game cardinal directions"
+    ]
+  },
+  {
     "date": "2020/11/29",
     "summary": [
       "Added cache locations maps"
     ],
     "changes": [
-      "Added the Cachess page. View maps of all caches on the maps that have them."
+      "Added the Caches page. View maps of all caches on the maps that have them."
     ]
   },
   {
