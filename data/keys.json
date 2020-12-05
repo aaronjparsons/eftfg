@@ -879,7 +879,7 @@
     "unlocks": [
       {
         "map": "Woods",
-        "marker": "-226.4709994232749,57.65625",
+        "marker": "-197.99958249268016,49.15625",
         "notes": "Unlocks a pickup truck on Woods in the lumber camp near the 3 wooden shacks",
         "image": "",
         "video": ""
@@ -1899,7 +1899,7 @@
     "spawns": [
       {
         "map": "Woods",
-        "marker": "-203.5011110373318,121.375",
+        "marker": "-212.46827021258272,124.21875",
         "notes": "On Woods, Cabin #1 in the lumber camp on top of a nightstand. The nightstand is between two beds that are end-to-end. The cabin is the closest one to the Yotota truck",
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799189/woods_east_wing_room_308_key.jpg",
         "video": "QD8stltdiJ8"
@@ -1984,8 +1984,8 @@
     "spawns": [
       {
         "map": "Woods",
-        "marker": "-227.15702601684407,81.75",
-        "notes": "In Woods, at the \"checkpoint\" on the eastern side of the map, in a cabin on a wooden stool",
+        "marker": "-197.3411434625889,25.4346923828125",
+        "notes": "In Woods, at the \"checkpoint\" on the western side of the map, in a cabin on a wooden stool",
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799189/woods_east_wing_room_314_key.jpg",
         "video": "oa_zSvzbmLA"
       }
@@ -2010,8 +2010,8 @@
     "spawns": [
       {
         "map": "Woods",
-        "marker": "-197.18734274548535,48.71875",
-        "notes": "In Woods, western side of the lake, in an open suitcase behind the crashed minivan",
+        "marker": "-226.75748802838126,58.3642578125",
+        "notes": "In Woods, eastern side of the lake, in an open suitcase behind the crashed minivan",
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799190/woods_east_wing_room_316_key.jpg",
         "video": "CbqM9zcsGb8"
       }
@@ -2515,22 +2515,22 @@
     "spawns": [
       {
         "map": "Woods",
-        "marker": "-224.50239984063674,63.34375",
+        "marker": "-199.96965536808307,43.392333984375",
         "notes": "In the trunk of the black SUV that is parked in front of the blue warehouse in the lumber camp",
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799189/woods_labs_violet_keycard_2.jpg",
         "video": "2hre-8RdnUE"
       },
       {
         "map": "Woods",
-        "marker": "-215.65565174912902,55.59375",
-        "notes": "In a brick house north of the lumber camp on the table next to the opened book",
+        "marker": "-208.81275258039514,51.548583984375",
+        "notes": "In a brick house south of the lumber camp on the table next to the opened book",
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799189/woods_labs_violet_keycard_1.jpg",
         "video": "B_GTgbFcA1w"
       },
       {
         "map": "Woods",
-        "marker": "-227.3131768781283,80.90625",
-        "notes": "Inside the driver side door of the SUV at the checkpoint eastern of the lumber camp",
+        "marker": "-197.25238298261692,25.883056640625",
+        "notes": "Inside the driver side door of the SUV at the checkpoint west of the lumber camp",
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799190/woods_labs_violet_keycard_3.jpg",
         "video": "5Wdd43Sc1lc"
       }
@@ -2969,7 +2969,7 @@
     "spawns": [
       {
         "map": "Woods",
-        "marker": "-183.87690072848153,117.5",
+        "marker": "-193.24919362651625,129.531494140625",
         "notes": "In the warehouse in the lumber mill, next to the boxes in the blue locker",
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1573191112/woods_rb-mp12_key.jpg",
         "video": "gHP5ogK-z3E"
@@ -3207,7 +3207,7 @@
       },
       {
         "map": "Woods",
-        "marker": "-182.71889358020903,39.375",
+        "marker": "-241.3894236092316,67.7650146484375",
         "notes": "On a concrete barrier near the tank, near the RUAF Roadblock extract",
         "image": "",
         "video": ""
@@ -3603,7 +3603,7 @@
     "spawns": [
       {
         "map": "Woods",
-        "marker": "-221.7541433146036,61.125",
+        "marker": "-203.4440130757449,47.239990234375",
         "notes": "Found on the Woods scav boss, Shturman. Shturman can be found patrolling the lumber yard.",
         "image": "",
         "video": ""
@@ -3612,7 +3612,7 @@
     "unlocks": [
       {
         "map": "Woods",
-        "marker": "-223.19180056911824,60.25",
+        "marker": "-201.5379037826317,46.708740234375",
         "notes": "Opens Shturmans stash, a small lockbox near a log pile in the center of the lumber yard.",
         "image": "",
         "video": ""
