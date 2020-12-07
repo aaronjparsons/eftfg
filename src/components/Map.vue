@@ -135,7 +135,7 @@ export default {
         maxZoom: 5
       },
       bounds: {
-        Customs: [[-190, 0], [-256, 144]],
+        Customs: [[-156, 0], [-256, 141]],
         Interchange: [[-168, 0], [-256, 141]],
         Shoreline: [[-162, 0], [-256, 151]],
         Woods: [[-168, 0], [-256, 141]],
@@ -186,7 +186,7 @@ export default {
 
   methods: {
     mapClick(event) {
-      // console.log(`${event.latlng.lat},${event.latlng.lng}`)
+      console.log(`${event.latlng.lat},${event.latlng.lng}`)
     },
     emitMapChange(map) {
       this.$emit('changeActiveMap', map)
