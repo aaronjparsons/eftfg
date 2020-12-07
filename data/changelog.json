@@ -2,9 +2,9 @@
   {
     "date": "2020/12/05",
     "summary": [
+      "Added new Customs map",
       "Added cardinal direction to maps (Factory, Interchange, Woods)",
-      "Flipped Woods map to match cardinal directions",
-      "Customs map is in the works"
+      "Flipped Woods map to match cardinal directions"
     ],
     "changes": [
       "Updated most maps with cardinal directions now that the compass is in the game.",
