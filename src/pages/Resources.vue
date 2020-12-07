@@ -124,6 +124,11 @@ export default {
     return {
       mapList: [
         {
+          title: 'Customs',
+          image: 'maps/CustomsMap.png',
+          thumb: 'maps/CustomsMapThumb.png'
+        },
+        {
           title: 'Reserve',
           image: 'maps/ReserveMap.png',
           thumb: 'maps/ReserveMapThumb.png'
