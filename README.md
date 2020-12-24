@@ -9,6 +9,8 @@
 - Ammo scatter plot chart with ability to highlight and toggle different ammo calibers
 - Key spawn maps, searchable by map or key (complete with screenshots and videos)
 - Extraction maps, searchable by map or extraction
+- Cache location maps
+- Flea market prices
 - Searchable lists of required items, both for tasks and the hideout
 - Links to more resources created by the Escape From Tarkov community
 
