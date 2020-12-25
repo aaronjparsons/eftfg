@@ -397,7 +397,7 @@
     "description": "",
     "image": "",
     "extractType": "Scav",
-    "extractNotes": "Always Open"
+    "extractNotes": "Always Open (Location not confirmed)"
   },
   {
     "type": "extract",
@@ -445,7 +445,7 @@
     "map": "Woods",
     "marker": [-243.1821395812247,25.1031494140625],
     "description": "",
-    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581204015/outskirts.jpg",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1608936808/outskirts.jpg",
     "extractType": "PMC, Scav",
     "extractNotes": "Always Open"
   },
@@ -457,7 +457,7 @@
     "description": "",
     "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581204015/outskirts_water.jpg",
     "extractType": "Scav",
-    "extractNotes": "Always Open"
+    "extractNotes": "Always Open (Location not confirmed)"
   },
   {
     "type": "extract",
@@ -485,7 +485,7 @@
     "map": "Woods",
     "marker": [-164.12644230769232,115.21875],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1608936808/bridge_extraction.jpg",
     "extractType": "PMC",
     "extractNotes": "Occasionally Open, One Use (Max 4 Players), Costs 3000 Roubles. Will be open if the car is there"
   },
@@ -513,9 +513,9 @@
     "type": "extract",
     "label": "Eastern Rocks",
     "map": "Woods",
-    "marker": [-204.12569110576925,107.430419921875],
+    "marker": [-205.15898279352226,109.625],
     "description": "",
-    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581204016/west_border.jpg",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1608936808/eastern_rocks.jpg",
     "extractType": "Scav",
     "extractNotes": "Always Open"
   },
@@ -545,7 +545,7 @@
     "map": "Woods",
     "marker": [-196.51623228744938,119.134765625],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1608936808/northern_un_roadblock.jpg",
     "extractType": "PMC",
     "extractNotes": "Always Open."
   },
