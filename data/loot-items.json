@@ -156,8 +156,8 @@
     "tasks": [
       {
         "task": "Shortage",
-        "amount": 5,
-        "findInRaid": false
+        "amount": 3,
+        "findInRaid": true
       }
     ],
     "modules": []
@@ -338,8 +338,8 @@
     "tasks": [
       {
         "task": "Supplier",
-        "amount": 4,
-        "findInRaid": false
+        "amount": 1,
+        "findInRaid": true
       }
     ],
     "modules": []
@@ -349,8 +349,8 @@
     "tasks": [
       {
         "task": "Supplier",
-        "amount": 4,
-        "findInRaid": false
+        "amount": 1,
+        "findInRaid": true
       }
     ],
     "modules": []
