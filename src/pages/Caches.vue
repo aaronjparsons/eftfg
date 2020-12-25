@@ -49,20 +49,20 @@ query {
 import Map from '../components/Map'
 export default {
   metaInfo: {
-    title: "EFT Extractions",
-    link: [{ rel: "canonical", href: "https://eftfg.com/extractions" }],
+    title: "EFT Caches",
+    link: [{ rel: "canonical", href: "https://eftfg.com/caches" }],
     meta: [
       {
         name: "description",
         content:
-          "Quickly find the location of any Escape From Tarkov extraction point. Search by extract or view all extracts by map (eg: All Customs Extracts)."
+          "Quickly find the location of all caches in Escape From Tarkov. Search by each by map"
       },
       { property: "og:title", content: "EFT Extractions | EFTFG" },
       { property: "og:site_name", content: "EFTFG" },
       { property: "og:type", content: "website" },
       {
         property: "og:url",
-        content: "https://eftfg.com/extractions"
+        content: "https://eftfg.com/caches"
       },
       // {
       //   property: "og:image",
@@ -71,29 +71,29 @@ export default {
       {
         property: "og:description",
         content:
-          "Quickly find the location of any Escape From Tarkov extraction point. Search by extract or view all extracts by map (eg: All Customs Extracts)."
+          "Quickly find the location of all caches in Escape From Tarkov. Search by each by map"
       },
       { name: "twitter:card", content: "summary" },
       {
         name: "twitter:site",
-        content: "https://eftfg.com/extractions"
+        content: "https://eftfg.com/caches"
       },
-      { name: "twitter:title", content: "EFT Extractions | EFTFG" },
+      { name: "twitter:title", content: "EFT Caches | EFTFG" },
       {
         name: "twitter:description",
         content:
-          "Quickly find the location of any Escape From Tarkov extraction point. Search by extract or view all extracts by map (eg: All Customs Extracts)."
+          "Quickly find the location of all caches in Escape From Tarkov. Search by each by map"
       },
       { name: "twitter:creator", content: "@ChewyDinosaur" },
       // {
       //   name: "twitter:image:src",
       //   content: "https://www.my-site.com/my-special-image.jpg"
       // },
-      { itemprop: "name", content: "EFT Extractions | EFTFG" },
+      { itemprop: "name", content: "EFT Caches | EFTFG" },
       {
         itemprop: "description",
         content:
-          "Quickly find the location of any Escape From Tarkov extraction point. Search by extract or view all extracts by map (eg: All Customs Extracts)."
+          "Quickly find the location of all caches in Escape From Tarkov. Search by each by map"
       }
       // {
       //   itemprop: "image",
