@@ -1331,8 +1331,8 @@
     "tasks": [
       {
         "task": "Acquaintance",
-        "amount": 6,
-        "findInRaid": false
+        "amount": 2,
+        "findInRaid": true
       }
     ],
     "modules": []
@@ -1342,8 +1342,8 @@
     "tasks": [
       {
         "task": "Acquaintance",
-        "amount": 5,
-        "findInRaid": false
+        "amount": 3,
+        "findInRaid": true
       },
       {
         "task": "The Survivalist Path - Thrifty",
@@ -1358,8 +1358,8 @@
     "tasks": [
       {
         "task": "Acquaintance",
-        "amount": 3,
-        "findInRaid": false
+        "amount": 2,
+        "findInRaid": true
       }
     ],
     "modules": []
