@@ -7,7 +7,7 @@
       <p class="caption-text mx-12 text-center">
         Escape From Tarkov loot items that are required for tasks and the hideout. Search to keep track of loot that is important to keep.
         <br/>
-        Updated for patch 0.12.8.9743 (Nov 12, 2020)
+        Updated for patch 0.12.9.10423 (Dec 25, 2020)
       </p>
     </v-row>
     <v-divider class="mx-8 mb-4" />

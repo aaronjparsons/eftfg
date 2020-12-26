@@ -53,8 +53,8 @@
     "tasks": [
       {
         "task": "The Punisher - Part 5",
-        "amount": 3,
-        "findInRaid": false
+        "amount": 1,
+        "findInRaid": true
       }
     ],
     "modules": []
@@ -64,8 +64,8 @@
     "tasks": [
       {
         "task": "The Punisher - Part 5",
-        "amount": 3,
-        "findInRaid": false
+        "amount": 1,
+        "findInRaid": true
       },
       {
         "task": "Gunsmith - Part 4",
@@ -85,8 +85,8 @@
     "tasks": [
       {
         "task": "The Punisher - Part 5",
-        "amount": 5,
-        "findInRaid": false
+        "amount": 2,
+        "findInRaid": true
       }
     ],
     "modules": []
@@ -578,7 +578,7 @@
     "tasks": [
       {
         "task": "Lend Lease - Part 2",
-        "amount": 2,
+        "amount": 1,
         "findInRaid": true
       }
     ],
@@ -2085,5 +2085,114 @@
       }
     ],
     "modules": []
-  }
+  },
+  {
+    "name": "AHF1-M",
+    "tasks": [
+      {
+        "task": "Colleagues - Part 3",
+        "amount": 1,
+        "findInRaid": true
+      },
+      {
+        "task": "Samples",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "3-(b-TG)",
+    "tasks": [
+      {
+        "task": "Colleagues - Part 3",
+        "amount": 1,
+        "findInRaid": true
+      },
+      {
+        "task": "Samples",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Labs Blue Keycard",
+    "tasks": [
+      {
+        "task": "Colleagues - Part 3",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Labs Green Keycard",
+    "tasks": [
+      {
+        "task": "Colleagues - Part 3",
+        "amount": 1,
+        "findInRaid": false
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "M.U.L.E Stimulant",
+    "tasks": [
+      {
+        "task": "Samples",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Obdolbos Cocktail",
+    "tasks": [
+      {
+        "task": "Samples",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Meldonin",
+    "tasks": [
+      {
+        "task": "Samples",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "P-22",
+    "tasks": [
+      {
+        "task": "Samples",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
+  {
+    "name": "Norepinephrine",
+    "tasks": [
+      {
+        "task": "Samples",
+        "amount": 1,
+        "findInRaid": true
+      }
+    ],
+    "modules": []
+  },
 ]
