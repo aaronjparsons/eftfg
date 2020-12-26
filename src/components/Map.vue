@@ -62,7 +62,7 @@
         <div class="icon-container">
           <v-icon color="white" @click="closeDialog">mdi-close</v-icon>
         </div>
-        <v-img v-if="imageSource" :src="imageSource" contain>
+        <v-img v-if="imageSource" :src="imageSource">
           <template v-slot:placeholder>
             <v-row justify="center" align="center" :style="{ height: '100%' }">
               <v-progress-circular indeterminate />
