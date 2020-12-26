@@ -393,11 +393,11 @@
     "type": "extract",
     "label": "Scav Bunker",
     "map": "Woods",
-    "marker": [-204.44903292636639,18.617919921875],
+    "marker": [-155.6901114151063,54.1968994140625],
     "description": "",
-    "image": "",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1608957724/scav_bunker.jpg",
     "extractType": "Scav",
-    "extractNotes": "Always Open (Location not confirmed)"
+    "extractNotes": "Always Open"
   },
   {
     "type": "extract",
