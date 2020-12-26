@@ -241,6 +241,11 @@
         "type": "Ground Cache",
         "coords": [-164.53443825910932,110.96875],
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1608883781/woods_cache_9.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-196.41442307692307,119.84375],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1608950674/woods_cache_10.jpg"
       }
     ]
   },

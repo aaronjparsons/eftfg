@@ -421,16 +421,6 @@
   },
   {
     "type": "extract",
-    "label": "Cliff Descent (Woods)",
-    "map": "Woods",
-    "marker": [-187.8347324139676,80.2457275390625],
-    "description": "",
-    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581204016/cliff_descent_mountain_stash.jpg",
-    "extractType": "PMC",
-    "extractNotes": "Always Open. Requires Red Rebel Icepick and Paracord. Can't be wearing chest armor."
-  },
-  {
-    "type": "extract",
     "label": "Old Station",
     "map": "Woods",
     "marker": [-223.66892673013663,109.6800537109375],
@@ -453,11 +443,11 @@
     "type": "extract",
     "label": "Scav Bridge",
     "map": "Woods",
-    "marker": [-240.93031771887652,38.0093994140625],
+    "marker": [-151.0323633603239,63.5],
     "description": "",
-    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581204015/outskirts_water.jpg",
+    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1608950682/scav_bridge.jpg",
     "extractType": "Scav",
-    "extractNotes": "Always Open (Location not confirmed)"
+    "extractNotes": "Always Open"
   },
   {
     "type": "extract",
