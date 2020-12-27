@@ -168,7 +168,7 @@
       {
         "task": "Sanitary Standards - Part 1",
         "amount": 1,
-        "findInRaid": false
+        "findInRaid": true
       },
       {
         "task": "Sanitary Standards - Part 2",
