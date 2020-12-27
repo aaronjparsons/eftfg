@@ -306,8 +306,8 @@
     "tasks": [
       {
         "task": "Private Clinic",
-        "amount": 3,
-        "findInRaid": false
+        "amount": 2,
+        "findInRaid": true
       }
     ],
     "modules": [
@@ -322,8 +322,8 @@
     "tasks": [
       {
         "task": "Private Clinic",
-        "amount": 3,
-        "findInRaid": false
+        "amount": 1,
+        "findInRaid": true
       }
     ],
     "modules": [
