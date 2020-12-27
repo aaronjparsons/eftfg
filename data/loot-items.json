@@ -20,8 +20,8 @@
     "tasks": [
       {
         "task": "Ice Cream Cones",
-        "amount": 6,
-        "findInRaid": false
+        "amount": 3,
+        "findInRaid": true
       }
     ],
     "modules": []
