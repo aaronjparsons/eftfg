@@ -8,6 +8,8 @@
         Escape From Tarkov key spawns & use locations, searchable by specific key or by map.
         <br/>
         Eg: "Factory Key" or "Customs (All Keys)"
+        <br/>
+        Click the map markers for more info
       </p>
     </v-row>
     <v-divider class="mx-8 mb-4" />

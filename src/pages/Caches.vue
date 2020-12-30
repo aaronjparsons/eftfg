@@ -6,6 +6,8 @@
     <v-row justify="center">
       <p class="caption-text mx-12 text-center">
         Escape From Tarkov cache locations for all maps.
+        <br/>
+        Click the map markers for screenshots
       </p>
     </v-row>
     <v-divider class="mx-8 mb-4" />

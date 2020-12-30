@@ -8,6 +8,8 @@
         Escape From Tarkov extract locations, searchable by specific extract or by map.
         <br/>
         Eg: "RUAF Roadblock" or "Customs (All Extractions)"
+        <br/>
+        Click the map markers for more info
       </p>
     </v-row>
     <v-divider class="mx-8 mb-4" />
