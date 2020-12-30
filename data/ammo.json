@@ -1,22 +1,36 @@
 {
   "changes": [
     {
-      "name": "*NEW - 8.6x70mm .338 Lapua Magnum FMJ"
+      "penetration": [
+        "54",
+        "44"
+      ],
+      "name": "7.62x51 mm M62"
     },
     {
-      "name": "*NEW - 8.6x70mm .338 Lapua Magnum AP"
+      "penetration": [
+        "68",
+        "64"
+      ],
+      "name": "7.62x51 mm M61"
     },
     {
-      "name": "*NEW - 8.6x70mm .338 Lapua Magnum TAC-X"
+      "name": "*NEW - .338 Lapua Magnum FMJ"
     },
     {
-      "name": "*NEW - 8.6x70mm .338 UPZ Lapua Magnum"
+      "name": "*NEW - .338 Lapua Magnum AP"
     },
     {
-      "name": "*NEW - 7.62x35mm .300 AAC Blackout AP"
+      "name": "*NEW - .338 Lapua Magnum TAC-X"
     },
     {
-      "name": "*NEW - 7.62x35mm .300 BPZ AAC Blackout"
+      "name": "*NEW - .338 UPZ Lapua Magnum"
+    },
+    {
+      "name": "*NEW - .300 AAC Blackout AP"
+    },
+    {
+      "name": "*NEW - .300 BPZ AAC Blackout"
     }
   ],
   "ammo": [
@@ -235,6 +249,42 @@
       "accuracy": "+110",
       "recoil": "-10",
       "fragmentation": "15%"
+    },
+    {
+      "name": "23x75mm \"Star\"",
+      "damage": "0",
+      "penetration": "0",
+      "armorDamage": "0",
+      "accuracy": "0",
+      "recoil": "0",
+      "fragmentation": "20%"
+    },
+    {
+      "name": "23x75mm Shrapnel-25",
+      "damage": "8x78",
+      "penetration": "10",
+      "armorDamage": "20",
+      "accuracy": "+20",
+      "recoil": "+10",
+      "fragmentation": "0%"
+    },
+    {
+      "name": "23x75mm Shrapnel 10",
+      "damage": "8x87",
+      "penetration": "11",
+      "armorDamage": "20",
+      "accuracy": "",
+      "recoil": "",
+      "fragmentation": "0%"
+    },
+    {
+      "name": "23x75mm \"Barricade\"",
+      "damage": "192",
+      "penetration": "39",
+      "armorDamage": "75",
+      "accuracy": "-5",
+      "recoil": "+25",
+      "fragmentation": "20%"
     },
     {
       "name": "9x18 mm PM SP8 gzh",
@@ -984,6 +1034,24 @@
       "fragmentation": "12%"
     },
     {
+      "name": ".300 BPZ AAC Blackout",
+      "damage": "60",
+      "penetration": "28",
+      "armorDamage": "36",
+      "accuracy": "",
+      "recoil": "",
+      "fragmentation": "30%"
+    },
+    {
+      "name": ".300 AAC Blackout AP",
+      "damage": "55",
+      "penetration": "44",
+      "armorDamage": "60",
+      "accuracy": "+5",
+      "recoil": "+5",
+      "fragmentation": "30%"
+    },
+    {
       "name": "7.62x51 mm Ultra Nosler",
       "damage": "107",
       "penetration": "15",
@@ -1022,7 +1090,7 @@
     {
       "name": "7.62x51 mm M62",
       "damage": "79",
-      "penetration": "54",
+      "penetration": "44",
       "armorDamage": "75",
       "accuracy": "-6",
       "recoil": "-5",
@@ -1031,7 +1099,7 @@
     {
       "name": "7.62x51 mm M61",
       "damage": "70",
-      "penetration": "68",
+      "penetration": "64",
       "armorDamage": "83",
       "accuracy": "+3",
       "recoil": "+10",
@@ -1128,6 +1196,42 @@
       "fragmentation": "30%"
     },
     {
+      "name": ".338 Lapua Magnum TAC-X",
+      "damage": "196",
+      "penetration": "18",
+      "armorDamage": "55",
+      "accuracy": "+10",
+      "recoil": "+5",
+      "fragmentation": "50%"
+    },
+    {
+      "name": ".338 UPZ Lapua Magnum",
+      "damage": "142",
+      "penetration": "32",
+      "armorDamage": "70",
+      "accuracy": "-5",
+      "recoil": "",
+      "fragmentation": "60%"
+    },
+    {
+      "name": ".338 Lapua Magnum FMJ",
+      "damage": "122",
+      "penetration": "47",
+      "armorDamage": "83",
+      "accuracy": "",
+      "recoil": "",
+      "fragmentation": "20%"
+    },
+    {
+      "name": ".338 Lapua Magnum AP",
+      "damage": "115",
+      "penetration": "79",
+      "armorDamage": "89",
+      "accuracy": "",
+      "recoil": "+10",
+      "fragmentation": "13%"
+    },
+    {
       "name": "40x46 mm M576",
       "damage": "15x160",
       "penetration": "5",
@@ -1137,40 +1241,13 @@
       "fragmentation": "0%"
     },
     {
-      "name": "23x75mm Shrapnel-25",
-      "damage": "8x78",
-      "penetration": "10",
-      "armorDamage": "20",
-      "accuracy": "+20",
-      "recoil": "+10",
-      "fragmentation": "0%"
-    },
-    {
-      "name": "23x75mm Shrapnel 10",
-      "damage": "8x87",
-      "penetration": "11",
-      "armorDamage": "20",
+      "name": "30x29 mm VOG-30",
+      "damage": "199",
+      "penetration": "1",
+      "armorDamage": "95",
       "accuracy": "",
       "recoil": "",
       "fragmentation": "0%"
-    },
-    {
-      "name": "23x75mm \"Barricade\"",
-      "damage": "192",
-      "penetration": "39",
-      "armorDamage": "75",
-      "accuracy": "-5",
-      "recoil": "+25",
-      "fragmentation": "20%"
-    },
-    {
-      "name": "23x75mm \"Star\"",
-      "damage": "0",
-      "penetration": "0",
-      "armorDamage": "0",
-      "accuracy": "0",
-      "recoil": "0",
-      "fragmentation": "20%"
     },
     {
       "name": "12.7x108 mm B-32",
@@ -1189,69 +1266,6 @@
       "accuracy": "",
       "recoil": "",
       "fragmentation": "17%"
-    },
-    {
-      "name": "8.6x70 mm .338 Lapua Magnum FMJ",
-      "damage": "122",
-      "penetration": "40",
-      "armorDamage": "",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "20%"
-    },
-    {
-      "name": "8.6x70 mm .338 Lapua Magnum AP",
-      "damage": "115",
-      "penetration": "78",
-      "armorDamage": "",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "13%"
-    },
-    {
-      "name": "8.6x70 mm .338 Lapua Magnum TAC-X",
-      "damage": "185",
-      "penetration": "18",
-      "armorDamage": "",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "50%"
-    },
-    {
-      "name": "8.6x70 mm .338 UPZ Lapua Magnum",
-      "damage": "142",
-      "penetration": "25",
-      "armorDamage": "",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "60%"
-    },
-    {
-      "name": "7.62x35 mm .300 AAC Blackout AP",
-      "damage": "55",
-      "penetration": "44",
-      "armorDamage": "60",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "10%"
-    },
-    {
-      "name": "7.62x35 mm .300 BPZ AAC Blackout",
-      "damage": "60",
-      "penetration": "28",
-      "armorDamage": "36",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "30%"
-    },
-    {
-      "name": "30x29 mm VOG-30",
-      "damage": "199",
-      "penetration": "1",
-      "armorDamage": "95",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "0%"
     }
   ]
 }
