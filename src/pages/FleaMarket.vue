@@ -18,6 +18,7 @@
           item-text="name"
           :items="items"
           :menu-props="autocompleteMenuProps"
+          :loading="loadingItem"
           return-object
           solo
           no-data-text="No items found..."
@@ -47,7 +48,7 @@
           </v-alert>
         </div>
         <v-card
-          v-else-if="Object.keys(input).length"
+          v-else-if="Object.keys(selectedItem).length"
           class="my-2"
           hover
           @click.native="setActiveItem('input')"
@@ -57,12 +58,12 @@
               tile
               size="100"
             >
-              <v-img :src="input.imgBig"></v-img>
+              <v-img :src="selectedItem.imgBig"></v-img>
             </v-list-item-avatar>
             <div class="item-header-info">
-              <div class="item-name">{{ input.name }}</div>
-              <div class="item-updated">{{ format(input.updated) }}</div>
-              <div class="item-price">₽{{ parsePrice(input.price) }}</div>
+              <div class="item-name">{{ selectedItem.name }}</div>
+              <div class="item-updated">{{ format(selectedItem.updated) }}</div>
+              <div class="item-price">₽{{ parsePrice(selectedItem.price) }}</div>
             </div>
             <div v-if="isMobile" class="text-right">
               <div class="item-updated">Expand</div>
@@ -78,7 +79,7 @@
                 <v-card outlined style="width: 100%;">
                   <div class="px-4 py-2 trend-title">Daily Trend</div>
                   <v-sparkline
-                    :value="trendList(input)"
+                    :value="trendList(selectedItem)"
                     color="rgb(150, 132, 101)"
                     height="75"
                     padding="24"
@@ -100,9 +101,9 @@
                     <v-card-title>Average Price</v-card-title>
                     <v-card-text>
                       <div class="item-updated">24 hours</div>
-                      <div class="extra-data">₽{{ parsePrice(input.avg24hPrice) }}</div>
+                      <div class="extra-data">₽{{ parsePrice(selectedItem.avg24hPrice) }}</div>
                       <div class="item-updated">7 days</div>
-                      <div class="extra-data">₽{{ parsePrice(input.avg7daysPrice) }}</div>
+                      <div class="extra-data">₽{{ parsePrice(selectedItem.avg7daysPrice) }}</div>
                     </v-card-text>
                   </v-card>
                 </v-col>
@@ -110,8 +111,8 @@
                   <v-card outlined class="data-card">
                     <v-card-title>Trader Price</v-card-title>
                     <v-card-text>
-                      <div class="item-updated">{{ input.traderName }}</div>
-                      <div class="extra-data">{{ input.traderPriceCur }}{{ parsePrice(input.traderPrice) }}</div>
+                      <div class="item-updated">{{ selectedItem.traderName }}</div>
+                      <div class="extra-data">{{ selectedItem.traderPriceCur }}{{ parsePrice(selectedItem.traderPrice) }}</div>
                     </v-card-text>
                   </v-card>
                 </v-col>
@@ -120,9 +121,9 @@
                     <v-card-title>Price Difference</v-card-title>
                     <v-card-text>
                       <div class="item-updated">24 hours</div>
-                      <div class="extra-data">{{ formatPercentage(input.diff24h) }}</div>
+                      <div class="extra-data">{{ formatPercentage(selectedItem.diff24h) }}</div>
                       <div class="item-updated">7 days</div>
-                      <div class="extra-data">{{ formatPercentage(input.diff7days) }}</div>
+                      <div class="extra-data">{{ formatPercentage(selectedItem.diff7days) }}</div>
                     </v-card-text>
                   </v-card>
                 </v-col>
@@ -290,8 +291,10 @@ export default {
   data() {
     return {
       input: {},
+      selectedItem: {},
       activeItemIndex: null,
-      error: false
+      error: false,
+      loadingItem: false
     }
   },
 
@@ -309,6 +312,14 @@ export default {
     }
   },
 
+  watch: {
+    input(val) {
+      if (val && Object.keys(val).length) {
+        this.setSelectedItem(val);
+      }
+    }
+  },
+
   computed: {
     items() {
       return this.$store.state.marketItems
@@ -320,7 +331,7 @@ export default {
       // default properties copied from the vuetify-autocomplete docs
       let defaultProps = {
         closeOnClick: false,
-        closeOnContentClick: false,
+        closeOnContentClick: true,
         disableKeys: true,
         openOnClick: false,
         maxHeight: 304
@@ -333,8 +344,22 @@ export default {
   },
 
   methods: {
+    async setSelectedItem(value) {
+      this.loadingItem = true
+      const apiBase = process.env.GRIDSOME_API_ROUTE
+      const response = await fetch(`${apiBase}/v1/market/${value._id}`)
+      const selected = await response.json()
+
+      if (selected.error) {
+        this.error = true;
+      } else {
+        this.selectedItem = selected
+      }
+      this.loadingItem = false
+    },
     clearSearch() {
       this.input = {}
+      this.selectedItem = {}
       this.activeItemIndex = null
     },
     setActiveItem(index) {
