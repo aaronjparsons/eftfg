@@ -299,7 +299,7 @@ export default {
   },
 
   async mounted() {
-    const apiBase = 'http://localhost:5001/eftfg-f1ce4/us-central1/api' //process.env.GRIDSOME_API_ROUTE
+    const apiBase = process.env.GRIDSOME_API_ROUTE
     if (!this.items.length) {
       const response = await fetch(`${apiBase}/v1/market/`)
       const marketItems = await response.json()
