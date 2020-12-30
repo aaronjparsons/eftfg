@@ -259,7 +259,7 @@
       },
       {
         "type": "Ground Cache",
-        "coords": [-164.53443825910932,110.96875],
+        "coords": [-162.4127024291498,101.875],
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1608883781/woods_cache_9.jpg"
       },
       {
@@ -269,7 +269,7 @@
       },
       {
         "type": "Buried Barrel Cache",
-        "coords": [-165.42007844129554,67.572021484375],
+        "coords": [-161.62874493927126,59.6875],
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1608957715/woods_cache_11.jpg"
       },
       {
@@ -279,17 +279,17 @@
       },
       {
         "type": "Buried Barrel Cache",
-        "coords": [-165.90969129554657,94.59375],
+        "coords": [-163.38137651821862,85.59375],
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1609110005/woods_cache_13.jpg"
       },
       {
         "type": "Buried Barrel Cache",
-        "coords": [-165.9828923646255,75.69482421875],
+        "coords": [-160.87927631578947,64.1875],
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1609110006/woods_cache_14.jpg"
       },
       {
         "type": "Buried Barrel Cache",
-        "coords": [-181.2943228903087,117.3031005859375],
+        "coords": [-182.1964068825911,113.0625],
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1609181963/woods_cache_15.jpg"
       },
       {
@@ -299,13 +299,28 @@
       },
       {
         "type": "Ground Cache",
-        "coords": [-153.44796661500507,58.6468505859375],
+        "coords": [-148.34547064777328,42.78125],
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1609181963/woods_cache_17.jpg"
       },
       {
         "type": "Buried Barrel Cache",
-        "coords": [-175.67221620382085,36.8394775390625],
+        "coords": [-178.47935222672064,24.71875],
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1609181963/woods_cache_18.jpg"
+      },
+      {
+        "type": "Ground Cache",
+        "coords": [-178.43065496900303,121.211181640625],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1609305658/woods_cache_19.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-153.38511394547064,29.24951171875],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1609305658/woods_cache_20.jpg"
+      },
+      {
+        "type": "Buried Barrel Cache",
+        "coords": [-183.7304161658654,79.2606201171875],
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1609305658/woods_cache_21.jpg"
       }
     ]
   },
