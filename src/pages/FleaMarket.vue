@@ -63,6 +63,7 @@
             <div class="item-header-info">
               <div class="item-name">{{ selectedItem.name }}</div>
               <div class="item-updated">{{ format(selectedItem.updated) }}</div>
+              <div class="item-updated">Searches today: {{ selectedItem.searchCount || 0 }}</div>
               <div class="item-price">₽{{ parsePrice(selectedItem.price) }}</div>
             </div>
             <div v-if="isMobile" class="text-right">
@@ -133,7 +134,7 @@
         </v-card>
         <div v-else>
           <v-row justify="center">
-            <h1 class="text-center" style="opacity: 0.75;">Top 10 Highest Prices</h1>
+            <h1 class="text-center" style="opacity: 0.75;">Most searched items today</h1>
           </v-row>
           <v-card
             v-for="(item, index) in topItems"
@@ -152,6 +153,7 @@
               <div class="item-header-info">
                 <div class="item-name">{{ item.name }}</div>
                 <div class="item-updated">{{ format(item.updated) }}</div>
+                <div class="item-updated">Searches today: {{ item.searchCount || 0 }}</div>
                 <div class="item-price">₽{{ parsePrice(item.price) }}</div>
               </div>
               <div v-if="isMobile" class="text-right">
