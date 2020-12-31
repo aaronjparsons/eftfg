@@ -135,7 +135,7 @@ export default {
         maxZoom: 5
       },
       bounds: {
-        Customs: [[-156, 0], [-256, 141]],
+        Customs: [[-143, 0], [-256, 141]],
         Interchange: [[-168, 0], [-256, 141]],
         Shoreline: [[-162, 0], [-256, 151]],
         Woods: [[-143, 0], [-256, 141]],

@@ -3,21 +3,24 @@
     "date": "2020/12/30",
     "summary": [
       "*NEW - Updated Flea Market API to be more efficient",
-      "*NEW - Updated Woods map to be more accurate",
-      "*NEW - Added 13 new caches on Woods",
+      "*NEW - Updated Woods map",
+      "*NEW - Added 14 new caches on Woods",
+      "*NEW - Updated Customs map",
       "Added new ammo (.300 & .338)",
-      "Updated Woods map with the new expansion",
       "Added new Woods extractions (Bridge Extraction, Northern UN Roadblock, Eastern Rocks, Scav Bridge)",
       "Removed Cliff Descent extraction",
-      "Added new caches on Customs",
+      "Added 3 new caches on Customs",
       "Updated some required task items",
       "Expect frequent updates over the next couple days with the new patch"
     ],
     "changes": [
-      "Added new ammo",
+      "Updated Flea Market API to be more efficient. Also started tracking how many times items are searched for daily",
       "Updated the Woods map with the new expansion",
-      "Added new Woods extractions",
-      "Added a few new caches on Woods",
+      "Added new Woods extractions. Removed Cliff Descent extraction",
+      "Added 14 new caches on Woods",
+      "Updated Customs map. Added basement for Warehouse 4. Added interiors for Fortress",
+      "Added 3 new Caches to Customs",
+      "Updated ammo. Added new .300 & .338 ammo",
       "Updated some required task items"
     ]
   },
