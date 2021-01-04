@@ -145,7 +145,7 @@
     "tasks": [
       {
         "task": "Regulated Materials",
-        "amount": 10,
+        "amount": 5,
         "findInRaid": true
       }
     ],
