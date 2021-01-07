@@ -2080,7 +2080,7 @@
     "tasks": [
       {
         "task": "Fishing Place",
-        "amount": 3,
+        "amount": 2,
         "findInRaid": true
       }
     ],
