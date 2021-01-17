@@ -341,5 +341,333 @@
         "video": ""
       }
     ]
+  },
+  {
+    "type": "task",
+    "label": "Operation Aquarius - Part 1",
+    "maps": [
+      "Customs"
+    ],
+    "locations": [
+      {
+        "map": "Customs",
+        "marker": "-238.22669534412955,82.90625",
+        "notes": "Water location. Dorm Room 206 key required",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Sanitary Standards - Part 1",
+    "maps": [
+      "Factory"
+    ],
+    "locations": [
+      {
+        "map": "Factory",
+        "marker": "-197.50794534412955,97.625",
+        "notes": "(Optional) Pumping station location. Door key required",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Pharmacist",
+    "maps": [
+      "Customs"
+    ],
+    "locations": [
+      {
+        "map": "Customs",
+        "marker": "-247.52062286500507,72.434814453125",
+        "notes": "The briefcase location. Requires Dorm Room 114 key",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Customs",
+        "marker": "-207.69521761133603,24.4375",
+        "notes": "(Optional) Location of the paramedics car. Spawn location of the Dorm Room 114 key (in the jacket in the trunk of the car)",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799177/customs_dorm_room_114_key.jpg",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Supply Plans",
+    "maps": [
+      "Woods"
+    ],
+    "locations": [
+      {
+        "map": "Woods",
+        "marker": "-200.75412449392712,59.6875",
+        "notes": "Location of the secure folder. Under the bed in the north most trailer.",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Health Care Privacy - Part 1",
+    "maps": [
+      "Shoreline"
+    ],
+    "locations": [
+      {
+        "map": "Shoreline",
+        "marker": "-223.67998007338056,22.9229736328125",
+        "notes": "Ambulance #1 location",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-223.77380598431174,25.7979736328125",
+        "notes": "Ambulance #2 location",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-191.09917684084007,72.7677001953125",
+        "notes": "Ambulance #3 location",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Health Care Privacy - Part 2",
+    "maps": [
+      "Shoreline"
+    ],
+    "locations": [
+      {
+        "map": "Shoreline",
+        "marker": "-190.1321609311741,75.5625",
+        "notes": "Location of the info. Found on the window sill in East Wing 306. East Wing 306 key required",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Health Care Privacy - Part 3",
+    "maps": [
+      "Woods"
+    ],
+    "locations": [
+      {
+        "map": "Woods",
+        "marker": "-232.094543111083,68.671142578125",
+        "notes": "Location of the van. Blood sample is on the passenger side sliding door",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Health Care Privacy - Part 5",
+    "maps": [
+      "Factory"
+    ],
+    "locations": [
+      {
+        "map": "Factory",
+        "marker": "-194.5741033021255,17.219482421875",
+        "notes": "Location to drop the gunpowder",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Colleagues - Part 1",
+    "maps": [
+      "Shoreline"
+    ],
+    "locations": [
+      {
+        "map": "Shoreline",
+        "marker": "-204.02332640118928,43.697998046875",
+        "notes": "Location of the bodies at the cottage",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-237.80264818446358,76.63720703125",
+        "notes": "Location of the bodies at the pier",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-193.4483090049342,72.316162109375",
+        "notes": "Location of the bodies at the health resort",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Colleagues - Part 2",
+    "maps": [
+      "Shoreline"
+    ],
+    "locations": [
+      {
+        "map": "Shoreline",
+        "marker": "-237.68625300480767,77.2471923828125",
+        "notes": "Location of Sanitar's surgery kit. Second floor of the pier building, on top of a shelf",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-207.54181427125505,43.628173828125",
+        "notes": "Location of Sanitar's ophtalmoscope. Second floor of the locked cottage, in a potted plant in the upstairs left room. Cottage key required.",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Out of Curiosity",
+    "maps": [
+      "Customs"
+    ],
+    "locations": [
+      {
+        "map": "Customs",
+        "marker": "-198.11948064271255,34.7152099609375",
+        "notes": "Location of the chemical transport",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "The Extortionist",
+    "maps": [
+      "Customs"
+    ],
+    "locations": [
+      {
+        "map": "Customs",
+        "marker": "-199.18668435285932,47.585205078125",
+        "notes": "Location of the valuable hidden cargo. Unknown key required",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Customs",
+        "marker": "-186.7159366311542,84.803466796875",
+        "notes": "(Optional) Location of the messenger body. Unknown key can be found on the body",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799184/customs_unknown_key.jpg",
+        "video": "df5sYJ2pssE"
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Golden Swag",
+    "maps": [
+      "Customs"
+    ],
+    "locations": [
+      {
+        "map": "Customs",
+        "marker": "-228.0290703283148,122.1427001953125",
+        "notes": "Location of the golden zibbo. Dorm Room 303 key required",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Customs",
+        "marker": "-173.56042984564777,108.847412109375",
+        "notes": "Drop off location. Trailer park cabin key required",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Chemical - Part 1",
+    "maps": [
+      "Customs"
+    ],
+    "locations": [
+      {
+        "map": "Customs",
+        "marker": "-190.82571996773785,33.7294921875",
+        "notes": "Location of Docs case 0013. Tucked between a box and the wall of the train car",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Chemical - Part 2",
+    "maps": [
+      "Customs"
+    ],
+    "locations": [
+      {
+        "map": "Customs",
+        "marker": "-237.90282689144738,110.1470947265625",
+        "notes": "Location of the information. Letter found on the shelf between books. Flash drive found in the laptop. Dorm room 220 key required",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Chemical - Part 3",
+    "maps": [
+      "Factory"
+    ],
+    "locations": [
+      {
+        "map": "Factory",
+        "marker": "-193.2150414347166,17.1109619140625",
+        "notes": "Chemical container location. Found in the filing cabinet",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Chemical - Part 4",
+    "maps": [
+      "Customs"
+    ],
+    "locations": [
+      {
+        "map": "Customs",
+        "marker": "-198.52363083565282,34.946044921875",
+        "notes": "Chemical transport location",
+        "image": "",
+        "video": ""
+      }
+    ]
   }
 ]

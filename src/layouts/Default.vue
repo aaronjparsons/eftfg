@@ -98,7 +98,7 @@ export default {
       },
       {
         route: '/tasks',
-        icon: 'mdi-map',
+        icon: 'mdi-map-marker',
         label: 'Tasks'
       },
       {
