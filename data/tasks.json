@@ -1,0 +1,345 @@
+[
+  {
+    "type": "task",
+    "label": "Checking",
+    "maps": [
+      "Customs"
+    ],
+    "locations": [
+      {
+        "map": "Customs",
+        "marker": "-228.89576519800102,114.8482666015625",
+        "notes": "Machinery key location",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Customs",
+        "marker": "-200.53658906882592,77.375",
+        "notes": "Bronze pocket watch. Machinery key required to open the door.",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Search Mission",
+    "maps": [
+      "Woods"
+    ],
+    "locations": [
+      {
+        "map": "Woods",
+        "marker": "-166.01572937753036,29.69970703125",
+        "notes": "USEC Camp location",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Woods",
+        "marker": "-158.0129167193826,39.6710205078125",
+        "notes": "Missing convoy location",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Delivery From the Past",
+    "maps": [
+      "Customs",
+      "Factory"
+    ],
+    "locations": [
+      {
+        "map": "Customs",
+        "marker": "-209.7296052631579,120.71875",
+        "notes": "Secure case location. Customs Office key required",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Factory",
+        "marker": "-196.74709680225203,48.09716796875",
+        "notes": "Drop off location",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "BP Depot",
+    "maps": [
+      "Customs"
+    ],
+    "locations": [
+      {
+        "map": "Customs",
+        "marker": "-206.94692916561235,41.7467041015625",
+        "notes": "Tanker #1 location",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Customs",
+        "marker": "-199.59088001328442,77.8734130859375",
+        "notes": "Tanker #2 location",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Customs",
+        "marker": "-182.7926651062753,49.604736328125",
+        "notes": "Tanker #3 location",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Customs",
+        "marker": "-176.7216223589322,125.5517578125",
+        "notes": "Tanker #4 location",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "The Bunker - Part 1",
+    "maps": [
+      "Reserve"
+    ],
+    "locations": [
+      {
+        "map": "Reserve",
+        "marker": "-213.66663793648786,161.8731689453125",
+        "notes": "Control room location",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "The Bunker - Part 2",
+    "maps": [
+      "Reserve"
+    ],
+    "locations": [
+      {
+        "map": "Reserve",
+        "marker": "-202.07141241776316,140.478759765625",
+        "notes": "White Bishop hermetic door location",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Reserve",
+        "marker": "-201.98186242725203,163.7337646484375",
+        "notes": "Black Bishop hermetic door #1 location",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Reserve",
+        "marker": "-201.8254859090334,175.8275146484375",
+        "notes": "Black Bishop hermetic door #2 location",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Reserve",
+        "marker": "-212.58907712866903,180.1270751953125",
+        "notes": "Black Pawn hermetic #1 door location",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Reserve",
+        "marker": "-227.36250434906376,180.2691650390625",
+        "notes": "Black Pawn hermetic #2 door location",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Reserve",
+        "marker": "-236.14500292573382,170.217529296875",
+        "notes": "White Pawn hermetic door #1 location",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Reserve",
+        "marker": "-236.1137276220901,155.498779296875",
+        "notes": "White Pawn hermetic door #2 location",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Reserve",
+        "marker": "-220.08110292257086,145.0697021484375",
+        "notes": "White King hermetic door location",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Bad Rep Evidence",
+    "maps": [
+      "Customs"
+    ],
+    "locations": [
+      {
+        "map": "Customs",
+        "marker": "-203.94400303643724,67.25",
+        "notes": "Secure Folder 0031 location. Requires Portable cabin key of customs Factory zone",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Ice Cream Cones",
+    "maps": [
+      "Customs",
+      "Woods"
+    ],
+    "locations": [
+      {
+        "map": "Customs",
+        "marker": "-237.86033100328947,109.6630859375",
+        "notes": "(Optional) ZB-014 key location. Requires Dorm Room 220 key",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Woods",
+        "marker": "-215.35798567181175,16.0257568359375",
+        "notes": "(Optional) ZB-014 bunker location",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Postman Pat - Part 1",
+    "maps": [
+      "Factory"
+    ],
+    "locations": [
+      {
+        "map": "Factory",
+        "marker": "-228.05347213436235,80.4002685546875",
+        "notes": "Letter location. Found on the dead scav",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Shaking Up Teller",
+    "maps": [
+      "Customs"
+    ],
+    "locations": [
+      {
+        "map": "Customs",
+        "marker": "-227.74028933135122,114.406494140625",
+        "notes": "Briefcase location, under the bed. Requires Dorm Room 203 key",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Customs",
+        "marker": "-242.72885643345143,118.49267578125",
+        "notes": "(Optional) Spawn location of Dorm Room 203 key. Requires Dorm Room 214 key",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799177/customs_dorm_room_203_key.jpg",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Anesthesia",
+    "maps": [
+      "Shoreline"
+    ],
+    "locations": [
+      {
+        "map": "Shoreline",
+        "marker": "-206.14788793648785,43.8055419921875",
+        "notes": "Trading Post #1 location",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-239.07733426113361,76.936279296875",
+        "notes": "Trading Post #2 location",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-191.36843963499493,73.3018798828125",
+        "notes": "Trading Post #3 location",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Regulated Materials",
+    "maps": [
+      "Reserve"
+    ],
+    "locations": [
+      {
+        "map": "Reserve",
+        "marker": "-175.0070597165992,165.78125",
+        "notes": "RB-BK room. Good source for OFZ Shells",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Reserve",
+        "marker": "-236.44567307692307,58.96875",
+        "notes": "RB-ST room. Good source for Tank Batteries",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Reserve",
+        "marker": "-153.97735323886639,89.3125",
+        "notes": "RB-GN room. Good source for Tank Batteries",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Big Customer",
+    "maps": [
+      "Customs"
+    ],
+    "locations": [
+      {
+        "map": "Customs",
+        "marker": "-198.42812065093622,34.64892578125",
+        "notes": "Chemical transport location",
+        "image": "",
+        "video": ""
+      }
+    ]
+  }
+]
