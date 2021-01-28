@@ -1,5 +1,14 @@
 [
   {
+    "date": "2021/01/27",
+    "summary": [
+      "Updated ammo values"
+    ],
+    "changes": [
+      "Updated ammo values"
+    ]
+  },
+  {
     "date": "2020/12/30",
     "summary": [
       "*NEW - Updated Flea Market API to be more efficient",

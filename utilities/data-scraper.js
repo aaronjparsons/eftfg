@@ -70,7 +70,7 @@ async function getAmmoData() {
     let dataPoints = $(this)
       .find("td");
 
-    if (dataPoints.length === 14) {
+    if (dataPoints.length === 16) {
       dataPoints = dataPoints.slice(2, 8);
     } else {
       dataPoints = dataPoints.slice(1, 7);
