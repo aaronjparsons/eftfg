@@ -1,75 +1,18 @@
 {
   "changes": [
     {
-      "accuracy": [
-        "-25",
-        "-10"
-      ],
-      "name": "12x70 Flechette"
-    },
-    {
       "penetration": [
-        "18",
-        "19"
-      ],
-      "accuracy": [
         "0",
-        "+5"
+        "2"
       ],
-      "name": ".45 ACP Lasermatch FMJ"
-    },
-    {
-      "damage": [
-        "72",
-        "69"
-      ],
-      "penetration": [
-        "19",
-        "23"
-      ],
-      "name": ".45 ACP FMJ"
+      "name": "12x70 RIP"
     },
     {
       "penetration": [
-        "35",
-        "38"
+        "2",
+        "5"
       ],
-      "name": "9x39 mm SP-5"
-    },
-    {
-      "penetration": [
-        "43",
-        "46"
-      ],
-      "name": "9x39 mm SP-6"
-    },
-    {
-      "penetration": [
-        "45",
-        "50"
-      ],
-      "name": "9x39 mm 7N9 SPP"
-    },
-    {
-      "penetration": [
-        "48",
-        "55"
-      ],
-      "name": "9x39 mm 7N12 BP"
-    },
-    {
-      "accuracy": [
-        "+5",
-        "+3"
-      ],
-      "name": "7.62x51 mm M993"
-    },
-    {
-      "armorDamage": [
-        "88",
-        "8"
-      ],
-      "name": "7.62x54R 7N37"
+      "name": "12x70 HP Slug \"SuperFormance\""
     }
   ],
   "ammo": [
@@ -121,7 +64,7 @@
     {
       "name": "12x70 RIP",
       "damage": "265",
-      "penetration": "0",
+      "penetration": "2",
       "armorDamage": "11",
       "accuracy": "+80",
       "recoil": "+35",
@@ -130,7 +73,7 @@
     {
       "name": "12x70 HP Slug \"SuperFormance\"",
       "damage": "220",
-      "penetration": "2",
+      "penetration": "5",
       "armorDamage": "12",
       "accuracy": "+170",
       "recoil": "-15",
@@ -1202,7 +1145,7 @@
       "name": "7.62x54R 7N37",
       "damage": "72",
       "penetration": "70",
-      "armorDamage": "8",
+      "armorDamage": "88",
       "accuracy": "",
       "recoil": "",
       "fragmentation": "8%"

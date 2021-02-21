@@ -2102,7 +2102,7 @@
     "unlocks": [
       {
         "map": "Interchange",
-        "marker": "-242.97061539856927,123.453125",
+        "marker": "-233.933379236841,77.828125",
         "notes": "Unlocks the door to the OLI administrator office on Interchange",
         "image": "",
         "video": ""
@@ -2128,7 +2128,7 @@
     "unlocks": [
       {
         "map": "Interchange",
-        "marker": "-242.87685806410568,125.453125",
+        "marker": "-236.11986355578068,77.859375",
         "notes": "Unlocks the door to the OLI logistics department office on Interchange",
         "image": "",
         "video": ""
@@ -2154,7 +2154,7 @@
     "unlocks": [
       {
         "map": "Interchange",
-        "marker": "-180.2818954327946,21.515625",
+        "marker": "-199.80771178928708,36.140625",
         "notes": "Unlocks the door to a shack at the power substation adjacent to the Ultra shopping mall on Interchange",
         "image": "",
         "video": ""
@@ -2180,7 +2180,7 @@
     "unlocks": [
       {
         "map": "Interchange",
-        "marker": "-241.4701313239733,14.984375",
+        "marker": "-192.3406884470896,49.984375",
         "notes": "Unlocks the door to the pharmacy on Interchange",
         "image": "",
         "video": ""
@@ -2196,7 +2196,7 @@
     "spawns": [
       {
         "map": "Interchange",
-        "marker": "-218.9454317717707, 94.03125",
+        "marker": "-204.1077466126377,101.5853271484375",
         "notes": "Spawns in the scav campsite in goshan store, behind a tent on a book",
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799186/interchange_key_to_kiba_store_outlet.jpg",
         "video": "1s2oSeP7klU"
@@ -2205,7 +2205,7 @@
     "unlocks": [
       {
         "map": "Interchange",
-        "marker": "-229.18768580641057,105.203125",
+        "marker": "-215.65096845848635,91.640625",
         "notes": "Unlocks the door to the KIBA equipment outlet store on Interchange",
         "image": "",
         "video": ""
@@ -2231,7 +2231,7 @@
     "unlocks": [
       {
         "map": "Interchange",
-        "marker": "-229.18768580641057,106.203125",
+        "marker": "-215.52602649740408,92.234375",
         "notes": "Unlocks the grate door to the KIBA firearms store on Interchange",
         "image": "",
         "video": ""
@@ -2257,7 +2257,7 @@
     "unlocks": [
       {
         "map": "Interchange",
-        "marker": "-235.0006405431522,92.546875",
+        "marker": "-203.4518013169558,85.5228271484375",
         "notes": "Unlocks the door to the EMERCOM medical care unit on Interchange",
         "image": "",
         "video": ""
@@ -2273,7 +2273,7 @@
     "spawns": [
       {
         "map": "Interchange",
-        "marker": "-242.91601027990475, 126.1875",
+        "marker": "-236.92331344181335,77.5147705078125",
         "notes": "Spawns on a desk in the OLI offices. The office next to the OLI Logistics Office",
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799185/interchange_key_to_oli_cash_register.jpg",
         "video": "ocbOic7RWxI"
@@ -2282,7 +2282,7 @@
     "unlocks": [
       {
         "map": "Interchange",
-        "marker": "-232.90672674013237,123.296875",
+        "marker": "-233.45727214448524,87.63232421875",
         "notes": "Unlocks the cash registers of the OLI outlet store on Interchange",
         "image": "",
         "video": ""
@@ -2298,7 +2298,7 @@
     "spawns": [
       {
         "map": "Interchange",
-        "marker": "-191.24574995406678, 19.34375",
+        "marker": "-197.72316689354608,25.42626953125",
         "notes": "Spawns in the bus outside of the IDEA store",
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799186/interchange_key_to_idea_cash_register.jpg",
         "video": "R5CkzCl0vlY"
@@ -2307,7 +2307,7 @@
     "unlocks": [
       {
         "map": "Interchange",
-        "marker": "-233.46930252958933,74.390625",
+        "marker": "-184.67145817504536,87.0587158203125",
         "notes": "Unlocks the cash registers of the IDEA outlet store on Interchange",
         "image": "",
         "video": ""
@@ -2333,7 +2333,7 @@
     "unlocks": [
       {
         "map": "Interchange",
-        "marker": "-221.5621210527153,101.265625",
+        "marker": "-217.33150576695792,99.315673828125",
         "notes": "Unlocks the cash registers of the GOSHAN outlet store on Interchange",
         "image": "",
         "video": ""
@@ -2924,7 +2924,7 @@
     "spawns": [
       {
         "map": "Interchange",
-        "marker": "-227.5307805181818, 108.375",
+        "marker": "-218.9895490376092,93.2720947265625",
         "notes": "On a nightstand in the back of Generic",
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1573191112/interchange_rb-op_key.jpg",
         "video": "WvUWavZxaB0"
@@ -3002,7 +3002,7 @@
     "spawns": [
       {
         "map": "Interchange",
-        "marker": "-181.43957560382785, 18.09375",
+        "marker": "-196.52692610062894,34.828125",
         "notes": "On the wooden nightstand inside the bathroom in the powerstation",
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1573191111/interchange_rb-mp21_key.jpg",
         "video": "VPs_q5OxtsM"
@@ -3635,7 +3635,7 @@
     "spawns": [
       {
         "map": "Interchange",
-        "marker": "-230.88416725023967, 100.1875",
+        "marker": "-211.96559215524883,89.5916748046875",
         "notes": "Can be found on Killa, the Interchange scav boss.",
         "image": "",
         "video": ""
@@ -3644,7 +3644,7 @@
     "unlocks": [
       {
         "map": "Interchange",
-        "marker": "-197.5927207302783,49.328125",
+        "marker": "-227.30851378160483,18.4580078125",
         "notes": "Opens the container sitting on top of other containers.",
         "image": "",
         "video": ""
@@ -3660,7 +3660,7 @@
     "spawns": [
       {
         "map": "Interchange",
-        "marker": "-230.79034312153152, 103.65625",
+        "marker": "-212.02806313578998,90.5291748046875",
         "notes": "Can be found on Killa, the Interchange scav boss.",
         "image": "",
         "video": ""
@@ -3669,7 +3669,7 @@
     "unlocks": [
       {
         "map": "Interchange",
-        "marker": "-181.15461930426514,89.453125",
+        "marker": "-221.4346455405006,57.9267578125",
         "notes": "Opens the saferoom extract. The keypad is found behind a urinal in the Burger Spot store (interact with the urinal to reveal the keypad).",
         "image": "",
         "video": ""
@@ -3695,7 +3695,7 @@
     "unlocks": [
       {
         "map": "Interchange",
-        "marker": "-195.15571458415903,115.953125",
+        "marker": "-226.72425644231987,121.085205078125",
         "notes": "Opens the back room in a Pharmacy on the second floor of the mall.",
         "image": "",
         "video": ""
@@ -3776,6 +3776,32 @@
         "map": "Shoreline",
         "marker": "-191.97570253414582,77.796875",
         "notes": "Unlocks room 110 of the East wing in the Health Resort on Shoreline",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "key",
+    "label": "Key to utility room of OLI outlet",
+    "maps": [
+      "all",
+      "Interchange"
+    ],
+    "spawns": [
+      {
+        "map": "all",
+        "marker": "",
+        "notes": "Can be found on scavs, in backpacks, filing cabinets and/or other lootable containers",
+        "image": "",
+        "video": ""
+      }
+    ],
+    "unlocks": [
+      {
+        "map": "Interchange",
+        "marker": "-230.42831534126884,97.671875",
+        "notes": "Opens the utility room in the OLI store.",
         "image": "",
         "video": ""
       }
