@@ -2154,7 +2154,7 @@
     "unlocks": [
       {
         "map": "Interchange",
-        "marker": "-199.80771178928708,36.140625",
+        "marker": "-207.9330330753936,36.09375",
         "notes": "Unlocks the door to a shack at the power substation adjacent to the Ultra shopping mall on Interchange",
         "image": "",
         "video": ""
@@ -2298,7 +2298,7 @@
     "spawns": [
       {
         "map": "Interchange",
-        "marker": "-197.72316689354608,25.42626953125",
+        "marker": "-205.94316689354608,25.42626953125",
         "notes": "Spawns in the bus outside of the IDEA store",
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799186/interchange_key_to_idea_cash_register.jpg",
         "video": "R5CkzCl0vlY"
@@ -3002,7 +3002,7 @@
     "spawns": [
       {
         "map": "Interchange",
-        "marker": "-196.52692610062894,34.828125",
+        "marker": "-191.93496874272307,27.15625",
         "notes": "On the wooden nightstand inside the bathroom in the powerstation",
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1573191111/interchange_rb-mp21_key.jpg",
         "video": "VPs_q5OxtsM"
