@@ -669,5 +669,345 @@
         "video": ""
       }
     ]
+  },
+  {
+    "type": "task",
+    "label": "Vitamins - Part 1",
+    "maps": [
+      "Shoreline",
+      "Interchange"
+    ],
+    "locations": [
+      {
+        "map": "Shoreline",
+        "marker": "-191.00113928667534,67.234375",
+        "notes": "Location of first Chemical Container, west wing 112 (Office 112 West Wing key required)",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Interchange",
+        "marker": "-203.68556433267057,86.125",
+        "notes": "Location of second Chemical Container (Emercom key required)",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Interchange",
+        "marker": "-207.74668171314954,85.75",
+        "notes": "Location of third Chemical Container, in Mantis",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Informed Means Armed",
+    "maps": [
+      "Woods",
+      "Interchange",
+      "Customs"
+    ],
+    "locations": [
+      {
+        "map": "Woods",
+        "marker": "-216.71246439894674,55.96875",
+        "notes": "Location to place WIFI camera to watch the pier",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Interchange",
+        "marker": "-215.49664980654524,88.3125",
+        "notes": "Location to place WIFI camera to watch Kiba Arms store",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Customs",
+        "marker": "-211.96539980654524,88.71875",
+        "notes": "Location to place WIFI camera to watch the road to port",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Chumming",
+    "maps": [
+      "Woods",
+      "Interchange",
+      "Customs"
+    ],
+    "locations": [
+      {
+        "map": "Woods",
+        "marker": "-201.3099049295144,59.96875",
+        "notes": "Stash 3 gold chains in the middle accommodation unit of the sawmill",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Interchange",
+        "marker": "-220.81364192057606,92.982666015625",
+        "notes": "Stash 3 gold chains under the mattress next to BTR-80A",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Customs",
+        "marker": "-236.9505156555072,127.7803955078125",
+        "notes": "Stash 3 gold chains in the microwave on the 3rd floor of dorms",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Bullshit",
+    "maps": [
+      "Customs"
+    ],
+    "locations": [
+      {
+        "map": "Customs",
+        "marker": "-199.17657786554892,100.2060546875",
+        "notes": "Location of the false flash drive. In the trunk of the red car",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Customs",
+        "marker": "-233.30499187221238,121.957275390625",
+        "notes": "Location to place the false flash drive, SV098, and Roler gold watch",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Lend Lease - Part 1",
+    "maps": [
+      "Shoreline",
+      "Woods"
+    ],
+    "locations": [
+      {
+        "map": "Woods",
+        "marker": "-201.59106984523618,36.375",
+        "notes": "Location of first Motor Controller. Front seat of the SUV",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Woods",
+        "marker": "-204.090219002454,53.65625",
+        "notes": "Location of first Gyroscope. In the container in the back of the truck",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-212.02061614451787,114.185791015625",
+        "notes": "Location of second Motor Controller. In a broken box",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-189.74643709584967,75.03125",
+        "notes": "Location of third Motor Controller. On balcony between East Wing 306 & East Wing 308. (Either East Wing 306 or East Wing 308 key required)",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-192.1515597291633,66.59375",
+        "notes": "Location of second Gyroscope. In West Wing 216 (West Wing 216 key required)",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Rigged Game",
+    "maps": [
+      "Shoreline"
+    ],
+    "locations": [
+      {
+        "map": "Shoreline",
+        "marker": "-191.40181498199797,73.28125",
+        "notes": "Location of Medical container at the health resort",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-206.0459303965823,43.8675537109375",
+        "notes": "Location of Medical container by cottages",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-239.18512827574472,77.00830078125",
+        "notes": "Location of Medical container at the pier",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Fishing Gear",
+    "maps": [
+      "Shoreline"
+    ],
+    "locations": [
+      {
+        "map": "Shoreline",
+        "marker": "-236.0086976283877,66.581787109375",
+        "notes": "Location to place the multitool and SV-98. The small boat on the shore",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Tigr Safari",
+    "maps": [
+      "Customs"
+    ],
+    "locations": [
+      {
+        "map": "Customs",
+        "marker": "-205.45653872678093,33.378173828125",
+        "notes": "Location of the first Tigr vehicle",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Customs",
+        "marker": "-205.01918762426783,25.065673828125",
+        "notes": "Location of the second Tigr vehicle",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Customs",
+        "marker": "-200.08861527576263,88.1279296875",
+        "notes": "Location of the third Tigr vehicle",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Eagle Eye",
+    "maps": [
+      "Shoreline"
+    ],
+    "locations": [
+      {
+        "map": "Shoreline",
+        "marker": "-216.53993699285292,112.34326171875",
+        "notes": "Location of the first UAV crash site",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-172.8511355392552,56.9873046875",
+        "notes": "Location of the second UAV crash site",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Humanitarian Supplies",
+    "maps": [
+      "Shoreline"
+    ],
+    "locations": [
+      {
+        "map": "Shoreline",
+        "marker": "-184.71587056890036,71.1336669921875",
+        "notes": "Location of the first truck with the lost UN cargo",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-237.03635729575296,99.8902587890625",
+        "notes": "Location of the second truck with the lost UN cargo",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "The Cult - Part 1",
+    "maps": [
+      "Shoreline"
+    ],
+    "locations": [
+      {
+        "map": "Shoreline",
+        "marker": "-194.65811177835099,28.1571044921875",
+        "notes": "Location of the missing informant",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "The Cult - Part 2",
+    "maps": [
+      "Woods",
+      "Customs",
+      "Shoreline"
+    ],
+    "locations": [
+      {
+        "map": "Shoreline",
+        "marker": "-190.9353728930446,79.34375",
+        "notes": "Location of the ritual spot on Shoreline (East Wing 321, marked room)",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Customs",
+        "marker": "-242.65205959929784,123.03125",
+        "notes": "Location of the ritual spot on Customs (Marked Room key required)",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Woods",
+        "marker": "-206.8713973525355,40.233154296875",
+        "notes": "Location of the ritual spot on Woods",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Woods",
+        "marker": "-151.12315949271857,66.698486328125",
+        "notes": "Location of the second ritual spot on Woods",
+        "image": "",
+        "video": ""
+      }
+    ]
   }
 ]
