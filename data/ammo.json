@@ -2,35 +2,17 @@
   "changes": [
     {
       "penetration": [
-        "54",
-        "44"
+        "0",
+        "2"
       ],
-      "name": "7.62x51 mm M62"
+      "name": "12x70 RIP"
     },
     {
       "penetration": [
-        "68",
-        "64"
+        "2",
+        "5"
       ],
-      "name": "7.62x51 mm M61"
-    },
-    {
-      "name": "*NEW - .338 Lapua Magnum FMJ"
-    },
-    {
-      "name": "*NEW - .338 Lapua Magnum AP"
-    },
-    {
-      "name": "*NEW - .338 Lapua Magnum TAC-X"
-    },
-    {
-      "name": "*NEW - .338 UPZ Lapua Magnum"
-    },
-    {
-      "name": "*NEW - .300 AAC Blackout AP"
-    },
-    {
-      "name": "*NEW - .300 BPZ AAC Blackout"
+      "name": "12x70 HP Slug \"SuperFormance\""
     }
   ],
   "ammo": [
@@ -75,14 +57,14 @@
       "damage": "8x25",
       "penetration": "31",
       "armorDamage": "26",
-      "accuracy": "-25",
+      "accuracy": "-10",
       "recoil": "",
       "fragmentation": "0%"
     },
     {
       "name": "12x70 RIP",
       "damage": "265",
-      "penetration": "0",
+      "penetration": "2",
       "armorDamage": "11",
       "accuracy": "+80",
       "recoil": "+35",
@@ -91,7 +73,7 @@
     {
       "name": "12x70 HP Slug \"SuperFormance\"",
       "damage": "220",
-      "penetration": "2",
+      "penetration": "5",
       "armorDamage": "12",
       "accuracy": "+170",
       "recoil": "-15",
@@ -568,16 +550,16 @@
     {
       "name": ".45 ACP Lasermatch FMJ",
       "damage": "74",
-      "penetration": "18",
+      "penetration": "19",
       "armorDamage": "37",
-      "accuracy": "",
+      "accuracy": "+5",
       "recoil": "",
       "fragmentation": "1%"
     },
     {
       "name": ".45 ACP FMJ",
-      "damage": "72",
-      "penetration": "19",
+      "damage": "69",
+      "penetration": "23",
       "armorDamage": "36",
       "accuracy": "",
       "recoil": "",
@@ -730,7 +712,7 @@
     {
       "name": "9x39 mm SP-5",
       "damage": "68",
-      "penetration": "35",
+      "penetration": "38",
       "armorDamage": "52",
       "accuracy": "",
       "recoil": "",
@@ -739,7 +721,7 @@
     {
       "name": "9x39 mm SP-6",
       "damage": "58",
-      "penetration": "43",
+      "penetration": "46",
       "armorDamage": "60",
       "accuracy": "",
       "recoil": "+10",
@@ -748,7 +730,7 @@
     {
       "name": "9x39 mm 7N9 SPP",
       "damage": "64",
-      "penetration": "45",
+      "penetration": "50",
       "armorDamage": "56",
       "accuracy": "+10",
       "recoil": "+20",
@@ -757,7 +739,7 @@
     {
       "name": "9x39 mm 7N12 BP",
       "damage": "60",
-      "penetration": "48",
+      "penetration": "55",
       "armorDamage": "68",
       "accuracy": "+10",
       "recoil": "+22",
@@ -989,6 +971,24 @@
       "fragmentation": "32%"
     },
     {
+      "name": ".300 BPZ AAC Blackout",
+      "damage": "60",
+      "penetration": "28",
+      "armorDamage": "36",
+      "accuracy": "",
+      "recoil": "",
+      "fragmentation": "30%"
+    },
+    {
+      "name": ".300 AAC Blackout AP",
+      "damage": "55",
+      "penetration": "44",
+      "armorDamage": "60",
+      "accuracy": "+5",
+      "recoil": "+5",
+      "fragmentation": "30%"
+    },
+    {
       "name": "7.62x39 mm HP",
       "damage": "87",
       "penetration": "15",
@@ -1032,24 +1032,6 @@
       "accuracy": "-3",
       "recoil": "+5",
       "fragmentation": "12%"
-    },
-    {
-      "name": ".300 BPZ AAC Blackout",
-      "damage": "60",
-      "penetration": "28",
-      "armorDamage": "36",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "30%"
-    },
-    {
-      "name": ".300 AAC Blackout AP",
-      "damage": "55",
-      "penetration": "44",
-      "armorDamage": "60",
-      "accuracy": "+5",
-      "recoil": "+5",
-      "fragmentation": "30%"
     },
     {
       "name": "7.62x51 mm Ultra Nosler",
@@ -1110,7 +1092,7 @@
       "damage": "67",
       "penetration": "70",
       "armorDamage": "85",
-      "accuracy": "+5",
+      "accuracy": "+3",
       "recoil": "+8",
       "fragmentation": "13%"
     },
@@ -1169,33 +1151,6 @@
       "fragmentation": "8%"
     },
     {
-      "name": "12.7x55 mm PS12A",
-      "damage": "165",
-      "penetration": "10",
-      "armorDamage": "22",
-      "accuracy": "-15",
-      "recoil": "-12",
-      "fragmentation": "70%"
-    },
-    {
-      "name": "12.7x55 mm PS12",
-      "damage": "115",
-      "penetration": "28",
-      "armorDamage": "60",
-      "accuracy": "+10",
-      "recoil": "",
-      "fragmentation": "30%"
-    },
-    {
-      "name": "12.7x55 mm PS12B",
-      "damage": "102",
-      "penetration": "46",
-      "armorDamage": "57",
-      "accuracy": "",
-      "recoil": "+15",
-      "fragmentation": "30%"
-    },
-    {
       "name": ".338 Lapua Magnum TAC-X",
       "damage": "196",
       "penetration": "18",
@@ -1232,7 +1187,34 @@
       "fragmentation": "13%"
     },
     {
-      "name": "40x46 mm M576",
+      "name": "12.7x55 mm PS12A",
+      "damage": "165",
+      "penetration": "10",
+      "armorDamage": "22",
+      "accuracy": "-15",
+      "recoil": "-12",
+      "fragmentation": "70%"
+    },
+    {
+      "name": "12.7x55 mm PS12",
+      "damage": "115",
+      "penetration": "28",
+      "armorDamage": "60",
+      "accuracy": "+10",
+      "recoil": "",
+      "fragmentation": "30%"
+    },
+    {
+      "name": "12.7x55 mm PS12B",
+      "damage": "102",
+      "penetration": "46",
+      "armorDamage": "57",
+      "accuracy": "",
+      "recoil": "+15",
+      "fragmentation": "30%"
+    },
+    {
+      "name": "40x46 mm M576(MP-APERS)",
       "damage": "15x160",
       "penetration": "5",
       "armorDamage": "95",

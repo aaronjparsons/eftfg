@@ -186,7 +186,12 @@ export default {
 
   methods: {
     mapClick(event) {
+<<<<<<< HEAD
       console.log(`${event.latlng.lat},${event.latlng.lng}`)
+=======
+      // console.log(`${event.latlng.lat},${event.latlng.lng}`)
+      // navigator.clipboard.writeText(`${event.latlng.lat},${event.latlng.lng}`)
+>>>>>>> master
     },
     emitMapChange(map) {
       this.$emit('changeActiveMap', map)
