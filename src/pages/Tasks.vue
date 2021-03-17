@@ -1,13 +1,13 @@
 <template>
   <Layout>
     <v-row justify="center">
-      <h1 class="text-center">EFT Key Spawns & Use Locations</h1>
+      <h1 class="text-center">EFT Task Maps & Locations</h1>
     </v-row>
     <v-row justify="center">
       <p class="caption-text mx-12 text-center">
-        Escape From Tarkov key spawns & use locations, searchable by specific key or by map.
+        Escape From Tarkov task maps & quest locations, searchable by specific task or by map.
         <br/>
-        Eg: "Factory Key" or "Customs (All Keys)"
+        Eg: "Delivery From the Past" or "Customs (All Tasks)"
         <br/>
         Click the map markers for more info
       </p>
@@ -22,8 +22,8 @@
           :menu-props="autocompleteMenuProps"
           return-object
           solo
-          no-data-text="No keys found..."
-          placeholder="Search by key or by map..."
+          no-data-text="No tasks found..."
+          placeholder="Search by task or by map..."
         />
       </v-col>
     </v-row>
@@ -167,20 +167,20 @@ import Map from '../components/Map'
 
 export default {
   metaInfo: {
-    title: "EFT Key Spawns & Locations",
-    link: [{ rel: "canonical", href: "https://eftfg.com/keys" }],
+    title: "EFT Task Maps & Locations",
+    link: [{ rel: "canonical", href: "https://eftfg.com/tasks" }],
     meta: [
       {
         name: "description",
         content:
-          "The fastest way to find Escape From Tarkov key spawns and lock locations. Always up to date with all EFT key spawns."
+          "The fastest way to find Escape From Tarkov task locations."
       },
-      { property: "og:title", content: "EFT Key Spawns & Locations | EFTFG" },
+      { property: "og:title", content: "EFT Task Maps & Locations | EFTFG" },
       { property: "og:site_name", content: "EFTFG" },
       { property: "og:type", content: "website" },
       {
         property: "og:url",
-        content: "https://eftfg.com/keys"
+        content: "https://eftfg.com/tasks"
       },
       // {
       //   property: "og:image",
@@ -189,29 +189,29 @@ export default {
       {
         property: "og:description",
         content:
-          "The fastest way to find Escape From Tarkov key spawns and lock locations. Always up to date with all EFT key spawns."
+          "The fastest way to find Escape From Tarkov task locations."
       },
       { name: "twitter:card", content: "summary" },
       {
         name: "twitter:site",
-        content: "https://eftfg.com/keys"
+        content: "https://eftfg.com/tasks"
       },
-      { name: "twitter:title", content: "EFT Key Spawns & Locations | EFTFG" },
+      { name: "twitter:title", content: "EFT Task Maps & Locations | EFTFG" },
       {
         name: "twitter:description",
         content:
-          "The fastest way to find Escape From Tarkov key spawns and lock locations. Always up to date with all EFT key spawns."
+          "The fastest way to find Escape From Tarkov task locations."
       },
       { name: "twitter:creator", content: "@ChewyDinosaur" },
       // {
       //   name: "twitter:image:src",
       //   content: "https://www.my-site.com/my-special-image.jpg"
       // },
-      { itemprop: "name", content: "EFT Key Spawns & Locations | EFTFG" },
+      { itemprop: "name", content: "EFT Task Maps & Locations | EFTFG" },
       {
         itemprop: "description",
         content:
-          "The fastest way to find Escape From Tarkov key spawns and lock locations. Always up to date with all EFT key spawns."
+          "The fastest way to find Escape From Tarkov task locations."
       }
       // {
       //   itemprop: "image",

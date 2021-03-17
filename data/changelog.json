@@ -1,5 +1,14 @@
 [
   {
+    "date": "2021/03/16",
+    "summary": [
+      "Added Task Map feature"
+    ],
+    "changes": [
+      "Added Task Map feature"
+    ]
+  },
+  {
     "date": "2021/01/27",
     "summary": [
       "Updated ammo values"
