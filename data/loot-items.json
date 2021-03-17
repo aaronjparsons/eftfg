@@ -241,7 +241,11 @@
     ],
     "modules": [
       {
-        "module": "Generator - Level 2",
+        "module": "Generator - Level 1",
+        "amount": 1
+      },
+      {
+        "module": "Generator - Level 3",
         "amount": 5
       }
     ]
@@ -779,7 +783,7 @@
     "modules": [
       {
         "module": "Bitcoin Farm - Level 1",
-        "amount": 5
+        "amount": 10
       },
       {
         "module": "Intelligence Center - Level 2",
@@ -863,7 +867,7 @@
     "modules": [
       {
         "module": "Bitcoin Farm - Level 1",
-        "amount": 10
+        "amount": 15
       },
       {
         "module": "Bitcoin Farm - Level 2",
@@ -872,6 +876,10 @@
       {
         "module": "Bitcoin Farm - Level 3",
         "amount": 25
+      },
+      {
+        "module": "Vents - Level 2",
+        "amount": 3
       }
     ]
   },
@@ -979,7 +987,7 @@
     ],
     "modules": [
       {
-        "module": "Generator - Level 1",
+        "module": "Generator - Level 2",
         "amount": 15
       },
       {
@@ -988,7 +996,7 @@
       },
       {
         "module": "Lighting - Level 2",
-        "amount": 5
+        "amount": 6
       },
       {
         "module": "Rest Space - Level 3",
@@ -1214,7 +1222,12 @@
         "findInRaid": true
       }
     ],
-    "modules": []
+    "modules": [
+      {
+        "module": "Library",
+        "amount": 1
+      }
+    ]
   },
   {
     "name": "Cat Figurine",
@@ -1639,11 +1652,11 @@
     "modules": [
       {
         "module": "Bitcoin Farm - Level 1",
-        "amount": 5
+        "amount": 10
       },
       {
         "module": "Bitcoin Farm - Level 2",
-        "amount": 5
+        "amount": 10
       },
       {
         "module": "Generator - Level 3",
@@ -1825,7 +1838,7 @@
       },
       {
         "module": "Solar Power - Level 1",
-        "amount": 4
+        "amount": 10
       }
     ]
   },
@@ -1839,11 +1852,11 @@
       },
       {
         "module": "Stash - Level 2",
-        "amount": 7
+        "amount": 10
       },
       {
         "module": "Stash - Level 3",
-        "amount": 8
+        "amount": 15
       }
     ]
   },
@@ -1948,6 +1961,10 @@
       {
         "module": "Shooting Range - Level 1",
         "amount": 4
+      },
+      {
+        "module": "Stash - Level 2",
+        "amount": 5
       }
     ]
   },
@@ -1966,6 +1983,10 @@
       {
         "module": "Workbench - Level 1",
         "amount": 2
+      },
+      {
+        "module": "Stash - Level 4",
+        "amount": 5
       }
     ]
   },
@@ -1988,6 +2009,10 @@
       {
         "module": "Workbench - Level 2",
         "amount": 6
+      },
+      {
+        "module": "Stash - Level 4",
+        "amount": 5
       }
     ]
   },
@@ -2011,7 +2036,7 @@
     "modules": [
       {
         "module": "Solar Power - Level 1",
-        "amount": 2
+        "amount": 4
       }
     ]
   },
@@ -2021,7 +2046,11 @@
     "modules": [
       {
         "module": "Solar Power - Level 1",
-        "amount": 4
+        "amount": 10
+      },
+      {
+        "module": "Air Filtering Unit",
+        "amount": 1
       }
     ]
   },
@@ -2055,6 +2084,10 @@
     "modules": [
       {
         "module": "Water Collector - Level 3",
+        "amount": 5
+      },
+      {
+        "module": "Stash - Level 4",
         "amount": 5
       }
     ]
@@ -2194,5 +2227,135 @@
       }
     ],
     "modules": []
+  },
+  {
+    "name": "Classic Matches",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Heating - Level 1",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "name": "Hunter Matches",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Heating - Level 2",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "name": "Dry Fuel",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Heating - Level 2",
+        "amount": 3
+      }
+    ]
+  },
+  {
+    "name": "Chainlet",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Library",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "name": "Air Filter for Gas Mask",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Air Filtering Unit",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "name": "ES Lamp",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Rest Space - Level 2",
+        "amount": 3
+      }
+    ]
+  },
+  {
+    "name": "DVD Drive",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Rest Space - Level 2",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "name": "Magnet",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Rest Space - Level 2",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "name": "Toilet Paper",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Lavatory - Level 1",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "name": "Esmarch Tourniquet",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Medstation - Level 2",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "name": "Christmas Tree Decoration Ball (Red)",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Christmas Tree - Level 1",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "name": "Christmas Tree Decoration Ball (Silver)",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Christmas Tree - Level 1",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "name": "Christmas Tree Decoration Ball (Violet)",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Christmas Tree - Level 1",
+        "amount": 1
+      }
+    ]
   }
 ]
