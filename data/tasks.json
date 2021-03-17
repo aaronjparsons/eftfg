@@ -1009,5 +1009,692 @@
         "video": ""
       }
     ]
+  },
+  {
+    "type": "task",
+    "label": "Spa Tour - Part 2",
+    "maps": [
+      "Shoreline"
+    ],
+    "locations": [
+      {
+        "map": "Shoreline",
+        "marker": "-194.4029210776148,72.296875",
+        "notes": "Location of the helicopter to mark",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-194.24672425528865,75.359375",
+        "notes": "Location of the road to mark",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Spa Tour - Part 4",
+    "maps": [
+      "Shoreline"
+    ],
+    "locations": [
+      {
+        "map": "Shoreline",
+        "marker": "-192.27617684991134,78.984375",
+        "notes": "Location of the right wing generator. East Wing 220",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-192.212166603973,65.890625",
+        "notes": "Location of the left wing generator, West Wing 219 balcony (West Wing 219 key or West Wing 220 key required)",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Spa Tour - Part 5",
+    "maps": [
+      "Shoreline"
+    ],
+    "locations": [
+      {
+        "map": "Shoreline",
+        "marker": "-171.33963404804126,63.640625",
+        "notes": "Location of the key to the closed premises of the sanatorium",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799183/shoreline_closed_premises_of_the_sanatorium_key.jpg",
+        "video": "mwvWYuGV-Y8"
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Cargo X - Part 1",
+    "maps": [
+      "Shoreline"
+    ],
+    "locations": [
+      {
+        "map": "Shoreline",
+        "marker": "-190.09451278421182,75.546875",
+        "notes": "Location of the cargo record. East Wing room 306 (East Wing 306 key or East Wing 308 key required)",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Cargo X - Part 2",
+    "maps": [
+      "Shoreline"
+    ],
+    "locations": [
+      {
+        "map": "Shoreline",
+        "marker": "-190.94362774732656,78.929931640625",
+        "notes": "Location of the Secure Case for Documents 0013. Found on the water barrels in East Wing room 108",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Cargo X - Part 3",
+    "maps": [
+      "Shoreline"
+    ],
+    "locations": [
+      {
+        "map": "Shoreline",
+        "marker": "-191.92217643344617,64.0467529296875",
+        "notes": "Location of the hidden Terragroup cargo. Found in the hole in the wall in the west wing basement",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Wet Job - Part 2",
+    "maps": [
+      "Shoreline"
+    ],
+    "locations": [
+      {
+        "map": "Shoreline",
+        "marker": "-233.73046140308452,31.602783203125",
+        "notes": "Location of the fishers dwelling",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Wet Job - Part 3",
+    "maps": [
+      "Shoreline"
+    ],
+    "locations": [
+      {
+        "map": "Shoreline",
+        "marker": "-226.56066117201354,45.296142578125",
+        "notes": "Location of Artyom's car (yellow car). Next to the bus",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Wet Job - Part 4",
+    "maps": [
+      "Shoreline"
+    ],
+    "locations": [
+      {
+        "map": "Shoreline",
+        "marker": "-186.19912519927635,73.3291015625",
+        "notes": "Location of the Sliderkey Flash Drive. East side of admin building, second floor.",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Wet Job - Part 5",
+    "maps": [
+      "Shoreline"
+    ],
+    "locations": [
+      {
+        "map": "Shoreline",
+        "marker": "-192.12592169758926,80.953125",
+        "notes": "Location of Artyom's work (Working Hard Drive). In East Wing room 328, on computer. (East Wing 328 key or Health Resort Utility key required)",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "TerraGroup Employee",
+    "maps": [
+      "Labs"
+    ],
+    "locations": [
+      {
+        "map": "Labs",
+        "marker": "-241.96378320525912,28.765625",
+        "notes": "Location of Sanitar's workplace. Flash drive found in laptop. (Key Card with a Blue Marking required)",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Introduction",
+    "maps": [
+      "Woods"
+    ],
+    "locations": [
+      {
+        "map": "Woods",
+        "marker": "-210.99589020545613,82.8150634765625",
+        "notes": "Location of Jaegers Camp. Message is found on the ground",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Signal - Part 1",
+    "maps": [
+      "Shoreline"
+    ],
+    "locations": [
+      {
+        "map": "Shoreline",
+        "marker": "-218.73961132158274,91.8258056640625",
+        "notes": "Location of the first signal source",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-191.0833294149784,70.6383056640625",
+        "notes": "Location of the second signal source (on the roof)",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Scout",
+    "maps": [
+      "Factory"
+    ],
+    "locations": [
+      {
+        "map": "Factory",
+        "marker": "-187.90711259784692,61.6962890625",
+        "notes": "Location of the first extraction point",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Factory",
+        "marker": "-245.3299859387035,61.92626953125",
+        "notes": "Location of the second extraction point",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Factory",
+        "marker": "-184.39707601160728,134.31298828125",
+        "notes": "Location of the third extraction point",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Signal - Part 3",
+    "maps": [
+      "Shoreline"
+    ],
+    "locations": [
+      {
+        "map": "Shoreline",
+        "marker": "-218.67483979526037,91.737548828125",
+        "notes": "Location of the first signal to place a jammer",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-190.92830474053773,70.7109375",
+        "notes": "Location of the second signal to place a jammer",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-205.99714911691476,109.4913330078125",
+        "notes": "Location of the third signal to place a jammer",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Farming - Part 1",
+    "maps": [
+      "Factory"
+    ],
+    "locations": [
+      {
+        "map": "Factory",
+        "marker": "-187.15111751482257,115.851318359375",
+        "notes": "Location of the first control board",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Factory",
+        "marker": "-182.9910348039479,97.23974609375",
+        "notes": "Location of the second control board",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Farming - Part 3",
+    "maps": [
+      "Customs"
+    ],
+    "locations": [
+      {
+        "map": "Customs",
+        "marker": "-212.2684918363874,120.6297607421875",
+        "notes": "Location of the Package with Graphics Cards (Customs key required)",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "The Chemistry Closet",
+    "maps": [
+      "Customs"
+    ],
+    "locations": [
+      {
+        "map": "Customs",
+        "marker": "-191.97570253414582,77.796875",
+        "notes": "Location of Sanitar's office in the health resort (Key with Tape required)",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Big Sale",
+    "maps": [
+      "Interchange"
+    ],
+    "locations": [
+      {
+        "map": "Interchange",
+        "marker": "-225.29566954609777,93.516845703125",
+        "notes": "Location of AVOKADO",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Interchange",
+        "marker": "-204.6152102701202,92.579345703125",
+        "notes": "Location of KOSTIN",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Interchange",
+        "marker": "-196.73459246869794,80.843994140625",
+        "notes": "Location of tRend",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Interchange",
+        "marker": "-202.5451142592294,76.906494140625",
+        "notes": "Location of DINO CLOTHES",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Interchange",
+        "marker": "-221.34535428645637,76.933349609375",
+        "notes": "Location of TOP BRAND",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "The Blood of War - Part 1",
+    "maps": [
+      "Interchange"
+    ],
+    "locations": [
+      {
+        "map": "Interchange",
+        "marker": "-218.16718780787073,34.80859375",
+        "notes": "Location of tanker #1",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Interchange",
+        "marker": "-224.39175320633385,12.5635986328125",
+        "notes": "Location of tanker #2",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Interchange",
+        "marker": "-204.46585713454064,33.6875",
+        "notes": "Location of tanker #3",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Gratitude",
+    "maps": [
+      "Woods"
+    ],
+    "locations": [
+      {
+        "map": "Woods",
+        "marker": "-218.19889065774623,56.99365234375",
+        "notes": "Location of the secret spot (location to place the items)",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Hot Delivery",
+    "maps": [
+      "Interchange"
+    ],
+    "locations": [
+      {
+        "map": "Interchange",
+        "marker": "-224.78616305730202,94.8536376953125",
+        "notes": "Location to place the Peltor ComTacs & 6B47 Ratnik-BSh Helmet",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Interchange",
+        "marker": "-221.55167358536193,16.525390625",
+        "notes": "Location to place the BNTI Gzhel-K armor",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Database - Part 1",
+    "maps": [
+      "Interchange"
+    ],
+    "locations": [
+      {
+        "map": "Interchange",
+        "marker": "-179.44768940208144,89.8994140625",
+        "notes": "Location of the IDEA cargo manifests",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Interchange",
+        "marker": "-196.6040799030935,97.309326171875",
+        "notes": "Location to the GOSHAN cargo manifests",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Interchange",
+        "marker": "-238.9624616001218,83.722412109375",
+        "notes": "Location to the OLI cargo manifests",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Database - Part 2",
+    "maps": [
+      "Interchange"
+    ],
+    "locations": [
+      {
+        "map": "Interchange",
+        "marker": "-236.18032773120532,77.817138671875",
+        "notes": "Location of the OLI cargo route documents (Key to OLI logistics department office required)",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Minibus",
+    "maps": [
+      "Interchange"
+    ],
+    "locations": [
+      {
+        "map": "Interchange",
+        "marker": "-217.04157598473856,52.9560546875",
+        "notes": "Location of the first minibus",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Interchange",
+        "marker": "-222.22731048596557,56.5810546875",
+        "notes": "Location to the second minibus",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Interchange",
+        "marker": "-236.16006703745498,19.8310546875",
+        "notes": "Location to the third minibus",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "The Blood of War - Part 3",
+    "maps": [
+      "Woods"
+    ],
+    "locations": [
+      {
+        "map": "Woods",
+        "marker": "-199.8266754885629,24.2178955078125",
+        "notes": "Location of the first fuel stash",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Woods",
+        "marker": "-210.92195476651085,91.521484375",
+        "notes": "Location to the second fuel stash",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Woods",
+        "marker": "-187.5093363202393,79.48828125",
+        "notes": "Location to the third fuel stash",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "The Key to Success",
+    "maps": [
+      "Interchange"
+    ],
+    "locations": [
+      {
+        "map": "Interchange",
+        "marker": "-220.24513956060687,127.28125",
+        "notes": "Location of the Clothes Design Handbook Part 1",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Interchange",
+        "marker": "-198.67984969190536,93.368896484375",
+        "notes": "Location to the Clothes Design Handbook Part 2",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "The Key to Success",
+    "maps": [
+      "Customs"
+    ],
+    "locations": [
+      {
+        "map": "Customs",
+        "marker": "-205.66288936594248,42.8917236328125",
+        "notes": "Spawn location of the Goshan Cash Register key. In the bus next to the roadblock beside the gas station at Customs",
+        "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799181/customs_key_to_goshan_cash_register.jpg",
+        "video": "iOXDfLKIbSY"
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "The Survivalist Path - Thrifty",
+    "maps": [
+      "Woods"
+    ],
+    "locations": [
+      {
+        "map": "Woods",
+        "marker": "-215.6202571112544,16.6944580078125",
+        "notes": "Location to stash the Iskra MRE lunchbox (ZB-014 bunker)",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Woods",
+        "marker": "-210.6679630823795,98.192626953125",
+        "notes": "Location to stash the bottle of water (ZB-016 bunker)",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Courtesy Visit",
+    "maps": [
+      "Shoreline"
+    ],
+    "locations": [
+      {
+        "map": "Shoreline",
+        "marker": "-195.00252342056712,28.47314453125",
+        "notes": "Location of the priest house",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-187.9111876869615,20.34814453125",
+        "notes": "Location of the fisherman house",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Shoreline",
+        "marker": "-195.00252342056712,18.41064453125",
+        "notes": "Location of the chairman house",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Nostalgia",
+    "maps": [
+      "Shoreline"
+    ],
+    "locations": [
+      {
+        "map": "Shoreline",
+        "marker": "-191.0524527782256,70.0931396484375",
+        "notes": "Location of the room where Jaeger was staying. The photo album is found in the drawer next to the bed",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Reserv",
+    "maps": [
+      "Reserve"
+    ],
+    "locations": [
+      {
+        "map": "Reserve",
+        "marker": "-167.16004688591542,44.994873046875",
+        "notes": "Location of the food storage",
+        "image": "",
+        "video": ""
+      }
+    ]
   }
 ]
