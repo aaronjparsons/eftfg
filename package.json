@@ -9,8 +9,8 @@
   "dependencies": {
     "@gridsome/plugin-google-analytics": "^0.1.2",
     "@types/leaflet": "^1.5.17",
-    "apexcharts": "^3.22.0",
-    "axios": "^0.19.2",
+    "apexcharts": "^3.26.0",
+    "axios": "^0.21.1",
     "date-fns": "^2.16.1",
     "gridsome": "^0.7.21",
     "leaflet": "^1.7.1",
