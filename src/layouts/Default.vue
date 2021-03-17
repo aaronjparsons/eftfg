@@ -97,6 +97,11 @@ export default {
         label: 'Extractions'
       },
       {
+        route: '/tasks',
+        icon: 'mdi-map-marker',
+        label: 'Tasks'
+      },
+      {
         route: '/caches',
         icon: 'mdi-treasure-chest',
         label: 'Caches'

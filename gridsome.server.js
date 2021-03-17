@@ -8,6 +8,7 @@
 const changelogData = require('./data/changelog.json')
 const wikiData = require('./data/wiki-data.json')
 const keyData = require('./data/keys.json')
+const taskData = require('./data/tasks.json')
 const extractData = require('./data/extracts.json')
 const cacheData = require('./data/caches.json')
 const ammoData = require('./data/ammo.json')
@@ -102,6 +103,40 @@ module.exports = function (api) {
         maps: item.maps,
         spawns: actions.store.createReference('Spawns', spawnIds),
         unlocks: actions.store.createReference('Unlocks', unlockIds)
+      })
+    }
+
+    // Add task location data
+    const taskLocations = actions.addCollection({
+      typeName: 'TaskLocations'
+    })
+
+    const locations = actions.addCollection({
+      typeName: 'Locations'
+    })
+
+    for (const item of taskData) {
+      const locationIds = []
+
+      for (const [index, location] of item.locations.entries()) {
+        const id = `${item.label}-${index}`
+        locationIds.push(id)
+
+        locations.addNode({
+          id,
+          map: location.map,
+          marker: location.marker,
+          notes: location.notes,
+          image: location.image,
+          video: location.video
+        })
+      }
+
+      taskLocations.addNode({
+        type: item.type,
+        label: item.label,
+        maps: item.maps,
+        locations: actions.store.createReference('Locations', locationIds),
       })
     }
 
