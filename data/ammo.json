@@ -1,18 +1,34 @@
 {
   "changes": [
     {
-      "penetration": [
-        "0",
-        "2"
+      "name": "7.62x39 mm MAI AP - *NEW*"
+    },
+    {
+      "name": "5.56x45 mm SSA AP - *NEW*"
+    },
+    {
+      "name": "5.56x45 mm Mk 318 Mod 0 (SOST) - *NEW*"
+    },
+    {
+      "accuracy": [
+        "+15",
+        "+5"
       ],
-      "name": "12x70 RIP"
+      "name": "9x19 mm 7N31"
+    },
+    {
+      "recoil": [
+        "+20",
+        "+7"
+      ],
+      "name": ".45 ACP AP"
     },
     {
       "penetration": [
-        "2",
-        "5"
+        "30",
+        "28"
       ],
-      "name": "12x70 HP Slug \"SuperFormance\""
+      "name": "5.56x45 mm M855"
     }
   ],
   "ammo": [
@@ -525,7 +541,7 @@
       "damage": "52",
       "penetration": "39",
       "armorDamage": "53",
-      "accuracy": "+15",
+      "accuracy": "+5",
       "recoil": "+15",
       "fragmentation": "5%"
     },
@@ -571,7 +587,7 @@
       "penetration": "36",
       "armorDamage": "43",
       "accuracy": "-5",
-      "recoil": "+20",
+      "recoil": "+7",
       "fragmentation": "1%"
     },
     {
@@ -917,6 +933,15 @@
       "fragmentation": "3%"
     },
     {
+      "name": "5.56x45 mm Mk 318 Mod 0 (SOST)",
+      "damage": "65",
+      "penetration": "21",
+      "armorDamage": "35",
+      "accuracy": "+5",
+      "recoil": "",
+      "fragmentation": "15%"
+    },
+    {
       "name": "5.56x45 mm M856",
       "damage": "55",
       "penetration": "23",
@@ -937,7 +962,7 @@
     {
       "name": "5.56x45 mm M855",
       "damage": "50",
-      "penetration": "30",
+      "penetration": "28",
       "armorDamage": "37",
       "accuracy": "-5",
       "recoil": "",
@@ -969,6 +994,15 @@
       "accuracy": "",
       "recoil": "+8",
       "fragmentation": "32%"
+    },
+    {
+      "name": "5.56x45 mm SSA AP",
+      "damage": "36",
+      "penetration": "56",
+      "armorDamage": "64",
+      "accuracy": "-6",
+      "recoil": "+6",
+      "fragmentation": "20%"
     },
     {
       "name": ".300 BPZ AAC Blackout",
@@ -1032,6 +1066,15 @@
       "accuracy": "-3",
       "recoil": "+5",
       "fragmentation": "12%"
+    },
+    {
+      "name": "7.62x39 mm MAI AP",
+      "damage": "46",
+      "penetration": "58",
+      "armorDamage": "76",
+      "accuracy": "-5",
+      "recoil": "+10",
+      "fragmentation": "5%"
     },
     {
       "name": "7.62x51 mm Ultra Nosler",
