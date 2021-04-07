@@ -1709,6 +1709,10 @@
       {
         "module": "Nutrition unit - Level 2",
         "amount": 1
+      },
+      {
+        "module": "Heating - Level 3",
+        "amount": 4
       }
     ]
   },
@@ -2027,6 +2031,10 @@
       {
         "module": "Water Collector - Level 1",
         "amount": 3
+      },
+      {
+        "module": "Rest Space - Level 1",
+        "amount": 1
       }
     ]
   },
@@ -2324,7 +2332,7 @@
     "modules": [
       {
         "module": "Medstation - Level 2",
-        "amount": 2
+        "amount": 5
       }
     ]
   },
@@ -2354,6 +2362,110 @@
     "modules": [
       {
         "module": "Christmas Tree - Level 1",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "name": "\"Fierce Hatchling\" moonshine",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Scav Case - Level 1",
+        "amount": 3
+      }
+    ]
+  },
+  {
+    "name": "Ratchet Wrench",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Water Collector - Level 3",
+        "amount": 1
+      },
+      {
+        "module": "Stash - Level 4",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "name": "GreenBat lithium battery",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Rest Space - Level 3",
+        "amount": 5
+      }
+    ]
+  },
+  {
+    "name": "Pile of Meds",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Medstation - Level 1",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "name": "Disposable Syringe",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Medstation - Level 1",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "name": "Weapon Parts",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Workbench - Level 2",
+        "amount": 3
+      }
+    ]
+  },
+  {
+    "name": "Can of Thermite",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Workbench - Level 3",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "name": "Construction Measuring Tape",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Security - Level 1",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "name": "Toothpaste",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Lavatory - Level 1",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "name": "Soap",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Lavatory - Level 1",
         "amount": 1
       }
     ]
