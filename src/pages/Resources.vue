@@ -18,27 +18,34 @@
             </div>
           </v-card-title>
           <v-card-text class="d-flex flex-wrap justify-center">
-            <a
-              v-for="(map, index) in mapList"
-              :key="index"
-              :href="map.image"
-            >
-              <v-card
-                class="ma-4"
-                width="300px"
-                hover
-              >
-                <v-img
-                  class="white--text"
-                  height="200px"
-                  :src="map.thumb"
+            <v-hover v-for="(map, index) in mapList" :key="index">
+              <template v-slot:default="{ hover }">
+                <v-card
+                  class="ma-4"
+                  width="300px"
                 >
-                  <v-card-title class="justify-center primary darken-1 black--text low-opacity">
-                    {{ map.title }}
-                  </v-card-title>
-                </v-img>
-              </v-card>
-            </a>
+                  <v-img
+                    class="white--text"
+                    height="200px"
+                    :src="map.thumb"
+                  >
+                    <v-card-title class="justify-center primary darken-1 black--text low-opacity">
+                      {{ map.title }}
+                    </v-card-title>
+                  </v-img>
+                  <v-fade-transition>
+                    <v-overlay
+                      v-if="hover"
+                      absolute
+                      color="#111111"
+                    >
+                      <v-btn class="mr-8" :to="map.image" target="_blank">PNG</v-btn>
+                      <v-btn :to="map.svg" target="_blank">SVG</v-btn>
+                    </v-overlay>
+                  </v-fade-transition>
+                </v-card>
+              </template>
+            </v-hover>
           </v-card-text>
         </v-card>
       </v-col>
@@ -126,32 +133,38 @@ export default {
         {
           title: 'Customs',
           image: 'maps/CustomsMap.png',
-          thumb: 'maps/CustomsMapThumb.png'
+          thumb: 'maps/CustomsMapThumb.png',
+          svg: 'maps/Customs_EFTFG.svg'
         },
         {
           title: 'Reserve',
           image: 'maps/ReserveMap.png',
-          thumb: 'maps/ReserveMapThumb.png'
+          thumb: 'maps/ReserveMapThumb.png',
+          svg: 'maps/Reserve_EFTFG.svg'
         },
         {
           title: 'Factory',
           image: 'maps/FactoryMap.png',
-          thumb: 'maps/FactoryMapThumb.png'
+          thumb: 'maps/FactoryMapThumb.png',
+          svg: 'maps/Factory_EFTFG.svg'
         },
         {
           title: 'Interchange',
           image: 'maps/InterchangeMap.png',
-          thumb: 'maps/InterchangeMapThumb.png'
+          thumb: 'maps/InterchangeMapThumb.png',
+          svg: 'maps/Interchange_EFTFG.svg'
         },
         {
           title: 'The Lab',
           image: 'maps/TheLabMap.png',
-          thumb: 'maps/TheLabMapThumb.png'
+          thumb: 'maps/TheLabMapThumb.png',
+          svg: 'maps/Labs_EFTFG.svg'
         },
         {
           title: 'Woods',
           image: 'maps/WoodsMap.png',
-          thumb: 'maps/WoodsMapThumb.png'
+          thumb: 'maps/WoodsMapThumb.png',
+          svg: 'maps/Woods_EFTFG.svg'
         }
       ],
       resourceList: [
