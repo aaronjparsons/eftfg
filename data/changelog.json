@@ -1,5 +1,14 @@
 [
   {
+    "date": "2021/06/30",
+    "summary": [
+      "Updated ammo for patch 0.12.11"
+    ],
+    "changes": [
+      "Updated ammo for patch 0.12.11"
+    ]
+  },
+  {
     "date": "2021/04/06",
     "summary": [
       "Updated ammo for patch 0.12.10",
