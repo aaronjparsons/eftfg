@@ -1,34 +1,22 @@
 {
   "changes": [
     {
-      "name": "7.62x39 mm MAI AP - *NEW*"
-    },
-    {
-      "name": "5.56x45 mm SSA AP - *NEW*"
-    },
-    {
-      "name": "5.56x45 mm Mk 318 Mod 0 (SOST) - *NEW*"
-    },
-    {
-      "accuracy": [
-        "+15",
-        "+5"
-      ],
-      "name": "9x19 mm 7N31"
-    },
-    {
-      "recoil": [
-        "+20",
-        "+7"
-      ],
-      "name": ".45 ACP AP"
-    },
-    {
       "penetration": [
-        "30",
-        "28"
+        "32",
+        "34"
       ],
-      "name": "5.56x45 mm M855"
+      "name": "5.45x39 mm BP"
+    },
+    {
+      "damage": [
+        "45",
+        "46"
+      ],
+      "penetration": [
+        "43",
+        "45"
+      ],
+      "name": "5.56x45 mm M855A1"
     }
   ],
   "ammo": [
@@ -872,7 +860,7 @@
     {
       "name": "5.45x39 mm BP",
       "damage": "48",
-      "penetration": "32",
+      "penetration": "34",
       "armorDamage": "41",
       "accuracy": "",
       "recoil": "",
@@ -979,8 +967,8 @@
     },
     {
       "name": "5.56x45 mm M855A1",
-      "damage": "45",
-      "penetration": "43",
+      "damage": "46",
+      "penetration": "45",
       "armorDamage": "52",
       "accuracy": "-10",
       "recoil": "",

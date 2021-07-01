@@ -2163,7 +2163,7 @@
   },
   {
     "type": "key",
-    "label": "Key To Pharmacy",
+    "label": "NecrusPharm Pharmacy Key",
     "maps": [
       "Shoreline",
       "Interchange"
