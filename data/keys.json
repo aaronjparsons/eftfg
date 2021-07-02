@@ -32,21 +32,28 @@
     "unlocks": [
       {
         "map": "Factory",
-        "marker": "-246.72071319141693,63.078125",
+        "marker": "-248.13793103448276,78.519287109375",
         "notes": "Opens Gate 0 extraction.",
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203848/gate_0.jpg",
         "video": ""
       },
       {
         "map": "Factory",
-        "marker": "-184.06297918495358,133.453125",
+        "marker": "-184.0164687703318,179.331298828125",
         "notes": "Opens Cellar extraction.",
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203848/cellars.jpg",
         "video": ""
       },
       {
         "map": "Factory",
-        "marker": "-191.43797918495358,17.484375",
+        "marker": "-227.87658588158752,134.342041015625",
+        "notes": "Opens Med Tent Gates extraction.",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Factory",
+        "marker": "-202.52486581001952,14.75",
         "notes": "Opens the locked office on third floor, next to breach room",
         "image": "",
         "video": ""
@@ -76,7 +83,7 @@
     "spawns": [
       {
         "map": "Factory",
-        "marker": "-208.51057569569429,48.96875",
+        "marker": "-208.36763988288874,64.1524658203125",
         "notes": "Can be found on a bench in the Factory locker room",
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799183/factory_door_key.jpg",
         "video": "fkfXkJffQkU"
@@ -85,7 +92,7 @@
     "unlocks": [
       {
         "map": "Factory",
-        "marker": "-197.31416736805272,96.21875",
+        "marker": "-197.10304163955757,112.85986328125",
         "notes": "Unlocks the door to the pumping station in the Factory",
         "image": "",
         "video": ""
@@ -111,7 +118,7 @@
     "unlocks": [
       {
         "map": "Factory",
-        "marker": "-196.814030458066,97.40625",
+        "marker": "-197.2279603122967,111.60986328125",
         "notes": "Unlocks the door to the pumping station in the Factory",
         "image": "",
         "video": ""
@@ -724,7 +731,7 @@
     "spawns": [
       {
         "map": "Factory",
-        "marker": "-190.52611040956913, 18.09375",
+        "marker": "-201.75079294079376,16.05322265625",
         "notes": "In the locked room next to the office on Factory on the ground under the jacket",
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799184/factory_portable_cabin_key_of_customs_factory_zone.jpg",
         "video": "1zybphcxjog"
@@ -1547,7 +1554,7 @@
     "spawns": [
       {
         "map": "Factory",
-        "marker": "-200.50721519425872, 47.15625",
+        "marker": "-200.37837508132725,62.3511962890625",
         "notes": "The key can be found in a bathroom locker on Factory",
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799185/factory_west_wing_room_306_key.jpg",
         "video": "VTbz-MFj73I"
@@ -2145,7 +2152,7 @@
     "spawns": [
       {
         "map": "Factory",
-        "marker": "-180.11442430430571, 111.625",
+        "marker": "-180.0296844502277,124.90625",
         "notes": "Spawns in a blue locker near the forklifts at Factory",
         "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1571799184/factory_key_to_utility_room_of_power_substation.jpg",
         "video": "2qGSPewXIwI"

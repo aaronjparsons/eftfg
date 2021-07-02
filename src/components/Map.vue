@@ -141,7 +141,7 @@ export default {
         Woods: [[-143, 0], [-256, 141]],
         Labs: [[-168, 0], [-256, 141]],
         Reserve: [[-118, 0], [-256, 232]],
-        Factory: [[-168, 0], [-256, 141]]
+        Factory: [[-168, 0], [-256, 186]]
       }
     }
   },
@@ -186,8 +186,8 @@ export default {
 
   methods: {
     mapClick(event) {
-      // console.log(`${event.latlng.lat},${event.latlng.lng}`)
-      // navigator.clipboard.writeText(`${event.latlng.lat},${event.latlng.lng}`)
+      console.log(`${event.latlng.lat},${event.latlng.lng}`)
+      navigator.clipboard.writeText(`${event.latlng.lat},${event.latlng.lng}`)
     },
     emitMapChange(map) {
       this.$emit('changeActiveMap', map)

@@ -62,7 +62,7 @@
       },
       {
         "map": "Factory",
-        "marker": "-196.74709680225203,48.09716796875",
+        "marker": "-196.74530335068314,63.6875",
         "notes": "Drop off location",
         "image": "",
         "video": ""
@@ -236,7 +236,7 @@
     "locations": [
       {
         "map": "Factory",
-        "marker": "-228.05347213436235,80.4002685546875",
+        "marker": "-227.98566607026675,95.91162109375",
         "notes": "Letter location. Found on the dead scav",
         "image": "",
         "video": ""
@@ -367,7 +367,7 @@
     "locations": [
       {
         "map": "Factory",
-        "marker": "-197.50794534412955,97.625",
+        "marker": "-196.85889720234223,112.875",
         "notes": "(Optional) Pumping station location. Door key required",
         "image": "",
         "video": ""
@@ -484,7 +484,7 @@
     "locations": [
       {
         "map": "Factory",
-        "marker": "-194.5741033021255,17.219482421875",
+        "marker": "-203.52612638256343,15.28125",
         "notes": "Location to drop the gunpowder",
         "image": "",
         "video": ""
@@ -647,7 +647,7 @@
     "locations": [
       {
         "map": "Factory",
-        "marker": "-193.2150414347166,17.1109619140625",
+        "marker": "-200.93406392322706,15.09375",
         "notes": "Chemical container location. Found in the filing cabinet",
         "image": "",
         "video": ""
@@ -1248,21 +1248,21 @@
     "locations": [
       {
         "map": "Factory",
-        "marker": "-187.90711259784692,61.6962890625",
+        "marker": "-187.74207059206245,76.0625",
         "notes": "Location of the first extraction point",
         "image": "",
         "video": ""
       },
       {
         "map": "Factory",
-        "marker": "-245.3299859387035,61.92626953125",
+        "marker": "-248.5675016265452,78.430419921875",
         "notes": "Location of the second extraction point",
         "image": "",
         "video": ""
       },
       {
         "map": "Factory",
-        "marker": "-184.39707601160728,134.31298828125",
+        "marker": "-184.06485849056602,179.488037109375",
         "notes": "Location of the third extraction point",
         "image": "",
         "video": ""
@@ -1308,14 +1308,14 @@
     "locations": [
       {
         "map": "Factory",
-        "marker": "-187.15111751482257,115.851318359375",
+        "marker": "-187.03338484059856,131.6939697265625",
         "notes": "Location of the first control board",
         "image": "",
         "video": ""
       },
       {
         "map": "Factory",
-        "marker": "-182.9910348039479,97.23974609375",
+        "marker": "-182.89496584255042,114.78271484375",
         "notes": "Location of the second control board",
         "image": "",
         "video": ""
