@@ -1696,5 +1696,28 @@
         "video": ""
       }
     ]
+  },
+  {
+    "type": "task",
+    "label": "Fuel Matter",
+    "maps": [
+      "Reserve"
+    ],
+    "locations": [
+      {
+        "map": "Reserve",
+        "marker": "-191.9045153370744,96.984375",
+        "notes": "Location of the first group of fuel tanks",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Reserve",
+        "marker": "-184.1848908963373,79.859375",
+        "notes": "Location of the second group of fuel tanks",
+        "image": "",
+        "video": ""
+      }
+    ]
   }
 ]
