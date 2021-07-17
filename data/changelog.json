@@ -1,5 +1,10 @@
 [
   {
+    "date": "2021/07/17",
+    "summary": ["Updated ammo names"],
+    "changes": ["Updated ammo names"]
+  },
+  {
     "date": "2021/06/30",
     "summary": [
       "Updated ammo for patch 0.12.11",
@@ -27,19 +32,12 @@
       "Added Task Map feature",
       "Updated required items (Thanks u/LOLC4T)"
     ],
-    "changes": [
-      "Added Task Map feature",
-      "Updated required items"
-    ]
+    "changes": ["Added Task Map feature", "Updated required items"]
   },
   {
     "date": "2021/01/27",
-    "summary": [
-      "Updated ammo values"
-    ],
-    "changes": [
-      "Updated ammo values"
-    ]
+    "summary": ["Updated ammo values"],
+    "changes": ["Updated ammo values"]
   },
   {
     "date": "2020/12/30",
@@ -81,18 +79,14 @@
   },
   {
     "date": "2020/11/29",
-    "summary": [
-      "Added cache locations maps"
-    ],
+    "summary": ["Added cache locations maps"],
     "changes": [
       "Added the Caches page. View maps of all caches on the maps that have them."
     ]
   },
   {
     "date": "2020/10/03",
-    "summary": [
-      "Added Flea Market Prices"
-    ],
+    "summary": ["Added Flea Market Prices"],
     "changes": [
       "Added the Flea Market Prices page. You can search for any item and get up to date prices.",
       "Data provided by Tarkov-Market"
@@ -151,9 +145,7 @@
   },
   {
     "date": "2020/06/16",
-    "summary": [
-      "Updated Task and Hideout required items list"
-    ],
+    "summary": ["Updated Task and Hideout required items list"],
     "changes": [
       "Updated Task and Hideout required items list.",
       "Was missing the Fishing Place task and the new items for the Collector task.",
@@ -162,9 +154,7 @@
   },
   {
     "date": "2020/06/15",
-    "summary": [
-      "Updated a few key spawns, lock locations, and extracts."
-    ],
+    "summary": ["Updated a few key spawns, lock locations, and extracts."],
     "changes": [
       "Updated image for Armored Train extract.",
       "Updated lock location for RB-MP11 key",
@@ -176,12 +166,8 @@
   },
   {
     "date": "2020/06/06",
-    "summary": [
-      "New map for Woods!"
-    ],
-    "changes": [
-      "Added the new map for Woods."
-    ]
+    "summary": ["New map for Woods!"],
+    "changes": ["Added the new map for Woods."]
   },
   {
     "date": "2020/06/01",
@@ -196,9 +182,7 @@
   },
   {
     "date": "2020/05/30",
-    "summary": [
-      "Revamped the Required Loot Items page"
-    ],
+    "summary": ["Revamped the Required Loot Items page"],
     "changes": [
       "Required loot items are now split up better and display the required amounts for individual tasks and hideout modules."
     ]
@@ -230,9 +214,7 @@
   },
   {
     "date": "2020/04/12",
-    "summary": [
-      "Added new map for Labs"
-    ],
+    "summary": ["Added new map for Labs"],
     "changes": [
       "Added new custom map for Labs. Updated all extraction and key data for Labs"
     ]
@@ -266,10 +248,7 @@
   },
   {
     "date": "2020/03/09",
-    "summary": [
-      "Added some missing keys",
-      "Update game version"
-    ],
+    "summary": ["Added some missing keys", "Update game version"],
     "changes": [
       "Added Shturman Key",
       "Added USEC Stash on Customs Key",
@@ -292,9 +271,7 @@
   },
   {
     "date": "2020/02/02",
-    "summary": [
-      "Full app rewrite, lots of changes"
-    ],
+    "summary": ["Full app rewrite, lots of changes"],
     "changes": [
       "Added dark mode/light mode toggle",
       "Update ammo spreadsheet, header is now fixed",
@@ -308,13 +285,8 @@
   },
   {
     "date": "2019/12/30",
-    "summary": [
-      "Update ammo values & spreadsheet"
-    ],
-    "changes": [
-      "Updated all ammo values",
-      "Update spreadsheet component"
-    ]
+    "summary": ["Update ammo values & spreadsheet"],
+    "changes": ["Updated all ammo values", "Update spreadsheet component"]
   },
   {
     "date": "2019/11/08",

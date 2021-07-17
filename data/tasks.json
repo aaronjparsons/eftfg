@@ -1719,5 +1719,72 @@
         "video": ""
       }
     ]
+  },
+  {
+    "type": "task",
+    "label": "Disease History",
+    "maps": [
+      "Reserve"
+    ],
+    "locations": [
+      {
+        "map": "Reserve",
+        "marker": "-212.9914403057905,126.526123046875",
+        "notes": "Location of the first medical journal",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Reserve",
+        "marker": "-213.02596372804163,118.1875",
+        "notes": "Location of the second medical journal",
+        "image": "",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "type": "task",
+    "label": "Inventory Check",
+    "maps": [
+      "Reserve"
+    ],
+    "locations": [
+      {
+        "map": "Reserve",
+        "marker": "-128.84320104098896,184.5791015625",
+        "notes": "Location of the first arsenal in the western barracks on Reserve",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Reserve",
+        "marker": "-139.4811320754717,182.875",
+        "notes": "Location of the duty room in the western barracks on Reserve (RB-OB Key)",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Reserve",
+        "marker": "-151.9808067664281,184.625",
+        "notes": "Location of the second arsenal in the western barracks on Reserve (RB-ORB3 Key)",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Reserve",
+        "marker": "-135.9808067664281,221.75",
+        "notes": "Location of the first arsenal in the northern barracks on Reserve (RB-ORB1 Key)",
+        "image": "",
+        "video": ""
+      },
+      {
+        "map": "Reserve",
+        "marker": "-158.10637605725438,221.625",
+        "notes": "Location of the second arsenal in the northern barracks on Reserve (RB-ORB2 Key)",
+        "image": "",
+        "video": ""
+      }
+    ]
   }
 ]

@@ -2,10 +2,7 @@
   {
     "type": "key",
     "label": "Factory Key",
-    "maps": [
-      "Customs",
-      "Factory"
-    ],
+    "maps": ["Customs", "Factory"],
     "spawns": [
       {
         "map": "Customs",
@@ -77,9 +74,7 @@
   {
     "type": "key",
     "label": "Door Key",
-    "maps": [
-      "Factory"
-    ],
+    "maps": ["Factory"],
     "spawns": [
       {
         "map": "Factory",
@@ -102,10 +97,7 @@
   {
     "type": "key",
     "label": "Door Key (alternative)",
-    "maps": [
-      "all",
-      "Factory"
-    ],
+    "maps": ["all", "Factory"],
     "spawns": [
       {
         "map": "all",
@@ -128,10 +120,7 @@
   {
     "type": "key",
     "label": "Dorm Room 103 Key",
-    "maps": [
-      "all",
-      "Customs"
-    ],
+    "maps": ["all", "Customs"],
     "spawns": [
       {
         "map": "all",
@@ -154,9 +143,7 @@
   {
     "type": "key",
     "label": "Dorm Room 104 Key",
-    "maps": [
-      "Customs"
-    ],
+    "maps": ["Customs"],
     "spawns": [
       {
         "map": "Customs",
@@ -179,10 +166,7 @@
   {
     "type": "key",
     "label": "Dorm Room 105 Key",
-    "maps": [
-      "all",
-      "Customs"
-    ],
+    "maps": ["all", "Customs"],
     "spawns": [
       {
         "map": "all",
@@ -205,10 +189,7 @@
   {
     "type": "key",
     "label": "Dorm Room 108 Key",
-    "maps": [
-      "all",
-      "Customs"
-    ],
+    "maps": ["all", "Customs"],
     "spawns": [
       {
         "map": "all",
@@ -231,9 +212,7 @@
   {
     "type": "key",
     "label": "Dorm Room 110 Key",
-    "maps": [
-      "Customs"
-    ],
+    "maps": ["Customs"],
     "spawns": [
       {
         "map": "Customs",
@@ -256,9 +235,7 @@
   {
     "type": "key",
     "label": "Dorm Room 114 Key",
-    "maps": [
-      "Customs"
-    ],
+    "maps": ["Customs"],
     "spawns": [
       {
         "map": "Customs",
@@ -281,10 +258,7 @@
   {
     "type": "key",
     "label": "Dorm Room 118 Key",
-    "maps": [
-      "all",
-      "Customs"
-    ],
+    "maps": ["all", "Customs"],
     "spawns": [
       {
         "map": "all",
@@ -307,9 +281,7 @@
   {
     "type": "key",
     "label": "Dorm Room 203 Key",
-    "maps": [
-      "Customs"
-    ],
+    "maps": ["Customs"],
     "spawns": [
       {
         "map": "Customs",
@@ -332,10 +304,7 @@
   {
     "type": "key",
     "label": "Dorm Room 204 Key",
-    "maps": [
-      "all",
-      "Customs"
-    ],
+    "maps": ["all", "Customs"],
     "spawns": [
       {
         "map": "all",
@@ -358,10 +327,7 @@
   {
     "type": "key",
     "label": "Dorm Room 206 Key",
-    "maps": [
-      "all",
-      "Customs"
-    ],
+    "maps": ["all", "Customs"],
     "spawns": [
       {
         "map": "all",
@@ -384,9 +350,7 @@
   {
     "type": "key",
     "label": "Dorm Room 214 Key",
-    "maps": [
-      "Customs"
-    ],
+    "maps": ["Customs"],
     "spawns": [
       {
         "map": "Customs",
@@ -416,10 +380,7 @@
   {
     "type": "key",
     "label": "Dorm Room 218 Key",
-    "maps": [
-      "all",
-      "Customs"
-    ],
+    "maps": ["all", "Customs"],
     "spawns": [
       {
         "map": "all",
@@ -442,9 +403,7 @@
   {
     "type": "key",
     "label": "Dorm Room 220 Key",
-    "maps": [
-      "Customs"
-    ],
+    "maps": ["Customs"],
     "spawns": [
       {
         "map": "Customs",
@@ -467,10 +426,7 @@
   {
     "type": "key",
     "label": "Dorm Room 303 Key",
-    "maps": [
-      "all",
-      "Customs"
-    ],
+    "maps": ["all", "Customs"],
     "spawns": [
       {
         "map": "all",
@@ -493,10 +449,7 @@
   {
     "type": "key",
     "label": "Dorm Room 306 Key",
-    "maps": [
-      "all",
-      "Customs"
-    ],
+    "maps": ["all", "Customs"],
     "spawns": [
       {
         "map": "all",
@@ -519,10 +472,7 @@
   {
     "type": "key",
     "label": "Dorm Room 308 Key",
-    "maps": [
-      "all",
-      "Customs"
-    ],
+    "maps": ["all", "Customs"],
     "spawns": [
       {
         "map": "all",
@@ -545,10 +495,7 @@
   {
     "type": "key",
     "label": "Dorm Room 315 Key",
-    "maps": [
-      "all",
-      "Customs"
-    ],
+    "maps": ["all", "Customs"],
     "spawns": [
       {
         "map": "all",
@@ -571,10 +518,7 @@
   {
     "type": "key",
     "label": "Marked Key",
-    "maps": [
-      "all",
-      "Customs"
-    ],
+    "maps": ["all", "Customs"],
     "spawns": [
       {
         "map": "all",
@@ -597,9 +541,7 @@
   {
     "type": "key",
     "label": "Dorm Guard Desk Key",
-    "maps": [
-      "Customs"
-    ],
+    "maps": ["Customs"],
     "spawns": [
       {
         "map": "Customs",
@@ -622,9 +564,7 @@
   {
     "type": "key",
     "label": "Machinery Key",
-    "maps": [
-      "Customs"
-    ],
+    "maps": ["Customs"],
     "spawns": [
       {
         "map": "Customs",
@@ -647,9 +587,7 @@
   {
     "type": "key",
     "label": "Military Base Checkpoint Key",
-    "maps": [
-      "Customs"
-    ],
+    "maps": ["Customs"],
     "spawns": [
       {
         "map": "Customs",
@@ -671,11 +609,8 @@
   },
   {
     "type": "key",
-    "label": "Customs Office Key",
-    "maps": [
-      "all",
-      "Customs"
-    ],
+    "label": "Tarcone Director's Office Key",
+    "maps": ["all", "Customs"],
     "spawns": [
       {
         "map": "all",
@@ -698,10 +633,7 @@
   {
     "type": "key",
     "label": "Portable Cabin Key",
-    "maps": [
-      "all",
-      "Customs"
-    ],
+    "maps": ["all", "Customs"],
     "spawns": [
       {
         "map": "all",
@@ -724,10 +656,7 @@
   {
     "type": "key",
     "label": "Portable Cabin Key Of Customs Factory Zone",
-    "maps": [
-      "Factory",
-      "Customs"
-    ],
+    "maps": ["Factory", "Customs"],
     "spawns": [
       {
         "map": "Factory",
@@ -750,10 +679,7 @@
   {
     "type": "key",
     "label": "Trailer Park Cabin Key",
-    "maps": [
-      "all",
-      "Customs"
-    ],
+    "maps": ["all", "Customs"],
     "spawns": [
       {
         "map": "all",
@@ -776,10 +702,7 @@
   {
     "type": "key",
     "label": "Cabinet Key",
-    "maps": [
-      "all",
-      "Customs"
-    ],
+    "maps": ["all", "Customs"],
     "spawns": [
       {
         "map": "all",
@@ -802,9 +725,7 @@
   {
     "type": "key",
     "label": "The Key To The Gas Station Storage Room",
-    "maps": [
-      "Customs"
-    ],
+    "maps": ["Customs"],
     "spawns": [
       {
         "map": "Customs",
@@ -827,9 +748,7 @@
   {
     "type": "key",
     "label": "Unknown Key",
-    "maps": [
-      "Customs"
-    ],
+    "maps": ["Customs"],
     "spawns": [
       {
         "map": "Customs",
@@ -852,9 +771,7 @@
   {
     "type": "key",
     "label": "Car Key",
-    "maps": [
-      "all"
-    ],
+    "maps": ["all"],
     "spawns": [
       {
         "map": "all",
@@ -877,10 +794,7 @@
   {
     "type": "key",
     "label": "Yotota Car Key",
-    "maps": [
-      "all",
-      "Woods"
-    ],
+    "maps": ["all", "Woods"],
     "spawns": [
       {
         "map": "all",
@@ -903,10 +817,7 @@
   {
     "type": "key",
     "label": "ZB-014 Key",
-    "maps": [
-      "Customs",
-      "Woods"
-    ],
+    "maps": ["Customs", "Woods"],
     "spawns": [
       {
         "map": "Customs",
@@ -929,9 +840,7 @@
   {
     "type": "key",
     "label": "Weather Station Safe Key",
-    "maps": [
-      "all"
-    ],
+    "maps": ["all"],
     "spawns": [
       {
         "map": "all",
@@ -954,10 +863,7 @@
   {
     "type": "key",
     "label": "Closed Premises of the Sanatorium Key",
-    "maps": [
-      "all",
-      "Shoreline"
-    ],
+    "maps": ["all", "Shoreline"],
     "spawns": [
       {
         "map": "Shoreline",
@@ -980,10 +886,7 @@
   {
     "type": "key",
     "label": "Health Resort Warehouse Safe Key",
-    "maps": [
-      "all",
-      "Shoreline"
-    ],
+    "maps": ["all", "Shoreline"],
     "spawns": [
       {
         "map": "all",
@@ -1006,9 +909,7 @@
   {
     "type": "key",
     "label": "Key To Store Safe",
-    "maps": [
-      "all"
-    ],
+    "maps": ["all"],
     "spawns": [
       {
         "map": "all",
@@ -1031,9 +932,7 @@
   {
     "type": "key",
     "label": "Gas Station Safe Key",
-    "maps": [
-      "all"
-    ],
+    "maps": ["all"],
     "spawns": [
       {
         "map": "all",
@@ -1056,9 +955,7 @@
   {
     "type": "key",
     "label": "Cottage Back Entrance Key",
-    "maps": [
-      "Shoreline"
-    ],
+    "maps": ["Shoreline"],
     "spawns": [
       {
         "map": "Shoreline",
@@ -1081,9 +978,7 @@
   {
     "type": "key",
     "label": "Cottage Safe Key",
-    "maps": [
-      "Shoreline"
-    ],
+    "maps": ["Shoreline"],
     "spawns": [
       {
         "map": "Shoreline",
@@ -1106,9 +1001,7 @@
   {
     "type": "key",
     "label": "SMW Car Key",
-    "maps": [
-      "Shoreline"
-    ],
+    "maps": ["Shoreline"],
     "spawns": [
       {
         "map": "Shoreline",
@@ -1131,9 +1024,7 @@
   {
     "type": "key",
     "label": "Health Resort Utility Room Key",
-    "maps": [
-      "Shoreline"
-    ],
+    "maps": ["Shoreline"],
     "spawns": [
       {
         "map": "Shoreline",
@@ -1170,10 +1061,7 @@
   {
     "type": "key",
     "label": "Health Resort Management Office Safe Key",
-    "maps": [
-      "all",
-      "Shoreline"
-    ],
+    "maps": ["all", "Shoreline"],
     "spawns": [
       {
         "map": "all",
@@ -1196,9 +1084,7 @@
   {
     "type": "key",
     "label": "Health Resort Room 321 Safe Key",
-    "maps": [
-      "Shoreline"
-    ],
+    "maps": ["Shoreline"],
     "spawns": [
       {
         "map": "Shoreline",
@@ -1221,9 +1107,7 @@
   {
     "type": "key",
     "label": "Office 104 West Wing Key",
-    "maps": [
-      "Shoreline"
-    ],
+    "maps": ["Shoreline"],
     "spawns": [
       {
         "map": "Shoreline",
@@ -1246,9 +1130,7 @@
   {
     "type": "key",
     "label": "Office 112 West Wing Key",
-    "maps": [
-      "Shoreline"
-    ],
+    "maps": ["Shoreline"],
     "spawns": [
       {
         "map": "Shoreline",
@@ -1271,9 +1153,7 @@
   {
     "type": "key",
     "label": "West Wing Room 203 Key",
-    "maps": [
-      "Shoreline"
-    ],
+    "maps": ["Shoreline"],
     "spawns": [
       {
         "map": "Shoreline",
@@ -1296,9 +1176,7 @@
   {
     "type": "key",
     "label": "West Wing Room 205 Key",
-    "maps": [
-      "Shoreline"
-    ],
+    "maps": ["Shoreline"],
     "spawns": [
       {
         "map": "Shoreline",
@@ -1321,9 +1199,7 @@
   {
     "type": "key",
     "label": "West Wing Room 207 Key",
-    "maps": [
-      "all"
-    ],
+    "maps": ["all"],
     "spawns": [
       {
         "map": "all",
@@ -1346,9 +1222,7 @@
   {
     "type": "key",
     "label": "West Wing Room 216 Key",
-    "maps": [
-      "Shoreline"
-    ],
+    "maps": ["Shoreline"],
     "spawns": [
       {
         "map": "Shoreline",
@@ -1371,9 +1245,7 @@
   {
     "type": "key",
     "label": "West Wing Room 218 Key",
-    "maps": [
-      "Shoreline"
-    ],
+    "maps": ["Shoreline"],
     "spawns": [
       {
         "map": "Shoreline",
@@ -1396,9 +1268,7 @@
   {
     "type": "key",
     "label": "West Wing Room 219 Key",
-    "maps": [
-      "Shoreline"
-    ],
+    "maps": ["Shoreline"],
     "spawns": [
       {
         "map": "Shoreline",
@@ -1421,9 +1291,7 @@
   {
     "type": "key",
     "label": "West Wing Room 220 Key",
-    "maps": [
-      "Shoreline"
-    ],
+    "maps": ["Shoreline"],
     "spawns": [
       {
         "map": "Shoreline",
@@ -1446,9 +1314,7 @@
   {
     "type": "key",
     "label": "West Wing Room 221 Key",
-    "maps": [
-      "Shoreline"
-    ],
+    "maps": ["Shoreline"],
     "spawns": [
       {
         "map": "Shoreline",
@@ -1471,10 +1337,7 @@
   {
     "type": "key",
     "label": "West Wing Room 222 Key",
-    "maps": [
-      "all",
-      "Shoreline"
-    ],
+    "maps": ["all", "Shoreline"],
     "spawns": [
       {
         "map": "all",
@@ -1497,9 +1360,7 @@
   {
     "type": "key",
     "label": "West Wing Room 301 Key",
-    "maps": [
-      "Shoreline"
-    ],
+    "maps": ["Shoreline"],
     "spawns": [
       {
         "map": "Shoreline",
@@ -1522,9 +1383,7 @@
   {
     "type": "key",
     "label": "West Wing Room 303 Key",
-    "maps": [
-      "all"
-    ],
+    "maps": ["all"],
     "spawns": [
       {
         "map": "all",
@@ -1547,10 +1406,7 @@
   {
     "type": "key",
     "label": "West Wing Room 306 Key",
-    "maps": [
-      "Factory",
-      "Shoreline"
-    ],
+    "maps": ["Factory", "Shoreline"],
     "spawns": [
       {
         "map": "Factory",
@@ -1573,9 +1429,7 @@
   {
     "type": "key",
     "label": "West Wing Room 309 Key",
-    "maps": [
-      "all"
-    ],
+    "maps": ["all"],
     "spawns": [
       {
         "map": "all",
@@ -1598,9 +1452,7 @@
   {
     "type": "key",
     "label": "West Wing Room 323 Key",
-    "maps": [
-      "all"
-    ],
+    "maps": ["all"],
     "spawns": [
       {
         "map": "all",
@@ -1623,9 +1475,7 @@
   {
     "type": "key",
     "label": "West Wing Room 325 Key",
-    "maps": [
-      "all"
-    ],
+    "maps": ["all"],
     "spawns": [
       {
         "map": "all",
@@ -1648,9 +1498,7 @@
   {
     "type": "key",
     "label": "Office 107 East Wing Key",
-    "maps": [
-      "Shoreline"
-    ],
+    "maps": ["Shoreline"],
     "spawns": [
       {
         "map": "Shoreline",
@@ -1673,9 +1521,7 @@
   {
     "type": "key",
     "label": "Office 108 East Wing Key",
-    "maps": [
-      "all"
-    ],
+    "maps": ["all"],
     "spawns": [
       {
         "map": "all",
@@ -1698,9 +1544,7 @@
   {
     "type": "key",
     "label": "East Wing Room 205 Key",
-    "maps": [
-      "Shoreline"
-    ],
+    "maps": ["Shoreline"],
     "spawns": [
       {
         "map": "Shoreline",
@@ -1723,9 +1567,7 @@
   {
     "type": "key",
     "label": "East Wing Room 206 Key",
-    "maps": [
-      "Shoreline"
-    ],
+    "maps": ["Shoreline"],
     "spawns": [
       {
         "map": "Shoreline",
@@ -1748,9 +1590,7 @@
   {
     "type": "key",
     "label": "East Wing Room 209 Key",
-    "maps": [
-      "all"
-    ],
+    "maps": ["all"],
     "spawns": [
       {
         "map": "all",
@@ -1773,9 +1613,7 @@
   {
     "type": "key",
     "label": "East Wing Room 213 Key",
-    "maps": [
-      "all"
-    ],
+    "maps": ["all"],
     "spawns": [
       {
         "map": "all",
@@ -1798,9 +1636,7 @@
   {
     "type": "key",
     "label": "East Wing Room 216 Key",
-    "maps": [
-      "all"
-    ],
+    "maps": ["all"],
     "spawns": [
       {
         "map": "all",
@@ -1823,9 +1659,7 @@
   {
     "type": "key",
     "label": "East Wing Room 222 Key",
-    "maps": [
-      "Shoreline"
-    ],
+    "maps": ["Shoreline"],
     "spawns": [
       {
         "map": "Shoreline",
@@ -1848,9 +1682,7 @@
   {
     "type": "key",
     "label": "East Wing Room 226 Key",
-    "maps": [
-      "Shoreline"
-    ],
+    "maps": ["Shoreline"],
     "spawns": [
       {
         "map": "Shoreline",
@@ -1880,10 +1712,7 @@
   {
     "type": "key",
     "label": "East Wing Room 306 Key",
-    "maps": [
-      "Customs",
-      "Shoreline"
-    ],
+    "maps": ["Customs", "Shoreline"],
     "spawns": [
       {
         "map": "Customs",
@@ -1906,10 +1735,7 @@
   {
     "type": "key",
     "label": "East Wing Room 308 Key",
-    "maps": [
-      "Woods",
-      "Shoreline"
-    ],
+    "maps": ["Woods", "Shoreline"],
     "spawns": [
       {
         "map": "Woods",
@@ -1932,10 +1758,7 @@
   {
     "type": "key",
     "label": "East Wing Room 310 Key",
-    "maps": [
-      "Customs",
-      "Shoreline"
-    ],
+    "maps": ["Customs", "Shoreline"],
     "spawns": [
       {
         "map": "Customs",
@@ -1965,10 +1788,7 @@
   {
     "type": "key",
     "label": "East Wing Room 313 Key",
-    "maps": [
-      "all",
-      "Shoreline"
-    ],
+    "maps": ["all", "Shoreline"],
     "spawns": [
       {
         "map": "all",
@@ -1991,10 +1811,7 @@
   {
     "type": "key",
     "label": "East Wing Room 314 Key",
-    "maps": [
-      "Woods",
-      "Shoreline"
-    ],
+    "maps": ["Woods", "Shoreline"],
     "spawns": [
       {
         "map": "Woods",
@@ -2017,10 +1834,7 @@
   {
     "type": "key",
     "label": "East Wing Room 316 Key",
-    "maps": [
-      "Woods",
-      "Shoreline"
-    ],
+    "maps": ["Woods", "Shoreline"],
     "spawns": [
       {
         "map": "Woods",
@@ -2043,9 +1857,7 @@
   {
     "type": "key",
     "label": "East Wing Room 322 Key",
-    "maps": [
-      "all"
-    ],
+    "maps": ["all"],
     "spawns": [
       {
         "map": "all",
@@ -2068,9 +1880,7 @@
   {
     "type": "key",
     "label": "East Wing Room 328 Key",
-    "maps": [
-      "Shoreline"
-    ],
+    "maps": ["Shoreline"],
     "spawns": [
       {
         "map": "Shoreline",
@@ -2093,10 +1903,7 @@
   {
     "type": "key",
     "label": "Key To OLI Administrator Office",
-    "maps": [
-      "Shoreline",
-      "Interchange"
-    ],
+    "maps": ["Shoreline", "Interchange"],
     "spawns": [
       {
         "map": "Shoreline",
@@ -2119,10 +1926,7 @@
   {
     "type": "key",
     "label": "Key To OLI Logistics Dept Office",
-    "maps": [
-      "Customs",
-      "Interchange"
-    ],
+    "maps": ["Customs", "Interchange"],
     "spawns": [
       {
         "map": "Customs",
@@ -2145,10 +1949,7 @@
   {
     "type": "key",
     "label": "Key To Utility Room Of Power Substation",
-    "maps": [
-      "Factory",
-      "Interchange"
-    ],
+    "maps": ["Factory", "Interchange"],
     "spawns": [
       {
         "map": "Factory",
@@ -2171,10 +1972,7 @@
   {
     "type": "key",
     "label": "NecrusPharm Pharmacy Key",
-    "maps": [
-      "Shoreline",
-      "Interchange"
-    ],
+    "maps": ["Shoreline", "Interchange"],
     "spawns": [
       {
         "map": "Shoreline",
@@ -2197,9 +1995,7 @@
   {
     "type": "key",
     "label": "Key To KIBA Store Outlet",
-    "maps": [
-      "Interchange"
-    ],
+    "maps": ["Interchange"],
     "spawns": [
       {
         "map": "Interchange",
@@ -2222,10 +2018,7 @@
   {
     "type": "key",
     "label": "Key To KIBA Outlet Grate Door",
-    "maps": [
-      "all",
-      "Interchange"
-    ],
+    "maps": ["all", "Interchange"],
     "spawns": [
       {
         "map": "all",
@@ -2248,10 +2041,7 @@
   {
     "type": "key",
     "label": "Key To EMERCOM Medical Unit (MES)",
-    "maps": [
-      "Customs",
-      "Interchange"
-    ],
+    "maps": ["Customs", "Interchange"],
     "spawns": [
       {
         "map": "Customs",
@@ -2274,9 +2064,7 @@
   {
     "type": "key",
     "label": "Key To OLI Cash Register",
-    "maps": [
-      "Interchange"
-    ],
+    "maps": ["Interchange"],
     "spawns": [
       {
         "map": "Interchange",
@@ -2299,9 +2087,7 @@
   {
     "type": "key",
     "label": "Key To IDEA Cash Register",
-    "maps": [
-      "Interchange"
-    ],
+    "maps": ["Interchange"],
     "spawns": [
       {
         "map": "Interchange",
@@ -2324,10 +2110,7 @@
   {
     "type": "key",
     "label": "Key To GOSHAN Cash Register",
-    "maps": [
-      "Customs",
-      "Interchange"
-    ],
+    "maps": ["Customs", "Interchange"],
     "spawns": [
       {
         "map": "Customs",
@@ -2350,9 +2133,7 @@
   {
     "type": "key",
     "label": "Labs Black Keycard",
-    "maps": [
-      "Labs"
-    ],
+    "maps": ["Labs"],
     "spawns": [
       {
         "map": "Labs",
@@ -2389,10 +2170,7 @@
   {
     "type": "key",
     "label": "Labs Blue Keycard",
-    "maps": [
-      "Shoreline",
-      "Labs"
-    ],
+    "maps": ["Shoreline", "Labs"],
     "spawns": [
       {
         "map": "Shoreline",
@@ -2429,9 +2207,7 @@
   {
     "type": "key",
     "label": "Labs Green Keycard",
-    "maps": [
-      "Labs"
-    ],
+    "maps": ["Labs"],
     "spawns": [
       {
         "map": "Labs",
@@ -2468,10 +2244,7 @@
   {
     "type": "key",
     "label": "Labs Red Keycard",
-    "maps": [
-      "Shoreline",
-      "Labs"
-    ],
+    "maps": ["Shoreline", "Labs"],
     "spawns": [
       {
         "map": "Shoreline",
@@ -2522,10 +2295,7 @@
   {
     "type": "key",
     "label": "Labs Violet Keycard",
-    "maps": [
-      "Woods",
-      "Labs"
-    ],
+    "maps": ["Woods", "Labs"],
     "spawns": [
       {
         "map": "Woods",
@@ -2562,9 +2332,7 @@
   {
     "type": "key",
     "label": "Labs Yellow Keycard",
-    "maps": [
-      "Labs"
-    ],
+    "maps": ["Labs"],
     "spawns": [
       {
         "map": "Labs",
@@ -2601,10 +2369,7 @@
   {
     "type": "key",
     "label": "Labs Key Arsenal Storage Room",
-    "maps": [
-      "Customs",
-      "Labs"
-    ],
+    "maps": ["Customs", "Labs"],
     "spawns": [
       {
         "map": "Customs",
@@ -2641,9 +2406,7 @@
   {
     "type": "key",
     "label": "Labs Key Managers Office",
-    "maps": [
-      "Labs"
-    ],
+    "maps": ["Labs"],
     "spawns": [
       {
         "map": "Labs",
@@ -2680,9 +2443,7 @@
   {
     "type": "key",
     "label": "Labs Key Testing Area (Weapon)",
-    "maps": [
-      "Labs"
-    ],
+    "maps": ["Labs"],
     "spawns": [
       {
         "map": "Labs",
@@ -2719,9 +2480,7 @@
   {
     "type": "key",
     "label": "VAZ Key",
-    "maps": [
-      "all"
-    ],
+    "maps": ["all"],
     "spawns": [
       {
         "map": "all",
@@ -2744,10 +2503,7 @@
   {
     "type": "key",
     "label": "RB-AM Key",
-    "maps": [
-      "all",
-      "Reserve"
-    ],
+    "maps": ["all", "Reserve"],
     "spawns": [
       {
         "map": "all",
@@ -2770,10 +2526,7 @@
   {
     "type": "key",
     "label": "RB-BK Key",
-    "maps": [
-      "all",
-      "Reserve"
-    ],
+    "maps": ["all", "Reserve"],
     "spawns": [
       {
         "map": "all",
@@ -2796,10 +2549,7 @@
   {
     "type": "key",
     "label": "RB-VO Key",
-    "maps": [
-      "all",
-      "Reserve"
-    ],
+    "maps": ["all", "Reserve"],
     "spawns": [
       {
         "map": "all",
@@ -2822,10 +2572,7 @@
   {
     "type": "key",
     "label": "RB-AO Key",
-    "maps": [
-      "Shoreline",
-      "Reserve"
-    ],
+    "maps": ["Shoreline", "Reserve"],
     "spawns": [
       {
         "map": "Shoreline",
@@ -2848,10 +2595,7 @@
   {
     "type": "key",
     "label": "RB-OB Key",
-    "maps": [
-      "all",
-      "Reserve"
-    ],
+    "maps": ["all", "Reserve"],
     "spawns": [
       {
         "map": "all",
@@ -2874,9 +2618,7 @@
   {
     "type": "key",
     "label": "RB-TB Key",
-    "maps": [
-      "Reserve"
-    ],
+    "maps": ["Reserve"],
     "spawns": [
       {
         "map": "Reserve",
@@ -2899,9 +2641,7 @@
   {
     "type": "key",
     "label": "RB-AK Key",
-    "maps": [
-      "Reserve"
-    ],
+    "maps": ["Reserve"],
     "spawns": [
       {
         "map": "Reserve",
@@ -2924,10 +2664,7 @@
   {
     "type": "key",
     "label": "RB-OP Key",
-    "maps": [
-      "Interchange",
-      "Reserve"
-    ],
+    "maps": ["Interchange", "Reserve"],
     "spawns": [
       {
         "map": "Interchange",
@@ -2950,10 +2687,7 @@
   {
     "type": "key",
     "label": "RB-MP11 Key",
-    "maps": [
-      "Customs",
-      "Reserve"
-    ],
+    "maps": ["Customs", "Reserve"],
     "spawns": [
       {
         "map": "Customs",
@@ -2976,10 +2710,7 @@
   {
     "type": "key",
     "label": "RB-MP12 Key",
-    "maps": [
-      "Woods",
-      "all"
-    ],
+    "maps": ["Woods", "all"],
     "spawns": [
       {
         "map": "Woods",
@@ -3002,10 +2733,7 @@
   {
     "type": "key",
     "label": "RB-MP21 Key",
-    "maps": [
-      "Interchange",
-      "Reserve"
-    ],
+    "maps": ["Interchange", "Reserve"],
     "spawns": [
       {
         "map": "Interchange",
@@ -3028,10 +2756,7 @@
   {
     "type": "key",
     "label": "RB-MP22 Key",
-    "maps": [
-      "all",
-      "Reserve"
-    ],
+    "maps": ["all", "Reserve"],
     "spawns": [
       {
         "map": "all",
@@ -3054,10 +2779,7 @@
   {
     "type": "key",
     "label": "RB-PKPM Key",
-    "maps": [
-      "all",
-      "Reserve"
-    ],
+    "maps": ["all", "Reserve"],
     "spawns": [
       {
         "map": "all",
@@ -3080,10 +2802,7 @@
   {
     "type": "key",
     "label": "RB-PSP1 Key",
-    "maps": [
-      "all",
-      "Reserve"
-    ],
+    "maps": ["all", "Reserve"],
     "spawns": [
       {
         "map": "all",
@@ -3106,9 +2825,7 @@
   {
     "type": "key",
     "label": "RB-PS81 Key",
-    "maps": [
-      "Reserve"
-    ],
+    "maps": ["Reserve"],
     "spawns": [
       {
         "map": "Reserve",
@@ -3131,9 +2848,7 @@
   {
     "type": "key",
     "label": "RB-PP Key",
-    "maps": [
-      "all"
-    ],
+    "maps": ["all"],
     "spawns": [
       {
         "map": "all",
@@ -3156,10 +2871,7 @@
   {
     "type": "key",
     "label": "RB-MP13 Key",
-    "maps": [
-      "all",
-      "Reserve"
-    ],
+    "maps": ["all", "Reserve"],
     "spawns": [
       {
         "map": "all",
@@ -3182,9 +2894,7 @@
   {
     "type": "key",
     "label": "RB-ORB1 Key",
-    "maps": [
-      "Reserve"
-    ],
+    "maps": ["Reserve"],
     "spawns": [
       {
         "map": "Reserve",
@@ -3207,10 +2917,7 @@
   {
     "type": "key",
     "label": "RB-ORB2 Key",
-    "maps": [
-      "Reserve",
-      "Woods"
-    ],
+    "maps": ["Reserve", "Woods"],
     "spawns": [
       {
         "map": "Reserve",
@@ -3240,10 +2947,7 @@
   {
     "type": "key",
     "label": "RB-ORB3 Key",
-    "maps": [
-      "Customs",
-      "Reserve"
-    ],
+    "maps": ["Customs", "Reserve"],
     "spawns": [
       {
         "map": "Customs",
@@ -3266,10 +2970,7 @@
   {
     "type": "key",
     "label": "RB-KORL Key",
-    "maps": [
-      "all",
-      "Reserve"
-    ],
+    "maps": ["all", "Reserve"],
     "spawns": [
       {
         "map": "all",
@@ -3292,10 +2993,7 @@
   {
     "type": "key",
     "label": "RB-KPRL Key",
-    "maps": [
-      "all",
-      "Reserve"
-    ],
+    "maps": ["all", "Reserve"],
     "spawns": [
       {
         "map": "all",
@@ -3318,10 +3016,7 @@
   {
     "type": "key",
     "label": "RB-GN Key",
-    "maps": [
-      "all",
-      "Reserve"
-    ],
+    "maps": ["all", "Reserve"],
     "spawns": [
       {
         "map": "all",
@@ -3344,10 +3039,7 @@
   {
     "type": "key",
     "label": "RB-SMP Key",
-    "maps": [
-      "all",
-      "Reserve"
-    ],
+    "maps": ["all", "Reserve"],
     "spawns": [
       {
         "map": "all",
@@ -3370,10 +3062,7 @@
   {
     "type": "key",
     "label": "RB-KSM Key",
-    "maps": [
-      "all",
-      "Reserve"
-    ],
+    "maps": ["all", "Reserve"],
     "spawns": [
       {
         "map": "all",
@@ -3396,10 +3085,7 @@
   {
     "type": "key",
     "label": "RB-PS82 Key",
-    "maps": [
-      "all",
-      "Reserve"
-    ],
+    "maps": ["all", "Reserve"],
     "spawns": [
       {
         "map": "all",
@@ -3422,10 +3108,7 @@
   {
     "type": "key",
     "label": "RB-PSP2 Key",
-    "maps": [
-      "all",
-      "Reserve"
-    ],
+    "maps": ["all", "Reserve"],
     "spawns": [
       {
         "map": "all",
@@ -3448,10 +3131,7 @@
   {
     "type": "key",
     "label": "RB-ST Key",
-    "maps": [
-      "all",
-      "Reserve"
-    ],
+    "maps": ["all", "Reserve"],
     "spawns": [
       {
         "map": "all",
@@ -3474,10 +3154,7 @@
   {
     "type": "key",
     "label": "RB-RS Key",
-    "maps": [
-      "all",
-      "Reserve"
-    ],
+    "maps": ["all", "Reserve"],
     "spawns": [
       {
         "map": "all",
@@ -3500,10 +3177,7 @@
   {
     "type": "key",
     "label": "RB-RSSLA Key",
-    "maps": [
-      "all",
-      "Reserve"
-    ],
+    "maps": ["all", "Reserve"],
     "spawns": [
       {
         "map": "all",
@@ -3526,10 +3200,7 @@
   {
     "type": "key",
     "label": "RB-RH Key",
-    "maps": [
-      "all",
-      "Reserve"
-    ],
+    "maps": ["all", "Reserve"],
     "spawns": [
       {
         "map": "all",
@@ -3552,10 +3223,7 @@
   {
     "type": "key",
     "label": "USEC Stash on Customs Key",
-    "maps": [
-      "all",
-      "Customs"
-    ],
+    "maps": ["all", "Customs"],
     "spawns": [
       {
         "map": "all",
@@ -3585,10 +3253,7 @@
   {
     "type": "key",
     "label": "Key to HEP Station Storage",
-    "maps": [
-      "all",
-      "Shoreline"
-    ],
+    "maps": ["all", "Shoreline"],
     "spawns": [
       {
         "map": "all",
@@ -3611,9 +3276,7 @@
   {
     "type": "key",
     "label": "Shturman Key",
-    "maps": [
-      "Woods"
-    ],
+    "maps": ["Woods"],
     "spawns": [
       {
         "map": "Woods",
@@ -3636,9 +3299,7 @@
   {
     "type": "key",
     "label": "Object #21WS Keycard",
-    "maps": [
-      "Interchange"
-    ],
+    "maps": ["Interchange"],
     "spawns": [
       {
         "map": "Interchange",
@@ -3661,9 +3322,7 @@
   {
     "type": "key",
     "label": "Object #11SR Keycard",
-    "maps": [
-      "Interchange"
-    ],
+    "maps": ["Interchange"],
     "spawns": [
       {
         "map": "Interchange",
@@ -3686,10 +3345,7 @@
   {
     "type": "key",
     "label": "ULTRA Medical Storage Key",
-    "maps": [
-      "all",
-      "Interchange"
-    ],
+    "maps": ["all", "Interchange"],
     "spawns": [
       {
         "map": "all",
@@ -3712,10 +3368,7 @@
   {
     "type": "key",
     "label": "Key Card With a blue marking",
-    "maps": [
-      "Shoreline",
-      "Labs"
-    ],
+    "maps": ["Shoreline", "Labs"],
     "spawns": [
       {
         "map": "Shoreline",
@@ -3752,9 +3405,7 @@
   {
     "type": "key",
     "label": "Key With Tape",
-    "maps": [
-      "Shoreline"
-    ],
+    "maps": ["Shoreline"],
     "spawns": [
       {
         "map": "Shoreline",
@@ -3791,10 +3442,7 @@
   {
     "type": "key",
     "label": "Key to utility room of OLI outlet",
-    "maps": [
-      "all",
-      "Interchange"
-    ],
+    "maps": ["all", "Interchange"],
     "spawns": [
       {
         "map": "all",
