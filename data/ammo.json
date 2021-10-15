@@ -1,13 +1,149 @@
 {
   "changes": [
     {
-      "penetration": ["32", "34"],
+      "damage": [
+        "127",
+        "137"
+      ],
+      "accuracy": [
+        "",
+        "-5"
+      ],
+      "name": ".45 ACP RIP"
+    },
+    {
+      "damage": [
+        "95",
+        "105"
+      ],
+      "name": ".45 ACP Hydra-Shok"
+    },
+    {
+      "damage": [
+        "74",
+        "80"
+      ],
+      "accuracy": [
+        "+5",
+        "+10"
+      ],
+      "name": ".45 ACP Lasermatch FMJ"
+    },
+    {
+      "damage": [
+        "69",
+        "76"
+      ],
+      "penetration": [
+        "23",
+        "25"
+      ],
+      "name": ".45 ACP Match FMJ"
+    },
+    {
+      "penetration": [
+        "36",
+        "38"
+      ],
+      "armorDamage": [
+        "43",
+        "48"
+      ],
+      "name": ".45 ACP AP"
+    },
+    {
+      "damage": [
+        "54",
+        "56"
+      ],
+      "penetration": [
+        "20",
+        "21"
+      ],
+      "name": "5.45x39mm FMJ"
+    },
+    {
+      "penetration": [
+        "25",
+        "27"
+      ],
+      "name": "5.45x39mm PS gs"
+    },
+    {
+      "damage": [
+        "46",
+        "48"
+      ],
+      "penetration": [
+        "30",
+        "33"
+      ],
+      "name": "5.45x39mm PP gs"
+    },
+    {
+      "damage": [
+        "48",
+        "49"
+      ],
+      "penetration": [
+        "34",
+        "35"
+      ],
       "name": "5.45x39mm BP gs"
     },
     {
-      "damage": ["45", "46"],
-      "penetration": ["43", "45"],
+      "damage": [
+        "65",
+        "67"
+      ],
+      "penetration": [
+        "21",
+        "20"
+      ],
+      "accuracy": [
+        "+5",
+        "+10"
+      ],
+      "name": "5.56x45mm MK 318 Mod 0 (SOST)"
+    },
+    {
+      "accuracy": [
+        "-5",
+        "-2"
+      ],
+      "name": "5.56x45mm M856"
+    },
+    {
+      "accuracy": [
+        "-2",
+        "-1"
+      ],
+      "name": "5.56x45mm M856A1"
+    },
+    {
+      "recoil": [
+        "",
+        "+5"
+      ],
       "name": "5.56x45mm M855A1"
+    },
+    {
+      "penetration": [
+        "28",
+        "29"
+      ],
+      "name": ".300 AAC Blackout BCP FMJ"
+    },
+    {
+      "penetration": [
+        "44",
+        "45"
+      ],
+      "armorDamage": [
+        "60",
+        "65"
+      ],
+      "name": ".300 AAC Blackout AP"
     }
   ],
   "ammo": [
@@ -21,7 +157,7 @@
       "fragmentation": "0%"
     },
     {
-      "name": "12x70 8.5 mm \"Magnum\" Buckshot",
+      "name": "12x70 8.5mm \"Magnum\" Buckshot",
       "damage": "8x50",
       "penetration": "2",
       "armorDamage": "26",
@@ -120,12 +256,12 @@
       "fragmentation": "10%"
     },
     {
-      "name": "12x70 FTX Custom LIte Slug",
+      "name": "12x70 FTX Custom Lite Slug",
       "damage": "183",
       "penetration": "20",
       "armorDamage": "50",
       "accuracy": "+135",
-      "recoil": "",
+      "recoil": "-25",
       "fragmentation": "10%"
     },
     {
@@ -526,16 +662,16 @@
     },
     {
       "name": ".45 ACP RIP",
-      "damage": "127",
+      "damage": "137",
       "penetration": "3",
       "armorDamage": "12",
-      "accuracy": "",
+      "accuracy": "-5",
       "recoil": "",
       "fragmentation": "100%"
     },
     {
       "name": ".45 ACP Hydra-Shok",
-      "damage": "95",
+      "damage": "105",
       "penetration": "13",
       "armorDamage": "30",
       "accuracy": "",
@@ -544,17 +680,17 @@
     },
     {
       "name": ".45 ACP Lasermatch FMJ",
-      "damage": "74",
+      "damage": "80",
       "penetration": "19",
       "armorDamage": "37",
-      "accuracy": "+5",
+      "accuracy": "+10",
       "recoil": "",
       "fragmentation": "1%"
     },
     {
       "name": ".45 ACP Match FMJ",
-      "damage": "69",
-      "penetration": "23",
+      "damage": "76",
+      "penetration": "25",
       "armorDamage": "36",
       "accuracy": "",
       "recoil": "",
@@ -563,8 +699,8 @@
     {
       "name": ".45 ACP AP",
       "damage": "70",
-      "penetration": "36",
-      "armorDamage": "43",
+      "penetration": "38",
+      "armorDamage": "48",
       "accuracy": "-5",
       "recoil": "+7",
       "fragmentation": "1%"
@@ -814,8 +950,8 @@
     },
     {
       "name": "5.45x39mm FMJ",
-      "damage": "54",
-      "penetration": "20",
+      "damage": "56",
+      "penetration": "21",
       "armorDamage": "30",
       "accuracy": "",
       "recoil": "",
@@ -833,7 +969,7 @@
     {
       "name": "5.45x39mm PS gs",
       "damage": "50",
-      "penetration": "25",
+      "penetration": "27",
       "armorDamage": "35",
       "accuracy": "",
       "recoil": "",
@@ -841,8 +977,8 @@
     },
     {
       "name": "5.45x39mm PP gs",
-      "damage": "46",
-      "penetration": "30",
+      "damage": "48",
+      "penetration": "33",
       "armorDamage": "32",
       "accuracy": "",
       "recoil": "",
@@ -850,8 +986,8 @@
     },
     {
       "name": "5.45x39mm BP gs",
-      "damage": "48",
-      "penetration": "34",
+      "damage": "49",
+      "penetration": "35",
       "armorDamage": "41",
       "accuracy": "",
       "recoil": "",
@@ -913,10 +1049,10 @@
     },
     {
       "name": "5.56x45mm MK 318 Mod 0 (SOST)",
-      "damage": "65",
-      "penetration": "21",
+      "damage": "67",
+      "penetration": "20",
       "armorDamage": "35",
-      "accuracy": "+5",
+      "accuracy": "+10",
       "recoil": "",
       "fragmentation": "15%"
     },
@@ -925,7 +1061,7 @@
       "damage": "55",
       "penetration": "23",
       "armorDamage": "34",
-      "accuracy": "-5",
+      "accuracy": "-2",
       "recoil": "-2",
       "fragmentation": "33%"
     },
@@ -952,7 +1088,7 @@
       "damage": "51",
       "penetration": "37",
       "armorDamage": "52",
-      "accuracy": "-2",
+      "accuracy": "-1",
       "recoil": "+4",
       "fragmentation": "33%"
     },
@@ -962,7 +1098,7 @@
       "penetration": "45",
       "armorDamage": "52",
       "accuracy": "-10",
-      "recoil": "",
+      "recoil": "+5",
       "fragmentation": "34%"
     },
     {
@@ -986,7 +1122,7 @@
     {
       "name": ".300 AAC Blackout BCP FMJ",
       "damage": "60",
-      "penetration": "28",
+      "penetration": "29",
       "armorDamage": "36",
       "accuracy": "",
       "recoil": "",
@@ -995,8 +1131,8 @@
     {
       "name": ".300 AAC Blackout AP",
       "damage": "55",
-      "penetration": "44",
-      "armorDamage": "60",
+      "penetration": "45",
+      "armorDamage": "65",
       "accuracy": "+5",
       "recoil": "+5",
       "fragmentation": "30%"
@@ -1074,7 +1210,7 @@
       "fragmentation": "25%"
     },
     {
-      "name": "7.62x51mm SP",
+      "name": "7.62x51mm TCW SP",
       "damage": "60",
       "penetration": "36",
       "armorDamage": "40",

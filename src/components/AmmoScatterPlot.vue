@@ -237,7 +237,7 @@ export default {
             text: 'Damage'
           },
           min: 0,
-          max: 250,
+          max: 280,
           tickAmount: 10
         },
         yaxis: {

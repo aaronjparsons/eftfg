@@ -103,7 +103,7 @@ query {
       }
     }
   },
-  ammo: allAmmo {
+  ammo: allAmmo(sortBy: "name", order: ASC) {
     edges {
       node {
         name,
