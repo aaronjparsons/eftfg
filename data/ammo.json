@@ -2,148 +2,25 @@
   "changes": [
     {
       "damage": [
-        "127",
-        "137"
-      ],
-      "accuracy": [
-        "",
-        "-5"
-      ],
-      "name": ".45 ACP RIP"
-    },
-    {
-      "damage": [
-        "95",
-        "105"
-      ],
-      "name": ".45 ACP Hydra-Shok"
-    },
-    {
-      "damage": [
-        "74",
-        "80"
-      ],
-      "accuracy": [
-        "+5",
-        "+10"
-      ],
-      "name": ".45 ACP Lasermatch FMJ"
-    },
-    {
-      "damage": [
-        "69",
-        "76"
-      ],
-      "penetration": [
-        "23",
-        "25"
-      ],
-      "name": ".45 ACP Match FMJ"
-    },
-    {
-      "penetration": [
-        "36",
-        "38"
-      ],
-      "armorDamage": [
-        "43",
-        "48"
-      ],
-      "name": ".45 ACP AP"
-    },
-    {
-      "damage": [
-        "54",
-        "56"
-      ],
-      "penetration": [
-        "20",
-        "21"
-      ],
-      "name": "5.45x39mm FMJ"
-    },
-    {
-      "penetration": [
-        "25",
-        "27"
-      ],
-      "name": "5.45x39mm PS gs"
-    },
-    {
-      "damage": [
-        "46",
-        "48"
-      ],
-      "penetration": [
-        "30",
-        "33"
-      ],
-      "name": "5.45x39mm PP gs"
-    },
-    {
-      "damage": [
-        "48",
-        "49"
-      ],
-      "penetration": [
-        "34",
-        "35"
-      ],
-      "name": "5.45x39mm BP gs"
-    },
-    {
-      "damage": [
-        "65",
-        "67"
-      ],
-      "penetration": [
-        "21",
-        "20"
-      ],
-      "accuracy": [
-        "+5",
-        "+10"
-      ],
-      "name": "5.56x45mm MK 318 Mod 0 (SOST)"
-    },
-    {
-      "accuracy": [
-        "-5",
-        "-2"
-      ],
-      "name": "5.56x45mm M856"
-    },
-    {
-      "accuracy": [
-        "-2",
-        "-1"
-      ],
-      "name": "5.56x45mm M856A1"
-    },
-    {
-      "recoil": [
-        "",
-        "+5"
-      ],
-      "name": "5.56x45mm M855A1"
-    },
-    {
-      "penetration": [
-        "28",
-        "29"
-      ],
-      "name": ".300 AAC Blackout BCP FMJ"
-    },
-    {
-      "penetration": [
-        "44",
-        "45"
-      ],
-      "armorDamage": [
-        "60",
-        "65"
+        "55",
+        "51"
       ],
       "name": ".300 AAC Blackout AP"
+    },
+    {
+      "name": "NEW - 9x39mm PAB-9 gs"
+    },
+    {
+      "name": "NEW - 5.45x39mm 7N40"
+    },
+    {
+      "name": "NEW - .300 Whisper"
+    },
+    {
+      "name": "NEW - .300 Blackout V-Max"
+    },
+    {
+      "name": "NEW - .300 Blackout M62 Tracer"
     }
   ],
   "ammo": [
@@ -166,7 +43,7 @@
       "fragmentation": "0%"
     },
     {
-      "name": "12x70 6.5 mm \"Express\" Buckshot",
+      "name": "12x70 6.5mm Express buckshot",
       "damage": "9x35",
       "penetration": "3",
       "armorDamage": "26",
@@ -175,7 +52,7 @@
       "fragmentation": "0%"
     },
     {
-      "name": "12x70 7mm Buckshot",
+      "name": "12x70 7mm buckshot",
       "damage": "8x39",
       "penetration": "3",
       "armorDamage": "26",
@@ -202,7 +79,7 @@
       "fragmentation": "100%"
     },
     {
-      "name": "12x70 HP Slug \"SuperFormance\"",
+      "name": "12x70 SuperFormance HP Slug",
       "damage": "220",
       "penetration": "5",
       "armorDamage": "12",
@@ -220,7 +97,7 @@
       "fragmentation": "12%"
     },
     {
-      "name": "12x70 HP Slug Copper Sabot Premier",
+      "name": "12x70 Copper Sabot Premier HP Slug",
       "damage": "206",
       "penetration": "14",
       "armorDamage": "46",
@@ -841,7 +718,7 @@
       "fragmentation": "10%"
     },
     {
-      "name": "9x39 mm SP5 gs",
+      "name": "9x39mm SP-5 gs",
       "damage": "68",
       "penetration": "38",
       "armorDamage": "52",
@@ -850,11 +727,20 @@
       "fragmentation": "20%"
     },
     {
-      "name": "9x39 mm SP6 gs",
+      "name": "9x39mm SP-6 gs",
       "damage": "58",
       "penetration": "46",
       "armorDamage": "60",
       "accuracy": "",
+      "recoil": "+10",
+      "fragmentation": "10%"
+    },
+    {
+      "name": "9x39mm PAB-9 gs",
+      "damage": "62",
+      "penetration": "48",
+      "armorDamage": "72",
+      "accuracy": "-15",
       "recoil": "+10",
       "fragmentation": "10%"
     },
@@ -1003,6 +889,15 @@
       "fragmentation": "16%"
     },
     {
+      "name": "5.45x39mm 7N40",
+      "damage": "52",
+      "penetration": "44",
+      "armorDamage": "50",
+      "accuracy": "+50",
+      "recoil": "-20",
+      "fragmentation": "2%"
+    },
+    {
       "name": "5.45x39mm BS gs",
       "damage": "40",
       "penetration": "51",
@@ -1120,6 +1015,24 @@
       "fragmentation": "20%"
     },
     {
+      "name": ".300 Whisper",
+      "damage": "90",
+      "penetration": "14",
+      "armorDamage": "19",
+      "accuracy": "+5",
+      "recoil": "-5",
+      "fragmentation": "35%"
+    },
+    {
+      "name": ".300 Blackout V-Max",
+      "damage": "72",
+      "penetration": "20",
+      "armorDamage": "25",
+      "accuracy": "+30",
+      "recoil": "-10",
+      "fragmentation": "25%"
+    },
+    {
       "name": ".300 AAC Blackout BCP FMJ",
       "damage": "60",
       "penetration": "29",
@@ -1129,8 +1042,17 @@
       "fragmentation": "30%"
     },
     {
+      "name": ".300 Blackout M62 Tracer",
+      "damage": "54",
+      "penetration": "34",
+      "armorDamage": "40",
+      "accuracy": "+0",
+      "recoil": "+5",
+      "fragmentation": "20%"
+    },
+    {
       "name": ".300 AAC Blackout AP",
-      "damage": "55",
+      "damage": "51",
       "penetration": "45",
       "armorDamage": "65",
       "accuracy": "+5",
@@ -1201,7 +1123,7 @@
       "fragmentation": "70%"
     },
     {
-      "name": "7.62x51mm FMJ",
+      "name": "7.62x51mm BCP FMJ",
       "damage": "88",
       "penetration": "31",
       "armorDamage": "33",
@@ -1372,7 +1294,7 @@
       "fragmentation": "30%"
     },
     {
-      "name": "40x46 mm M576(MP-APERS)",
+      "name": "40x46mm M576 (MP-APERS) grenade",
       "damage": "15x160",
       "penetration": "5",
       "armorDamage": "95",
