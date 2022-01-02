@@ -1,26 +1,33 @@
 {
   "changes": [
     {
-      "damage": [
-        "55",
-        "51"
+      "accuracy": [
+        "+125",
+        "+80"
+      ],
+      "name": "12x70 AP-20 Slug"
+    },
+    {
+      "accuracy": [
+        "0",
+        "+5"
+      ],
+      "recoil": [
+        "-20",
+        "-24"
+      ],
+      "name": "5.7x28mm SB193"
+    },
+    {
+      "accuracy": [
+        "+5",
+        "0"
+      ],
+      "recoil": [
+        "+5",
+        "+10"
       ],
       "name": ".300 AAC Blackout AP"
-    },
-    {
-      "name": "NEW - 9x39mm PAB-9 gs"
-    },
-    {
-      "name": "NEW - 5.45x39mm 7N40"
-    },
-    {
-      "name": "NEW - .300 Whisper"
-    },
-    {
-      "name": "NEW - .300 Blackout V-Max"
-    },
-    {
-      "name": "NEW - .300 Blackout M62 Tracer"
     }
   ],
   "ammo": [
@@ -106,7 +113,7 @@
       "fragmentation": "38%"
     },
     {
-      "name": "12x70 Lead slug",
+      "name": "12x70 lead slug",
       "damage": "167",
       "penetration": "15",
       "armorDamage": "55",
@@ -164,7 +171,7 @@
       "damage": "164",
       "penetration": "37",
       "armorDamage": "65",
-      "accuracy": "+125",
+      "accuracy": "+80",
       "recoil": "+50",
       "fragmentation": "3%"
     },
@@ -187,7 +194,7 @@
       "fragmentation": "0%"
     },
     {
-      "name": "20x70 7.5mm Buckshot",
+      "name": "20x70 7.5mm buckshot",
       "damage": "8x25",
       "penetration": "3",
       "armorDamage": "14",
@@ -245,8 +252,8 @@
       "damage": "0",
       "penetration": "0",
       "armorDamage": "0",
-      "accuracy": "0",
-      "recoil": "0",
+      "accuracy": "",
+      "recoil": "",
       "fragmentation": "20%"
     },
     {
@@ -340,7 +347,7 @@
       "fragmentation": "30%"
     },
     {
-      "name": "9x18mm PM PPe gzh",
+      "name": "9x18mm PM Ppe gzh",
       "damage": "61",
       "penetration": "7",
       "armorDamage": "15",
@@ -668,8 +675,8 @@
       "damage": "54",
       "penetration": "35",
       "armorDamage": "37",
-      "accuracy": "",
-      "recoil": "-20",
+      "accuracy": "+5",
+      "recoil": "-24",
       "fragmentation": "20%"
     },
     {
@@ -781,7 +788,7 @@
       "fragmentation": "25%"
     },
     {
-      "name": ".366 TKM Eko",
+      "name": ".366 TKM EKO",
       "damage": "73",
       "penetration": "30",
       "armorDamage": "40",
@@ -1015,7 +1022,7 @@
       "fragmentation": "20%"
     },
     {
-      "name": ".300 Whisper",
+      "name": ".300 Blackout Whisper",
       "damage": "90",
       "penetration": "14",
       "armorDamage": "19",
@@ -1046,7 +1053,7 @@
       "damage": "54",
       "penetration": "34",
       "armorDamage": "40",
-      "accuracy": "+0",
+      "accuracy": "",
       "recoil": "+5",
       "fragmentation": "20%"
     },
@@ -1055,8 +1062,8 @@
       "damage": "51",
       "penetration": "45",
       "armorDamage": "65",
-      "accuracy": "+5",
-      "recoil": "+5",
+      "accuracy": "",
+      "recoil": "+10",
       "fragmentation": "30%"
     },
     {
@@ -1150,7 +1157,7 @@
       "fragmentation": "17%"
     },
     {
-      "name": "7.62x51mm M62",
+      "name": "7.62x51mm M62 Tracer",
       "damage": "79",
       "penetration": "44",
       "armorDamage": "75",
@@ -1186,7 +1193,7 @@
       "fragmentation": "18%"
     },
     {
-      "name": "7.62x54R LPS gzh",
+      "name": "7.62x54mm R LPS gzh",
       "damage": "81",
       "penetration": "42",
       "armorDamage": "78",
@@ -1195,7 +1202,7 @@
       "fragmentation": "18%"
     },
     {
-      "name": "7.62x54R PS",
+      "name": "7.62x54mm R PS gzh",
       "damage": "86",
       "penetration": "45",
       "armorDamage": "84",
@@ -1240,7 +1247,7 @@
       "fragmentation": "50%"
     },
     {
-      "name": ".338 Lapua Magnum UPZ",
+      "name": ".338 Lapua Magnum UCW",
       "damage": "142",
       "penetration": "32",
       "armorDamage": "70",
