@@ -1,1340 +1,1359 @@
 {
-  "changes": [
-    {
-      "accuracy": [
-        "+125",
-        "+80"
-      ],
-      "name": "12x70 AP-20 Slug"
-    },
-    {
-      "accuracy": [
-        "0",
-        "+5"
-      ],
-      "recoil": [
-        "-20",
-        "-24"
-      ],
-      "name": "5.7x28mm SB193"
-    },
-    {
-      "accuracy": [
-        "+5",
-        "0"
-      ],
-      "recoil": [
-        "+5",
-        "+10"
-      ],
-      "name": ".300 AAC Blackout AP"
-    }
-  ],
-  "ammo": [
-    {
-      "name": "12x70 5.25mm Buckshot",
-      "damage": "8x37",
-      "penetration": "1",
-      "armorDamage": "15",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "0%"
-    },
-    {
-      "name": "12x70 8.5mm \"Magnum\" Buckshot",
-      "damage": "8x50",
-      "penetration": "2",
-      "armorDamage": "26",
-      "accuracy": "-15",
-      "recoil": "+115",
-      "fragmentation": "0%"
-    },
-    {
-      "name": "12x70 6.5mm Express buckshot",
-      "damage": "9x35",
-      "penetration": "3",
-      "armorDamage": "26",
-      "accuracy": "+15",
-      "recoil": "",
-      "fragmentation": "0%"
-    },
-    {
-      "name": "12x70 7mm buckshot",
-      "damage": "8x39",
-      "penetration": "3",
-      "armorDamage": "26",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "0%"
-    },
-    {
-      "name": "12x70 Flechette",
-      "damage": "8x25",
-      "penetration": "31",
-      "armorDamage": "26",
-      "accuracy": "-10",
-      "recoil": "",
-      "fragmentation": "0%"
-    },
-    {
-      "name": "12x70 RIP",
-      "damage": "265",
-      "penetration": "2",
-      "armorDamage": "11",
-      "accuracy": "+80",
-      "recoil": "+35",
-      "fragmentation": "100%"
-    },
-    {
-      "name": "12x70 SuperFormance HP Slug",
-      "damage": "220",
-      "penetration": "5",
-      "armorDamage": "12",
-      "accuracy": "+170",
-      "recoil": "-15",
-      "fragmentation": "39%"
-    },
-    {
-      "name": "12x70 Grizzly 40 Slug",
-      "damage": "190",
-      "penetration": "12",
-      "armorDamage": "48",
-      "accuracy": "+80",
-      "recoil": "+20",
-      "fragmentation": "12%"
-    },
-    {
-      "name": "12x70 Copper Sabot Premier HP Slug",
-      "damage": "206",
-      "penetration": "14",
-      "armorDamage": "46",
-      "accuracy": "+150",
-      "recoil": "+10",
-      "fragmentation": "38%"
-    },
-    {
-      "name": "12x70 lead slug",
-      "damage": "167",
-      "penetration": "15",
-      "armorDamage": "55",
-      "accuracy": "+120",
-      "recoil": "",
-      "fragmentation": "20%"
-    },
-    {
-      "name": "12x70 \"Poleva-3\" Slug",
-      "damage": "140",
-      "penetration": "17",
-      "armorDamage": "40",
-      "accuracy": "+110",
-      "recoil": "-15",
-      "fragmentation": "20%"
-    },
-    {
-      "name": "12x70 Dual Sabot Slug",
-      "damage": "2x85",
-      "penetration": "17",
-      "armorDamage": "65",
-      "accuracy": "+100",
-      "recoil": "+15",
-      "fragmentation": "10%"
-    },
-    {
-      "name": "12x70 FTX Custom Lite Slug",
-      "damage": "183",
-      "penetration": "20",
-      "armorDamage": "50",
-      "accuracy": "+135",
-      "recoil": "-25",
-      "fragmentation": "10%"
-    },
-    {
-      "name": "12x70 \"Poleva-6u\" Slug",
-      "damage": "150",
-      "penetration": "20",
-      "armorDamage": "50",
-      "accuracy": "+115",
-      "recoil": "-10",
-      "fragmentation": "15%"
-    },
-    {
-      "name": "12x70 shell with .50 BMG bullet",
-      "damage": "197",
-      "penetration": "26",
-      "armorDamage": "57",
-      "accuracy": "+90",
-      "recoil": "+25",
-      "fragmentation": "5%"
-    },
-    {
-      "name": "12x70 AP-20 Slug",
-      "damage": "164",
-      "penetration": "37",
-      "armorDamage": "65",
-      "accuracy": "+80",
-      "recoil": "+50",
-      "fragmentation": "3%"
-    },
-    {
-      "name": "20x70 5.6mm Buckshot",
-      "damage": "8x26",
-      "penetration": "1",
-      "armorDamage": "12",
-      "accuracy": "-10",
-      "recoil": "+10",
-      "fragmentation": "0%"
-    },
-    {
-      "name": "20x70 6.2mm Buckshot",
-      "damage": "8x22",
-      "penetration": "2",
-      "armorDamage": "13",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "0%"
-    },
-    {
-      "name": "20x70 7.5mm buckshot",
-      "damage": "8x25",
-      "penetration": "3",
-      "armorDamage": "14",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "0%"
-    },
-    {
-      "name": "20x70 7.3mm Buckshot",
-      "damage": "9x23",
-      "penetration": "3",
-      "armorDamage": "13",
-      "accuracy": "",
-      "recoil": "+15",
-      "fragmentation": "0%"
-    },
-    {
-      "name": "20x70 Devastator Slug",
-      "damage": "198",
-      "penetration": "5",
-      "armorDamage": "13",
-      "accuracy": "+125",
-      "recoil": "+30",
-      "fragmentation": "100%"
-    },
-    {
-      "name": "20x70 \"Poleva-3\" slug",
-      "damage": "120",
-      "penetration": "14",
-      "armorDamage": "35",
-      "accuracy": "+110",
-      "recoil": "-15",
-      "fragmentation": "20%"
-    },
-    {
-      "name": "20x70 Star Slug",
-      "damage": "154",
-      "penetration": "16",
-      "armorDamage": "42",
-      "accuracy": "+130",
-      "recoil": "+5",
-      "fragmentation": "10%"
-    },
-    {
-      "name": "20x70 \"Poleva-6u\" slug",
-      "damage": "135",
-      "penetration": "17",
-      "armorDamage": "40",
-      "accuracy": "+110",
-      "recoil": "-10",
-      "fragmentation": "15%"
-    },
-    {
-      "name": "23x75mm \"Zvezda\" flashbang round",
-      "damage": "0",
-      "penetration": "0",
-      "armorDamage": "0",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "20%"
-    },
-    {
-      "name": "23x75mm Shrapnel-25 buckshot",
-      "damage": "8x78",
-      "penetration": "10",
-      "armorDamage": "20",
-      "accuracy": "+20",
-      "recoil": "+10",
-      "fragmentation": "0%"
-    },
-    {
-      "name": "23x75mm \"Shrapnel-10\" buckshot",
-      "damage": "8x87",
-      "penetration": "11",
-      "armorDamage": "20",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "0%"
-    },
-    {
-      "name": "23x75mm \"Barrikada\" slug",
-      "damage": "192",
-      "penetration": "39",
-      "armorDamage": "75",
-      "accuracy": "-5",
-      "recoil": "+25",
-      "fragmentation": "20%"
-    },
-    {
-      "name": "9x18mm PM SP8 gzh",
-      "damage": "67",
-      "penetration": "1",
-      "armorDamage": "2",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "60%"
-    },
-    {
-      "name": "9x18mm PM SP7 gzh",
-      "damage": "77",
-      "penetration": "2",
-      "armorDamage": "5",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "2%"
-    },
-    {
-      "name": "9x18mm PM PSV",
-      "damage": "69",
-      "penetration": "3",
-      "armorDamage": "5",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "40%"
-    },
-    {
-      "name": "9x18mm PM P gzh",
-      "damage": "50",
-      "penetration": "5",
-      "armorDamage": "16",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "25%"
-    },
-    {
-      "name": "9x18mm PM PSO gzh",
-      "damage": "54",
-      "penetration": "5",
-      "armorDamage": "13",
-      "accuracy": "+10",
-      "recoil": "",
-      "fragmentation": "35%"
-    },
-    {
-      "name": "9x18mm PM PS gs PPO",
-      "damage": "55",
-      "penetration": "6",
-      "armorDamage": "16",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "25%"
-    },
-    {
-      "name": "9x18mm PM PRS gs",
-      "damage": "58",
-      "penetration": "6",
-      "armorDamage": "16",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "30%"
-    },
-    {
-      "name": "9x18mm PM Ppe gzh",
-      "damage": "61",
-      "penetration": "7",
-      "armorDamage": "15",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "35%"
-    },
-    {
-      "name": "9x18mm PM PPT gzh",
-      "damage": "59",
-      "penetration": "8",
-      "armorDamage": "22",
-      "accuracy": "-5",
-      "recoil": "-7",
-      "fragmentation": "17%"
-    },
-    {
-      "name": "9x18mm PM Pst gzh",
-      "damage": "50",
-      "penetration": "12",
-      "armorDamage": "26",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "20%"
-    },
-    {
-      "name": "9x18mm PM RG028 gzh",
-      "damage": "65",
-      "penetration": "13",
-      "armorDamage": "26",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "2%"
-    },
-    {
-      "name": "9x18mm PM BZhT gzh",
-      "damage": "53",
-      "penetration": "18",
-      "armorDamage": "28",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "17%"
-    },
-    {
-      "name": "9x18mm PMM PstM gzh",
-      "damage": "58",
-      "penetration": "24",
-      "armorDamage": "33",
-      "accuracy": "",
-      "recoil": "+5",
-      "fragmentation": "17%"
-    },
-    {
-      "name": "9x18mm PM PBM gzh",
-      "damage": "40",
-      "penetration": "28",
-      "armorDamage": "30",
-      "accuracy": "",
-      "recoil": "+4",
-      "fragmentation": "16%"
-    },
-    {
-      "name": "7.62x25mm TT LRNPC",
-      "damage": "66",
-      "penetration": "7",
-      "armorDamage": "27",
-      "accuracy": "+10",
-      "recoil": "-10",
-      "fragmentation": "35%"
-    },
-    {
-      "name": "7.62x25mm TT LRN",
-      "damage": "64",
-      "penetration": "8",
-      "armorDamage": "28",
-      "accuracy": "+5",
-      "recoil": "-5",
-      "fragmentation": "35%"
-    },
-    {
-      "name": "7.62x25mm TT FMJ43",
-      "damage": "60",
-      "penetration": "11",
-      "armorDamage": "29",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "25%"
-    },
-    {
-      "name": "7.62x25mm TT AKBS",
-      "damage": "58",
-      "penetration": "12",
-      "armorDamage": "32",
-      "accuracy": "+15",
-      "recoil": "-15",
-      "fragmentation": "25%"
-    },
-    {
-      "name": "7.62x25mm TT P gl",
-      "damage": "58",
-      "penetration": "14",
-      "armorDamage": "32",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "25%"
-    },
-    {
-      "name": "7.62x25mm TT PT gzh",
-      "damage": "55",
-      "penetration": "18",
-      "armorDamage": "34",
-      "accuracy": "-10",
-      "recoil": "",
-      "fragmentation": "17%"
-    },
-    {
-      "name": "7.62x25mm TT Pst gzh",
-      "damage": "50",
-      "penetration": "25",
-      "armorDamage": "36",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "20%"
-    },
-    {
-      "name": "9x19mm RIP",
-      "damage": "102",
-      "penetration": "2",
-      "armorDamage": "11",
-      "accuracy": "",
-      "recoil": "+20",
-      "fragmentation": "100%"
-    },
-    {
-      "name": "9x19mm QuakeMaker",
-      "damage": "85",
-      "penetration": "8",
-      "armorDamage": "22",
-      "accuracy": "+10",
-      "recoil": "+10",
-      "fragmentation": "10%"
-    },
-    {
-      "name": "9x19mm PSO gzh",
-      "damage": "59",
-      "penetration": "10",
-      "armorDamage": "32",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "25%"
-    },
-    {
-      "name": "9x19mm Luger CCI",
-      "damage": "70",
-      "penetration": "10",
-      "armorDamage": "38",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "25%"
-    },
-    {
-      "name": "9x19mm T gzh",
-      "damage": "58",
-      "penetration": "14",
-      "armorDamage": "33",
-      "accuracy": "-5",
-      "recoil": "-6",
-      "fragmentation": "15%"
-    },
-    {
-      "name": "9x19mm Pst gzh",
-      "damage": "54",
-      "penetration": "20",
-      "armorDamage": "33",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "15%"
-    },
-    {
-      "name": "9x19mm AP 6.3",
-      "damage": "52",
-      "penetration": "30",
-      "armorDamage": "48",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "5%"
-    },
-    {
-      "name": "9x19mm PBP gzh",
-      "damage": "52",
-      "penetration": "39",
-      "armorDamage": "53",
-      "accuracy": "+5",
-      "recoil": "+15",
-      "fragmentation": "5%"
-    },
-    {
-      "name": ".45 ACP RIP",
-      "damage": "137",
-      "penetration": "3",
-      "armorDamage": "12",
-      "accuracy": "-5",
-      "recoil": "",
-      "fragmentation": "100%"
-    },
-    {
-      "name": ".45 ACP Hydra-Shok",
-      "damage": "105",
-      "penetration": "13",
-      "armorDamage": "30",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "50%"
-    },
-    {
-      "name": ".45 ACP Lasermatch FMJ",
-      "damage": "80",
-      "penetration": "19",
-      "armorDamage": "37",
-      "accuracy": "+10",
-      "recoil": "",
-      "fragmentation": "1%"
-    },
-    {
-      "name": ".45 ACP Match FMJ",
-      "damage": "76",
-      "penetration": "25",
-      "armorDamage": "36",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "1%"
-    },
-    {
-      "name": ".45 ACP AP",
-      "damage": "70",
-      "penetration": "38",
-      "armorDamage": "48",
-      "accuracy": "-5",
-      "recoil": "+7",
-      "fragmentation": "1%"
-    },
-    {
-      "name": "9x21mm PE gzh",
-      "damage": "80",
-      "penetration": "15",
-      "armorDamage": "63",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "35%"
-    },
-    {
-      "name": "9x21mm P gzh",
-      "damage": "65",
-      "penetration": "18",
-      "armorDamage": "44",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "30%"
-    },
-    {
-      "name": "9x21mm PS gzh",
-      "damage": "49",
-      "penetration": "35",
-      "armorDamage": "46",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "20%"
-    },
-    {
-      "name": "9x21mm BT gzh",
-      "damage": "63",
-      "penetration": "39",
-      "armorDamage": "47",
-      "accuracy": "-4",
-      "recoil": "-4",
-      "fragmentation": "20%"
-    },
-    {
-      "name": "5.7x28mm R37.F",
-      "damage": "98",
-      "penetration": "8",
-      "armorDamage": "7",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "100%"
-    },
-    {
-      "name": "5.7x28mm SS198LF",
-      "damage": "74",
-      "penetration": "10",
-      "armorDamage": "15",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "80%"
-    },
-    {
-      "name": "5.7x28mm R37.X",
-      "damage": "81",
-      "penetration": "11",
-      "armorDamage": "14",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "70%"
-    },
-    {
-      "name": "5.7x28mm SS197SR",
-      "damage": "62",
-      "penetration": "20",
-      "armorDamage": "22",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "50%"
-    },
-    {
-      "name": "5.7x28mm L191",
-      "damage": "58",
-      "penetration": "33",
-      "armorDamage": "41",
-      "accuracy": "-4",
-      "recoil": "",
-      "fragmentation": "20%"
-    },
-    {
-      "name": "5.7x28mm SB193",
-      "damage": "54",
-      "penetration": "35",
-      "armorDamage": "37",
-      "accuracy": "+5",
-      "recoil": "-24",
-      "fragmentation": "20%"
-    },
-    {
-      "name": "5.7x28mm SS190",
-      "damage": "49",
-      "penetration": "37",
-      "armorDamage": "43",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "20%"
-    },
-    {
-      "name": "4.6x30mm Action SX",
-      "damage": "65",
-      "penetration": "18",
-      "armorDamage": "39",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "50%"
-    },
-    {
-      "name": "4.6x30mm Subsonic SX",
-      "damage": "45",
-      "penetration": "36",
-      "armorDamage": "46",
-      "accuracy": "+10",
-      "recoil": "-22",
-      "fragmentation": "20%"
-    },
-    {
-      "name": "4.6x30mm FMJ SX",
-      "damage": "43",
-      "penetration": "40",
-      "armorDamage": "41",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "20%"
-    },
-    {
-      "name": "4.6x30mm AP SX",
-      "damage": "35",
-      "penetration": "53",
-      "armorDamage": "46",
-      "accuracy": "",
-      "recoil": "+10",
-      "fragmentation": "10%"
-    },
-    {
-      "name": "9x39mm SP-5 gs",
-      "damage": "68",
-      "penetration": "38",
-      "armorDamage": "52",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "20%"
-    },
-    {
-      "name": "9x39mm SP-6 gs",
-      "damage": "58",
-      "penetration": "46",
-      "armorDamage": "60",
-      "accuracy": "",
-      "recoil": "+10",
-      "fragmentation": "10%"
-    },
-    {
-      "name": "9x39mm PAB-9 gs",
-      "damage": "62",
-      "penetration": "48",
-      "armorDamage": "72",
-      "accuracy": "-15",
-      "recoil": "+10",
-      "fragmentation": "10%"
-    },
-    {
-      "name": "9x39mm SPP gs",
-      "damage": "64",
-      "penetration": "50",
-      "armorDamage": "56",
-      "accuracy": "+10",
-      "recoil": "+20",
-      "fragmentation": "20%"
-    },
-    {
-      "name": "9x39mm BP gs",
-      "damage": "60",
-      "penetration": "55",
-      "armorDamage": "68",
-      "accuracy": "+10",
-      "recoil": "+22",
-      "fragmentation": "10%"
-    },
-    {
-      "name": ".366 TKM Geksa",
-      "damage": "110",
-      "penetration": "14",
-      "armorDamage": "38",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "45%"
-    },
-    {
-      "name": ".366 TKM FMJ",
-      "damage": "98",
-      "penetration": "23",
-      "armorDamage": "48",
-      "accuracy": "",
-      "recoil": "+10",
-      "fragmentation": "25%"
-    },
-    {
-      "name": ".366 TKM EKO",
-      "damage": "73",
-      "penetration": "30",
-      "armorDamage": "40",
-      "accuracy": "-10",
-      "recoil": "-15",
-      "fragmentation": "20%"
-    },
-    {
-      "name": ".366 TKM AP-M",
-      "damage": "90",
-      "penetration": "42",
-      "armorDamage": "60",
-      "accuracy": "-28",
-      "recoil": "+35",
-      "fragmentation": "1%"
-    },
-    {
-      "name": "5.45x39mm SP",
-      "damage": "68",
-      "penetration": "11",
-      "armorDamage": "34",
-      "accuracy": "+10",
-      "recoil": "-15",
-      "fragmentation": "45%"
-    },
-    {
-      "name": "5.45x39mm HP",
-      "damage": "74",
-      "penetration": "11",
-      "armorDamage": "20",
-      "accuracy": "",
-      "recoil": "+5",
-      "fragmentation": "35%"
-    },
-    {
-      "name": "5.45x39mm PRS gs",
-      "damage": "60",
-      "penetration": "14",
-      "armorDamage": "28",
-      "accuracy": "",
-      "recoil": "-5",
-      "fragmentation": "30%"
-    },
-    {
-      "name": "5.45x39mm US gs",
-      "damage": "65",
-      "penetration": "15",
-      "armorDamage": "34",
-      "accuracy": "",
-      "recoil": "-25",
-      "fragmentation": "10%"
-    },
-    {
-      "name": "5.45x39mm FMJ",
-      "damage": "56",
-      "penetration": "21",
-      "armorDamage": "30",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "25%"
-    },
-    {
-      "name": "5.45x39mm T gs",
-      "damage": "57",
-      "penetration": "20",
-      "armorDamage": "38",
-      "accuracy": "-5",
-      "recoil": "-5",
-      "fragmentation": "16%"
-    },
-    {
-      "name": "5.45x39mm PS gs",
-      "damage": "50",
-      "penetration": "27",
-      "armorDamage": "35",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "40%"
-    },
-    {
-      "name": "5.45x39mm PP gs",
-      "damage": "48",
-      "penetration": "33",
-      "armorDamage": "32",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "17%"
-    },
-    {
-      "name": "5.45x39mm BP gs",
-      "damage": "49",
-      "penetration": "35",
-      "armorDamage": "41",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "16%"
-    },
-    {
-      "name": "5.45x39mm BT gs",
-      "damage": "44",
-      "penetration": "37",
-      "armorDamage": "49",
-      "accuracy": "-2",
-      "recoil": "+3",
-      "fragmentation": "16%"
-    },
-    {
-      "name": "5.45x39mm 7N40",
-      "damage": "52",
-      "penetration": "44",
-      "armorDamage": "50",
-      "accuracy": "+50",
-      "recoil": "-20",
-      "fragmentation": "2%"
-    },
-    {
-      "name": "5.45x39mm BS gs",
-      "damage": "40",
-      "penetration": "51",
-      "armorDamage": "57",
-      "accuracy": "-3",
-      "recoil": "+10",
-      "fragmentation": "17%"
-    },
-    {
-      "name": "5.45x39mm PPBS gs \"Igolnik\"",
-      "damage": "37",
-      "penetration": "62",
-      "armorDamage": "60",
-      "accuracy": "",
-      "recoil": "+15",
-      "fragmentation": "2%"
-    },
-    {
-      "name": "5.56x45mm Warmageddon",
-      "damage": "85",
-      "penetration": "3",
-      "armorDamage": "14",
-      "accuracy": "+10",
-      "recoil": "+10",
-      "fragmentation": "90%"
-    },
-    {
-      "name": "5.56x45mm HP",
-      "damage": "75",
-      "penetration": "9",
-      "armorDamage": "22",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "70%"
-    },
-    {
-      "name": "5.56x45mm MK 255 Mod 0 (RRLP)",
-      "damage": "60",
-      "penetration": "17",
-      "armorDamage": "32",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "3%"
-    },
-    {
-      "name": "5.56x45mm MK 318 Mod 0 (SOST)",
-      "damage": "67",
-      "penetration": "20",
-      "armorDamage": "35",
-      "accuracy": "+10",
-      "recoil": "",
-      "fragmentation": "15%"
-    },
-    {
-      "name": "5.56x45mm M856",
-      "damage": "55",
-      "penetration": "23",
-      "armorDamage": "34",
-      "accuracy": "-2",
-      "recoil": "-2",
-      "fragmentation": "33%"
-    },
-    {
-      "name": "5.56x45mm FMJ",
-      "damage": "52",
-      "penetration": "24",
-      "armorDamage": "33",
-      "accuracy": "+10",
-      "recoil": "-5",
-      "fragmentation": "50%"
-    },
-    {
-      "name": "5.56x45mm M855",
-      "damage": "50",
-      "penetration": "28",
-      "armorDamage": "37",
-      "accuracy": "-5",
-      "recoil": "",
-      "fragmentation": "40%"
-    },
-    {
-      "name": "5.56x45mm M856A1",
-      "damage": "51",
-      "penetration": "37",
-      "armorDamage": "52",
-      "accuracy": "-1",
-      "recoil": "+4",
-      "fragmentation": "33%"
-    },
-    {
-      "name": "5.56x45mm M855A1",
-      "damage": "46",
-      "penetration": "45",
-      "armorDamage": "52",
-      "accuracy": "-10",
-      "recoil": "+5",
-      "fragmentation": "34%"
-    },
-    {
-      "name": "5.56x45mm M995",
-      "damage": "40",
-      "penetration": "53",
-      "armorDamage": "58",
-      "accuracy": "",
-      "recoil": "+8",
-      "fragmentation": "32%"
-    },
-    {
-      "name": "5.56x45mm SSA AP",
-      "damage": "36",
-      "penetration": "56",
-      "armorDamage": "64",
-      "accuracy": "-6",
-      "recoil": "+6",
-      "fragmentation": "20%"
-    },
-    {
-      "name": ".300 Blackout Whisper",
-      "damage": "90",
-      "penetration": "14",
-      "armorDamage": "19",
-      "accuracy": "+5",
-      "recoil": "-5",
-      "fragmentation": "35%"
-    },
-    {
-      "name": ".300 Blackout V-Max",
-      "damage": "72",
-      "penetration": "20",
-      "armorDamage": "25",
-      "accuracy": "+30",
-      "recoil": "-10",
-      "fragmentation": "25%"
-    },
-    {
-      "name": ".300 AAC Blackout BCP FMJ",
-      "damage": "60",
-      "penetration": "29",
-      "armorDamage": "36",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "30%"
-    },
-    {
-      "name": ".300 Blackout M62 Tracer",
-      "damage": "54",
-      "penetration": "34",
-      "armorDamage": "40",
-      "accuracy": "",
-      "recoil": "+5",
-      "fragmentation": "20%"
-    },
-    {
-      "name": ".300 AAC Blackout AP",
-      "damage": "51",
-      "penetration": "45",
-      "armorDamage": "65",
-      "accuracy": "",
-      "recoil": "+10",
-      "fragmentation": "30%"
-    },
-    {
-      "name": "7.62x39mm HP",
-      "damage": "87",
-      "penetration": "15",
-      "armorDamage": "35",
-      "accuracy": "-5",
-      "recoil": "",
-      "fragmentation": "26%"
-    },
-    {
-      "name": "7.62x39mm US gzh",
-      "damage": "56",
-      "penetration": "29",
-      "armorDamage": "42",
-      "accuracy": "+5",
-      "recoil": "-30",
-      "fragmentation": "8%"
-    },
-    {
-      "name": "7.62x39mm T-45M1 gzh",
-      "damage": "62",
-      "penetration": "30",
-      "armorDamage": "46",
-      "accuracy": "-4",
-      "recoil": "-6",
-      "fragmentation": "12%"
-    },
-    {
-      "name": "7.62x39mm PS gzh",
-      "damage": "57",
-      "penetration": "32",
-      "armorDamage": "52",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "25%"
-    },
-    {
-      "name": "7.62x39mm BP gzh",
-      "damage": "58",
-      "penetration": "47",
-      "armorDamage": "63",
-      "accuracy": "-3",
-      "recoil": "+5",
-      "fragmentation": "12%"
-    },
-    {
-      "name": "7.62x39mm MAI AP",
-      "damage": "46",
-      "penetration": "58",
-      "armorDamage": "76",
-      "accuracy": "-5",
-      "recoil": "+10",
-      "fragmentation": "5%"
-    },
-    {
-      "name": "7.62x51mm Ultra Nosler",
-      "damage": "107",
-      "penetration": "15",
-      "armorDamage": "20",
-      "accuracy": "+10",
-      "recoil": "-5",
-      "fragmentation": "70%"
-    },
-    {
-      "name": "7.62x51mm BCP FMJ",
-      "damage": "88",
-      "penetration": "31",
-      "armorDamage": "33",
-      "accuracy": "",
-      "recoil": "-3",
-      "fragmentation": "25%"
-    },
-    {
-      "name": "7.62x51mm TCW SP",
-      "damage": "60",
-      "penetration": "36",
-      "armorDamage": "40",
-      "accuracy": "-8",
-      "recoil": "-5",
-      "fragmentation": "20%"
-    },
-    {
-      "name": "7.62x51mm M80",
-      "damage": "80",
-      "penetration": "41",
-      "armorDamage": "66",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "17%"
-    },
-    {
-      "name": "7.62x51mm M62 Tracer",
-      "damage": "79",
-      "penetration": "44",
-      "armorDamage": "75",
-      "accuracy": "-6",
-      "recoil": "-5",
-      "fragmentation": "14%"
-    },
-    {
-      "name": "7.62x51mm M61",
-      "damage": "70",
-      "penetration": "64",
-      "armorDamage": "83",
-      "accuracy": "+3",
-      "recoil": "+10",
-      "fragmentation": "13%"
-    },
-    {
-      "name": "7.62x51mm M993",
-      "damage": "67",
-      "penetration": "70",
-      "armorDamage": "85",
-      "accuracy": "+3",
-      "recoil": "+8",
-      "fragmentation": "13%"
-    },
-    {
-      "name": "7.62x54R T-46M",
-      "damage": "82",
-      "penetration": "41",
-      "armorDamage": "83",
-      "accuracy": "-1",
-      "recoil": "-5",
-      "fragmentation": "18%"
-    },
-    {
-      "name": "7.62x54mm R LPS gzh",
-      "damage": "81",
-      "penetration": "42",
-      "armorDamage": "78",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "18%"
-    },
-    {
-      "name": "7.62x54mm R PS gzh",
-      "damage": "86",
-      "penetration": "45",
-      "armorDamage": "84",
-      "accuracy": "+10",
-      "recoil": "+8",
-      "fragmentation": "8%"
-    },
-    {
-      "name": "7.62x54R BT gzh",
-      "damage": "78",
-      "penetration": "59",
-      "armorDamage": "87",
-      "accuracy": "-2",
-      "recoil": "-4",
-      "fragmentation": "8%"
-    },
-    {
-      "name": "7.62x54R SNB",
-      "damage": "75",
-      "penetration": "62",
-      "armorDamage": "87",
-      "accuracy": "",
-      "recoil": "+10",
-      "fragmentation": "8%"
-    },
-    {
-      "name": "7.62x54R BS",
-      "damage": "72",
-      "penetration": "70",
-      "armorDamage": "88",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "8%"
-    },
-    {
-      "name": ".338 Lapua Magnum TAC-X",
-      "damage": "196",
-      "penetration": "18",
-      "armorDamage": "55",
-      "accuracy": "+10",
-      "recoil": "+5",
-      "fragmentation": "50%"
-    },
-    {
-      "name": ".338 Lapua Magnum UCW",
-      "damage": "142",
-      "penetration": "32",
-      "armorDamage": "70",
-      "accuracy": "-5",
-      "recoil": "",
-      "fragmentation": "60%"
-    },
-    {
-      "name": ".338 Lapua Magnum FMJ",
-      "damage": "122",
-      "penetration": "47",
-      "armorDamage": "83",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "20%"
-    },
-    {
-      "name": ".338 Lapua Magnum AP",
-      "damage": "115",
-      "penetration": "79",
-      "armorDamage": "89",
-      "accuracy": "",
-      "recoil": "+10",
-      "fragmentation": "13%"
-    },
-    {
-      "name": "12.7x55 mm PS12A",
-      "damage": "165",
-      "penetration": "10",
-      "armorDamage": "22",
-      "accuracy": "-15",
-      "recoil": "-12",
-      "fragmentation": "70%"
-    },
-    {
-      "name": "12.7x55 mm PS12",
-      "damage": "115",
-      "penetration": "28",
-      "armorDamage": "60",
-      "accuracy": "+10",
-      "recoil": "",
-      "fragmentation": "30%"
-    },
-    {
-      "name": "12.7x55 mm PS12B",
-      "damage": "102",
-      "penetration": "46",
-      "armorDamage": "57",
-      "accuracy": "",
-      "recoil": "+15",
-      "fragmentation": "30%"
-    },
-    {
-      "name": "40x46mm M576 (MP-APERS) grenade",
-      "damage": "15x160",
-      "penetration": "5",
-      "armorDamage": "95",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "0%"
-    },
-    {
-      "name": "30x29 mm VOG-30",
-      "damage": "199",
-      "penetration": "1",
-      "armorDamage": "95",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "0%"
-    },
-    {
-      "name": "12.7x108 mm B-32 gl",
-      "damage": "182",
-      "penetration": "88",
-      "armorDamage": "88",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "17%"
-    },
-    {
-      "name": "12.7x108 mm BZT-44M gzh",
-      "damage": "199",
-      "penetration": "80",
-      "armorDamage": "95",
-      "accuracy": "",
-      "recoil": "",
-      "fragmentation": "17%"
-    }
-  ]
+    "changes": [
+        {
+            "name": "*NEW* .357 Magnum Soft Point"
+        },
+        {
+            "name": "*NEW* .357 Magnum Hollow Point"
+        },
+        {
+            "name": "*NEW* .357 Magnum JHP"
+        },
+        {
+            "name": "*NEW* .357 Magnum FMJ"
+        }
+    ],
+    "ammo": [
+        {
+            "name": "12x70 5.25mm buckshot",
+            "damage": "8x37",
+            "penetration": "1",
+            "armorDamage": "15",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "0%"
+        },
+        {
+            "name": "12x70 8.5mm Magnum buckshot",
+            "damage": "8x50",
+            "penetration": "2",
+            "armorDamage": "26",
+            "accuracy": "-15",
+            "recoil": "+115",
+            "fragmentation": "0%"
+        },
+        {
+            "name": "12x70 6.5mm Express buckshot",
+            "damage": "9x35",
+            "penetration": "3",
+            "armorDamage": "26",
+            "accuracy": "+15",
+            "recoil": "",
+            "fragmentation": "0%"
+        },
+        {
+            "name": "12x70 7mm buckshot",
+            "damage": "8x39",
+            "penetration": "3",
+            "armorDamage": "26",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "0%"
+        },
+        {
+            "name": "12x70 flechette",
+            "damage": "8x25",
+            "penetration": "31",
+            "armorDamage": "26",
+            "accuracy": "-10",
+            "recoil": "",
+            "fragmentation": "0%"
+        },
+        {
+            "name": "12x70 RIP",
+            "damage": "265",
+            "penetration": "2",
+            "armorDamage": "11",
+            "accuracy": "+80",
+            "recoil": "+35",
+            "fragmentation": "100%"
+        },
+        {
+            "name": "12x70 SuperFormance HP slug",
+            "damage": "220",
+            "penetration": "5",
+            "armorDamage": "12",
+            "accuracy": "+170",
+            "recoil": "-15",
+            "fragmentation": "39%"
+        },
+        {
+            "name": "12x70 Grizzly 40 slug",
+            "damage": "190",
+            "penetration": "12",
+            "armorDamage": "48",
+            "accuracy": "+80",
+            "recoil": "+20",
+            "fragmentation": "12%"
+        },
+        {
+            "name": "12x70 Copper Sabot Premier HP slug",
+            "damage": "206",
+            "penetration": "14",
+            "armorDamage": "46",
+            "accuracy": "+150",
+            "recoil": "+10",
+            "fragmentation": "38%"
+        },
+        {
+            "name": "12x70 lead slug",
+            "damage": "167",
+            "penetration": "15",
+            "armorDamage": "55",
+            "accuracy": "+120",
+            "recoil": "",
+            "fragmentation": "20%"
+        },
+        {
+            "name": "12x70 \"Poleva-3\" slug",
+            "damage": "140",
+            "penetration": "17",
+            "armorDamage": "40",
+            "accuracy": "+110",
+            "recoil": "-15",
+            "fragmentation": "20%"
+        },
+        {
+            "name": "12x70 Dual Sabot slug",
+            "damage": "2x85",
+            "penetration": "17",
+            "armorDamage": "65",
+            "accuracy": "+100",
+            "recoil": "+15",
+            "fragmentation": "10%"
+        },
+        {
+            "name": "12x70 FTX Custom Lite slug",
+            "damage": "183",
+            "penetration": "20",
+            "armorDamage": "50",
+            "accuracy": "+135",
+            "recoil": "-25",
+            "fragmentation": "10%"
+        },
+        {
+            "name": "12x70 \"Poleva-6u\" slug",
+            "damage": "150",
+            "penetration": "20",
+            "armorDamage": "50",
+            "accuracy": "+115",
+            "recoil": "-10",
+            "fragmentation": "15%"
+        },
+        {
+            "name": "12x70 makeshift .50 BMG slug",
+            "damage": "197",
+            "penetration": "26",
+            "armorDamage": "57",
+            "accuracy": "+90",
+            "recoil": "+25",
+            "fragmentation": "5%"
+        },
+        {
+            "name": "12x70 AP-20 armor-piercing slug",
+            "damage": "164",
+            "penetration": "37",
+            "armorDamage": "65",
+            "accuracy": "+80",
+            "recoil": "+50",
+            "fragmentation": "3%"
+        },
+        {
+            "name": "20x70 5.6mm buckshot",
+            "damage": "8x26",
+            "penetration": "1",
+            "armorDamage": "12",
+            "accuracy": "-10",
+            "recoil": "+10",
+            "fragmentation": "0%"
+        },
+        {
+            "name": "20x70 6.2mm buckshot",
+            "damage": "8x22",
+            "penetration": "2",
+            "armorDamage": "13",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "0%"
+        },
+        {
+            "name": "20x70 7.5mm buckshot",
+            "damage": "8x25",
+            "penetration": "3",
+            "armorDamage": "14",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "0%"
+        },
+        {
+            "name": "20x70 7.3mm buckshot",
+            "damage": "9x23",
+            "penetration": "3",
+            "armorDamage": "13",
+            "accuracy": "",
+            "recoil": "+15",
+            "fragmentation": "0%"
+        },
+        {
+            "name": "20x70 Devastator slug",
+            "damage": "198",
+            "penetration": "5",
+            "armorDamage": "13",
+            "accuracy": "+125",
+            "recoil": "+30",
+            "fragmentation": "100%"
+        },
+        {
+            "name": "20x70 \"Poleva-3\" slug",
+            "damage": "120",
+            "penetration": "14",
+            "armorDamage": "35",
+            "accuracy": "+110",
+            "recoil": "-15",
+            "fragmentation": "20%"
+        },
+        {
+            "name": "20x70 Star slug",
+            "damage": "154",
+            "penetration": "16",
+            "armorDamage": "42",
+            "accuracy": "+130",
+            "recoil": "+5",
+            "fragmentation": "10%"
+        },
+        {
+            "name": "20x70 \"Poleva-6u\" slug",
+            "damage": "135",
+            "penetration": "17",
+            "armorDamage": "40",
+            "accuracy": "+110",
+            "recoil": "-10",
+            "fragmentation": "15%"
+        },
+        {
+            "name": "23x75mm \"Zvezda\" flashbang round",
+            "damage": "0",
+            "penetration": "0",
+            "armorDamage": "0",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "20%"
+        },
+        {
+            "name": "23x75mm \"Shrapnel-25\" buckshot",
+            "damage": "8x78",
+            "penetration": "10",
+            "armorDamage": "20",
+            "accuracy": "+20",
+            "recoil": "+10",
+            "fragmentation": "0%"
+        },
+        {
+            "name": "23x75mm \"Shrapnel-10\" buckshot",
+            "damage": "8x87",
+            "penetration": "11",
+            "armorDamage": "20",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "0%"
+        },
+        {
+            "name": "23x75mm \"Barrikada\" slug",
+            "damage": "192",
+            "penetration": "39",
+            "armorDamage": "75",
+            "accuracy": "-5",
+            "recoil": "+25",
+            "fragmentation": "20%"
+        },
+        {
+            "name": "9x18mm PM SP8 gzh",
+            "damage": "67",
+            "penetration": "1",
+            "armorDamage": "2",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "60%"
+        },
+        {
+            "name": "9x18mm PM SP7 gzh",
+            "damage": "77",
+            "penetration": "2",
+            "armorDamage": "5",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "2%"
+        },
+        {
+            "name": "9x18mm PM PSV",
+            "damage": "69",
+            "penetration": "3",
+            "armorDamage": "5",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "40%"
+        },
+        {
+            "name": "9x18mm PM P gzh",
+            "damage": "50",
+            "penetration": "5",
+            "armorDamage": "16",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "25%"
+        },
+        {
+            "name": "9x18mm PM PSO gzh",
+            "damage": "54",
+            "penetration": "5",
+            "armorDamage": "13",
+            "accuracy": "+10",
+            "recoil": "",
+            "fragmentation": "35%"
+        },
+        {
+            "name": "9x18mm PM PS gs PPO",
+            "damage": "55",
+            "penetration": "6",
+            "armorDamage": "16",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "25%"
+        },
+        {
+            "name": "9x18mm PM PRS gs",
+            "damage": "58",
+            "penetration": "6",
+            "armorDamage": "16",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "30%"
+        },
+        {
+            "name": "9x18mm PM PPe gzh",
+            "damage": "61",
+            "penetration": "7",
+            "armorDamage": "15",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "35%"
+        },
+        {
+            "name": "9x18mm PM PPT gzh",
+            "damage": "59",
+            "penetration": "8",
+            "armorDamage": "22",
+            "accuracy": "-5",
+            "recoil": "-7",
+            "fragmentation": "17%"
+        },
+        {
+            "name": "9x18mm PM Pst gzh",
+            "damage": "50",
+            "penetration": "12",
+            "armorDamage": "26",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "20%"
+        },
+        {
+            "name": "9x18mm PM RG028 gzh",
+            "damage": "65",
+            "penetration": "13",
+            "armorDamage": "26",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "2%"
+        },
+        {
+            "name": "9x18mm PM BZhT gzh",
+            "damage": "53",
+            "penetration": "18",
+            "armorDamage": "28",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "17%"
+        },
+        {
+            "name": "9x18mm PMM PstM gzh",
+            "damage": "58",
+            "penetration": "24",
+            "armorDamage": "33",
+            "accuracy": "",
+            "recoil": "+5",
+            "fragmentation": "17%"
+        },
+        {
+            "name": "9x18mm PM PBM gzh",
+            "damage": "40",
+            "penetration": "28",
+            "armorDamage": "30",
+            "accuracy": "",
+            "recoil": "+4",
+            "fragmentation": "16%"
+        },
+        {
+            "name": "7.62x25mm TT LRNPC",
+            "damage": "66",
+            "penetration": "7",
+            "armorDamage": "27",
+            "accuracy": "+10",
+            "recoil": "-10",
+            "fragmentation": "35%"
+        },
+        {
+            "name": "7.62x25mm TT LRN",
+            "damage": "64",
+            "penetration": "8",
+            "armorDamage": "28",
+            "accuracy": "+5",
+            "recoil": "-5",
+            "fragmentation": "35%"
+        },
+        {
+            "name": "7.62x25mm TT FMJ43",
+            "damage": "60",
+            "penetration": "11",
+            "armorDamage": "29",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "25%"
+        },
+        {
+            "name": "7.62x25mm TT AKBS",
+            "damage": "58",
+            "penetration": "12",
+            "armorDamage": "32",
+            "accuracy": "+15",
+            "recoil": "-15",
+            "fragmentation": "25%"
+        },
+        {
+            "name": "7.62x25mm TT P gl",
+            "damage": "58",
+            "penetration": "14",
+            "armorDamage": "32",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "25%"
+        },
+        {
+            "name": "7.62x25mm TT PT gzh",
+            "damage": "55",
+            "penetration": "18",
+            "armorDamage": "34",
+            "accuracy": "-10",
+            "recoil": "",
+            "fragmentation": "17%"
+        },
+        {
+            "name": "7.62x25mm TT Pst gzh",
+            "damage": "50",
+            "penetration": "25",
+            "armorDamage": "36",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "20%"
+        },
+        {
+            "name": "9x19mm RIP",
+            "damage": "102",
+            "penetration": "2",
+            "armorDamage": "11",
+            "accuracy": "",
+            "recoil": "+20",
+            "fragmentation": "100%"
+        },
+        {
+            "name": "9x19mm QuakeMaker",
+            "damage": "85",
+            "penetration": "8",
+            "armorDamage": "22",
+            "accuracy": "+10",
+            "recoil": "+10",
+            "fragmentation": "10%"
+        },
+        {
+            "name": "9x19mm PSO gzh",
+            "damage": "59",
+            "penetration": "10",
+            "armorDamage": "32",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "25%"
+        },
+        {
+            "name": "9x19mm Luger CCI",
+            "damage": "70",
+            "penetration": "10",
+            "armorDamage": "38",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "25%"
+        },
+        {
+            "name": "9x19mm Green Tracer",
+            "damage": "58",
+            "penetration": "14",
+            "armorDamage": "33",
+            "accuracy": "-5",
+            "recoil": "-6",
+            "fragmentation": "15%"
+        },
+        {
+            "name": "9x19mm Pst gzh",
+            "damage": "54",
+            "penetration": "20",
+            "armorDamage": "33",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "15%"
+        },
+        {
+            "name": "9x19mm AP 6.3",
+            "damage": "52",
+            "penetration": "30",
+            "armorDamage": "48",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "5%"
+        },
+        {
+            "name": "9x19mm PBP gzh",
+            "damage": "52",
+            "penetration": "39",
+            "armorDamage": "53",
+            "accuracy": "+5",
+            "recoil": "+15",
+            "fragmentation": "5%"
+        },
+        {
+            "name": ".357 Magnum Soft Point",
+            "damage": "108",
+            "penetration": "12",
+            "armorDamage": "15",
+            "accuracy": "+27",
+            "recoil": "-29",
+            "fragmentation": "20%"
+        },
+        {
+            "name": ".357 Magnum Hollow Point",
+            "damage": "99",
+            "penetration": "18",
+            "armorDamage": "20",
+            "accuracy": "+15",
+            "recoil": "+15",
+            "fragmentation": "60%"
+        },
+        {
+            "name": ".357 Magnum JHP",
+            "damage": "88",
+            "penetration": "24",
+            "armorDamage": "28",
+            "accuracy": "+15",
+            "recoil": "+8",
+            "fragmentation": "60%"
+        },
+        {
+            "name": ".357 Magnum FMJ",
+            "damage": "70",
+            "penetration": "35",
+            "armorDamage": "43",
+            "accuracy": "",
+            "recoil": "+12",
+            "fragmentation": "1%"
+        },
+        {
+            "name": ".45 ACP RIP",
+            "damage": "137",
+            "penetration": "3",
+            "armorDamage": "12",
+            "accuracy": "-5",
+            "recoil": "",
+            "fragmentation": "100%"
+        },
+        {
+            "name": ".45 ACP Hydra-Shok",
+            "damage": "105",
+            "penetration": "13",
+            "armorDamage": "30",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "50%"
+        },
+        {
+            "name": ".45 ACP Lasermatch FMJ",
+            "damage": "80",
+            "penetration": "19",
+            "armorDamage": "37",
+            "accuracy": "+10",
+            "recoil": "",
+            "fragmentation": "1%"
+        },
+        {
+            "name": ".45 ACP Match FMJ",
+            "damage": "76",
+            "penetration": "25",
+            "armorDamage": "36",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "1%"
+        },
+        {
+            "name": ".45 ACP AP",
+            "damage": "70",
+            "penetration": "38",
+            "armorDamage": "48",
+            "accuracy": "-5",
+            "recoil": "+7",
+            "fragmentation": "1%"
+        },
+        {
+            "name": "9x21mm PE gzh",
+            "damage": "80",
+            "penetration": "15",
+            "armorDamage": "63",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "35%"
+        },
+        {
+            "name": "9x21mm P gzh",
+            "damage": "65",
+            "penetration": "18",
+            "armorDamage": "44",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "30%"
+        },
+        {
+            "name": "9x21mm PS gzh",
+            "damage": "49",
+            "penetration": "35",
+            "armorDamage": "46",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "20%"
+        },
+        {
+            "name": "9x21mm BT gzh",
+            "damage": "63",
+            "penetration": "39",
+            "armorDamage": "47",
+            "accuracy": "-4",
+            "recoil": "-4",
+            "fragmentation": "20%"
+        },
+        {
+            "name": "5.7x28mm R37.F",
+            "damage": "98",
+            "penetration": "8",
+            "armorDamage": "7",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "100%"
+        },
+        {
+            "name": "5.7x28mm SS198LF",
+            "damage": "74",
+            "penetration": "10",
+            "armorDamage": "15",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "80%"
+        },
+        {
+            "name": "5.7x28mm R37.X",
+            "damage": "81",
+            "penetration": "11",
+            "armorDamage": "14",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "70%"
+        },
+        {
+            "name": "5.7x28mm SS197SR",
+            "damage": "62",
+            "penetration": "20",
+            "armorDamage": "22",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "50%"
+        },
+        {
+            "name": "5.7x28mm L191",
+            "damage": "58",
+            "penetration": "33",
+            "armorDamage": "41",
+            "accuracy": "-4",
+            "recoil": "",
+            "fragmentation": "20%"
+        },
+        {
+            "name": "5.7x28mm SB193",
+            "damage": "54",
+            "penetration": "35",
+            "armorDamage": "37",
+            "accuracy": "+5",
+            "recoil": "-24",
+            "fragmentation": "20%"
+        },
+        {
+            "name": "5.7x28mm SS190",
+            "damage": "49",
+            "penetration": "37",
+            "armorDamage": "43",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "20%"
+        },
+        {
+            "name": "4.6x30mm Action SX",
+            "damage": "65",
+            "penetration": "18",
+            "armorDamage": "39",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "50%"
+        },
+        {
+            "name": "4.6x30mm Subsonic SX",
+            "damage": "45",
+            "penetration": "36",
+            "armorDamage": "46",
+            "accuracy": "+10",
+            "recoil": "-22",
+            "fragmentation": "20%"
+        },
+        {
+            "name": "4.6x30mm FMJ SX",
+            "damage": "43",
+            "penetration": "40",
+            "armorDamage": "41",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "20%"
+        },
+        {
+            "name": "4.6x30mm AP SX",
+            "damage": "35",
+            "penetration": "53",
+            "armorDamage": "46",
+            "accuracy": "",
+            "recoil": "+10",
+            "fragmentation": "10%"
+        },
+        {
+            "name": "9x39mm SP-5 gs",
+            "damage": "68",
+            "penetration": "38",
+            "armorDamage": "52",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "20%"
+        },
+        {
+            "name": "9x39mm SP-6 gs",
+            "damage": "58",
+            "penetration": "46",
+            "armorDamage": "60",
+            "accuracy": "",
+            "recoil": "+10",
+            "fragmentation": "10%"
+        },
+        {
+            "name": "9x39mm PAB-9 gs",
+            "damage": "62",
+            "penetration": "48",
+            "armorDamage": "72",
+            "accuracy": "-15",
+            "recoil": "+10",
+            "fragmentation": "10%"
+        },
+        {
+            "name": "9x39mm SPP gs",
+            "damage": "64",
+            "penetration": "50",
+            "armorDamage": "56",
+            "accuracy": "+10",
+            "recoil": "+20",
+            "fragmentation": "20%"
+        },
+        {
+            "name": "9x39mm BP gs",
+            "damage": "60",
+            "penetration": "55",
+            "armorDamage": "68",
+            "accuracy": "+10",
+            "recoil": "+22",
+            "fragmentation": "10%"
+        },
+        {
+            "name": ".366 TKM Geksa",
+            "damage": "110",
+            "penetration": "14",
+            "armorDamage": "38",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "45%"
+        },
+        {
+            "name": ".366 TKM FMJ",
+            "damage": "98",
+            "penetration": "23",
+            "armorDamage": "48",
+            "accuracy": "",
+            "recoil": "+10",
+            "fragmentation": "25%"
+        },
+        {
+            "name": ".366 TKM EKO",
+            "damage": "73",
+            "penetration": "30",
+            "armorDamage": "40",
+            "accuracy": "-10",
+            "recoil": "-15",
+            "fragmentation": "20%"
+        },
+        {
+            "name": ".366 TKM AP-M",
+            "damage": "90",
+            "penetration": "42",
+            "armorDamage": "60",
+            "accuracy": "-28",
+            "recoil": "+35",
+            "fragmentation": "1%"
+        },
+        {
+            "name": "5.45x39mm SP",
+            "damage": "68",
+            "penetration": "11",
+            "armorDamage": "34",
+            "accuracy": "+10",
+            "recoil": "-15",
+            "fragmentation": "45%"
+        },
+        {
+            "name": "5.45x39mm HP",
+            "damage": "74",
+            "penetration": "11",
+            "armorDamage": "20",
+            "accuracy": "",
+            "recoil": "+5",
+            "fragmentation": "35%"
+        },
+        {
+            "name": "5.45x39mm PRS gs",
+            "damage": "60",
+            "penetration": "14",
+            "armorDamage": "28",
+            "accuracy": "",
+            "recoil": "-5",
+            "fragmentation": "30%"
+        },
+        {
+            "name": "5.45x39mm US gs",
+            "damage": "65",
+            "penetration": "15",
+            "armorDamage": "34",
+            "accuracy": "",
+            "recoil": "-25",
+            "fragmentation": "10%"
+        },
+        {
+            "name": "5.45x39mm FMJ",
+            "damage": "56",
+            "penetration": "21",
+            "armorDamage": "30",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "25%"
+        },
+        {
+            "name": "5.45x39mm T gs",
+            "damage": "57",
+            "penetration": "20",
+            "armorDamage": "38",
+            "accuracy": "-5",
+            "recoil": "-5",
+            "fragmentation": "16%"
+        },
+        {
+            "name": "5.45x39mm PS gs",
+            "damage": "50",
+            "penetration": "27",
+            "armorDamage": "35",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "40%"
+        },
+        {
+            "name": "5.45x39mm PP gs",
+            "damage": "48",
+            "penetration": "33",
+            "armorDamage": "32",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "17%"
+        },
+        {
+            "name": "5.45x39mm BP gs",
+            "damage": "49",
+            "penetration": "35",
+            "armorDamage": "41",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "16%"
+        },
+        {
+            "name": "5.45x39mm BT gs",
+            "damage": "44",
+            "penetration": "37",
+            "armorDamage": "49",
+            "accuracy": "-2",
+            "recoil": "+3",
+            "fragmentation": "16%"
+        },
+        {
+            "name": "5.45x39mm 7N40",
+            "damage": "52",
+            "penetration": "44",
+            "armorDamage": "50",
+            "accuracy": "+50",
+            "recoil": "-20",
+            "fragmentation": "2%"
+        },
+        {
+            "name": "5.45x39mm BS gs",
+            "damage": "40",
+            "penetration": "51",
+            "armorDamage": "57",
+            "accuracy": "-3",
+            "recoil": "+10",
+            "fragmentation": "17%"
+        },
+        {
+            "name": "5.45x39mm PPBS gs \"Igolnik\"",
+            "damage": "37",
+            "penetration": "62",
+            "armorDamage": "60",
+            "accuracy": "",
+            "recoil": "+15",
+            "fragmentation": "2%"
+        },
+        {
+            "name": "5.56x45mm Warmageddon",
+            "damage": "85",
+            "penetration": "3",
+            "armorDamage": "14",
+            "accuracy": "+10",
+            "recoil": "+10",
+            "fragmentation": "90%"
+        },
+        {
+            "name": "5.56x45mm HP",
+            "damage": "75",
+            "penetration": "9",
+            "armorDamage": "22",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "70%"
+        },
+        {
+            "name": "5.56x45mm MK 255 Mod 0 (RRLP)",
+            "damage": "60",
+            "penetration": "17",
+            "armorDamage": "32",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "3%"
+        },
+        {
+            "name": "5.56x45mm MK 318 Mod 0 (SOST)",
+            "damage": "67",
+            "penetration": "20",
+            "armorDamage": "35",
+            "accuracy": "+10",
+            "recoil": "",
+            "fragmentation": "15%"
+        },
+        {
+            "name": "5.56x45mm M856",
+            "damage": "55",
+            "penetration": "23",
+            "armorDamage": "34",
+            "accuracy": "-2",
+            "recoil": "-2",
+            "fragmentation": "33%"
+        },
+        {
+            "name": "5.56x45mm FMJ",
+            "damage": "52",
+            "penetration": "24",
+            "armorDamage": "33",
+            "accuracy": "+10",
+            "recoil": "-5",
+            "fragmentation": "50%"
+        },
+        {
+            "name": "5.56x45mm M855",
+            "damage": "50",
+            "penetration": "28",
+            "armorDamage": "37",
+            "accuracy": "-5",
+            "recoil": "",
+            "fragmentation": "40%"
+        },
+        {
+            "name": "5.56x45mm M856A1",
+            "damage": "51",
+            "penetration": "37",
+            "armorDamage": "52",
+            "accuracy": "-1",
+            "recoil": "+4",
+            "fragmentation": "33%"
+        },
+        {
+            "name": "5.56x45mm M855A1",
+            "damage": "46",
+            "penetration": "45",
+            "armorDamage": "52",
+            "accuracy": "-10",
+            "recoil": "+5",
+            "fragmentation": "34%"
+        },
+        {
+            "name": "5.56x45mm M995",
+            "damage": "40",
+            "penetration": "53",
+            "armorDamage": "58",
+            "accuracy": "",
+            "recoil": "+8",
+            "fragmentation": "32%"
+        },
+        {
+            "name": "5.56x45mm SSA AP",
+            "damage": "36",
+            "penetration": "56",
+            "armorDamage": "64",
+            "accuracy": "-6",
+            "recoil": "+6",
+            "fragmentation": "20%"
+        },
+        {
+            "name": ".300 Whisper",
+            "damage": "90",
+            "penetration": "14",
+            "armorDamage": "19",
+            "accuracy": "+5",
+            "recoil": "-5",
+            "fragmentation": "35%"
+        },
+        {
+            "name": ".300 Blackout V-Max",
+            "damage": "72",
+            "penetration": "20",
+            "armorDamage": "25",
+            "accuracy": "+30",
+            "recoil": "-10",
+            "fragmentation": "25%"
+        },
+        {
+            "name": ".300 Blackout BCP FMJ",
+            "damage": "60",
+            "penetration": "29",
+            "armorDamage": "36",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "30%"
+        },
+        {
+            "name": ".300 Blackout M62 Tracer",
+            "damage": "54",
+            "penetration": "34",
+            "armorDamage": "40",
+            "accuracy": "",
+            "recoil": "+5",
+            "fragmentation": "20%"
+        },
+        {
+            "name": ".300 Blackout AP",
+            "damage": "51",
+            "penetration": "45",
+            "armorDamage": "65",
+            "accuracy": "",
+            "recoil": "+10",
+            "fragmentation": "30%"
+        },
+        {
+            "name": "7.62x39mm HP",
+            "damage": "87",
+            "penetration": "15",
+            "armorDamage": "35",
+            "accuracy": "-5",
+            "recoil": "",
+            "fragmentation": "26%"
+        },
+        {
+            "name": "7.62x39mm US gzh",
+            "damage": "56",
+            "penetration": "29",
+            "armorDamage": "42",
+            "accuracy": "+5",
+            "recoil": "-30",
+            "fragmentation": "8%"
+        },
+        {
+            "name": "7.62x39mm T-45M1 gzh",
+            "damage": "62",
+            "penetration": "30",
+            "armorDamage": "46",
+            "accuracy": "-4",
+            "recoil": "-6",
+            "fragmentation": "12%"
+        },
+        {
+            "name": "7.62x39mm PS gzh",
+            "damage": "57",
+            "penetration": "32",
+            "armorDamage": "52",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "25%"
+        },
+        {
+            "name": "7.62x39mm BP gzh",
+            "damage": "58",
+            "penetration": "47",
+            "armorDamage": "63",
+            "accuracy": "-3",
+            "recoil": "+5",
+            "fragmentation": "12%"
+        },
+        {
+            "name": "7.62x39mm MAI AP",
+            "damage": "46",
+            "penetration": "58",
+            "armorDamage": "76",
+            "accuracy": "-5",
+            "recoil": "+10",
+            "fragmentation": "5%"
+        },
+        {
+            "name": "7.62x51mm Ultra Nosler",
+            "damage": "107",
+            "penetration": "15",
+            "armorDamage": "20",
+            "accuracy": "+10",
+            "recoil": "-5",
+            "fragmentation": "70%"
+        },
+        {
+            "name": "7.62x51mm BCP FMJ",
+            "damage": "88",
+            "penetration": "31",
+            "armorDamage": "33",
+            "accuracy": "",
+            "recoil": "-3",
+            "fragmentation": "25%"
+        },
+        {
+            "name": "7.62x51mm TCW SP",
+            "damage": "60",
+            "penetration": "36",
+            "armorDamage": "40",
+            "accuracy": "-8",
+            "recoil": "-5",
+            "fragmentation": "20%"
+        },
+        {
+            "name": "7.62x51mm M80",
+            "damage": "80",
+            "penetration": "41",
+            "armorDamage": "66",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "17%"
+        },
+        {
+            "name": "7.62x51mm M62 Tracer",
+            "damage": "79",
+            "penetration": "44",
+            "armorDamage": "75",
+            "accuracy": "-6",
+            "recoil": "-5",
+            "fragmentation": "14%"
+        },
+        {
+            "name": "7.62x51mm M61",
+            "damage": "70",
+            "penetration": "64",
+            "armorDamage": "83",
+            "accuracy": "+3",
+            "recoil": "+10",
+            "fragmentation": "13%"
+        },
+        {
+            "name": "7.62x51mm M993",
+            "damage": "67",
+            "penetration": "70",
+            "armorDamage": "85",
+            "accuracy": "+3",
+            "recoil": "+8",
+            "fragmentation": "13%"
+        },
+        {
+            "name": "7.62x54mm R T-46M gzh",
+            "damage": "82",
+            "penetration": "41",
+            "armorDamage": "83",
+            "accuracy": "-1",
+            "recoil": "-5",
+            "fragmentation": "18%"
+        },
+        {
+            "name": "7.62x54mm R LPS gzh",
+            "damage": "81",
+            "penetration": "42",
+            "armorDamage": "78",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "18%"
+        },
+        {
+            "name": "7.62x54mm R PS gzh",
+            "damage": "86",
+            "penetration": "45",
+            "armorDamage": "84",
+            "accuracy": "+10",
+            "recoil": "+8",
+            "fragmentation": "8%"
+        },
+        {
+            "name": "7.62x54mm R BT gzh",
+            "damage": "78",
+            "penetration": "59",
+            "armorDamage": "87",
+            "accuracy": "-2",
+            "recoil": "-4",
+            "fragmentation": "8%"
+        },
+        {
+            "name": "7.62x54mm R SNB gzh",
+            "damage": "75",
+            "penetration": "62",
+            "armorDamage": "87",
+            "accuracy": "",
+            "recoil": "+10",
+            "fragmentation": "8%"
+        },
+        {
+            "name": "7.62x54mm R BS gs",
+            "damage": "72",
+            "penetration": "70",
+            "armorDamage": "88",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "8%"
+        },
+        {
+            "name": ".338 Lapua Magnum TAC-X",
+            "damage": "196",
+            "penetration": "18",
+            "armorDamage": "55",
+            "accuracy": "+10",
+            "recoil": "+5",
+            "fragmentation": "50%"
+        },
+        {
+            "name": ".338 Lapua Magnum UCW",
+            "damage": "142",
+            "penetration": "32",
+            "armorDamage": "70",
+            "accuracy": "-5",
+            "recoil": "",
+            "fragmentation": "60%"
+        },
+        {
+            "name": ".338 Lapua Magnum FMJ",
+            "damage": "122",
+            "penetration": "47",
+            "armorDamage": "83",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "20%"
+        },
+        {
+            "name": ".338 Lapua Magnum AP",
+            "damage": "115",
+            "penetration": "79",
+            "armorDamage": "89",
+            "accuracy": "",
+            "recoil": "+10",
+            "fragmentation": "13%"
+        },
+        {
+            "name": "12.7x55mm PS12A",
+            "damage": "165",
+            "penetration": "10",
+            "armorDamage": "22",
+            "accuracy": "-15",
+            "recoil": "-12",
+            "fragmentation": "70%"
+        },
+        {
+            "name": "12.7x55mm PS12",
+            "damage": "115",
+            "penetration": "28",
+            "armorDamage": "60",
+            "accuracy": "+10",
+            "recoil": "",
+            "fragmentation": "30%"
+        },
+        {
+            "name": "12.7x55mm PS12B",
+            "damage": "102",
+            "penetration": "46",
+            "armorDamage": "57",
+            "accuracy": "",
+            "recoil": "+15",
+            "fragmentation": "30%"
+        },
+        {
+            "name": "40x46mm M576 (MP-APERS) grenade",
+            "damage": "15x160",
+            "penetration": "5",
+            "armorDamage": "95",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "0%"
+        },
+        {
+            "name": "30x29mm VOG-30",
+            "damage": "199",
+            "penetration": "1",
+            "armorDamage": "95",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "0%"
+        },
+        {
+            "name": "12.7x108mm B-32",
+            "damage": "182",
+            "penetration": "88",
+            "armorDamage": "88",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "17%"
+        },
+        {
+            "name": "12.7x108mm BZT-44M",
+            "damage": "199",
+            "penetration": "80",
+            "armorDamage": "95",
+            "accuracy": "",
+            "recoil": "",
+            "fragmentation": "17%"
+        }
+    ]
 }
