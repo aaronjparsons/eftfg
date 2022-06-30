@@ -1,5 +1,9 @@
 [
   {
+    "date": "2022/06/30",
+    "summary": ["Updated ammo for patch 0.12.12.3"],
+    "changes": ["Updated ammo for patch 0.12.12.3"]
+  },  {
     "date": "2022/01/01",
     "summary": ["Updated ammo", "Update required items for Hideout modules"],
     "changes": ["Updated ammo", "Update required items for Hideout modules"]

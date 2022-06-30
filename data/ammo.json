@@ -1,16 +1,167 @@
 {
     "changes": [
         {
-            "name": "*NEW* .357 Magnum Soft Point"
+            "damage": [
+                "68",
+                "71"
+            ],
+            "penetration": [
+                "38",
+                "28"
+            ],
+            "armorDamage": [
+                "52",
+                "60"
+            ],
+            "recoil": [
+                "",
+                "-5"
+            ],
+            "name": "9x39mm SP-5 gs"
         },
         {
-            "name": "*NEW* .357 Magnum Hollow Point"
+            "damage": [
+                "64",
+                "68"
+            ],
+            "penetration": [
+                "50",
+                "40"
+            ],
+            "armorDamage": [
+                "56",
+                "55"
+            ],
+            "recoil": [
+                "+20",
+                "+10"
+            ],
+            "name": "9x39mm SPP gs"
         },
         {
-            "name": "*NEW* .357 Magnum JHP"
+            "penetration": [
+                "11",
+                "13"
+            ],
+            "name": "5.45x39mm SP"
         },
         {
-            "name": "*NEW* .357 Magnum FMJ"
+            "penetration": [
+                "11",
+                "12"
+            ],
+            "name": "5.45x39mm HP"
+        },
+        {
+            "penetration": [
+                "14",
+                "12"
+            ],
+            "name": "5.45x39mm PRS gs"
+        },
+        {
+            "damage": [
+                "50",
+                "48"
+            ],
+            "name": "5.45x39mm PS gs"
+        },
+        {
+            "damage": [
+                "48",
+                "44"
+            ],
+            "penetration": [
+                "33",
+                "36"
+            ],
+            "armorDamage": [
+                "32",
+                "38"
+            ],
+            "name": "5.45x39mm PP gs"
+        },
+        {
+            "damage": [
+                "49",
+                "45"
+            ],
+            "penetration": [
+                "35",
+                "37"
+            ],
+            "name": "5.45x39mm BP gs"
+        },
+        {
+            "damage": [
+                "44",
+                "42"
+            ],
+            "penetration": [
+                "37",
+                "40"
+            ],
+            "name": "5.45x39mm BT gs"
+        },
+        {
+            "armorDamage": [
+                "60",
+                "55"
+            ],
+            "name": "5.45x39mm PPBS gs \"Igolnik\""
+        },
+        {
+            "penetration": [
+                "29",
+                "30"
+            ],
+            "name": ".300 Blackout BCP FMJ"
+        },
+        {
+            "penetration": [
+                "45",
+                "48"
+            ],
+            "name": ".300 Blackout AP"
+        },
+        {
+            "damage": [
+                "62",
+                "64"
+            ],
+            "name": "7.62x39mm T-45M1 gzh"
+        },
+        {
+            "penetration": [
+                "32",
+                "35"
+            ],
+            "name": "7.62x39mm PS gzh"
+        },
+        {
+            "damage": [
+                "60",
+                "67"
+            ],
+            "penetration": [
+                "36",
+                "34"
+            ],
+            "name": "7.62x51mm TCW SP"
+        },
+        {
+            "damage": [
+                "86",
+                "84"
+            ],
+            "name": "7.62x54mm R PS gzh"
+        },
+        {
+            "penetration": [
+                "59",
+                "55"
+            ],
+            "name": "7.62x54mm R BT gzh"
         }
     ],
     "ammo": [
@@ -745,11 +896,11 @@
         },
         {
             "name": "9x39mm SP-5 gs",
-            "damage": "68",
-            "penetration": "38",
-            "armorDamage": "52",
+            "damage": "71",
+            "penetration": "28",
+            "armorDamage": "60",
             "accuracy": "",
-            "recoil": "",
+            "recoil": "-5",
             "fragmentation": "20%"
         },
         {
@@ -772,11 +923,11 @@
         },
         {
             "name": "9x39mm SPP gs",
-            "damage": "64",
-            "penetration": "50",
-            "armorDamage": "56",
+            "damage": "68",
+            "penetration": "40",
+            "armorDamage": "55",
             "accuracy": "+10",
-            "recoil": "+20",
+            "recoil": "+10",
             "fragmentation": "20%"
         },
         {
@@ -827,7 +978,7 @@
         {
             "name": "5.45x39mm SP",
             "damage": "68",
-            "penetration": "11",
+            "penetration": "13",
             "armorDamage": "34",
             "accuracy": "+10",
             "recoil": "-15",
@@ -836,7 +987,7 @@
         {
             "name": "5.45x39mm HP",
             "damage": "74",
-            "penetration": "11",
+            "penetration": "12",
             "armorDamage": "20",
             "accuracy": "",
             "recoil": "+5",
@@ -845,7 +996,7 @@
         {
             "name": "5.45x39mm PRS gs",
             "damage": "60",
-            "penetration": "14",
+            "penetration": "12",
             "armorDamage": "28",
             "accuracy": "",
             "recoil": "-5",
@@ -880,7 +1031,7 @@
         },
         {
             "name": "5.45x39mm PS gs",
-            "damage": "50",
+            "damage": "48",
             "penetration": "27",
             "armorDamage": "35",
             "accuracy": "",
@@ -889,17 +1040,17 @@
         },
         {
             "name": "5.45x39mm PP gs",
-            "damage": "48",
-            "penetration": "33",
-            "armorDamage": "32",
+            "damage": "44",
+            "penetration": "36",
+            "armorDamage": "38",
             "accuracy": "",
             "recoil": "",
             "fragmentation": "17%"
         },
         {
             "name": "5.45x39mm BP gs",
-            "damage": "49",
-            "penetration": "35",
+            "damage": "45",
+            "penetration": "37",
             "armorDamage": "41",
             "accuracy": "",
             "recoil": "",
@@ -907,8 +1058,8 @@
         },
         {
             "name": "5.45x39mm BT gs",
-            "damage": "44",
-            "penetration": "37",
+            "damage": "42",
+            "penetration": "40",
             "armorDamage": "49",
             "accuracy": "-2",
             "recoil": "+3",
@@ -936,7 +1087,7 @@
             "name": "5.45x39mm PPBS gs \"Igolnik\"",
             "damage": "37",
             "penetration": "62",
-            "armorDamage": "60",
+            "armorDamage": "55",
             "accuracy": "",
             "recoil": "+15",
             "fragmentation": "2%"
@@ -1061,7 +1212,7 @@
         {
             "name": ".300 Blackout BCP FMJ",
             "damage": "60",
-            "penetration": "29",
+            "penetration": "30",
             "armorDamage": "36",
             "accuracy": "",
             "recoil": "",
@@ -1079,7 +1230,7 @@
         {
             "name": ".300 Blackout AP",
             "damage": "51",
-            "penetration": "45",
+            "penetration": "48",
             "armorDamage": "65",
             "accuracy": "",
             "recoil": "+10",
@@ -1105,7 +1256,7 @@
         },
         {
             "name": "7.62x39mm T-45M1 gzh",
-            "damage": "62",
+            "damage": "64",
             "penetration": "30",
             "armorDamage": "46",
             "accuracy": "-4",
@@ -1115,7 +1266,7 @@
         {
             "name": "7.62x39mm PS gzh",
             "damage": "57",
-            "penetration": "32",
+            "penetration": "35",
             "armorDamage": "52",
             "accuracy": "",
             "recoil": "",
@@ -1159,8 +1310,8 @@
         },
         {
             "name": "7.62x51mm TCW SP",
-            "damage": "60",
-            "penetration": "36",
+            "damage": "67",
+            "penetration": "34",
             "armorDamage": "40",
             "accuracy": "-8",
             "recoil": "-5",
@@ -1222,7 +1373,7 @@
         },
         {
             "name": "7.62x54mm R PS gzh",
-            "damage": "86",
+            "damage": "84",
             "penetration": "45",
             "armorDamage": "84",
             "accuracy": "+10",
@@ -1232,7 +1383,7 @@
         {
             "name": "7.62x54mm R BT gzh",
             "damage": "78",
-            "penetration": "59",
+            "penetration": "55",
             "armorDamage": "87",
             "accuracy": "-2",
             "recoil": "-4",
