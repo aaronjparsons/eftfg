@@ -1,126 +1,39 @@
 {
     "changes": [
         {
-            "armorDamage": [
-                "49",
-                "35"
+            "damage": [
+                "137",
+                "130"
             ],
-            "name": "5.45x39mm BT gs"
+            "name": ".45 ACP RIP"
         },
         {
             "damage": [
-                "85",
-                "88"
+                "105",
+                "100"
             ],
-            "armorDamage": [
-                "14",
-                "11"
-            ],
-            "name": "5.56x45mm Warmageddon"
+            "name": ".45 ACP Hydra-Shok"
         },
         {
             "damage": [
-                "75",
-                "79"
+                "80",
+                "76"
             ],
-            "penetration": [
-                "9",
-                "8"
-            ],
-            "name": "5.56x45mm HP"
+            "name": ".45 ACP Lasermatch FMJ"
         },
         {
             "damage": [
-                "60",
-                "63"
+                "76",
+                "72"
             ],
-            "penetration": [
-                "17",
-                "18"
-            ],
-            "name": "5.56x45mm MK 255 Mod 0 (RRLP)"
+            "name": ".45 ACP Match FMJ"
         },
         {
             "damage": [
-                "67",
-                "69"
+                "70",
+                "66"
             ],
-            "name": "5.56x45mm MK 318 Mod 0 (SOST)"
-        },
-        {
-            "damage": [
-                "55",
-                "59"
-            ],
-            "name": "5.56x45mm M856"
-        },
-        {
-            "damage": [
-                "52",
-                "54"
-            ],
-            "penetration": [
-                "24",
-                "23"
-            ],
-            "name": "5.56x45mm FMJ"
-        },
-        {
-            "damage": [
-                "50",
-                "53"
-            ],
-            "name": "5.56x45mm M855"
-        },
-        {
-            "damage": [
-                "51",
-                "54"
-            ],
-            "name": "5.56x45mm M856A1"
-        },
-        {
-            "damage": [
-                "46",
-                "49"
-            ],
-            "penetration": [
-                "45",
-                "44"
-            ],
-            "name": "5.56x45mm M855A1"
-        },
-        {
-            "damage": [
-                "40",
-                "42"
-            ],
-            "name": "5.56x45mm M995"
-        },
-        {
-            "damage": [
-                "36",
-                "38"
-            ],
-            "penetration": [
-                "56",
-                "57"
-            ],
-            "name": "5.56x45mm SSA AP"
-        },
-        {
-            "penetration": [
-                "34",
-                "36"
-            ],
-            "name": ".300 Blackout M62 Tracer"
-        },
-        {
-            "accuracy": [
-                "+3",
-                "+5"
-            ],
-            "name": "7.62x51mm M993"
+            "name": ".45 ACP AP"
         }
     ],
     "ammo": [
@@ -702,7 +615,7 @@
         },
         {
             "name": ".45 ACP RIP",
-            "damage": "137",
+            "damage": "130",
             "penetration": "3",
             "armorDamage": "12",
             "accuracy": "-5",
@@ -711,7 +624,7 @@
         },
         {
             "name": ".45 ACP Hydra-Shok",
-            "damage": "105",
+            "damage": "100",
             "penetration": "13",
             "armorDamage": "30",
             "accuracy": "",
@@ -720,7 +633,7 @@
         },
         {
             "name": ".45 ACP Lasermatch FMJ",
-            "damage": "80",
+            "damage": "76",
             "penetration": "19",
             "armorDamage": "37",
             "accuracy": "+10",
@@ -729,7 +642,7 @@
         },
         {
             "name": ".45 ACP Match FMJ",
-            "damage": "76",
+            "damage": "72",
             "penetration": "25",
             "armorDamage": "36",
             "accuracy": "",
@@ -738,7 +651,7 @@
         },
         {
             "name": ".45 ACP AP",
-            "damage": "70",
+            "damage": "66",
             "penetration": "38",
             "armorDamage": "48",
             "accuracy": "-5",
