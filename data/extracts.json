@@ -51,7 +51,7 @@
   },
   {
     "type": "map",
-    "label": "Labs (All Extractions)",
+    "label": "The Lab (All Extractions)",
     "map": "Labs",
     "marker": [],
     "description": "",
@@ -156,8 +156,18 @@
     "marker": [-183.48916941416726,51.7015380859375],
     "description": "",
     "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203830/old_gas_station.jpg",
-    "extractType": "PMC, Scav",
+    "extractType": "PMC",
     "extractNotes": "Occasionally Open. Will be open if green flares are lit."
+  },
+  {
+    "type": "extract",
+    "label": "Old Gas Station Gate",
+    "map": "Customs",
+    "marker": [-181.40364678542701,53.765625],
+    "description": "",
+    "image": "",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
   },
   {
     "type": "extract",
@@ -211,7 +221,7 @@
   },
   {
     "type": "extract",
-    "label": "Scavs Checkpoint",
+    "label": "Scav Checkpoint",
     "map": "Customs",
     "marker": [-205.70437137083877,16.000244140625],
     "description": "",
@@ -381,7 +391,7 @@
   },
   {
     "type": "extract",
-    "label": "Power Station",
+    "label": "Power Station V-Ex",
     "map": "Interchange",
     "marker": [-203.80944061035837,37.328125],
     "description": "",
@@ -411,7 +421,7 @@
   },
   {
     "type": "extract",
-    "label": "Gate To Factory",
+    "label": "Factory Gate",
     "map": "Woods",
     "marker": [-244.10710478871457,94.961669921875],
     "description": "",
@@ -461,7 +471,7 @@
   },
   {
     "type": "extract",
-    "label": "RUAF Roadblock",
+    "label": "RUAF Gate / RUAF Roadblock",
     "map": "Woods",
     "marker": [-249.74630962171054,72.7906494140625],
     "description": "",
@@ -481,7 +491,7 @@
   },
   {
     "type": "extract",
-    "label": "Bridge Extraction",
+    "label": "Bridge V-Ex",
     "map": "Woods",
     "marker": [-162.4779285013917,105.4776611328125],
     "description": "",
@@ -491,7 +501,7 @@
   },
   {
     "type": "extract",
-    "label": "The Boat",
+    "label": "Boat",
     "map": "Woods",
     "marker": [-229.98483600075912,42.20849609375],
     "description": "",
@@ -561,13 +571,13 @@
   },
   {
     "type": "extract",
-    "label": "CCP Temporary",
+    "label": "Railway Bridge",
     "map": "Shoreline",
-    "marker": [-237.25066715837323, 120.703125],
+    "marker": [-223.46548869826705,135.046875],
     "description": "",
-    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203904/ccp_temporary.jpg",
+    "image": "",
     "extractType": "PMC",
-    "extractNotes": "Occasionally Open. Will be open if the searchlight is on."
+    "extractNotes": "Always Open"
   },
   {
     "type": "extract",
@@ -601,13 +611,13 @@
   },
   {
     "type": "extract",
-    "label": "Rock Passage",
+    "label": "Path to Lighthouse",
     "map": "Shoreline",
-    "marker": [-169.4874475387554, 67.765625],
+    "marker": [-178.8120281423662,19.59375],
     "description": "",
-    "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1581203904/rock_passage.jpg",
+    "image": "",
     "extractType": "PMC",
-    "extractNotes": "Occasionally Open. Will be open if green flares are lit."
+    "extractNotes": "Always Open"
   },
   {
     "type": "extract",
@@ -631,7 +641,7 @@
   },
   {
     "type": "extract",
-    "label": "RWing Gym Entrance",
+    "label": "East Wing Gym Entrance",
     "map": "Shoreline",
     "marker": [-189.89992435023893, 76.046875],
     "description": "",
@@ -641,7 +651,7 @@
   },
   {
     "type": "extract",
-    "label": "South Fence Passage",
+    "label": "North Fence Passage",
     "map": "Shoreline",
     "marker": [-168.09785178851695, 95.703125],
     "description": "",
@@ -671,7 +681,7 @@
   },
   {
     "type": "extract",
-    "label": "01 Cargo Elevator",
+    "label": "Cargo Elevator",
     "map": "Labs",
     "marker": [-246.21970036424077, 10.40625],
     "description": "",
@@ -681,7 +691,7 @@
   },
   {
     "type": "extract",
-    "label": "02 Main Elevator",
+    "label": "Main Elevator",
     "map": "Labs",
     "marker": [-203.34565756563433, 117.84375],
     "description": "",
@@ -691,7 +701,7 @@
   },
   {
     "type": "extract",
-    "label": "03 Ventilation Shaft",
+    "label": "Ventilation Shaft",
     "map": "Labs",
     "marker": [-235.94632676427926, 95.6875],
     "description": "",
@@ -701,7 +711,7 @@
   },
   {
     "type": "extract",
-    "label": "04 Elevator of the Medical Block",
+    "label": "Medical Block Elevator",
     "map": "Labs",
     "marker": [-246.1349412201875, 113.0625],
     "description": "",
@@ -711,7 +721,7 @@
   },
   {
     "type": "extract",
-    "label": "05 Sewage Conduit",
+    "label": "Sewage Conduit",
     "map": "Labs",
     "marker": [-236.32136778719615, 136.5625],
     "description": "",
@@ -721,7 +731,7 @@
   },
   {
     "type": "extract",
-    "label": "06 Parking Gate",
+    "label": "Parking Gate",
     "map": "Labs",
     "marker": [-183.7222779708506, 36.90625],
     "description": "",
@@ -731,7 +741,7 @@
   },
   {
     "type": "extract",
-    "label": "07 Hangar Gate",
+    "label": "Hangar Gate",
     "map": "Labs",
     "marker": [-196.75185970556464, 97.09375],
     "description": "",
@@ -741,7 +751,7 @@
   },
   {
     "type": "extract",
-    "label": "Hole In The Wall",
+    "label": "Hole in the Wall by the Mountains",
     "map": "Reserve",
     "marker": [-185.66330277181467,114.28125],
     "description": "",
@@ -751,7 +761,7 @@
   },
   {
     "type": "extract",
-    "label": "Cliff Descent (Reserve)",
+    "label": "Cliff Descent",
     "map": "Reserve",
     "marker": [-200.47554117594717,99.3125],
     "description": "",
@@ -776,6 +786,16 @@
     "marker": [-176.4445796648478,94.09375],
     "description": "",
     "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1572219981/heating_pipe.jpg",
+    "extractType": "Scav",
+    "extractNotes": "Always Open"
+  },
+  {
+    "type": "extract",
+    "label": "Depot Hermetic Door",
+    "map": "Reserve",
+    "marker": [-173.1209892101126,34.015625],
+    "description": "",
+    "image": "",
     "extractType": "Scav",
     "extractNotes": "Always Open"
   },
@@ -807,11 +827,11 @@
     "description": "",
     "image": "https://res.cloudinary.com/de1mrvcda/image/upload/v1572219981/armored_train.jpg",
     "extractType": "PMC",
-    "extractNotes": "Always Open. Train arrives somewhere between 25-35 minutes into the raid. Waits for 7 minutes for leaving. Honks once 1 minute before leaving. Honks twice before leaving."
+    "extractNotes": "Always Open. Train arrives somewhere between 20-15 minutes left in the raid. Waits for 7 minutes for leaving. Honks once 1 minute before leaving. Honks twice before leaving."
   },
   {
     "type": "extract",
-    "label": "CP Fence",
+    "label": "Checkpoint Fence",
     "map": "Reserve",
     "marker": [-194.88306003814566,91.5625],
     "description": "",
@@ -831,7 +851,7 @@
   },
   {
     "type": "extract",
-    "label": "Hole In Fence",
+    "label": "Hole In The Fence",
     "map": "Interchange",
     "marker": [-220.58875554007852,36.142578125],
     "description": "",
