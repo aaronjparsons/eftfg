@@ -621,6 +621,10 @@
       {
         "module": "Security - Level 2",
         "amount": 1
+      },
+      {
+        "module": "Gym - Level 1",
+        "amount": 1
       }
     ]
   },
@@ -673,6 +677,10 @@
       {
         "module": "Water Collector - Level 2",
         "amount": 6
+      },
+      {
+        "module": "Defective wall - Level 6",
+        "amount": 2
       }
     ]
   },
@@ -930,6 +938,18 @@
       {
         "module": "Workbench - Level 2",
         "amount": 3
+      },
+      {
+        "module": "Defective wall - Level 5",
+        "amount": 1
+      },
+      {
+        "module": "Defective wall - Level 6",
+        "amount": 1
+      },
+      {
+        "module": "Gym - Level 1",
+        "amount": 1
       }
     ]
   },
@@ -1221,6 +1241,10 @@
       {
         "module": "Shooting Range - Level 3",
         "amount": 5
+      },
+      {
+        "module": "Defective wall - Level 6",
+        "amount": 2
       }
     ]
   },
@@ -2202,6 +2226,10 @@
       {
         "module": "Shooting Range - Level 2",
         "amount": 1
+      },
+      {
+        "module": "Gym - Level 1",
+        "amount": 1
       }
     ]
   },
@@ -2336,6 +2364,10 @@
       {
         "module": "Lighting - Level 2",
         "amount": 14
+      },
+      {
+        "module": "Defective wall - Level 6",
+        "amount": 2
       }
     ]
   },
@@ -2406,6 +2438,10 @@
       {
         "module": "Lavatory - Level 3",
         "amount": 3
+      },
+      {
+        "module": "Defective wall - Level 6",
+        "amount": 1
       }
     ]
   },
@@ -2526,7 +2562,7 @@
     ]
   },
   {
-    "name": "Screw Nut",
+    "name": "Screw Nuts",
     "tasks": [],
     "modules": [
       {
@@ -2544,6 +2580,10 @@
       {
         "module": "Stash - Level 4",
         "amount": 10
+      },
+      {
+        "module": "Gym - Level 1",
+        "amount": 3
       }
     ]
   },
@@ -2570,6 +2610,10 @@
       {
         "module": "Stash - Level 4",
         "amount": 10
+      },
+      {
+        "module": "Gym - Level 1",
+        "amount": 3
       }
     ]
   },
@@ -2587,6 +2631,10 @@
       },
       {
         "module": "Rest Space - Level 1",
+        "amount": 1
+      },
+      {
+        "module": "Defective wall - Level 6",
         "amount": 1
       }
     ]
@@ -2653,6 +2701,10 @@
       },
       {
         "module": "Security - Level 2",
+        "amount": 1
+      },
+      {
+        "module": "Defective wall - Level 6",
         "amount": 1
       }
     ]
@@ -3132,6 +3184,10 @@
       {
         "module": "Vents - Level 3",
         "amount": 5
+      },
+      {
+        "module": "Defective wall - Level 6",
+        "amount": 5
       }
     ]
   },
@@ -3263,6 +3319,40 @@
     "modules": [
       {
         "module": "Shooting Range - Level 3",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "name": "Fierce Blow Sledgehammer",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Defective wall - Level 4",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "name": "Metal Cutting Scissors",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Defective wall - Level 5",
+        "amount": 1
+      },
+      {
+        "module": "Gym - Level 1",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "name": "Insulating Tape",
+    "tasks": [],
+    "modules": [
+      {
+        "module": "Gym - Level 1",
         "amount": 1
       }
     ]
