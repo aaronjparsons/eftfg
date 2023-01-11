@@ -7,11 +7,11 @@
 module.exports = {
   siteName: 'EFTFG',
   plugins: [
-    {
-      use: '@gridsome/plugin-google-analytics',
-      options: {
-        id: 'UA-133325013-1'
-      }
-    }
+    // {
+    //   use: '@gridsome/plugin-google-analytics',
+    //   options: {
+    //     id: 'UA-133325013-1'
+    //   }
+    // }
   ]
 }
