@@ -55,7 +55,8 @@
       color="#161616"
     >
       <p class="mt-4 text-center" style="font-size: 1.75rem; font-weight: 600;">Looking For Group</p>
-      <p v-if="lfgCount > 0" class="text-center lfg-request-active">{{ lfgCount }} active requests</p>
+      <p class="mx-4 text-center caption-text">Join other players looking for a group by adding them in game, or create your own group request.</p>
+      <p v-if="lfgCount > 0" class="text-center lfg-request-active">{{ lfgCount }} active request{{ lfgCount > 1 ? 's' : '' }}</p>
       <p v-else class="text-center lfg-request-inactive">{{ lfgCount }} active requests</p>
       <div class="d-flex justify-center mb-6">
         <v-tooltip top :disabled="!hasLfg">
@@ -74,8 +75,8 @@
       </div>
       <v-divider></v-divider>
       <v-list>
-        <template v-for="[key, entry] in this.sortedLfgEntries">
-          <v-list-item :key="key" :class="{ 'primary-faded': currentUser.uid === key }">
+        <template v-for="[key, entry] in sortedLfgEntries">
+          <v-list-item :key="key" :class="{ 'primary-faded': currentUser && currentUser.uid === key }">
             <v-list-item-content>
               <v-list-item-title>Group Type:</v-list-item-title>
               <v-list-item-subtitle class="mb-2">{{ entry.type }}</v-list-item-subtitle>
@@ -87,7 +88,7 @@
               <v-list-item-subtitle class="mb-2">{{ entry.name }}</v-list-item-subtitle>
               <v-list-item-subtitle>Created {{ getTimeAgo(entry.timestamp) }}</v-list-item-subtitle>
               <v-btn
-                v-show="currentUser.uid === key"
+                v-show="currentUser && currentUser.uid === key"
                 color="#e00000"
                 fab
                 dark
@@ -155,12 +156,12 @@
             :items="lfgTypes"
             label="Group Type"
           ></v-select>
-          <v-select
+          <v-autocomplete
             v-model="lfgData.task"
             v-if="lfgData.type === 'Task'"
-            :items="lfgTypes"
+            :items="tasks"
             label="Task"
-          ></v-select>
+          ></v-autocomplete>
           <v-text-field
             v-model="lfgData.name"
             label="In-Game Name"
@@ -174,6 +175,12 @@
 
         <v-card-actions>
           <v-spacer></v-spacer>
+          <v-btn
+            text
+            @click="closeLfgDialog"
+          >
+            Close
+          </v-btn>
           <v-btn
             color="primary"
             text
@@ -235,6 +242,7 @@
 import { getDatabase, ref, set, remove } from "firebase/database";
 import { getAuth } from 'firebase/auth';
 import list from 'badwords-list';
+import tasksTitles from '../../data/task-names.json';
 import dayjs from 'dayjs';
 import relativeTime from 'dayjs/plugin/relativeTime';
 dayjs.extend(relativeTime);
@@ -254,7 +262,7 @@ export default {
     lfgTypes: ['Task', 'PvP', 'Farming'],
     lfgData: {
       type: 'Task',
-      task: null,
+      task: 'Any Task',
       name: '',
       timestamp: null
     },
@@ -267,6 +275,7 @@ export default {
       color: '',
       text: ''
     },
+    tasks: tasksTitles,
     navItems: [
       {
         route: '/',
@@ -336,9 +345,11 @@ export default {
       return this.$store.state.darkMode
     },
     sortedLfgEntries() {
-      return Object.entries(this.$store.state.lfgEntries).sort((a, b) => {
-        return a[0] === this.currentUser.uid ? -1 : 1;
-      })
+      return this.$store.state.lfgEntries
+        ? Object.entries(this.$store.state.lfgEntries).sort((a, b) => {
+          return a[0] === this.currentUser.uid ? -1 : 1;
+        })
+        : []
     },
     lfgBtnText() {
       return this.windowWidth > 560 ? 'Looking For Group' : 'LFG';
@@ -347,7 +358,7 @@ export default {
       return this.$store.state.lfgEntries ? Object.values(this.$store.state.lfgEntries).length : 0;
     },
     hasLfg() {
-      return this.$store.state.lfgEntries
+      return this.currentUser && this.$store.state.lfgEntries
         ? Object.keys(this.$store.state.lfgEntries).includes(this.currentUser.uid)
         : false
     }
@@ -370,7 +381,7 @@ export default {
       this.lfgDialog = false;
       this.lfgData = {
         type: 'Task',
-        task: null,
+        task: 'Any Task',
         name: '',
         timestamp: null
       }
