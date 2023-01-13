@@ -59,7 +59,7 @@
       <p v-if="lfgCount > 0" class="text-center lfg-request-active">{{ lfgCount }} active request{{ lfgCount > 1 ? 's' : '' }}</p>
       <p v-else class="text-center lfg-request-inactive">{{ lfgCount }} active requests</p>
       <div class="d-flex justify-center mb-6">
-        <v-tooltip top :disabled="!hasLfg">
+        <v-tooltip bottom :disabled="!hasLfg">
           <template v-slot:activator="{ on, attrs }">
             <v-btn
               dark
@@ -347,7 +347,7 @@ export default {
 
   computed: {
     currentUser() {
-      return getAuth().currentUser;
+      return this.$store.state.currentUser;
     },
     isDarkMode() {
       return this.$store.state.darkMode

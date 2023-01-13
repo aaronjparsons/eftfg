@@ -25,7 +25,8 @@ export default function (Vue, { head, appOptions }) {
       darkMode: true,
       marketItems: [],
       topMarketItems: [],
-      lfgEntries: {}
+      lfgEntries: {},
+      currentUser: null
     },
     mutations: {
       TOGGLE_DARKMODE(state) {
@@ -37,6 +38,9 @@ export default function (Vue, { head, appOptions }) {
       },
       SET_LFG_ENTRIES(state, entries) {
         state.lfgEntries = entries;
+      },
+      SET_CURRENT_USER(state, user) {
+        state.currentUser = user;
       }
     },
     actions: {
@@ -48,6 +52,9 @@ export default function (Vue, { head, appOptions }) {
       },
       setLfgEntries({ commit }, entries) {
         commit('SET_LFG_ENTRIES', entries)
+      },
+      setCurrentUser({ commit }, user) {
+        commit('SET_CURRENT_USER', user)
       }
     }
   })

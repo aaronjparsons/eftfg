@@ -42,6 +42,7 @@ export const setupFirebase = (store) => {
             // https://firebase.google.com/docs/reference/js/firebase.User
             const uid = user.uid;
             console.log('auth changed -> ', user)
+            store.dispatch('setCurrentUser', user);
             // ...
         } else {
             // User is signed out
