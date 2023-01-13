@@ -150,7 +150,13 @@
         </v-card-title>
 
         <v-card-text>
-
+          <v-alert
+            dense
+            text
+            type="warning"
+          >
+            Looking for group requests will be automatically deleted after 6 hours. You can choose to manually delete them as well.
+          </v-alert>
           <v-select
             v-model="lfgData.type"
             :items="lfgTypes"
@@ -253,7 +259,6 @@ export default {
   },
 
   data: () => ({
-    currentUser: getAuth().currentUser,
     drawer: null,
     lfgDrawer: null,
     lfgEntries: null,
@@ -326,7 +331,7 @@ export default {
   }),
 
   created() {
-    this.$vuetify.theme.dark = this.isDarkMode
+    this.$vuetify.theme.dark = this.isDarkMode;
   },
 
   mounted() {
@@ -341,6 +346,9 @@ export default {
   },
 
   computed: {
+    currentUser() {
+      return getAuth().currentUser;
+    },
     isDarkMode() {
       return this.$store.state.darkMode
     },
