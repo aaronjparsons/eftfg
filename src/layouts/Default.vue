@@ -161,14 +161,14 @@
             v-model="lfgData.type"
             :items="lfgTypes"
             label="Group Type"
-            style="z-index: 10000;"
+            style="z-index: 10000; !important"
           ></v-select>
           <v-autocomplete
             v-model="lfgData.task"
             v-if="lfgData.type === 'Task'"
             :items="tasks"
             label="Task"
-            style="z-index: 10000;"
+            style="z-index: 10000; !important"
           ></v-autocomplete>
           <v-text-field
             v-model="lfgData.name"
