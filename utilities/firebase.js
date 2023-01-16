@@ -20,12 +20,8 @@ export let auth;
 export const setupFirebase = (store) => {
     app = initializeApp(firebaseConfig);
     const db = getDatabase(app);
-    try {
-        if (isSupported()) {
-            const analytics = getAnalytics(app);
-        }
-    } catch {
-        console.log('analytics not supported')
+    if (isSupported()) {
+        const analytics = getAnalytics(app);
     }
 
     auth = getAuth();

@@ -272,7 +272,7 @@ export default {
     drawer: null,
     lfgDrawer: null,
     lfgEntries: null,
-    windowWidth: window.innerWidth,
+    windowWidth: ,
     lfgDialog: false,
     lfgTypes: ['Task', 'PvP', 'Farming'],
     lfgData: {
@@ -348,6 +348,7 @@ export default {
     (window.adsbygoogle = window.adsbygoogle || []).push({})
     this.$nextTick(() => {
       window.addEventListener('resize', this.onResize);
+      this.windowWidth = window.innerWidth;
     })
   },
 
