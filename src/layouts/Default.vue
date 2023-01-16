@@ -269,6 +269,7 @@ export default {
   },
 
   data: () => ({
+    watchHasInit: false,
     drawer: null,
     lfgDrawer: null,
     lfgEntries: null,
@@ -385,6 +386,12 @@ export default {
 
   watch: {
     sortedLfgEntries(curr, prev) {
+      if (!this.watchHasInit) {
+        // Hacky...
+        this.watchHasInit = true;
+        return;
+      }
+
       if (curr.length === 0 || prev.length > curr.length) {
         return;
       }
@@ -439,7 +446,8 @@ export default {
         return;
       }
 
-      for (const word of list.array) {
+      const profanity = list.array.filter(w => ['damn',' hell', 'nob', 'God', 'bum', 'ass', 'butt', 'willy', 'bloody', 'sadist', 'hoer', 'hoar', 'tit', 'jap', 'crap', 'cok', 'fux', 'pecker', 'pawn', 'poop'].includes(w))
+      for (const word of profanity) {
         if (this.lfgData.name.toLowerCase().includes(word.toLowerCase())) {
           this.toast = {
             color: '#e00000',
