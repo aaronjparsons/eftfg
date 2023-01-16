@@ -384,7 +384,7 @@ export default {
 
   watch: {
     sortedLfgEntries(curr, prev) {
-      if (prev.length > curr.length) {
+      if (curr.length === 0 || prev.length > curr.length) {
         return;
       }
 

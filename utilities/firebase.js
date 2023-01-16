@@ -1,10 +1,10 @@
 import { initializeApp  } from 'firebase/app';
-import { getAnalytics } from "firebase/analytics";
+import { getAnalytics, isSupported } from "firebase/analytics";
 import { getAuth, signInAnonymously, onAuthStateChanged  } from "firebase/auth";
 import { getDatabase, ref, onValue} from "firebase/database";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBwbB8-CCmm5nWURWBxtu_Fm9b2AG4_Hh0",
+    apiKey: process.env.GRIDSOME_FIREBASE_API_KEY,
     authDomain: "eftfg-f1ce4.firebaseapp.com",
     databaseURL: "https://eftfg-f1ce4.firebaseio.com",
     projectId: "eftfg-f1ce4",
@@ -20,7 +20,9 @@ export let auth;
 export const setupFirebase = (store) => {
     app = initializeApp(firebaseConfig);
     const db = getDatabase(app);
-    const analytics = getAnalytics(app);
+    if (isSupported()) {
+        const analytics = getAnalytics(app);
+    }
 
     auth = getAuth();
     signInAnonymously(auth)
@@ -40,8 +42,6 @@ export const setupFirebase = (store) => {
         if (user) {
             // User is signed in, see docs for a list of available properties
             // https://firebase.google.com/docs/reference/js/firebase.User
-            const uid = user.uid;
-            console.log('auth changed -> ', user)
             store.dispatch('setCurrentUser', user);
             // ...
         } else {
