@@ -161,14 +161,12 @@
             v-model="lfgData.type"
             :items="lfgTypes"
             label="Group Type"
-            style="z-index: 10000; !important"
           ></v-select>
           <v-autocomplete
             v-model="lfgData.task"
             v-if="lfgData.type === 'Task'"
             :items="tasks"
             label="Task"
-            style="z-index: 10000; !important"
           ></v-autocomplete>
           <v-text-field
             v-model="lfgData.name"
@@ -541,6 +539,10 @@ export default {
 
 .v-app-bar {
   z-index: 165 !important;
+}
+
+.v-menu__content {
+  z-index: 300 !important;
 }
 
 .theme--dark.v-card {
