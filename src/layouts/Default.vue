@@ -272,7 +272,7 @@ export default {
     drawer: null,
     lfgDrawer: null,
     lfgEntries: null,
-    windowWidth: ,
+    windowWidth: null,
     lfgDialog: false,
     lfgTypes: ['Task', 'PvP', 'Farming'],
     lfgData: {
