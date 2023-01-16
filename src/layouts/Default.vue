@@ -235,18 +235,28 @@
 
     <v-snackbar
         v-model="snackbar"
-        timeout="3500"
+        :timeout="toast.timeout"
         top
         :color="toast.color"
+        style="margin-top: 30px;"
       >
         {{ toast.text }}
+        <template v-if="toast.action" v-slot:action="{ attrs }">
+          <v-btn
+            color="primary"
+            text
+            v-bind="attrs"
+            @click="toast.action"
+          >
+            View
+          </v-btn>
+        </template>
       </v-snackbar>
   </v-app>
 </template>
 
 <script>
 import { getDatabase, ref, set, remove } from "firebase/database";
-import { getAuth } from 'firebase/auth';
 import list from 'badwords-list';
 import tasksTitles from '../../data/task-names.json';
 import dayjs from 'dayjs';
@@ -354,7 +364,7 @@ export default {
     },
     sortedLfgEntries() {
       return this.$store.state.lfgEntries
-        ? Object.entries(this.$store.state.lfgEntries).sort((a, b) => {
+        ? Object.entries(this.$store.state.lfgEntries).reverse().sort((a, b) => {
           return a[0] === this.currentUser.uid ? -1 : 1;
         })
         : []
@@ -369,6 +379,29 @@ export default {
       return this.currentUser && this.$store.state.lfgEntries
         ? Object.keys(this.$store.state.lfgEntries).includes(this.currentUser.uid)
         : false
+    }
+  },
+
+  watch: {
+    sortedLfgEntries(curr, prev) {
+      if (prev.length > curr.length) {
+        return;
+      }
+
+      const [unique] = curr.filter(entry => !prev.some(e => entry[0] === e[0]));
+      if (unique[0] !== this.currentUser.uid) {
+        // New entry from another user
+        this.toast = {
+          color: '',
+          text: `New looking for group request - (${unique[1].type})`,
+          timeout: 4500,
+          action: () => {
+            this.lfgDrawer = true;
+            this.snackbar = false;
+          }
+        }
+        this.snackbar = true;
+      }
     }
   },
 
@@ -398,7 +431,8 @@ export default {
       if (this.lfgData.name.length === 0) {
         this.toast = {
           color: '#e00000',
-          text: 'In-Game Name is required'
+          text: 'In-Game Name is required',
+          timeout: 3500
         }
         this.snackbar = true;
         return;
@@ -408,7 +442,8 @@ export default {
         if (this.lfgData.name.toLowerCase().includes(word.toLowerCase())) {
           this.toast = {
             color: '#e00000',
-            text: 'In-Game Name contains profanity'
+            text: 'In-Game Name contains profanity',
+            timeout: 3500
           }
           this.snackbar = true;
           return;
@@ -424,14 +459,16 @@ export default {
         this.closeLfgDialog();
         this.toast = {
           color: '#009c00',
-          text: 'Looking For Group request created'
+          text: 'Looking For Group request created',
+          timeout: 3500
         }
         this.snackbar = true;
       })
       .catch((error) => {
         this.toast = {
           color: '#e00000',
-          text: 'An error ocurred attempting to create the request'
+          text: 'An error ocurred attempting to create the request',
+          timeout: 3500
         }
         this.snackbar = true;
       });
@@ -446,14 +483,16 @@ export default {
         this.lfgDeleteConfirm = false;
         this.toast = {
           color: '#009c00',
-          text: 'Looking For Group request deleted'
+          text: 'Looking For Group request deleted',
+          timeout: 3500
         }
         this.snackbar = true;
       })
       .catch((error) => {
         this.toast = {
           color: '#e00000',
-          text: 'An error ocurred attempting to delete the request'
+          text: 'An error ocurred attempting to delete the request',
+          timeout: 3500
         }
         this.snackbar = true;
       });
