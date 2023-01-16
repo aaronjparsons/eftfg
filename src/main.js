@@ -1,4 +1,7 @@
 import Vuex from 'vuex'
+// import { initializeApp, logEvent  } from 'firebase/app';
+// import { getAnalytics } from "firebase/analytics";
+import { setupFirebase } from '../utilities/firebase';
 // import VueApexCharts from 'vue-apexcharts'
 import Vuetify from 'vuetify'
 import DefaultLayout from '~/layouts/Default.vue'
@@ -21,7 +24,9 @@ export default function (Vue, { head, appOptions }) {
     state: {
       darkMode: true,
       marketItems: [],
-      topMarketItems: []
+      topMarketItems: [],
+      lfgEntries: {},
+      currentUser: null
     },
     mutations: {
       TOGGLE_DARKMODE(state) {
@@ -30,6 +35,12 @@ export default function (Vue, { head, appOptions }) {
       SET_MARKET_ITEMS(state, items) {
         state.marketItems = items.data;
         state.topMarketItems = items.top;
+      },
+      SET_LFG_ENTRIES(state, entries) {
+        state.lfgEntries = entries;
+      },
+      SET_CURRENT_USER(state, user) {
+        state.currentUser = user;
       }
     },
     actions: {
@@ -38,9 +49,18 @@ export default function (Vue, { head, appOptions }) {
       },
       setMarketItems({ commit }, items) {
         commit('SET_MARKET_ITEMS', items)
+      },
+      setLfgEntries({ commit }, entries) {
+        commit('SET_LFG_ENTRIES', entries)
+      },
+      setCurrentUser({ commit }, user) {
+        commit('SET_CURRENT_USER', user)
       }
     }
   })
+
+  // Firebase
+  setupFirebase(appOptions.store);
 
   // Material icons
   head.link.push({
