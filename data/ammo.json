@@ -1,39 +1,18 @@
 {
     "changes": [
         {
-            "damage": [
-                "137",
-                "130"
+            "penetration": [
+                "27",
+                "31"
             ],
-            "name": ".45 ACP RIP"
+            "name": "5.45x39mm PS gs"
         },
         {
-            "damage": [
-                "105",
-                "100"
+            "penetration": [
+                "28",
+                "30"
             ],
-            "name": ".45 ACP Hydra-Shok"
-        },
-        {
-            "damage": [
-                "80",
-                "76"
-            ],
-            "name": ".45 ACP Lasermatch FMJ"
-        },
-        {
-            "damage": [
-                "76",
-                "72"
-            ],
-            "name": ".45 ACP Match FMJ"
-        },
-        {
-            "damage": [
-                "70",
-                "66"
-            ],
-            "name": ".45 ACP AP"
+            "name": "5.56x45mm M855"
         }
     ],
     "ammo": [
@@ -578,7 +557,7 @@
             "fragmentation": "5%"
         },
         {
-            "name": ".357 Magnum Soft Point",
+            "name": ".357 Magnum SP",
             "damage": "108",
             "penetration": "12",
             "armorDamage": "15",
@@ -587,7 +566,7 @@
             "fragmentation": "20%"
         },
         {
-            "name": ".357 Magnum Hollow Point",
+            "name": ".357 Magnum HP",
             "damage": "99",
             "penetration": "18",
             "armorDamage": "20",
@@ -931,7 +910,7 @@
         {
             "name": "5.45x39mm PS gs",
             "damage": "48",
-            "penetration": "27",
+            "penetration": "31",
             "armorDamage": "35",
             "accuracy": "",
             "recoil": "",
@@ -1048,7 +1027,7 @@
         {
             "name": "5.56x45mm M855",
             "damage": "53",
-            "penetration": "28",
+            "penetration": "30",
             "armorDamage": "37",
             "accuracy": "-5",
             "recoil": "",

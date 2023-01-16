@@ -1,5 +1,16 @@
 [
   {
+    "date": "2023/01/15",
+    "summary": [
+      "Added Looking for Group Feature",
+      "Updated ammo"
+    ],
+    "changes": [
+      "Added Looking for Group Feature. Create requests or join other players in game",
+      "Updated ammo"
+    ]
+  },
+  {
     "date": "2022/12/29",
     "summary": [
       "Updated ammo for patch 0.13",
