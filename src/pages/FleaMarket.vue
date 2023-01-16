@@ -229,6 +229,7 @@
 </template>
 
 <script>
+import { getAnalytics, logEvent } from "firebase/analytics";
 import { distance } from '../../helpers/dateHelpers'
 
 export default {
@@ -356,6 +357,10 @@ export default {
         this.error = true;
       } else {
         this.selectedItem = selected
+        try {
+          const analytics = getAnalytics();
+          logEvent(analytics, 'flea_item_searched', { item: this.selectedItem.name });
+        } catch(e) {}
       }
       this.loadingItem = false
     },

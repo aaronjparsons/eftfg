@@ -111,10 +111,10 @@
       <v-app-bar-nav-icon class="primary--text" @click.stop="drawer = !drawer" />
       <v-toolbar-title class="primary--text" :style="{ 'font-family': 'Bender Black', 'font-size': '2rem' }">EFT Field Guide</v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn v-if="lfgCount > 0" @click.stop="lfgDrawer = !lfgDrawer">
+      <v-btn v-if="lfgCount > 0" @click.stop="openLfgDrawer">
         {{ lfgBtnText }} <span class="lfg-request lfg-request-active">⬤</span>
       </v-btn>
-      <v-btn v-else @click.stop="lfgDrawer = !lfgDrawer">
+      <v-btn v-else @click.stop="openLfgDrawer">
         {{ lfgBtnText }} <span class="lfg-request lfg-request-inactive">⬤</span>
       </v-btn>
       <!-- <v-spacer></v-spacer>
@@ -257,6 +257,7 @@
 
 <script>
 import { getDatabase, ref, set, remove } from "firebase/database";
+import { getAnalytics, logEvent } from "firebase/analytics";
 import list from 'badwords-list';
 import tasksTitles from '../../data/task-names.json';
 import dayjs from 'dayjs';
@@ -404,7 +405,7 @@ export default {
           text: `New looking for group request - (${unique[1].type})`,
           timeout: 4500,
           action: () => {
-            this.lfgDrawer = true;
+            openLfgDrawer();
             this.snackbar = false;
           }
         }
@@ -421,9 +422,20 @@ export default {
     onResize() {
       this.windowWidth = window.innerWidth
     },
+    openLfgDrawer() {
+      this.lfgDrawer = true;
+      try{
+        const analytics = getAnalytics();
+        logEvent(analytics, 'lfg_drawer_opened');
+      } catch(e) {}
+    },
     openLfgDialog() {
       if (!this.hasLfg) {
         this.lfgDialog = true;
+        try {
+          const analytics = getAnalytics();
+          logEvent(analytics, 'lfg_dialog_opened');
+        } catch(e) {}
       }
     },
     closeLfgDialog() {
@@ -465,6 +477,11 @@ export default {
 
       set(ref(db, `/lfg/${this.currentUser.uid}`), this.lfgData)
       .then(() => {
+        try {
+          const analytics = getAnalytics();
+          const type = this.lfgData.type;
+          logEvent(analytics, 'lfg_request_created', { type });
+        } catch (e) {}
         this.closeLfgDialog();
         this.toast = {
           color: '#009c00',
