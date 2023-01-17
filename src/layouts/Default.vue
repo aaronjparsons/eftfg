@@ -47,7 +47,7 @@
 
     <v-navigation-drawer
       v-model="lfgDrawer"
-      absolute
+      app
       temporary
       right
       :stateless="lfgDialog || lfgDeleteConfirm"
