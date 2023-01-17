@@ -1,14 +1,6 @@
 <template>
   <v-app>
     <v-navigation-drawer v-model="drawer" app clipped width="300" color="#161616">
-      <!-- <div class="px-2 pt-4 pb-2">
-        <v-btn v-if="lfgCount > 0" @click.stop="openLfgDrawer">
-          {{ lfgBtnText }} <span class="lfg-request lfg-request-active">⬤</span>
-        </v-btn>
-        <v-btn v-else @click.stop="openLfgDrawer">
-          {{ lfgBtnText }} <span class="lfg-request lfg-request-inactive">⬤</span>
-        </v-btn>
-      </div> -->
       <v-list nav>
         <v-list-item
           v-for="(item, index) in navItems"
