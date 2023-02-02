@@ -43,7 +43,7 @@
           <v-card-title>{{ item.node.name }}</v-card-title>
           <v-card-subtitle>Total Needed: {{ calculateTotal(item.node) }}</v-card-subtitle>
           <v-card-text>
-            <div v-if="(listSelection === 'all' || listSelection ==='tasks') && item.node.tasks.length">
+            <div v-if="(listSelection === 'all' || listSelection ==='tasks' || listSelection ==='tasks-in-raid') && item.node.tasks.length">
               Tasks:
               <v-card outlined>
                 <v-card-text class="py-0">
@@ -181,11 +181,15 @@ export default {
           value: 'all'
         },
         {
-          text: 'Tasks Only',
+          text: 'Tasks',
           value: 'tasks'
         },
         {
-          text: 'Hideout Only',
+          text: 'Tasks (Find in Raid only)',
+          value: 'tasks-in-raid'
+        },
+        {
+          text: 'Hideout',
           value: 'hideout'
         }
       ]
@@ -226,10 +230,14 @@ export default {
     },500),
     filter(selection, list) {
       return list.filter(item => {
-        if ((selection === 'all') || (selection === 'tasks' && item.node.tasks.length) || (selection === 'hideout' && item.node.modules.length)) {
+        if (selection === 'tasks-in-raid' && item.node.tasks.length && item.node.tasks.some(task => task.findInRaid)) {
           return item.node.name.toLowerCase().includes(this.debouncedSearchQuery.toLowerCase())
         } else {
-          return false
+          if ((selection === 'all') || (selection === 'tasks' && item.node.tasks.length) || (selection === 'hideout' && item.node.modules.length)) {
+            return item.node.name.toLowerCase().includes(this.debouncedSearchQuery.toLowerCase())
+          } else {
+            return false
+          }
         }
       })
     },
