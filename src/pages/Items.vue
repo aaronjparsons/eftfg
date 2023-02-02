@@ -11,7 +11,7 @@
       </p>
     </v-row>
     <v-divider class="mx-8 mb-4" />
-    <v-row justify="center">
+    <v-row justify="center" align="baseline">
       <v-col cols="11" sm="4" md="3">
         <v-row justify="center" align="center">
           <v-text-field
@@ -48,7 +48,7 @@
               <v-card outlined>
                 <v-card-text class="py-0">
                   <div v-for="(task, taskIndex) in item.node.tasks" :key="taskIndex">
-                    <v-row>
+                    <v-row class="py-3">
                       <v-col cols=12 md=4 class="text-center">
                         {{ task.task }}
                       </v-col>
@@ -70,7 +70,7 @@
               <v-card outlined>
                 <v-card-text class="py-0">
                   <div v-for="(module, moduleIndex) in item.node.modules" :key="moduleIndex">
-                    <v-row>
+                    <v-row class="py-3">
                       <v-col cols=12 md=6 class="text-center">
                         {{ module.module }}
                       </v-col>
