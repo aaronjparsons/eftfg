@@ -1,18 +1,100 @@
 {
     "changes": [
         {
-            "penetration": [
-                "27",
-                "31"
+            "recoil": [
+                "+20",
+                "+5"
             ],
-            "name": "5.45x39mm PS gs"
+            "name": "9x19mm RIP"
         },
         {
+            "recoil": [
+                "+15",
+                "+5"
+            ],
+            "name": "9x19mm PBP gzh"
+        },
+        {
+            "recoil": [
+                "-4",
+                ""
+            ],
+            "name": "9x21mm BT gzh"
+        },
+        {
+            "recoil": [
+                "+5",
+                "+1"
+            ],
+            "name": ".300 Blackout M62 Tracer"
+        },
+        {
+            "recoil": [
+                "+10",
+                "+3"
+            ],
+            "name": ".300 Blackout AP"
+        },
+        {
+            "damage": [
+                "88",
+                "83"
+            ],
             "penetration": [
-                "28",
+                "31",
+                "35"
+            ],
+            "armorDamage": [
+                "33",
+                "42"
+            ],
+            "accuracy": [
+                "",
+                "-7"
+            ],
+            "recoil": [
+                "-3",
+                ""
+            ],
+            "fragmentation": [
+                "25%",
+                "20%"
+            ],
+            "name": "7.62x51mm BCP FMJ"
+        },
+        {
+            "damage": [
+                "67",
+                "87"
+            ],
+            "penetration": [
+                "34",
                 "30"
             ],
-            "name": "5.56x45mm M855"
+            "armorDamage": [
+                "40",
+                "25"
+            ],
+            "accuracy": [
+                "-8",
+                "-2"
+            ],
+            "recoil": [
+                "-5",
+                "-3"
+            ],
+            "fragmentation": [
+                "20%",
+                "35%"
+            ],
+            "name": "7.62x51mm TCW SP"
+        },
+        {
+            "recoil": [
+                "-5",
+                "-1"
+            ],
+            "name": "7.62x51mm M62 Tracer"
         }
     ],
     "ammo": [
@@ -490,7 +572,7 @@
             "penetration": "2",
             "armorDamage": "11",
             "accuracy": "",
-            "recoil": "+20",
+            "recoil": "+5",
             "fragmentation": "100%"
         },
         {
@@ -553,7 +635,7 @@
             "penetration": "39",
             "armorDamage": "53",
             "accuracy": "+5",
-            "recoil": "+15",
+            "recoil": "+5",
             "fragmentation": "5%"
         },
         {
@@ -670,7 +752,7 @@
             "penetration": "39",
             "armorDamage": "47",
             "accuracy": "-4",
-            "recoil": "-4",
+            "recoil": "",
             "fragmentation": "20%"
         },
         {
@@ -1102,7 +1184,7 @@
             "penetration": "36",
             "armorDamage": "40",
             "accuracy": "",
-            "recoil": "+5",
+            "recoil": "+1",
             "fragmentation": "20%"
         },
         {
@@ -1111,7 +1193,7 @@
             "penetration": "48",
             "armorDamage": "65",
             "accuracy": "",
-            "recoil": "+10",
+            "recoil": "+3",
             "fragmentation": "30%"
         },
         {
@@ -1179,21 +1261,21 @@
         },
         {
             "name": "7.62x51mm BCP FMJ",
-            "damage": "88",
-            "penetration": "31",
-            "armorDamage": "33",
-            "accuracy": "",
-            "recoil": "-3",
-            "fragmentation": "25%"
+            "damage": "83",
+            "penetration": "35",
+            "armorDamage": "42",
+            "accuracy": "-7",
+            "recoil": "",
+            "fragmentation": "20%"
         },
         {
             "name": "7.62x51mm TCW SP",
-            "damage": "67",
-            "penetration": "34",
-            "armorDamage": "40",
-            "accuracy": "-8",
-            "recoil": "-5",
-            "fragmentation": "20%"
+            "damage": "87",
+            "penetration": "30",
+            "armorDamage": "25",
+            "accuracy": "-2",
+            "recoil": "-3",
+            "fragmentation": "35%"
         },
         {
             "name": "7.62x51mm M80",
@@ -1210,7 +1292,7 @@
             "penetration": "44",
             "armorDamage": "75",
             "accuracy": "-6",
-            "recoil": "-5",
+            "recoil": "-1",
             "fragmentation": "14%"
         },
         {

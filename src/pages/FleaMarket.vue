@@ -64,7 +64,31 @@
               <div class="item-name">{{ selectedItem.name }}</div>
               <div class="item-updated">{{ format(selectedItem.updated) }}</div>
               <div class="item-updated">Searches today: {{ selectedItem.searchCount || 0 }}</div>
-              <div class="item-price">₽{{ parsePrice(selectedItem.price) }}</div>
+              <v-row justify="space-between" align="center">
+                <div class="item-price">₽{{ parsePrice(selectedItem.price) }}</div>
+                <v-tooltip v-if="selectedItem.requiredItem" left>
+                  <template v-slot:activator="{ on, attrs }">
+                    <p v-bind="attrs" v-on="on" class="mr-6"><v-icon class="mr-1">mdi-information-outline</v-icon>Required item</p>
+                  </template>
+                  <div>
+                    <div v-if="selectedItem.requiredItem.tasks.length">
+                      <span class="required-name">Required for task(s):</span>
+                      <div v-for="(task, index) in selectedItem.requiredItem.tasks">
+                        <span>"{{ task.task }}" - {{ task.amount }}</span>
+                        <span v-if="task.findInRaid" class="ml-2">(Found in raid)</span>
+                      </div>
+                    </div>
+                    <hr v-if="selectedItem.requiredItem.tasks.length && selectedItem.requiredItem.modules.length" class="my-2" />
+                    <div v-if="selectedItem.requiredItem.modules.length">
+                      <span class="required-name">Required for hideout:</span>
+                      <div v-for="(module, index) in selectedItem.requiredItem.modules">
+                        <span>"{{ module.module }}" - {{ module.amount }}</span>
+                        <span v-if="module.findInRaid" class="ml-2">(Found in raid)</span>
+                      </div>
+                    </div>
+                  </div>
+                </v-tooltip>
+              </v-row>
             </div>
             <div v-if="isMobile" class="text-right">
               <div class="item-updated">Expand</div>
@@ -154,7 +178,31 @@
                 <div class="item-name">{{ item.name }}</div>
                 <div class="item-updated">{{ format(item.updated) }}</div>
                 <div class="item-updated">Searches today: {{ item.searchCount || 0 }}</div>
-                <div class="item-price">₽{{ parsePrice(item.price) }}</div>
+                <v-row justify="space-between" align="center">
+                  <div class="item-price">₽{{ parsePrice(item.price) }}</div>
+                  <v-tooltip v-if="item.requiredItem" left>
+                    <template v-slot:activator="{ on, attrs }">
+                      <p v-bind="attrs" v-on="on" class="mr-6"><v-icon class="mr-1">mdi-information-outline</v-icon>Required item</p>
+                    </template>
+                    <div>
+                      <div v-if="item.requiredItem.tasks.length">
+                        <span class="required-name">Required for task(s):</span>
+                        <div v-for="(task, index) in item.requiredItem.tasks">
+                          <span>"{{ task.task }}" - {{ task.amount }}</span>
+                          <span v-if="task.findInRaid" class="ml-2">(Found in raid)</span>
+                        </div>
+                      </div>
+                      <hr v-if="item.requiredItem.tasks.length && item.requiredItem.modules.length" class="my-2" />
+                      <div v-if="item.requiredItem.modules.length">
+                        <span class="required-name">Required for hideout:</span>
+                        <div v-for="(module, index) in item.requiredItem.modules">
+                          <span>"{{ module.module }}" - {{ module.amount }}</span>
+                          <span v-if="module.findInRaid" class="ml-2">(Found in raid)</span>
+                        </div>
+                      </div>
+                    </div>
+                  </v-tooltip>
+                </v-row>
               </div>
               <div v-if="isMobile" class="text-right">
                 <div class="item-updated">Expand</div>
@@ -227,6 +275,28 @@
     </v-row>
   </Layout>
 </template>
+
+<page-query>
+  query {
+    allItems: allRequiredItems(sortBy: "name", order: ASC) {
+      edges {
+        node {
+          _id,
+          name,
+          tasks {
+            task,
+            amount,
+            findInRaid
+          },
+          modules {
+            module,
+            amount
+          }
+        }
+      }
+    }
+  }
+</page-query>
 
 <script>
 import { getAnalytics, logEvent } from "firebase/analytics";
@@ -310,6 +380,14 @@ export default {
       if (marketItems.error) {
         this.error = true;
       } else {
+        for (const index in marketItems.top) {
+          const item = marketItems.top[index];
+          const requiredItem = this.$page.allItems.edges.find(i => i.node['_id'] === item['_id']);
+          marketItems.top[index] = {
+            ...marketItems.top[index],
+            requiredItem: requiredItem ? requiredItem.node : null
+          }
+        }
         this.$store.dispatch('setMarketItems', marketItems)
       }
     }
@@ -356,7 +434,11 @@ export default {
       if (selected.error) {
         this.error = true;
       } else {
-        this.selectedItem = selected
+        const requiredItem = this.$page.allItems.edges.find(i => i.node['_id'] === selected['_id']);
+        this.selectedItem = {
+          ...selected,
+          requiredItem: requiredItem ? requiredItem.node : null
+        }
         try {
           const analytics = getAnalytics();
           logEvent(analytics, 'flea_item_searched', { item: this.selectedItem.name });
@@ -438,6 +520,11 @@ export default {
 .item-price {
   font-size: 2rem;
   font-weight: 500;
+}
+.required-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  opacity: 0.9;
 }
 .data-card {
   height: 100%;

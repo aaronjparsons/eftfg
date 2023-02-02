@@ -1,5 +1,6 @@
 [
   {
+    "_id": "5f7a6f33733986d86f820bac",
     "name": "MP-133 Shotgun",
     "tasks": [
       {
@@ -16,6 +17,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820c3f",
     "name": "6L31 60-round AK Magazine",
     "tasks": [
       {
@@ -27,6 +29,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820b10",
     "name": "Lower Half Mask",
     "tasks": [
       {
@@ -38,6 +41,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f8209dc",
     "name": "Bottle of Tarkovskaya Vodka",
     "tasks": [
       {
@@ -49,6 +53,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f8209e2",
     "name": "Bottle of Dan Jackiel Whiskey",
     "tasks": [
       {
@@ -65,6 +70,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f8209df",
     "name": "Can of TarCola Soda",
     "tasks": [
       {
@@ -76,6 +82,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820926",
     "name": "Purified Water",
     "tasks": [
       {
@@ -87,6 +94,7 @@
     "modules": []
   },
   {
+    "_id": "62bd491e7a7b89965c65475b",
     "name": "Bottle of Pevko Light Beer",
     "tasks": [
       {
@@ -98,6 +106,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820b93",
     "name": "Bars A-2607 Knife",
     "tasks": [
       {
@@ -109,6 +118,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820b6c",
     "name": "AK-74N Rifle",
     "tasks": [
       {
@@ -120,6 +130,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820b75",
     "name": "M4A1 Rifle",
     "tasks": [
       {
@@ -146,6 +157,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820ba4",
     "name": "PM Pistol",
     "tasks": [
       {
@@ -157,6 +169,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f8209c0",
     "name": "USEC Dogtag",
     "tasks": [
       {
@@ -178,13 +191,7 @@
         "task": "Compensation for Damage - Trust",
         "amount": 5,
         "findInRaid": true
-      }
-    ],
-    "modules": []
-  },
-  {
-    "name": "USEC Dogtag (Level 50+)",
-    "tasks": [
+      },
       {
         "task": "Trophies",
         "amount": 20,
@@ -194,6 +201,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f8209c1",
     "name": "BEAR Dogtag",
     "tasks": [
       {
@@ -210,13 +218,7 @@
         "task": "Compensation for Damage - Trust",
         "amount": 5,
         "findInRaid": true
-      }
-    ],
-    "modules": []
-  },
-  {
-    "name": "BEAR Dogtag (Level 50+)",
-    "tasks": [
+      },
       {
         "task": "Trophies",
         "amount": 20,
@@ -226,6 +228,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820bbf",
     "name": "M67 Grenade",
     "tasks": [
       {
@@ -237,6 +240,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820943",
     "name": "6-STEN-140-M Military Battery",
     "tasks": [
       {
@@ -253,6 +257,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a66",
     "name": "OFZ 30x160mm Shell",
     "tasks": [
       {
@@ -264,6 +269,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f8209d8",
     "name": "Salewa First Aid Kit",
     "tasks": [
       {
@@ -275,6 +281,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f8209b6",
     "name": "Gas Analyzer",
     "tasks": [
       {
@@ -296,6 +303,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f8209da",
     "name": "Morphine Injector",
     "tasks": [
       {
@@ -312,6 +320,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820a1f",
     "name": "Tushonka Beef Stew",
     "tasks": [
       {
@@ -323,6 +332,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820941",
     "name": "Car Battery",
     "tasks": [
       {
@@ -343,6 +353,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a4d",
     "name": "Spark Plug",
     "tasks": [
       {
@@ -363,6 +374,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a36",
     "name": "Gunpowder 'Kite'",
     "tasks": [
       {
@@ -374,6 +386,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f82097e",
     "name": "303 Dorm Room Key",
     "tasks": [
       {
@@ -385,6 +398,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820a04",
     "name": "ZB-014 Key",
     "tasks": [
       {
@@ -396,6 +410,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820980",
     "name": "Customs Military Checkpoint Key",
     "tasks": [
       {
@@ -407,6 +422,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820a5e",
     "name": "Gas Station Closet Key",
     "tasks": [
       {
@@ -418,6 +434,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820997",
     "name": "Ophthalmoscope",
     "tasks": [
       {
@@ -439,6 +456,7 @@
     ]
   },
   {
+    "_id": "62bd491e7a7b897ad5654758",
     "name": "Bottle of OLOLO Multivitamins",
     "tasks": [
       {
@@ -450,6 +468,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820945",
     "name": "LEDX Skin Transilluminator",
     "tasks": [
       {
@@ -471,6 +490,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820b3c",
     "name": "3M Body Armor",
     "tasks": [
       {
@@ -482,6 +502,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820bb0",
     "name": "TOZ-106 Shotgun",
     "tasks": [
       {
@@ -493,6 +514,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820922",
     "name": "Secure USB Flash Drive",
     "tasks": [
       {
@@ -514,6 +536,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f82099b",
     "name": "Medical Bloodset",
     "tasks": [
       {
@@ -530,6 +553,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820b20",
     "name": "Respirator",
     "tasks": [
       {
@@ -541,6 +565,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f8209a0",
     "name": "Gold Chain",
     "tasks": [
       {
@@ -557,6 +582,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820b89",
     "name": "SV-98 Sniper Rifle",
     "tasks": [
       {
@@ -573,6 +599,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820994",
     "name": "Roler Gold Watch",
     "tasks": [
       {
@@ -594,6 +621,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f8209ea",
     "name": "MRE Lunch Box",
     "tasks": [
       {
@@ -605,6 +633,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820a26",
     "name": "WD-40 100ml",
     "tasks": [
       {
@@ -629,6 +658,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f82099d",
     "name": "Clin Wiper",
     "tasks": [
       {
@@ -640,6 +670,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f82093a",
     "name": "Corrugated Hose",
     "tasks": [
       {
@@ -685,6 +716,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a53",
     "name": "Ox Bleach",
     "tasks": [
       {
@@ -696,6 +728,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820999",
     "name": "Alkali",
     "tasks": [
       {
@@ -712,6 +745,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f82099a",
     "name": "5L Propane Tank",
     "tasks": [
       {
@@ -723,6 +757,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f8209ed",
     "name": "Military COFDM Wireless Signal Transmitter",
     "tasks": [
       {
@@ -744,6 +779,7 @@
     ]
   },
   {
+    "_id": "62bd491e7a7b894adf65475e",
     "name": "Military Flash Drive",
     "tasks": [
       {
@@ -755,6 +791,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820a20",
     "name": "Virtex Programmable Processor",
     "tasks": [
       {
@@ -771,6 +808,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820b79",
     "name": "AKS-74U Rifle",
     "tasks": [
       {
@@ -782,6 +820,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820bb3",
     "name": "MP5 Submachinegun",
     "tasks": [
       {
@@ -793,6 +832,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820b84",
     "name": "DVL-10 Sniper Rifle",
     "tasks": [
       {
@@ -804,6 +844,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820b8d",
     "name": "R11 RSASS Rifle",
     "tasks": [
       {
@@ -815,6 +856,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820bae",
     "name": "Remington Model 870 Shotgun",
     "tasks": [
       {
@@ -826,6 +868,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820b6d",
     "name": "AKM Rifle",
     "tasks": [
       {
@@ -837,6 +880,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820b72",
     "name": "AKS-74N Rifle",
     "tasks": [
       {
@@ -848,6 +892,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820b69",
     "name": "AK-105 Rifle",
     "tasks": [
       {
@@ -859,6 +904,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820b73",
     "name": "AS VAL Rifle",
     "tasks": [
       {
@@ -870,6 +916,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820b66",
     "name": "AK-102 Rifle",
     "tasks": [
       {
@@ -881,6 +928,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820bbb",
     "name": "SIG MPX Submachinegun",
     "tasks": [
       {
@@ -892,6 +940,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820b6e",
     "name": "AKMN Rifle",
     "tasks": [
       {
@@ -903,6 +952,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820b8f",
     "name": "M1A Rifle",
     "tasks": [
       {
@@ -914,6 +964,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820a4e",
     "name": "Set of Tools",
     "tasks": [
       {
@@ -954,6 +1005,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f8209ac",
     "name": "Powercord",
     "tasks": [
       {
@@ -986,6 +1038,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f8209a7",
     "name": "T-Shaped Plug",
     "tasks": [
       {
@@ -1002,6 +1055,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a35",
     "name": "Printed Circuit Board",
     "tasks": [
       {
@@ -1031,6 +1085,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820937",
     "name": "Graphics Card",
     "tasks": [
       {
@@ -1055,6 +1110,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f8209af",
     "name": "CPU Fan",
     "tasks": [
       {
@@ -1083,6 +1139,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f8209ae",
     "name": "PC CPU",
     "tasks": [
       {
@@ -1094,6 +1151,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f8209fb",
     "name": "Rechargeable Battery",
     "tasks": [
       {
@@ -1105,6 +1163,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f8209b0",
     "name": "Broken GPhone",
     "tasks": [
       {
@@ -1116,6 +1175,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820a25",
     "name": "Malboro Cigarettes",
     "tasks": [
       {
@@ -1127,6 +1187,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f8209b9",
     "name": "Strike Cigarettes",
     "tasks": [
       {
@@ -1138,6 +1199,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820a4f",
     "name": "Wilston Cigarettes",
     "tasks": [
       {
@@ -1149,6 +1211,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820924",
     "name": "Trijicon REAP-IR Thermal Scope",
     "tasks": [
       {
@@ -1160,6 +1223,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820a45",
     "name": "UHF RFID Reader",
     "tasks": [
       {
@@ -1176,6 +1240,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820a5d",
     "name": "VPX Flash Storage Module",
     "tasks": [
       {
@@ -1201,6 +1266,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a63",
     "name": "Wires",
     "tasks": [
       {
@@ -1249,6 +1315,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f8209b5",
     "name": "Capacitors",
     "tasks": [
       {
@@ -1273,6 +1340,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820aed",
     "name": "Ushanka Ear Flap Cap",
     "tasks": [
       {
@@ -1284,6 +1352,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820ac3",
     "name": "Kinda Cowboy Hat",
     "tasks": [
       {
@@ -1295,6 +1364,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820acf",
     "name": "Ghost Balaclava",
     "tasks": [
       {
@@ -1306,7 +1376,8 @@
     "modules": []
   },
   {
-    "name": "Shemagh",
+    "_id": "5f7a6f33733986d86f820b5a",
+    "name": "Shemagh (Green)",
     "tasks": [
       {
         "task": "Gratitude",
@@ -1317,6 +1388,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820d34",
     "name": "Raybench Sunglasses",
     "tasks": [
       {
@@ -1328,6 +1400,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820d2d",
     "name": "Round Frame Sunglasses",
     "tasks": [
       {
@@ -1339,7 +1412,8 @@
     "modules": []
   },
   {
-    "name": "Shmaska",
+    "_id": "5f7a6f33733986d86f820abd",
+    "name": "Ski hat with holes for eyes (Shmaska)",
     "tasks": [
       {
         "task": "Sew It Good - Part 1",
@@ -1350,6 +1424,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820aec",
     "name": "Pilgrim Backpack",
     "tasks": [
       {
@@ -1361,10 +1436,16 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820b25",
     "name": "BNTI Gzhel-K Armor",
     "tasks": [
       {
         "task": "Hot Delivery",
+        "amount": 2,
+        "findInRaid": false
+      },
+      {
+        "task": "Sew It Good - Part 2",
         "amount": 2,
         "findInRaid": false
       }
@@ -1372,50 +1453,19 @@
     "modules": []
   },
   {
-    "name": "BNTI Gzhel Armor (0-50% Condition)",
-    "tasks": [
-      {
-        "task": "Sew It Good - Part 2",
-        "amount": 1,
-        "findInRaid": false
-      }
-    ],
-    "modules": []
-  },
-  {
-    "name": "BNTI Gzhel Armor (50-100% Condition)",
-    "tasks": [
-      {
-        "task": "Sew It Good - Part 2",
-        "amount": 1,
-        "findInRaid": false
-      }
-    ],
-    "modules": []
-  },
-  {
-    "name": "6B43 Armor (0-50% Condition)",
+    "_id": "5f7a6f33733986d86f820b02",
+    "name": "6B43 Armor",
     "tasks": [
       {
         "task": "Sew It Good - Part 3",
-        "amount": 1,
+        "amount": 2,
         "findInRaid": false
       }
     ],
     "modules": []
   },
   {
-    "name": "6B43 Armor (50-100% Condition)",
-    "tasks": [
-      {
-        "task": "Sew It Good - Part 3",
-        "amount": 1,
-        "findInRaid": false
-      }
-    ],
-    "modules": []
-  },
-  {
+    "_id": "5f7a6f33733986d86f820ae6",
     "name": "6B47 Helmet",
     "tasks": [
       {
@@ -1427,6 +1477,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820ae2",
     "name": "Peltor ComTac 2",
     "tasks": [
       {
@@ -1438,7 +1489,8 @@
     "modules": []
   },
   {
-    "name": "WTRig (Wartech Rig)",
+    "_id": "5f7a6f33733986d86f820b2d",
+    "name": "WTRig (WARTECH TV-109)",
     "tasks": [
       {
         "task": "Sew It Good - Part 4",
@@ -1449,6 +1501,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820b3f",
     "name": "Blackrock Chest Rig",
     "tasks": [
       {
@@ -1460,6 +1513,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820a27",
     "name": "Fuel Conditioner",
     "tasks": [
       {
@@ -1471,6 +1525,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820933",
     "name": "Bronze Lion",
     "tasks": [
       {
@@ -1487,6 +1542,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820929",
     "name": "Lucky Scav Junkbox",
     "tasks": [],
     "modules": [
@@ -1497,6 +1553,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a50",
     "name": "Horse Figurine",
     "tasks": [
       {
@@ -1513,6 +1570,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f8209b8",
     "name": "Cat Figurine",
     "tasks": [
       {
@@ -1524,6 +1582,7 @@
     "modules": []
   },
   {
+    "_id": "62be9a9e8e9f3c1e470336b9",
     "name": "Golden Egg",
     "tasks": [
       {
@@ -1540,6 +1599,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820a10",
     "name": "Antique Teapot",
     "tasks": [
       {
@@ -1551,6 +1611,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820a3d",
     "name": "Antique Vase",
     "tasks": [
       {
@@ -1562,6 +1623,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f82096b",
     "name": "Goshan Cash Register Key",
     "tasks": [
       {
@@ -1573,7 +1635,8 @@
     "modules": []
   },
   {
-    "name": "Aramid Fiber Cloth",
+    "_id": "5f7a6f33733986d86f821042",
+    "name": "Aramid Fiber Fabric",
     "tasks": [
       {
         "task": "Textile - Part 1",
@@ -1584,7 +1647,8 @@
     "modules": []
   },
   {
-    "name": "Ripstop Cloth",
+    "_id": "5f7a6f33733986d86f821043",
+    "name": "Ripstop Fabric",
     "tasks": [
       {
         "task": "Textile - Part 1",
@@ -1595,6 +1659,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f8209bf",
     "name": "Paracord",
     "tasks": [
       {
@@ -1606,7 +1671,8 @@
     "modules": []
   },
   {
-    "name": "Fleece Cloth",
+    "_id": "5f7a6f33733986d86f821044",
+    "name": "Fleece Fabric",
     "tasks": [
       {
         "task": "Textile - Part 2",
@@ -1617,6 +1683,7 @@
     "modules": []
   },
   {
+    "_id": "5fe98f9eb31d2f0002945e9d",
     "name": "Cultist Knife",
     "tasks": [
       {
@@ -1628,7 +1695,8 @@
     "modules": []
   },
   {
-    "name": "Polyamide Pabric Cordura",
+    "_id": "5f7a6f33733986d86f821045",
+    "name": "Polyamide Cordura Fabric",
     "tasks": [
       {
         "task": "Textile - Part 2",
@@ -1639,6 +1707,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f821048",
     "name": "KEKTAPE Duct Tape",
     "tasks": [
       {
@@ -1659,6 +1728,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f8209f0",
     "name": "Emelya Rye Croutons",
     "tasks": [
       {
@@ -1670,6 +1740,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820a40",
     "name": "Iskra Lunch Box",
     "tasks": [
       {
@@ -1686,7 +1757,8 @@
     "modules": []
   },
   {
-    "name": "Tushonka Beef Stew (Tall Can)",
+    "_id": "5f7a6f33733986d86f820a1c",
+    "name": "Tushonka Beef Stew (Large Can)",
     "tasks": [
       {
         "task": "Acquaintance",
@@ -1697,6 +1769,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f8209e8",
     "name": "Bottle of Water",
     "tasks": [
       {
@@ -1708,6 +1781,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820ba8",
     "name": "Golden TT Pistol",
     "tasks": [
       {
@@ -1719,6 +1793,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820b0a",
     "name": "Maska 1Sch Helmet (Killa Helmet)",
     "tasks": [
       {
@@ -1730,6 +1805,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f82097b",
     "name": "Shturman Key",
     "tasks": [
       {
@@ -1741,6 +1817,7 @@
     "modules": []
   },
   {
+    "_id": "60deb899c45d3e72848009af",
     "name": "BOSS Cap (Tagilla)",
     "tasks": [
       {
@@ -1752,6 +1829,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820a12",
     "name": "Portable Defibrillator",
     "tasks": [
       {
@@ -1768,6 +1846,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f8209d2",
     "name": "CMS Surgery Kit",
     "tasks": [
       {
@@ -1779,6 +1858,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820b88",
     "name": "Remington Model 700 Sniper Rifle (M700)",
     "tasks": [
       {
@@ -1790,6 +1870,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820a05",
     "name": "Old Firesteel",
     "tasks": [
       {
@@ -1801,6 +1882,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820b92",
     "name": "Antique Axe",
     "tasks": [
       {
@@ -1812,6 +1894,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820a0a",
     "name": "Battered Antique Book",
     "tasks": [
       {
@@ -1823,6 +1906,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820a15",
     "name": "FireKlean Gun Lube",
     "tasks": [
       {
@@ -1839,6 +1923,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a2d",
     "name": "Golden Rooster",
     "tasks": [
       {
@@ -1850,6 +1935,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f8209a2",
     "name": "Silver Badge",
     "tasks": [
       {
@@ -1861,6 +1947,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820993",
     "name": "DeadlySlob Beard Oil",
     "tasks": [
       {
@@ -1872,6 +1959,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820a0b",
     "name": "Golden 1GPhone",
     "tasks": [
       {
@@ -1883,6 +1971,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f8209dd",
     "name": "Jar of Devildog Mayo",
     "tasks": [
       {
@@ -1894,6 +1983,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820a55",
     "name": "Can of Sprats",
     "tasks": [
       {
@@ -1905,6 +1995,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820afc",
     "name": "Fake Mustache",
     "tasks": [
       {
@@ -1916,6 +2007,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820ac2",
     "name": "Kotton beanie",
     "tasks": [
       {
@@ -1927,6 +2019,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f821060",
     "name": "Can of Dr. Lupo's Coffee Beans",
     "tasks": [
       {
@@ -1938,6 +2031,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f821059",
     "name": "Pestily Plague Mask",
     "tasks": [
       {
@@ -1949,6 +2043,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f82105c",
     "name": "Raven Figurine",
     "tasks": [
       {
@@ -1965,6 +2060,7 @@
     "modules": []
   },
   {
+    "_id": "62be9a9e8e9f3c30550336ba",
     "name": "Axel Parrot Figurine",
     "tasks": [
       {
@@ -1981,6 +2077,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f82105d",
     "name": "Shroud Half Mask",
     "tasks": [
       {
@@ -1992,6 +2089,7 @@
     "modules": []
   },
   {
+    "_id": "5f96730bccbc4100022424bd",
     "name": "Veritas Guitar Pick",
     "tasks": [
       {
@@ -2003,6 +2101,7 @@
     "modules": []
   },
   {
+    "_id": "60deb899c45d3e0e3c8009b2",
     "name": "Can of Rat Cola",
     "tasks": [
       {
@@ -2014,6 +2113,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820995",
     "name": "42nd Signature Blend English Tea",
     "tasks": [
       {
@@ -2025,6 +2125,7 @@
     "modules": []
   },
   {
+    "_id": "60deb899c45d3e03ef8009aa",
     "name": "Evasion Armband",
     "tasks": [
       {
@@ -2036,6 +2137,7 @@
     "modules": []
   },
   {
+    "_id": "5feae11ed4f18300029f97cf",
     "name": "Smoke Balaclava",
     "tasks": [
       {
@@ -2047,6 +2149,7 @@
     "modules": []
   },
   {
+    "_id": "60deb899c45d3e04a38009b4",
     "name": "Loot Lord Plushie",
     "tasks": [
       {
@@ -2058,6 +2161,7 @@
     "modules": []
   },
   {
+    "_id": "60deb899c45d3e66848009a7",
     "name": "WZ Wallet",
     "tasks": [
       {
@@ -2069,6 +2173,7 @@
     "modules": []
   },
   {
+    "_id": "60deb897c45d3e06cd800977",
     "name": "LVNDMARK's Rat Poison",
     "tasks": [
       {
@@ -2080,6 +2185,7 @@
     "modules": []
   },
   {
+    "_id": "62be9a9e8e9f3c72760336bc",
     "name": "BEAR Buddy Plush Toy",
     "tasks": [
       {
@@ -2091,6 +2197,7 @@
     "modules": []
   },
   {
+    "_id": "62be9a9e8e9f3c1a120336bb",
     "name": "Press Pass",
     "tasks": [
       {
@@ -2102,6 +2209,7 @@
     "modules": []
   },
   {
+    "_id": "62be9a9f8e9f3c91aa0336d0",
     "name": "Gingy Keychain",
     "tasks": [
       {
@@ -2113,7 +2221,8 @@
     "modules": []
   },
   {
-    "name": "DRD Body Armoe",
+    "_id": "62cd1b20f74ea3015c1fd777",
+    "name": "DRD Body Armor",
     "tasks": [
       {
         "task": "Collector",
@@ -2124,6 +2233,7 @@
     "modules": []
   },
   {
+    "_id": "62be9a9e8e9f3c98ef0336bd",
     "name": "Baddie's Red Beard",
     "tasks": [
       {
@@ -2135,6 +2245,7 @@
     "modules": []
   },
   {
+    "_id": "62be9a9e8e9f3cd9370336be",
     "name": "Glorious E Lightweight Armored Mask",
     "tasks": [
       {
@@ -2146,6 +2257,7 @@
     "modules": []
   },
   {
+    "_id": "62be9a9f8e9f3c8bae0336d7",
     "name": "JohnB Liquid DNB Glasses",
     "tasks": [
       {
@@ -2157,6 +2269,7 @@
     "modules": []
   },
   {
+    "_id": "62bd491e7a7b89127665475f",
     "name": "BakeEzy Cook Book",
     "tasks": [
       {
@@ -2168,6 +2281,7 @@
     "modules": []
   },
   {
+    "_id": "62bd491e7a7b89daf2654760",
     "name": "Video Cassette With the Cyborg Killer Movie",
     "tasks": [
       {
@@ -2179,6 +2293,7 @@
     "modules": []
   },
   {
+    "_id": "62c3e0a42c1dbb0267c55339",
     "name": "Missam Forklift Key",
     "tasks": [
       {
@@ -2190,6 +2305,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820a2b",
     "name": "Power Supply Unit (PSU)",
     "tasks": [],
     "modules": [
@@ -2208,6 +2324,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a37",
     "name": "Electric Drill",
     "tasks": [],
     "modules": [
@@ -2234,6 +2351,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f8209fe",
     "name": "Phase Control Relay",
     "tasks": [],
     "modules": [
@@ -2268,6 +2386,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a14",
     "name": "Silicone Tube",
     "tasks": [],
     "modules": [
@@ -2282,6 +2401,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a71",
     "name": "Electric Motor",
     "tasks": [],
     "modules": [
@@ -2316,6 +2436,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a7c",
     "name": "Pressure Gauge",
     "tasks": [],
     "modules": [
@@ -2334,6 +2455,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a7d",
     "name": "Analog Thermometer",
     "tasks": [],
     "modules": [
@@ -2344,6 +2466,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a01",
     "name": "Radiator Helix",
     "tasks": [],
     "modules": [
@@ -2358,6 +2481,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a48",
     "name": "Light Bulb",
     "tasks": [],
     "modules": [
@@ -2372,6 +2496,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f82092f",
     "name": "Folder With Intelligence",
     "tasks": [],
     "modules": [
@@ -2386,6 +2511,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a34",
     "name": "Hard Drive",
     "tasks": [],
     "modules": [
@@ -2396,6 +2522,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a61",
     "name": "Military Cable",
     "tasks": [],
     "modules": [
@@ -2410,6 +2537,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a13",
     "name": "Pack of Screws",
     "tasks": [],
     "modules": [
@@ -2432,6 +2560,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a18",
     "name": "Xenomorph Sealing Foam",
     "tasks": [],
     "modules": [
@@ -2446,6 +2575,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a65",
     "name": "Saline Solution",
     "tasks": [],
     "modules": [
@@ -2460,6 +2590,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f8209a4",
     "name": "Wrench",
     "tasks": [],
     "modules": [
@@ -2470,6 +2601,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a06",
     "name": "Coffee Majaica",
     "tasks": [],
     "modules": [
@@ -2480,6 +2612,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a74",
     "name": "Sodium Bicarbonate",
     "tasks": [],
     "modules": [
@@ -2490,6 +2623,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f82104a",
     "name": "Smoked Chimney Drain Cleaner",
     "tasks": [],
     "modules": [
@@ -2500,6 +2634,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a07",
     "name": "Gold Skull Ring",
     "tasks": [],
     "modules": [
@@ -2510,6 +2645,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a41",
     "name": "Working LCD",
     "tasks": [],
     "modules": [
@@ -2524,6 +2660,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f82098f",
     "name": "NIXXOR Lens",
     "tasks": [],
     "modules": [
@@ -2534,6 +2671,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820923",
     "name": "SSD Drive",
     "tasks": [],
     "modules": [
@@ -2544,6 +2682,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f8209c2",
     "name": "Pack of Nails",
     "tasks": [],
     "modules": [
@@ -2562,6 +2701,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f8209bd",
     "name": "Screw Nuts",
     "tasks": [],
     "modules": [
@@ -2588,6 +2728,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f8209bc",
     "name": "Bolts",
     "tasks": [],
     "modules": [
@@ -2618,6 +2759,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f8209ab",
     "name": "Duct Tape",
     "tasks": [],
     "modules": [
@@ -2640,6 +2782,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a2f",
     "name": "Phased Array Element",
     "tasks": [],
     "modules": [
@@ -2650,6 +2793,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a7b",
     "name": "Military Power Filter",
     "tasks": [],
     "modules": [
@@ -2668,7 +2812,8 @@
     ]
   },
   {
-    "name": "Handdrill",
+    "_id": "5f7a6f33733986d86f8209e1",
+    "name": "Hand drill",
     "tasks": [],
     "modules": [
       {
@@ -2678,6 +2823,7 @@
     ]
   },
   {
+    "_id": "60641d1115699ffbea8fd3db",
     "name": "TP-200 TNT Brick",
     "tasks": [],
     "modules": [
@@ -2688,6 +2834,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a11",
     "name": "Pliers Elite",
     "tasks": [],
     "modules": [
@@ -2710,6 +2857,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f82099c",
     "name": "Shustrilo Sealing Foam",
     "tasks": [],
     "modules": [
@@ -2724,6 +2872,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f82101e",
     "name": "Leatherman Multitool",
     "tasks": [
       {
@@ -2744,6 +2893,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f82092b",
     "name": "Labs Access Keycard",
     "tasks": [
       {
@@ -2755,6 +2905,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f8210a1",
     "name": "AHF1-M",
     "tasks": [
       {
@@ -2771,7 +2922,8 @@
     "modules": []
   },
   {
-    "name": "3-(b-TG)",
+    "_id": "5f7a6f33733986d86f8210a0",
+    "name": "3-(b-TG) injector",
     "tasks": [
       {
         "task": "Colleagues - Part 3",
@@ -2787,6 +2939,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f82092a",
     "name": "Labs Blue Keycard",
     "tasks": [
       {
@@ -2798,6 +2951,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820946",
     "name": "Labs Green Keycard",
     "tasks": [
       {
@@ -2809,7 +2963,8 @@
     "modules": []
   },
   {
-    "name": "M.U.L.E Stimulant",
+    "_id": "5f7a6f33733986d86f82109c",
+    "name": "M.U.L.E Stimulant injector",
     "tasks": [
       {
         "task": "Samples",
@@ -2820,7 +2975,8 @@
     "modules": []
   },
   {
-    "name": "Obdolbos Cocktail",
+    "_id": "5f7a6f33733986d86f82109d",
+    "name": "Obdolbos Cocktail injector",
     "tasks": [
       {
         "task": "Samples",
@@ -2831,7 +2987,8 @@
     "modules": []
   },
   {
-    "name": "Meldonin",
+    "_id": "5f7a6f33733986d86f8210a2",
+    "name": "Meldonin injector",
     "tasks": [
       {
         "task": "Samples",
@@ -2842,7 +2999,8 @@
     "modules": []
   },
   {
-    "name": "P-22",
+    "_id": "5f7a6f33733986d86f82109e",
+    "name": "P22 injector (Product 22)",
     "tasks": [
       {
         "task": "Samples",
@@ -2853,7 +3011,8 @@
     "modules": []
   },
   {
-    "name": "Norepinephrine",
+    "_id": "5f7a6f33733986d86f82109f",
+    "name": "Norepinephrine injector",
     "tasks": [
       {
         "task": "Samples",
@@ -2864,6 +3023,7 @@
     "modules": []
   },
   {
+    "_id": "5f7a6f33733986d86f820a1e",
     "name": "Classic Matches",
     "tasks": [],
     "modules": [
@@ -2878,7 +3038,8 @@
     ]
   },
   {
-    "name": "Hunter Matches",
+    "_id": "5f7a6f33733986d86f821047",
+    "name": "Hunting Matches",
     "tasks": [],
     "modules": [
       {
@@ -2888,6 +3049,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820998",
     "name": "Dry Fuel",
     "tasks": [],
     "modules": [
@@ -2898,6 +3060,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f8209a1",
     "name": "Chainlet",
     "tasks": [],
     "modules": [
@@ -2908,7 +3071,8 @@
     ]
   },
   {
-    "name": "Air Filter for Gas Mask",
+    "_id": "5f7a6f33733986d86f820a0d",
+    "name": "Gas Mask air filter",
     "tasks": [],
     "modules": [
       {
@@ -2918,7 +3082,8 @@
     ]
   },
   {
-    "name": "ES Lamp",
+    "_id": "5f7a6f33733986d86f8209ba",
+    "name": "Energy Saving Lamp (ES)",
     "tasks": [],
     "modules": [
       {
@@ -2936,6 +3101,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a6e",
     "name": "DVD Drive",
     "tasks": [],
     "modules": [
@@ -2946,6 +3112,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f82099e",
     "name": "Magnet",
     "tasks": [],
     "modules": [
@@ -2956,6 +3123,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a6d",
     "name": "Toilet Paper",
     "tasks": [],
     "modules": [
@@ -2966,6 +3134,7 @@
     ]
   },
   {
+    "_id": "5f92720e12ad6024f464694f",
     "name": "Esmarch Tourniquet",
     "tasks": [],
     "modules": [
@@ -2976,6 +3145,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f821000",
     "name": "Christmas Tree Decoration Ball (Red)",
     "tasks": [],
     "modules": [
@@ -2986,6 +3156,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f821001",
     "name": "Christmas Tree Decoration Ball (Silver)",
     "tasks": [],
     "modules": [
@@ -2996,6 +3167,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f821002",
     "name": "Christmas Tree Decoration Ball (Violet)",
     "tasks": [],
     "modules": [
@@ -3006,6 +3178,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820936",
     "name": "\"Fierce Hatchling\" moonshine",
     "tasks": [],
     "modules": [
@@ -3016,6 +3189,7 @@
     ]
   },
   {
+    "_id": "60641d1115699f167b8fd3dd",
     "name": "Ratchet Wrench",
     "tasks": [],
     "modules": [
@@ -3030,6 +3204,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f82104e",
     "name": "GreenBat lithium battery",
     "tasks": [],
     "modules": [
@@ -3040,6 +3215,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a2c",
     "name": "Pile of Meds",
     "tasks": [
       {
@@ -3056,6 +3232,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a78",
     "name": "Disposable Syringe",
     "tasks": [],
     "modules": [
@@ -3066,6 +3243,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820cc5",
     "name": "Aseptic Bandage",
     "tasks": [],
     "modules": [
@@ -3076,6 +3254,7 @@
     ]
   },
   {
+    "_id": "61b84e234c010a88c91d33e3",
     "name": "Medical Tools",
     "tasks": [],
     "modules": [
@@ -3086,6 +3265,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a42",
     "name": "Weapon Parts",
     "tasks": [],
     "modules": [
@@ -3096,6 +3276,7 @@
     ]
   },
   {
+    "_id": "60641d1115699f749a8fd3dc",
     "name": "Can of Thermite",
     "tasks": [],
     "modules": [
@@ -3106,6 +3287,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f8209aa",
     "name": "Construction Measuring Tape",
     "tasks": [],
     "modules": [
@@ -3120,6 +3302,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f8209a9",
     "name": "Toothpaste",
     "tasks": [],
     "modules": [
@@ -3130,6 +3313,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f82099f",
     "name": "Soap",
     "tasks": [],
     "modules": [
@@ -3140,6 +3324,7 @@
     ]
   },
   {
+    "_id": "61b84e234c010a52df1d33e4",
     "name": "Military Corrugated Tube",
     "tasks": [],
     "modules": [
@@ -3154,6 +3339,7 @@
     ]
   },
   {
+    "_id": "61c8202efd41664e98e56556",
     "name": "Metal Spare Parts",
     "tasks": [],
     "modules": [
@@ -3192,6 +3378,7 @@
     ]
   },
   {
+    "_id": "61b99fa3e003cb3804f929a1",
     "name": "Bulbex Cable Cutter",
     "tasks": [],
     "modules": [
@@ -3202,6 +3389,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a76",
     "name": "Crickent Lighter",
     "tasks": [],
     "modules": [
@@ -3216,6 +3404,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f821013",
     "name": "Factory Plan Map",
     "tasks": [],
     "modules": [
@@ -3226,6 +3415,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f8209fd",
     "name": "Diary",
     "tasks": [],
     "modules": [
@@ -3240,6 +3430,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f8209fc",
     "name": "Slim Diary",
     "tasks": [],
     "modules": [
@@ -3250,6 +3441,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820a46",
     "name": "Tech Manual",
     "tasks": [],
     "modules": [
@@ -3264,6 +3456,7 @@
     ]
   },
   {
+    "_id": "61c8202efd4166416ae5655e",
     "name": "Secured Magnetic Tape Cassette",
     "tasks": [],
     "modules": [
@@ -3274,6 +3467,7 @@
     ]
   },
   {
+    "_id": "61c8202efd41667b9ce56557",
     "name": "Sewing Kit",
     "tasks": [],
     "modules": [
@@ -3284,6 +3478,7 @@
     ]
   },
   {
+    "_id": "63ae99af0a430bcd85bcb6ec",
     "name": "Far-forward GPS Signal Amplifier Unit",
     "tasks": [],
     "modules": [
@@ -3294,6 +3489,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f821049",
     "name": "Tube of Poxeram Cold Welding",
     "tasks": [],
     "modules": [
@@ -3304,6 +3500,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f82101f",
     "name": "Wi-Fi Camera",
     "tasks": [],
     "modules": [
@@ -3314,6 +3511,7 @@
     ]
   },
   {
+    "_id": "62bd491e7a7b8955d165475a",
     "name": "Set of Files \"Master\"",
     "tasks": [],
     "modules": [
@@ -3324,6 +3522,7 @@
     ]
   },
   {
+    "_id": "63afeb33025401ac8361d586",
     "name": "Fierce Blow Sledgehammer",
     "tasks": [],
     "modules": [
@@ -3334,6 +3533,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f820990",
     "name": "Metal Cutting Scissors",
     "tasks": [],
     "modules": [
@@ -3348,6 +3548,7 @@
     ]
   },
   {
+    "_id": "5f7a6f33733986d86f8209e5",
     "name": "Insulating Tape",
     "tasks": [],
     "modules": [

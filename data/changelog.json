@@ -1,5 +1,20 @@
 [
   {
+    "date": "2023/02/01",
+    "summary": [
+      "Added \"Tasks (Found in raid)\" option to Required Items",
+      "Added \"Required item\" tooltip to Flea Market items if required for Tasks or Hideout",
+      "Thanks r/HutchReddit for those two suggestions!",
+      "Updated ammo"
+    ],
+    "changes": [
+      "Added \"Tasks (Found in raid)\" option to Required Items",
+      "Added \"Required item\" tooltip to Flea Market items if required for Tasks or Hideout",
+      "Thanks r/HutchReddit for those two suggestions!",
+      "Updated ammo"
+    ]
+  },
+  {
     "date": "2023/01/15",
     "summary": [
       "Added Looking for Group Feature",

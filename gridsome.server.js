@@ -241,7 +241,7 @@ module.exports = function (api) {
       const moduleIds = []
 
       for (const moduleItem of item.modules) {
-        const id = `${item.name}-${moduleItem.module}`
+        const id = `${item.name}-${moduleItem.module}-${moduleItem.amount}`
         moduleIds.push(id)
 
         modules.addNode({
@@ -252,7 +252,7 @@ module.exports = function (api) {
       }
 
       for (const taskItem of item.tasks) {
-        const id = `${item.name}-${taskItem.task}`
+        const id = `${item.name}-${taskItem.task}-${taskItem.amount}`
         tasksIds.push(id)
 
         tasks.addNode({
@@ -264,6 +264,7 @@ module.exports = function (api) {
       }
 
       requiredItems.addNode({
+        _id: item['_id'],
         name: item.name,
         tasks: actions.store.createReference('Tasks', tasksIds),
         modules: actions.store.createReference('Modules', moduleIds)
