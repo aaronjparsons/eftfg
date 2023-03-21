@@ -1,6 +1,20 @@
 <template>
   <Layout>
     <v-row>
+      <v-col cols="12">
+        <v-card>
+          <v-card-title class="card-header font-weight-bold">
+            EFTFG no longer receiving updates
+          </v-card-title>
+          <v-card-text class="pt-4">
+            <p>Thanks to all that have used the site over the years, especially to those that provided feedback and suggestions.</p>
+            <p>Going forward, EFTFG will no longer receive any updates.</p>
+            <p>Cheeki breeki</p>
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
+    <v-row>
       <v-col sm="6" cols="12" class="flex-column">
         <GameVersionCard />
         <ChangelogCard />

@@ -44,11 +44,11 @@
           </v-card-actions>
         </v-card>
       </v-dialog>
-      <v-divider class="my-3" />
+      <!-- <v-divider class="my-3" />
       <p>If you notice any errors on the site or have a feature request, tweet at me!</p>
       <a href="https://twitter.com/ChewyDinosaur">
         @ChewyDinosaur
-      </a>
+      </a> -->
     </v-card-text>
   </v-card>
 </template>
